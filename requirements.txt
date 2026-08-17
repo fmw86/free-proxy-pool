@@ -1,2 +1,4 @@
-# No third-party Python packages are required.
-# This project uses only the Python 3 standard library.
+# check_socks5.py only uses the Python 3 standard library.
+# relay_upstream-relay_proxy.py additionally needs these packages:
+PySocks>=1.7.1
+PyYAML>=6.0
