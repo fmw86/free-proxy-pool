@@ -22,6 +22,7 @@
 - `socks5_detail.csv`：检测明细，包含延迟、出口 IP、失败原因
 - `socks5_detail.json`：JSON 格式检测明细
 - `sources_result.csv`：每个来源的拉取结果和数量
+- `relayproxy*.sh` / `relay_upstream-relay_proxy.py`：将筛选出的可用代理绑定到 RELAY upstream-relay key 的运维脚本
 
 ## Windows 本地使用
 
@@ -211,3 +212,58 @@ python3 ./check_socks5.py --collect --timeout 20
 - 如果误杀太多，可以把 `TIMEOUT` 调到 `8` 或 `10`。
 - 如果机器负载过高，可以把 `WORKERS` 从 `500` 降到 `200` 或 `300`。
 - 不要用这些公共代理传输账号、Cookie、Token、SSH 私钥等敏感信息。
+
+
+## RELAY 代理绑定脚本
+
+除了收集和筛选代理，本项目还提供一组运维脚本，用于把筛出的可用 SOCKS5 代理绑定到 RELAY upstream-relay key，并做健康检查和自动修复。核心逻辑在 `relay_upstream-relay_proxy.py`，日常通过下列封装脚本调用。
+
+### 脚本说明
+
+- `relayproxy.sh`：为 upstream-relay key 绑定 SOCKS5 代理（等价于 `apply`）。
+- `relayproxycheck.sh`：检查现有 key 的代理是否可用，输出 `ok/bad/missing` 汇总。
+- `relayproxyrepair.sh`：重新拉取代理池并修复失效或缺失的代理。
+- `relayproxyrepairfast.sh`：修复但跳过重新拉取（`--no-refresh`），使用现有代理池，速度更快。
+- `relayproxyreplace.sh`：强制替换代理（`--replace --min-stable 3`）。
+- `relayproxy_summary.sh`：以上脚本的公共入口，负责运行并解析摘要，一般不直接调用。
+
+### 常用命令
+
+绑定代理：
+
+```bash
+cd ./socks5-filter
+./relayproxy.sh
+```
+
+检查代理健康状态：
+
+```bash
+cd ./socks5-filter
+./relayproxycheck.sh
+```
+
+修复失效代理（会重新拉取代理池）：
+
+```bash
+cd ./socks5-filter
+./relayproxyrepair.sh
+```
+
+快速修复（复用现有代理池，不重新拉取）：
+
+```bash
+cd ./socks5-filter
+./relayproxyrepairfast.sh
+```
+
+### 日志
+
+每次运行的完整日志默认写入：
+
+```text
+./logs/<命令>-<时间戳>.log
+```
+
+可用环境变量 `RELAY_PROXY_LOG_DIR` 修改日志目录。脚本会在终端打印精简摘要（绑定/修复数量、代理池 `tested/alive/fast`、日志路径），详细信息看对应日志文件。
+
