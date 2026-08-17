@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+*.pyo
+*.tmp
+*.log
+
+# Generated proxy results
+socks5_all.txt
+socks5_alive.txt
+socks5_fast.txt
+socks5_detail.csv
+socks5_detail.json
+sources_result.csv
+
+# Test output prefixes
+test_*.txt
+test_*.csv
+test_*.json
