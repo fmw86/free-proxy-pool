@@ -1,0 +1,63 @@
+name: update-proxies
+
+on:
+  schedule:
+    # Every 12 hours: 01:37 / 13:37 UTC (09:37 / 21:37 UTC+8)
+    - cron: '37 1,13 * * *'
+  workflow_dispatch: {}
+
+concurrency:
+  group: update-proxies
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  collect-and-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Collect and check proxies
+        run: |
+          python check_socks5.py \
+            --collect --check \
+            --workers 500 \
+            --timeout 6 \
+            --fast-ms 3000 \
+            --source-result latest/sources_result.csv \
+            --output-prefix latest/socks5
+
+      - name: Write summary
+        run: |
+          {
+            date -u +'updated_at=%Y-%m-%dT%H:%M:%SZ'
+            echo "candidates=$(wc -l < socks5_all.txt)"
+            echo "alive=$(wc -l < latest/socks5_alive.txt)"
+            echo "fast=$(wc -l < latest/socks5_fast.txt)"
+          } > latest/updated_at.txt
+          cat latest/updated_at.txt
+
+      - name: Commit updated results
+        run: |
+          if [ ! -s latest/socks5_alive.txt ]; then
+            echo "::warning::no alive proxies found; keeping previous results"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add latest/socks5_alive.txt latest/socks5_fast.txt \
+            latest/socks5_detail.csv latest/socks5_detail.json \
+            latest/sources_result.csv latest/updated_at.txt
+          if git diff --cached --quiet; then
+            echo "no changes to commit"
+            exit 0
+          fi
+          git commit -m "chore(bot): refresh proxy results $(date -u +%Y-%m-%dT%H:%MZ) [skip ci]"
+          git push

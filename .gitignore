@@ -17,3 +17,7 @@ recheck_*
 test_*.txt
 test_*.csv
 test_*.json
+
+# GitHub Actions bot results (tracked in latest/)
+!latest/**
+latest/socks5_all.txt

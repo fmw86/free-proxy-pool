@@ -37,6 +37,21 @@ cd C:\path\to\socks5-filter
 
 也可以双击 `run.bat`。
 
+## GitHub Actions 自动更新
+
+`.github/workflows/update-proxies.yml` 会在 GitHub Actions 上每 12 小时自动收集并检测代理，结果由 bot 提交到仓库 `latest/` 目录：
+
+- `latest/socks5_fast.txt` / `latest/socks5_alive.txt`：最新实测可用代理
+- `latest/updated_at.txt`：更新时间与存活统计
+- `latest/socks5_detail.csv` / `latest/socks5_detail.json`：检测明细
+- `latest/sources_result.csv`：各来源抓取情况
+
+注意：Actions 运行在 GitHub 托管机器的网络环境，测出的可用性与你本机网络不完全一致。本机使用前建议先复测：
+
+```bash
+python3 ./check_socks5.py --check --input latest/socks5_alive.txt --output-prefix recheck
+```
+
 ## 快速使用
 
 基础代理收集和检测只需要 Python 3 标准库，无需安装额外依赖。
