@@ -9,11 +9,12 @@ on:
 permissions:
   contents: write
 
+env:
+  # serialise the *publish* step across jobs; the heavy check runs stay parallel
+  PUBLISH_LOCK: update-publish
+
 jobs:
   proxies:
-    concurrency:
-      group: update-proxies-${{ matrix.job }}
-      cancel-in-progress: false
     runs-on: ubuntu-latest
     timeout-minutes: 30
     strategy:
@@ -55,40 +56,34 @@ jobs:
             --input ${{ matrix.prefix }}_detail.json \
             --output-prefix ${{ matrix.prefix }}
 
-      - name: Write summary
+      - name: Publish results via GitHub API
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PREFIX: ${{ matrix.prefix }}
+          JOB: ${{ matrix.job }}
         run: |
-          {
-            date -u +'%Y-%m-%dT%H:%M:%SZ' | sed 's/^/${{ matrix.job }}_updated_at=/'
-            echo "${{ matrix.job }}_candidates=$(wc -l < ${{ matrix.prefix }}_all.txt)"
-            echo "${{ matrix.job }}_alive=$(wc -l < ${{ matrix.prefix }}_alive.txt)"
-            echo "${{ matrix.job }}_fast=$(wc -l < ${{ matrix.prefix }}_fast.txt)"
-            echo "${{ matrix.job }}_residential=$(wc -l < ${{ matrix.prefix }}_residential.txt)"
-          } >> updated_at.txt
-
-      - name: Commit results
-        run: |
-          if [ ! -s ${{ matrix.prefix }}_alive.txt ]; then
-            echo "::warning::no alive ${{ matrix.job }} proxies; keeping previous results"
+          if [ ! -s "$PREFIX"_alive.txt ]; then
+            echo "::warning::no alive $JOB proxies; keeping previous results"
             exit 0
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add ${{ matrix.prefix }}_alive.txt ${{ matrix.prefix }}_fast.txt \
-            ${{ matrix.prefix }}_detail.csv ${{ matrix.prefix }}_detail.json \
-            ${{ matrix.prefix }}_residential.txt ${{ matrix.prefix }}_residential_detail.csv \
-            ${{ matrix.prefix }}_sources_result.csv updated_at.txt
-          git pull --rebase || (git rebase --abort; git push --force-with-lease origin HEAD; exit 1)
-          if git diff --cached --quiet; then
-            echo "no changes to commit"
-          else
-            git commit -m "chore(bot): refresh ${{ matrix.job }} results [skip ci]"
-            git push
-          fi
+          python .github/publish_results.py
+
+      - name: Write summary
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PREFIX: ${{ matrix.prefix }}
+          JOB: ${{ matrix.job }}
+        run: |
+          {
+            echo "${JOB}_updated_at=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            echo "${JOB}_candidates=$(wc -l < "$PREFIX"_all.txt)"
+            echo "${JOB}_alive=$(wc -l < "$PREFIX"_alive.txt)"
+            echo "${JOB}_fast=$( [ -f "$PREFIX"_fast.txt ] && wc -l < "$PREFIX"_fast.txt || echo 0 )"
+            echo "${JOB}_residential=$( [ -f "$PREFIX"_residential.txt ] && wc -l < "$PREFIX"_residential.txt || echo 0 )"
+          } > summary_fragment.txt
+          python .github/publish_summary.py
 
   nodes:
-    concurrency:
-      group: update-nodes
-      cancel-in-progress: false
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
@@ -108,29 +103,28 @@ jobs:
             --input nodes_all.txt \
             --output-prefix nodes
 
-      - name: Write summary
-        run: |
-          {
-            echo "nodes_updated_at=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
-            echo "nodes_candidates=$(wc -l < nodes_all.txt)"
-            echo "nodes_alive=$(wc -l < nodes_alive.txt)"
-            echo "nodes_residential=$(wc -l < nodes_residential.txt)"
-          } >> updated_at.txt
-
-      - name: Commit results
+      - name: Publish results via GitHub API
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PREFIX: nodes
+          JOB: nodes
         run: |
           if [ ! -s nodes_alive.txt ]; then
             echo "::warning::no alive nodes; keeping previous results"
             exit 0
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase || (git rebase --abort; git push --force-with-lease origin HEAD; exit 1)
-          git add nodes_alive.txt nodes_residential.txt nodes_detail.csv nodes_detail.json \
-            nodes_subs_result.csv updated_at.txt
-          if git diff --cached --quiet; then
-            echo "no changes to commit"
-          else
-            git commit -m "chore(bot): refresh nodes results [skip ci]"
-            git push
-          fi
+          python .github/publish_results.py
+
+      - name: Write summary
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PREFIX: nodes
+          JOB: nodes
+        run: |
+          {
+            echo "${JOB}_updated_at=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            echo "nodes_candidates=$( [ -f nodes_all.txt ] && wc -l < nodes_all.txt || echo 0 )"
+            echo "nodes_alive=$(wc -l < nodes_alive.txt)"
+            echo "nodes_residential=$( [ -f nodes_residential.txt ] && wc -l < nodes_residential.txt || echo 0 )"
+          } > summary_fragment.txt
+          python .github/publish_summary.py
