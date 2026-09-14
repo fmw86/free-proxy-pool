@@ -6,15 +6,14 @@ on:
     - cron: '37 */3 * * *'
   workflow_dispatch: {}
 
-concurrency:
-  group: update-${{ matrix.job }}
-  cancel-in-progress: false
-
 permissions:
   contents: write
 
 jobs:
   proxies:
+    concurrency:
+      group: update-proxies
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     timeout-minutes: 30
     strategy:
@@ -87,6 +86,9 @@ jobs:
           fi
 
   nodes:
+    concurrency:
+      group: update-nodes
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
