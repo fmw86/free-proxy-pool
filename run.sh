@@ -3,13 +3,6 @@ set -euo pipefail
 
 cd "$(dirname "$0")"
 
-case "${1:-}" in
-  apply|check|repair)
-    python3 ./relay_upstream-relay_proxy.py "$@"
-    exit $?
-    ;;
-esac
-
 WORKERS="${WORKERS:-500}"
 TIMEOUT="${TIMEOUT:-6}"
 FAST_MS="${FAST_MS:-3000}"

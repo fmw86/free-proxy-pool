@@ -33,7 +33,7 @@ run.bat
 run-quick.bat
 ```
 
-`run-quick.bat` 默认只检测前 `1000` 条候选，并把并发设为 `50`，更适合 Windows 本机日常使用。需要全量检测时再使用 `run.bat`。
+`run-quick.bat` 默认只检测前 `6000` 条候选，并把并发设为 `50`，更适合 Windows 本机日常使用。需要全量检测时再使用 `run.bat`。
 
 ## 默认参数
 
