@@ -50,6 +50,8 @@ def normalize_proxy(value):
     value = value.split()[0].strip()
     if '://' not in value:
         value = f'socks5://{value}'
+    elif value.startswith('http://'):
+        value = 'socks5://' + value[len('http://'):]
     try:
         parsed = urlsplit(value)
         port = parsed.port
@@ -133,11 +135,44 @@ def recv_exact(sock, size):
     return data
 
 
-def socks5_connect(proxy, timeout, target_host, target_port):
+def proxy_connect(proxy, protocol, timeout, target_host, target_port):
     host, port = parse_proxy_endpoint(proxy)
     sock = socket.create_connection((host, port), timeout=timeout)
     try:
         sock.settimeout(timeout)
+        if protocol == 'http':
+            request = (
+                f'CONNECT {target_host}:{target_port} HTTP/1.1\r\n'
+                f'Host: {target_host}:{target_port}\r\n'
+                'Proxy-Connection: keep-alive\r\n'
+                'User-Agent: socks5-filter/1.0\r\n\r\n'
+            ).encode('ascii')
+            sock.sendall(request)
+            status = recv_exact(sock, 12)
+            parts = status.split(b' ', 2)
+            if len(parts) < 2 or not parts[0].startswith(b'HTTP/') or not parts[1].startswith(b'2'):
+                raise OSError(f'http connect failed: {status[:80]!r}')
+            while True:
+                line = bytearray()
+                while not line.endswith(b'\r\n'):
+                    chunk = sock.recv(1)
+                    if not chunk:
+                        raise OSError('unexpected eof in http connect headers')
+                    line += chunk
+                    if len(line) > 8192:
+                        raise OSError('http connect header line too long')
+                if line in (b'\r\n',):
+                    break
+            return sock
+        if protocol == 'socks4':
+            host_bytes = socket.inet_aton(host)
+            request = b'\x04\x01' + target_port.to_bytes(2, 'big') + host_bytes + b'\x00'
+            sock.sendall(request)
+            header = recv_exact(sock, 8)
+            if header[0] != 0 or header[1] not in (0x5A, 0x00):
+                raise OSError(f'socks4 connect failed: {header[:2].hex()}')
+            return sock
+        # socks5
         sock.sendall(b'\x05\x01\x00')
         hello = recv_exact(sock, 2)
         if hello != b'\x05\x00':
@@ -192,7 +227,7 @@ def parse_exit_ip(response):
         raise OSError(f'bad response: {body_text[:80]!r}') from exc
 
 
-def check_one(proxy, timeout, target_host, target_port):
+def check_one(proxy, timeout, target_host, target_port, protocol):
     started = time.perf_counter()
     row = {
         'proxy': proxy,
@@ -204,7 +239,7 @@ def check_one(proxy, timeout, target_host, target_port):
     raw_sock = None
     try:
         request = build_http_request(target_host)
-        with socks5_connect(proxy, timeout, target_host, target_port) as raw_sock:
+        with proxy_connect(proxy, protocol, timeout, target_host, target_port) as raw_sock:
             with TLS_CONTEXT.wrap_socket(raw_sock, server_hostname=target_host) as tls_sock:
                 tls_sock.settimeout(timeout)
                 tls_sock.sendall(request)
@@ -229,7 +264,7 @@ def check_one(proxy, timeout, target_host, target_port):
     return row
 
 
-def iter_check_rows(proxies, workers, timeout, target_host, target_port):
+def iter_check_rows(proxies, workers, timeout, target_host, target_port, protocol):
     proxy_iterator = iter(proxies)
     pending = {}
     max_pending = max(workers * 2, workers)
@@ -239,7 +274,7 @@ def iter_check_rows(proxies, workers, timeout, target_host, target_port):
                 proxy = next(proxy_iterator)
             except StopIteration:
                 break
-            pending[executor.submit(check_one, proxy, timeout, target_host, target_port)] = proxy
+            pending[executor.submit(check_one, proxy, timeout, target_host, target_port, protocol)] = proxy
         while pending:
             done, _ = concurrent.futures.wait(pending, return_when=FIRST_COMPLETED)
             for future in done:
@@ -258,7 +293,7 @@ def iter_check_rows(proxies, workers, timeout, target_host, target_port):
                     next_proxy = next(proxy_iterator)
                 except StopIteration:
                     continue
-                pending[executor.submit(check_one, next_proxy, timeout, target_host, target_port)] = next_proxy
+                pending[executor.submit(check_one, next_proxy, timeout, target_host, target_port, protocol)] = next_proxy
 
 
 def latency_value(row):
@@ -298,7 +333,7 @@ def atomic_write_csv(path, writer_func):
             temp_path.unlink(missing_ok=True)
 
 
-def check_list(input_path, workers, timeout, limit, fast_ms, output_prefix, target_host, target_port):
+def check_list(input_path, workers, timeout, limit, fast_ms, output_prefix, target_host, target_port, protocol):
     proxies = []
     seen = set()
     for line in input_path.read_text(encoding='utf-8', errors='replace').splitlines():
@@ -312,7 +347,7 @@ def check_list(input_path, workers, timeout, limit, fast_ms, output_prefix, targ
     rows = []
     done = 0
     ok_count = 0
-    for row in iter_check_rows(proxies, workers, timeout, target_host, target_port):
+    for row in iter_check_rows(proxies, workers, timeout, target_host, target_port, protocol):
         rows.append(row)
         done += 1
         if row['ok']:
@@ -345,7 +380,8 @@ def main():
     parser = argparse.ArgumentParser(description='Collect and verify public SOCKS5 proxies.')
     parser.add_argument('--collect', action='store_true')
     parser.add_argument('--check', action='store_true')
-    parser.add_argument('--sources', default='sources.txt')
+    parser.add_argument('--sources', default=None)
+    parser.add_argument('--protocol', choices=['socks5', 'socks4', 'http'], default='socks5')
     parser.add_argument('--input', default='socks5_all.txt')
     parser.add_argument('--workers', type=positive_int, default=300)
     parser.add_argument('--timeout', type=positive_float, default=6.0)
@@ -359,6 +395,10 @@ def main():
     if not args.collect and not args.check:
         args.collect = True
         args.check = True
+    if args.sources is None:
+        args.sources = f'sources_{args.protocol}.txt'
+    if args.input == 'socks5_all.txt' and args.protocol != 'socks5':
+        args.input = f'{args.protocol}_all.txt'
     if args.collect:
         collect_sources(Path(args.sources), Path(args.input), args.timeout, Path(args.source_result))
     if args.check:
@@ -373,6 +413,7 @@ def main():
             args.output_prefix,
             args.target_host,
             args.target_port,
+            args.protocol,
         )
 
 

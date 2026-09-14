@@ -1,22 +1,35 @@
-name: update-proxies
+name: update
 
 on:
   schedule:
-    # Every 12 hours: 01:37 / 13:37 UTC (09:37 / 21:37 UTC+8)
-    - cron: '37 1,13 * * *'
+    # Every 3 hours at :37 (UTC): 01:37, 04:37, ... (Beijing 09:37, 12:37, ...)
+    - cron: '37 */3 * * *'
   workflow_dispatch: {}
 
 concurrency:
-  group: update-proxies
+  group: update-${{ matrix.job }}
   cancel-in-progress: false
 
 permissions:
   contents: write
 
 jobs:
-  collect-and-check:
+  proxies:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - job: socks5
+            sources: sources_socks5.txt
+            prefix: socks5
+          - job: http
+            sources: sources_http.txt
+            prefix: http
+          - job: socks4
+            sources: sources_socks4.txt
+            prefix: socks4
     steps:
       - uses: actions/checkout@v4
 
@@ -24,50 +37,98 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Collect and check proxies
+      - name: Collect and check ${{ matrix.job }} proxies
         run: |
           python check_socks5.py \
             --collect --check \
+            --protocol ${{ matrix.job }} \
+            --sources ${{ matrix.sources }} \
             --workers 500 \
             --timeout 6 \
             --fast-ms 3000 \
-            --source-result latest/sources_result.csv \
-            --output-prefix latest/socks5
+            --source-result ${{ matrix.prefix }}_sources_result.csv \
+            --output-prefix ${{ matrix.prefix }} \
+            --input ${{ matrix.prefix }}_all.txt
 
       - name: Tag residential candidates
         run: |
           python tag_residential.py \
-            --input latest/socks5_detail.json \
-            --output-prefix latest/socks5
+            --input ${{ matrix.prefix }}_detail.json \
+            --output-prefix ${{ matrix.prefix }}
 
       - name: Write summary
         run: |
           {
-            date -u +'updated_at=%Y-%m-%dT%H:%M:%SZ'
-            echo "candidates=$(wc -l < socks5_all.txt)"
-            echo "alive=$(wc -l < latest/socks5_alive.txt)"
-            echo "fast=$(wc -l < latest/socks5_fast.txt)"
-            if [ -f latest/socks5_residential.txt ]; then
-              echo "residential_candidates=$(wc -l < latest/socks5_residential.txt)"
-            fi
-          } > latest/updated_at.txt
-          cat latest/updated_at.txt
+            date -u +'%Y-%m-%dT%H:%M:%SZ' | sed 's/^/${{ matrix.job }}_updated_at=/'
+            echo "${{ matrix.job }}_candidates=$(wc -l < ${{ matrix.prefix }}_all.txt)"
+            echo "${{ matrix.job }}_alive=$(wc -l < ${{ matrix.prefix }}_alive.txt)"
+            echo "${{ matrix.job }}_fast=$(wc -l < ${{ matrix.prefix }}_fast.txt)"
+            echo "${{ matrix.job }}_residential=$(wc -l < ${{ matrix.prefix }}_residential.txt)"
+          } >> updated_at.txt
 
-      - name: Commit updated results
+      - name: Commit results
         run: |
-          if [ ! -s latest/socks5_alive.txt ]; then
-            echo "::warning::no alive proxies found; keeping previous results"
+          if [ ! -s ${{ matrix.prefix }}_alive.txt ]; then
+            echo "::warning::no alive ${{ matrix.job }} proxies; keeping previous results"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add latest/socks5_alive.txt latest/socks5_fast.txt \
-            latest/socks5_detail.csv latest/socks5_detail.json \
-            latest/socks5_residential.txt latest/socks5_residential_detail.csv \
-            latest/sources_result.csv latest/updated_at.txt
+          git add ${{ matrix.prefix }}_alive.txt ${{ matrix.prefix }}_fast.txt \
+            ${{ matrix.prefix }}_detail.csv ${{ matrix.prefix }}_detail.json \
+            ${{ matrix.prefix }}_residential.txt ${{ matrix.prefix }}_residential_detail.csv \
+            ${{ matrix.prefix }}_sources_result.csv updated_at.txt
+          git pull --rebase || (git rebase --abort; git push --force-with-lease origin HEAD; exit 1)
           if git diff --cached --quiet; then
             echo "no changes to commit"
+          else
+            git commit -m "chore(bot): refresh ${{ matrix.job }} results [skip ci]"
+            git push
+          fi
+
+  nodes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Collect and TCP-test nodes
+        run: |
+          python collect_nodes.py \
+            --collect --check \
+            --subs node_subs.txt \
+            --workers 400 \
+            --timeout 5 \
+            --input nodes_all.txt \
+            --output-prefix nodes
+
+      - name: Write summary
+        run: |
+          {
+            echo "nodes_updated_at=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            echo "nodes_candidates=$(wc -l < nodes_all.txt)"
+            echo "nodes_alive=$(wc -l < nodes_alive.txt)"
+            echo "nodes_residential=$(wc -l < nodes_residential.txt)"
+          } >> updated_at.txt
+
+      - name: Commit results
+        run: |
+          if [ ! -s nodes_alive.txt ]; then
+            echo "::warning::no alive nodes; keeping previous results"
             exit 0
           fi
-          git commit -m "chore(bot): refresh proxy results $(date -u +%Y-%m-%dT%H:%MZ) [skip ci]"
-          git push
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase || (git rebase --abort; git push --force-with-lease origin HEAD; exit 1)
+          git add nodes_alive.txt nodes_residential.txt nodes_detail.csv nodes_detail.json \
+            nodes_subs_result.csv updated_at.txt
+          if git diff --cached --quiet; then
+            echo "no changes to commit"
+          else
+            git commit -m "chore(bot): refresh nodes results [skip ci]"
+            git push
+          fi
