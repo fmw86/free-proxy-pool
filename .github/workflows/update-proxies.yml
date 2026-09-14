@@ -12,7 +12,7 @@ permissions:
 jobs:
   proxies:
     concurrency:
-      group: update-proxies
+      group: update-proxies-${{ matrix.job }}
       cancel-in-progress: false
     runs-on: ubuntu-latest
     timeout-minutes: 30
