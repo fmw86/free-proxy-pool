@@ -27,6 +27,14 @@ run.bat
 
 `run.bat` 会调用 `run.ps1`，运行结束后会暂停窗口，方便查看结果。
 
+日常快速筛选可以双击：
+
+```text
+run-quick.bat
+```
+
+`run-quick.bat` 默认只检测前 `1000` 条候选，并把并发设为 `50`，更适合 Windows 本机日常使用。需要全量检测时再使用 `run.bat`。
+
 ## 默认参数
 
 Windows 默认参数比 Linux VPS 保守：

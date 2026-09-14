@@ -14,6 +14,7 @@ IP_PORT_RE = re.compile(r'^(?:socks5://)?([A-Za-z0-9_.-]+):(\d{1,5})$')
 TARGET_HOST = 'api.ipify.org'
 TARGET_PORT = 443
 HTTP_REQUEST = b'GET /?format=text HTTP/1.1\r\nHost: api.ipify.org\r\nUser-Agent: socks5-filter/1.0\r\nConnection: close\r\n\r\n'
+TLS_CONTEXT = ssl.create_default_context()
 
 
 def normalize_proxy(value):
@@ -40,7 +41,7 @@ def fetch_url(url, timeout):
 def collect_sources(sources_path, output_path, timeout, source_result_path):
     all_proxies = set()
     source_rows = []
-    urls = [line.strip() for line in sources_path.read_text().splitlines() if line.strip() and not line.startswith('#')]
+    urls = [line.strip() for line in sources_path.read_text(encoding='utf-8').splitlines() if line.strip() and not line.startswith('#')]
     for url in urls:
         started = time.perf_counter()
         try:
@@ -56,8 +57,8 @@ def collect_sources(sources_path, output_path, timeout, source_result_path):
         except Exception as exc:
             source_rows.append({'url': url, 'status': 'error', 'count': 0, 'seconds': round(time.perf_counter() - started, 3), 'error': str(exc)})
             print(f'[source err] {url} {exc}', flush=True)
-    output_path.write_text('\n'.join(sorted(all_proxies)) + ('\n' if all_proxies else ''))
-    with source_result_path.open('w', newline='') as file:
+    output_path.write_text('\n'.join(sorted(all_proxies)) + ('\n' if all_proxies else ''), encoding='utf-8')
+    with source_result_path.open('w', newline='', encoding='utf-8') as file:
         writer = csv.DictWriter(file, fieldnames=['url', 'status', 'count', 'seconds', 'error'])
         writer.writeheader()
         writer.writerows(source_rows)
@@ -77,30 +78,37 @@ def recv_exact(sock, size):
 def socks5_connect(proxy, timeout):
     host, port_text = proxy.rsplit(':', 1)
     port = int(port_text)
-    sock = socket.create_connection((host, port), timeout=timeout)
-    sock.settimeout(timeout)
-    sock.sendall(b'\x05\x01\x00')
-    hello = recv_exact(sock, 2)
-    if hello != b'\x05\x00':
-        raise OSError(f'socks5 auth failed: {hello.hex()}')
-    target = TARGET_HOST.encode('idna')
-    request = b'\x05\x01\x00\x03' + bytes([len(target)]) + target + TARGET_PORT.to_bytes(2, 'big')
-    sock.sendall(request)
-    header = recv_exact(sock, 4)
-    if header[0] != 5 or header[1] != 0:
-        raise OSError(f'socks5 connect failed: {header.hex()}')
-    atyp = header[3]
-    if atyp == 1:
-        recv_exact(sock, 4)
-    elif atyp == 3:
-        length = recv_exact(sock, 1)[0]
-        recv_exact(sock, length)
-    elif atyp == 4:
-        recv_exact(sock, 16)
-    else:
-        raise OSError(f'unknown atyp: {atyp}')
-    recv_exact(sock, 2)
-    return sock
+    sock = None
+    try:
+        sock = socket.create_connection((host, port), timeout=timeout)
+        sock.settimeout(timeout)
+        sock.sendall(b'\x05\x01\x00')
+        hello = recv_exact(sock, 2)
+        if hello != b'\x05\x00':
+            raise OSError(f'socks5 auth failed: {hello.hex()}')
+        target = TARGET_HOST.encode('idna')
+        request = b'\x05\x01\x00\x03' + bytes([len(target)]) + target + TARGET_PORT.to_bytes(2, 'big')
+        sock.sendall(request)
+        header = recv_exact(sock, 4)
+        if header[0] != 5 or header[1] != 0:
+            raise OSError(f'socks5 connect failed: {header.hex()}')
+        atyp = header[3]
+        if atyp == 1:
+            recv_exact(sock, 4)
+        elif atyp == 3:
+            length = recv_exact(sock, 1)[0]
+            recv_exact(sock, length)
+        elif atyp == 4:
+            recv_exact(sock, 16)
+        else:
+            raise OSError(f'unknown atyp: {atyp}')
+        recv_exact(sock, 2)
+        connected_sock = sock
+        sock = None
+        return connected_sock
+    finally:
+        if sock is not None:
+            sock.close()
 
 
 def check_one(proxy, timeout):
@@ -112,10 +120,12 @@ def check_one(proxy, timeout):
         'exit_ip': '',
         'error': '',
     }
+    raw_sock = None
     try:
         raw_sock = socks5_connect(proxy, timeout)
-        context = ssl.create_default_context()
-        with context.wrap_socket(raw_sock, server_hostname=TARGET_HOST) as tls_sock:
+        tls_sock = TLS_CONTEXT.wrap_socket(raw_sock, server_hostname=TARGET_HOST)
+        raw_sock = None
+        with tls_sock:
             tls_sock.settimeout(timeout)
             tls_sock.sendall(HTTP_REQUEST)
             chunks = []
@@ -132,42 +142,75 @@ def check_one(proxy, timeout):
         row.update({'ok': True, 'latency_ms': elapsed, 'exit_ip': body})
     except Exception as exc:
         row['error'] = str(exc).replace('\n', ' ')[:180]
+    finally:
+        if raw_sock is not None:
+            raw_sock.close()
     return row
 
 
+def load_proxies(input_path, limit):
+    proxies = []
+    seen = set()
+    for line in input_path.read_text(encoding='utf-8').splitlines():
+        proxy = normalize_proxy(line)
+        if not proxy or proxy in seen:
+            continue
+        seen.add(proxy)
+        proxies.append(proxy)
+        if limit and len(proxies) >= limit:
+            break
+    return proxies
+
+
+def iter_check_results(proxies, workers, timeout):
+    max_pending = max(1, workers * 3)
+    proxy_iter = iter(proxies)
+    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
+        futures = set()
+        for _ in range(min(max_pending, len(proxies))):
+            futures.add(executor.submit(check_one, next(proxy_iter), timeout))
+        while futures:
+            done_futures, futures = concurrent.futures.wait(
+                futures,
+                return_when=concurrent.futures.FIRST_COMPLETED,
+            )
+            for future in done_futures:
+                yield future.result()
+                try:
+                    proxy = next(proxy_iter)
+                except StopIteration:
+                    continue
+                futures.add(executor.submit(check_one, proxy, timeout))
+
+
 def check_list(input_path, workers, timeout, limit, fast_ms, output_prefix):
-    proxies = [line.strip() for line in input_path.read_text().splitlines() if normalize_proxy(line)]
-    if limit:
-        proxies = proxies[:limit]
+    proxies = load_proxies(input_path, limit)
     print(f'[check start] total={len(proxies)} workers={workers} timeout={timeout}', flush=True)
     rows = []
     done = 0
     ok_count = 0
-    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
-        futures = {executor.submit(check_one, proxy, timeout): proxy for proxy in proxies}
-        for future in concurrent.futures.as_completed(futures):
-            row = future.result()
-            rows.append(row)
-            done += 1
-            if row['ok']:
-                ok_count += 1
-                print(f"[ok] {row['proxy']} {row['latency_ms']}ms exit={row['exit_ip']}", flush=True)
-            if done % 500 == 0:
-                print(f'[progress] done={done} ok={ok_count}', flush=True)
+    for row in iter_check_results(proxies, workers, timeout):
+        rows.append(row)
+        done += 1
+        if row['ok']:
+            ok_count += 1
+            print(f"[ok] {row['proxy']} {row['latency_ms']}ms exit={row['exit_ip']}", flush=True)
+        if done % 500 == 0:
+            print(f'[progress] done={done} ok={ok_count}', flush=True)
     rows.sort(key=lambda item: (not item['ok'], int(item['latency_ms']) if item['latency_ms'] != '' else 10**9, item['proxy']))
     detail_csv_path = Path(f'{output_prefix}_detail.csv')
     detail_json_path = Path(f'{output_prefix}_detail.json')
     alive_path = Path(f'{output_prefix}_alive.txt')
     fast_path = Path(f'{output_prefix}_fast.txt')
-    with detail_csv_path.open('w', newline='') as file:
+    with detail_csv_path.open('w', newline='', encoding='utf-8') as file:
         writer = csv.DictWriter(file, fieldnames=['proxy', 'ok', 'latency_ms', 'exit_ip', 'error'])
         writer.writeheader()
         writer.writerows(rows)
-    detail_json_path.write_text(json.dumps(rows, ensure_ascii=False, indent=2) + '\n')
+    detail_json_path.write_text(json.dumps(rows, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     alive = [row for row in rows if row['ok']]
-    alive_path.write_text('\n'.join(row['proxy'] for row in alive) + ('\n' if alive else ''))
+    alive_path.write_text('\n'.join(row['proxy'] for row in alive) + ('\n' if alive else ''), encoding='utf-8')
     fast = [row for row in alive if int(row['latency_ms']) <= fast_ms]
-    fast_path.write_text('\n'.join(row['proxy'] for row in fast) + ('\n' if fast else ''))
+    fast_path.write_text('\n'.join(row['proxy'] for row in fast) + ('\n' if fast else ''), encoding='utf-8')
     print(f'[check done] tested={len(rows)} alive={len(alive)} fast={len(fast)} fast_ms={fast_ms}')
     print(f'[outputs] {alive_path} {fast_path} {detail_csv_path} {detail_json_path}')
 
