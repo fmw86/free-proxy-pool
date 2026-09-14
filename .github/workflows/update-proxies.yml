@@ -34,6 +34,12 @@ jobs:
             --source-result latest/sources_result.csv \
             --output-prefix latest/socks5
 
+      - name: Tag residential candidates
+        run: |
+          python tag_residential.py \
+            --input latest/socks5_detail.json \
+            --output-prefix latest/socks5
+
       - name: Write summary
         run: |
           {
@@ -41,6 +47,9 @@ jobs:
             echo "candidates=$(wc -l < socks5_all.txt)"
             echo "alive=$(wc -l < latest/socks5_alive.txt)"
             echo "fast=$(wc -l < latest/socks5_fast.txt)"
+            if [ -f latest/socks5_residential.txt ]; then
+              echo "residential_candidates=$(wc -l < latest/socks5_residential.txt)"
+            fi
           } > latest/updated_at.txt
           cat latest/updated_at.txt
 
@@ -54,6 +63,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add latest/socks5_alive.txt latest/socks5_fast.txt \
             latest/socks5_detail.csv latest/socks5_detail.json \
+            latest/socks5_residential.txt latest/socks5_residential_detail.csv \
             latest/sources_result.csv latest/updated_at.txt
           if git diff --cached --quiet; then
             echo "no changes to commit"

@@ -1,3 +1,6 @@
+# socks5-filter proxy sources — one URL per line, # comments ignored
+# All verified alive on 2026-09-14
+
 https://raw.githubusercontent.com/SevenworksDev/proxy-list/main/proxies/socks5.txt
 https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/socks5.txt
 https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt
@@ -12,3 +15,10 @@ https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/socks5.txt
 https://raw.githubusercontent.com/Sunny9577/proxy-scraper/master/generated/socks5_proxies.txt
 https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt
 https://raw.githubusercontent.com/HankNovic/ProxyClean/refs/heads/main/SOCKS5_RAW.txt
+
+# Added 2026-09-14
+https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks5.txt
+https://raw.githubusercontent.com/VPSLabCloud/VPSLab-Free-Proxy-List/main/socks5_all.txt
+https://raw.githubusercontent.com/iplocate/free-proxy-list/main/protocols/socks5.txt
+https://raw.githubusercontent.com/officialputuid/KangProxy/main/socks5/socks5.txt
+https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks5&timeout=10000&country=all&ssl=all&anonymity=all
