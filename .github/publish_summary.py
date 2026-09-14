@@ -12,7 +12,7 @@ import os
 import time
 import urllib.request
 
-REPO = 'fmw86/socks5-filter'
+REPO = 'fmw86/free-proxy-pool'
 BRANCH = 'main'
 PATH = 'updated_at.txt'
 TOKEN = os.environ['GH_TOKEN']
@@ -26,7 +26,7 @@ def api_request(method, path, payload=None):
             'Authorization': f'Bearer {TOKEN}',
             'Accept': 'application/vnd.github+json',
             'X-GitHub-Api-Version': '2022-11-28',
-            'User-Agent': 'socks5-filter-publisher',
+            'User-Agent': 'free-proxy-pool-publisher',
         },
         method=method,
     )

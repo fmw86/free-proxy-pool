@@ -8,25 +8,25 @@
 
 筛选好的结果就是仓库根目录下的 txt 文件，每 3 小时自动覆盖更新。三种取用方式任选：
 
-**方式一：网页直接复制** —— 打开 [仓库首页](https://github.com/fmw86/socks5-filter)，点开任意结果文件（如 `socks5_fast.txt`），右上角复制按钮即可。
+**方式一：网页直接复制** —— 打开 [仓库首页](https://github.com/fmw86/free-proxy-pool)，点开任意结果文件（如 `socks5_fast.txt`），右上角复制按钮即可。
 
 **方式二：命令行单文件下载**（任何有 curl/wget 的设备）
 
 ```bash
 # SOCKS5 快代理（优先用这个）
-curl -O https://raw.githubusercontent.com/fmw86/socks5-filter/main/socks5_fast.txt
+curl -O https://raw.githubusercontent.com/fmw86/free-proxy-pool/main/socks5_fast.txt
 
 # HTTP 代理
-curl -O https://raw.githubusercontent.com/fmw86/socks5-filter/main/http_fast.txt
+curl -O https://raw.githubusercontent.com/fmw86/free-proxy-pool/main/http_fast.txt
 
 # 住宅/家宽候选
-curl -O https://raw.githubusercontent.com/fmw86/socks5-filter/main/socks5_residential.txt
+curl -O https://raw.githubusercontent.com/fmw86/free-proxy-pool/main/socks5_residential.txt
 ```
 
 **方式三：克隆整个仓库**
 
 ```bash
-git clone https://github.com/fmw86/socks5-filter.git
+git clone https://github.com/fmw86/free-proxy-pool.git
 ```
 
 **直接测试某个代理**（任何设备）：
@@ -38,7 +38,7 @@ curl --socks5-hostname "$(head -1 socks5_fast.txt)" -m 8 https://api.ipify.org
 **机场节点**：`nodes_alive.txt` 每行是一个节点 URI，把该文件的 raw 链接作为"订阅链接"填进 v2rayN / Clash / Shadowrocket 等客户端即可批量导入：
 
 ```
-https://raw.githubusercontent.com/fmw86/socks5-filter/main/nodes_alive.txt
+https://raw.githubusercontent.com/fmw86/free-proxy-pool/main/nodes_alive.txt
 ```
 
 ## 结果文件（根目录，每 3 小时覆盖更新）
