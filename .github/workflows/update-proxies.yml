@@ -128,3 +128,32 @@ jobs:
             echo "nodes_residential=$( [ -f nodes_residential.txt ] && wc -l < nodes_residential.txt || echo 0 )"
           } > summary_fragment.txt
           python .github/publish_summary.py
+
+  residential-index:
+    needs: proxies
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Merge and publish residential.txt
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python .github/merge_residential.py
+
+      - name: Write summary
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          {
+            echo "residential_total=$(grep -c . residential.txt || echo 0)"
+            echo "residential_updated_at=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          } > summary_fragment.txt
+          python .github/publish_summary.py

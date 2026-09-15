@@ -51,6 +51,7 @@ https://raw.githubusercontent.com/fmw86/free-proxy-pool/main/nodes_alive.txt
 | `socks4_alive.txt` | SOCKS4 代理 |
 | `nodes_alive.txt` | 机场节点（TCP 可达，原始 URI） |
 | `*_residential.txt` | 各类型住宅/ISP/移动网络候选（不限国家） |
+| `residential.txt` | **全协议住宅汇总**（socks5+http+socks4 去重合并，最方便） |
 | `*_residential_detail.csv` | 住宅候选明细：国家/城市/ISP/ASN/是否移动网络 |
 | `*_detail.csv` / `*_detail.json` | 全量检测明细（延迟、出口 IP、失败原因） |
 | `updated_at.txt` | 各类型更新时间与数量统计，**先看这个判断新鲜度** |
