@@ -153,7 +153,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           {
-            echo "residential_total=$(grep -c . residential.txt || echo 0)"
+            echo "residential_total=$(grep -c . residential.txt)"
             echo "residential_updated_at=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
           } > summary_fragment.txt
           python .github/publish_summary.py
