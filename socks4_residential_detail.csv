@@ -1,2 +1,4 @@
 proxy,country,region,city,isp,org,asn,mobile,hosting,known_proxy,exit_ip
-83.166.247.254:10808,Russia,Moscow,Moscow,"""Domain names registrar REG.RU"", Ltd","""Domain names registrar REG.RU"", Ltd","AS197695 Domain names registrar REG.RU, Ltd",False,False,False,169.40.136.13
+157.173.115.35:1081,France,Grand Est,Lauterbourg,Contabo GmbH,Contabo GmbH,AS51167 Contabo GmbH,False,True,True,157.173.115.35
+165.154.20.187:10808,Hong Kong,Kowloon,Hong Kong,UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,Ucloud Information Technology (hk) Limited,AS135377 UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,False,True,True,165.154.20.187
+185.204.170.179:1102,Germany,Hesse,Frankfurt am Main,Arvancloud Global Technologies L.L.C,Arvancloud Global Technologies L.L.C,AS57568 ARVANCLOUD GLOBAL TECHNOLOGIES L.L.C,False,True,True,169.197.142.22
