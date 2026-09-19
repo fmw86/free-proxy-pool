@@ -1,30 +1,31 @@
 proxy,ok,latency_ms,exit_ip,error
-157.173.115.35:1081,True,6241,157.173.115.35,
+62.113.112.246:10808,True,5295,51.158.55.77,
 0.0.0.0:80,False,,,[Errno 111] Connection refused
 1.179.147.5:52210,False,,,timed out
 1.179.148.33:1080,False,,,timed out
 1.179.148.9:36476,False,,,timed out
-1.179.151.165:31948,False,,,socks4 connect failed: 005b
+1.179.151.165:31948,False,,,timed out
 1.179.199.130:33333,False,,,[Errno 111] Connection refused
-1.20.254.32:4153,False,,,socks4 connect failed: 005b
+1.20.254.32:4153,False,,,timed out
 1.212.157.114:4145,False,,,timed out
 1.9.167.35:60489,False,,,[Errno 111] Connection refused
 100.1.53.24:5678,False,,,timed out
 101.109.245.200:4153,False,,,timed out
 101.109.76.109:4145,False,,,[Errno 111] Connection refused
+101.255.150.238:1081,False,,,[Errno 111] Connection refused
 101.32.65.42:8888,False,,,socks4 connect failed: 4854
 101.36.112.205:1081,False,,,_ssl.c:993: The handshake operation timed out
-101.36.123.203:8118,False,,,socks4 connect failed: 4854
+101.36.123.203:8118,False,,,timed out
 101.51.121.29:4153,False,,,timed out
 101.96.117.164:1080,False,,,timed out
 102.141.30.2:33333,False,,,timed out
 102.164.251.242:4153,False,,,timed out
 102.208.228.90:8080,False,,,timed out
 102.213.179.113:8080,False,,,timed out
-102.214.147.147:4153,False,,,socks4 connect failed: 005b
+102.214.147.147:4153,False,,,timed out
 102.216.116.234:8080,False,,,timed out
 102.217.139.31:8180,False,,,timed out
-102.222.145.8:1080,False,,,[Errno 104] Connection reset by peer
+102.222.145.8:1080,False,,,unexpected eof
 102.222.145.8:1081,False,,,[Errno 111] Connection refused
 102.36.127.249:1080,False,,,timed out
 102.36.231.77:1080,False,,,socks4 connect failed: 005b
@@ -32,22 +33,23 @@ proxy,ok,latency_ms,exit_ip,error
 102.66.161.31:8888,False,,,timed out
 103.102.131.30:3128,False,,,timed out
 103.102.141.40:4145,False,,,timed out
-103.103.146.149:7080,False,,,timed out
+103.103.146.149:7080,False,,,unexpected eof
 103.106.236.200:5678,False,,,timed out
 103.109.158.235:4153,False,,,timed out
-103.112.68.25:1080,False,,,timed out
+103.112.68.25:1080,False,,,"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
+103.112.68.25:1081,False,,,[Errno 111] Connection refused
 103.115.255.225:36331,False,,,timed out
 103.116.145.67:33333,False,,,timed out
-103.118.85.146:1080,False,,,timed out
+103.118.85.146:1080,False,,,unexpected eof
 103.118.85.75:1080,False,,,timed out
-103.119.60.219:1080,False,,,unexpected eof
+103.119.60.219:1080,False,,,timed out
 103.124.139.140:8080,False,,,timed out
 103.127.204.116:27416,False,,,timed out
 103.127.23.10:5678,False,,,[Errno 111] Connection refused
 103.134.214.130:1648,False,,,timed out
 103.134.214.131:1648,False,,,timed out
 103.134.239.210:5678,False,,,timed out
-103.136.107.70:1080,False,,,timed out
+103.136.107.70:1080,False,,,[Errno 104] Connection reset by peer
 103.136.70.198:8888,False,,,timed out
 103.138.123.65:8090,False,,,timed out
 103.138.145.204:1999,False,,,timed out
@@ -57,9 +59,11 @@ proxy,ok,latency_ms,exit_ip,error
 103.143.11.246:9005,False,,,timed out
 103.143.116.44:35010,False,,,timed out
 103.143.214.81:5678,False,,,timed out
-103.146.137.81:1081,False,,,[Errno 104] Connection reset by peer
-103.146.185.170:1083,False,,,socks4 connect failed: 005b
-103.146.185.5:1083,False,,,socks4 connect failed: 005b
+103.146.137.105:1081,False,,,[Errno 104] Connection reset by peer
+103.146.137.109:1081,False,,,[Errno 104] Connection reset by peer
+103.146.137.157:1081,False,,,[Errno 104] Connection reset by peer
+103.146.137.81:1081,False,,,timed out
+103.146.185.5:1083,False,,,timed out
 103.146.185.63:1081,False,,,timed out
 103.146.2.151:33333,False,,,[Errno 111] Connection refused
 103.146.26.31:5678,False,,,timed out
@@ -67,56 +71,54 @@ proxy,ok,latency_ms,exit_ip,error
 103.150.110.202:9969,False,,,timed out
 103.151.177.221:8080,False,,,timed out
 103.151.47.22:46889,False,,,[Errno 111] Connection refused
-103.151.74.5:2025,False,,,unexpected eof
+103.151.74.5:2025,False,,,timed out
 103.151.75.21:2025,False,,,timed out
 103.153.69.111:1080,False,,,timed out
 103.154.231.97:8090,False,,,timed out
 103.154.76.90:12,False,,,timed out
-103.155.42.38:1080,False,,,timed out
+103.155.42.38:1080,False,,,socks4 connect failed: 005b
 103.156.14.165:5678,False,,,[Errno 111] Connection refused
 103.159.219.50:5678,False,,,[Errno 111] Connection refused
 103.159.225.30:1080,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
 103.159.88.72:29001,False,,,[Errno 111] Connection refused
-103.160.12.138:4145,False,,,timed out
+103.160.12.138:4145,False,,,[Errno 111] Connection refused
 103.160.201.26:1080,False,,,timed out
-103.160.56.250:10101,False,,,timed out
-103.162.184.251:1088,False,,,timed out
+103.160.56.250:10101,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
+103.162.184.251:1088,False,,,socks4 connect failed: 005b
 103.162.57.42:1080,False,,,timed out
-103.163.244.106:1080,False,,,timed out
+103.163.244.106:1080,False,,,unexpected eof
 103.164.223.35:5678,False,,,timed out
 103.165.128.75:1080,False,,,[Errno 111] Connection refused
-103.166.184.104:9191,False,,,timed out
+103.166.158.239:1081,False,,,timed out
 103.166.32.130:11080,False,,,timed out
-103.167.156.34:1080,False,,,socks4 connect failed: 005b
 103.167.187.4:1080,False,,,timed out
 103.168.47.12:33333,False,,,timed out
-103.169.189.155:36473,False,,,socks4 connect failed: 005b
+103.169.189.155:36473,False,,,timed out
 103.17.90.6:5678,False,,,[Errno 111] Connection refused
 103.171.12.2:8080,False,,,timed out
 103.172.42.81:1111,False,,,timed out
 103.174.150.58:1080,False,,,timed out
 103.176.174.100:8080,False,,,timed out
-103.177.199.65:1081,False,,,[Errno 111] Connection refused
 103.177.20.27:1080,False,,,timed out
 103.179.189.64:9191,False,,,timed out
-103.18.47.79:4145,False,,,timed out
+103.18.47.79:4145,False,,,socks4 connect failed: 005b
 103.183.8.139:8080,False,,,timed out
 103.185.250.136:1080,False,,,timed out
 103.189.197.121:3125,False,,,timed out
 103.189.218.76:6969,False,,,timed out
-103.189.63.149:53053,False,,,timed out
+103.189.63.149:53053,False,,,unexpected eof
 103.19.78.127:1080,False,,,timed out
 103.191.165.45:1080,False,,,timed out
 103.191.171.38:8080,False,,,timed out
 103.195.65.178:7777,False,,,timed out
-103.197.241.209:1080,False,,,unexpected eof
+103.197.241.209:1080,False,,,timed out
 103.204.54.50:1080,False,,,socks4 connect failed: 005b
 103.210.29.201:31433,False,,,timed out
 103.215.216.13:9050,False,,,timed out
 103.216.49.229:33333,False,,,timed out
 103.216.50.210:1080,False,,,timed out
 103.221.228.50:5678,False,,,timed out
-103.224.48.38:31433,False,,,timed out
+103.224.48.38:31433,False,,,socks4 connect failed: 005b
 103.229.164.178:3128,False,,,timed out
 103.23.204.146:4673,False,,,timed out
 103.231.105.158:4145,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
@@ -127,30 +129,29 @@ proxy,ok,latency_ms,exit_ip,error
 103.239.201.50:58765,False,,,unexpected eof
 103.242.105.199:8199,False,,,timed out
 103.247.21.83:8446,False,,,timed out
-103.248.9.69:80,False,,,timed out
+103.248.9.69:80,False,,,unexpected eof
 103.29.61.243:4153,False,,,timed out
-103.37.82.134:39873,False,,,timed out
+103.37.82.134:39873,False,,,socks4 connect failed: 005b
 103.38.103.18:1080,False,,,timed out
-103.4.145.132:1080,False,,,unexpected eof
+103.4.145.132:1080,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
 103.43.191.71:8888,False,,,timed out
 103.48.183.113:4145,False,,,timed out
 103.53.110.45:10801,False,,,timed out
-103.55.106.150:1080,False,,,timed out
+103.55.106.150:1080,False,,,socks4 connect failed: 005b
 103.60.214.18:51754,False,,,timed out
 103.66.74.61:1080,False,,,timed out
-103.66.74.61:1081,False,,,[Errno 111] Connection refused
 103.75.118.84:1080,False,,,socks4 connect failed: 005b
 103.75.198.134:9050,False,,,timed out
 103.76.108.99:80,False,,,[Errno 104] Connection reset by peer
-103.76.190.37:31756,False,,,socks4 connect failed: 005b
+103.76.190.37:31756,False,,,timed out
 103.79.183.133:8080,False,,,timed out
 103.81.175.141:22311,False,,,timed out
 103.82.20.76:8080,False,,,socks4 connect failed: 4854
 103.83.28.216:5678,False,,,socks4 connect failed: 005b
 103.85.103.129:5678,False,,,timed out
-103.86.116.193:1080,False,,,socks4 connect failed: 005b
+103.86.116.193:1080,False,,,timed out
 103.86.116.193:1081,False,,,[Errno 111] Connection refused
-103.87.81.86:5678,False,,,timed out
+103.87.81.86:5678,False,,,socks4 connect failed: 005b
 103.88.204.70:1080,False,,,socks4 connect failed: 005b
 103.88.234.239:40002,False,,,"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
 103.88.234.239:40004,False,,,"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
@@ -175,7 +176,6 @@ proxy,ok,latency_ms,exit_ip,error
 104.168.15.151:4080,False,,,[Errno 111] Connection refused
 104.192.202.11:1080,False,,,[Errno 111] Connection refused
 104.194.132.112:9050,False,,,timed out
-104.194.132.112:9052,False,,,timed out
 104.200.135.46:4145,False,,,_ssl.c:993: The handshake operation timed out
 104.200.152.30:4145,False,,,_ssl.c:993: The handshake operation timed out
 104.207.34.92:3129,False,,,timed out
@@ -201,7 +201,7 @@ proxy,ok,latency_ms,exit_ip,error
 104.251.93.248:16062,False,,,timed out
 104.36.236.101:8080,False,,,timed out
 104.37.135.145:4145,False,,,_ssl.c:993: The handshake operation timed out
-105.214.104.26:5678,False,,,timed out
+105.214.104.26:5678,False,,,socks4 connect failed: 005b
 105.214.51.155:5678,False,,,timed out
 105.214.69.143:5678,False,,,timed out
 105.214.82.133:5678,False,,,timed out
@@ -214,7 +214,7 @@ proxy,ok,latency_ms,exit_ip,error
 107.152.98.5:4145,False,,,_ssl.c:993: The handshake operation timed out
 107.167.18.122:443,False,,,"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
 107.172.116.196:5652,False,,,timed out
-107.172.232.2:7890,False,,,timed out
+107.172.232.2:7890,False,,,"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
 107.172.50.187:7890,False,,,[Errno 111] Connection refused
 107.173.128.99:7553,False,,,timed out
 107.175.119.22:6550,False,,,timed out
@@ -230,7 +230,7 @@ proxy,ok,latency_ms,exit_ip,error
 108.161.135.118:80,False,,,timed out
 108.170.12.11:80,False,,,timed out
 108.170.12.13:80,False,,,timed out
-108.61.160.231:1080,False,,,unexpected eof
+108.61.160.231:1080,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)
 109.105.220.191:80,False,,,timed out
 109.106.196.250:4145,False,,,timed out
 109.107.166.207:30385,False,,,timed out
@@ -240,26 +240,27 @@ proxy,ok,latency_ms,exit_ip,error
 109.172.55.177:1082,False,,,socks4 connect failed: 005b
 109.172.55.227:1082,False,,,socks4 connect failed: 005b
 109.191.209.70:1080,False,,,unexpected eof
-109.195.215.208:1080,False,,,timed out
+109.195.215.208:1080,False,,,unexpected eof
 109.197.55.234:1080,False,,,timed out
 109.199.119.160:80,False,,,socks4 connect failed: 4854
-109.199.96.116:9050,False,,,timed out
 109.202.0.25:1080,False,,,timed out
 109.205.61.233:20000,False,,,timed out
 109.224.12.170:52015,False,,,timed out
 109.224.22.34:51372,False,,,timed out
 109.224.22.35:51372,False,,,timed out
-109.232.106.150:52435,False,,,socks4 connect failed: 005b
+109.232.106.150:52435,False,,,[Errno 104] Connection reset by peer
 109.245.110.145:4145,False,,,socks4 connect failed: 005b
 109.248.236.150:9898,False,,,timed out
-109.69.211.18:1080,False,,,socks4 connect failed: 005b
+109.69.211.18:1080,False,,,timed out
 109.72.109.214:48293,False,,,timed out
 109.75.42.82:3629,False,,,timed out
 109.94.182.128:4145,False,,,timed out
 110.139.17.247:8080,False,,,timed out
-110.235.240.223:1080,False,,,timed out
+110.235.240.223:1080,False,,,unexpected eof
 110.235.249.8:33333,False,,,[Errno 111] Connection refused
-110.38.234.74:1080,False,,,timed out
+110.34.3.144:1080,False,,,socks4 connect failed: 005b
+110.38.234.74:1080,False,,,socks4 connect failed: 005b
+110.38.234.74:1081,False,,,[Errno 111] Connection refused
 110.44.115.83:8080,False,,,timed out
 110.74.195.34:25,False,,,timed out
 110.74.202.186:4153,False,,,timed out
@@ -269,25 +270,30 @@ proxy,ok,latency_ms,exit_ip,error
 110.78.148.57:4145,False,,,timed out
 110.93.206.62:5678,False,,,timed out
 111.119.162.248:10900,False,,,[Errno 111] Connection refused
-111.119.162.248:10901,False,,,[Errno 111] Connection refused
-111.119.162.248:10903,False,,,[Errno 111] Connection refused
+111.119.162.248:10901,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+111.119.162.248:10903,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
 111.119.162.248:10906,False,,,[Errno 111] Connection refused
-111.119.162.248:10908,False,,,[Errno 111] Connection refused
+111.119.162.248:10908,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
 111.119.162.248:10909,False,,,[Errno 111] Connection refused
 111.119.162.248:10910,False,,,[Errno 111] Connection refused
-111.119.162.248:10914,False,,,[Errno 111] Connection refused
+111.119.162.248:10914,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+111.119.162.248:10915,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
 111.119.162.248:10917,False,,,[Errno 111] Connection refused
-111.119.162.248:10918,False,,,[Errno 111] Connection refused
+111.119.162.248:10918,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
 111.119.162.248:10919,False,,,[Errno 111] Connection refused
-111.119.162.248:10921,False,,,[Errno 111] Connection refused
+111.119.162.248:10921,False,,,timed out
 111.119.162.248:10923,False,,,[Errno 111] Connection refused
-111.119.162.248:10924,False,,,[Errno 111] Connection refused
-111.119.162.248:10925,False,,,[Errno 111] Connection refused
+111.119.162.248:10924,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+111.119.162.248:10925,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
 111.119.162.248:10926,False,,,[Errno 111] Connection refused
-111.119.162.248:10927,False,,,[Errno 111] Connection refused
+111.119.162.248:10927,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
 111.119.162.248:10928,False,,,[Errno 111] Connection refused
-111.119.162.248:10931,False,,,[Errno 111] Connection refused
-111.119.162.248:10936,False,,,[Errno 111] Connection refused
+111.119.162.248:10930,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+111.119.162.248:10931,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+111.119.162.248:10935,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+111.119.162.248:10936,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+111.119.162.248:10937,False,,,timed out
+111.119.162.248:10938,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
 111.119.162.248:10958,False,,,[Errno 111] Connection refused
 111.119.162.248:11014,False,,,[Errno 111] Connection refused
 111.67.103.162:1080,False,,,timed out
@@ -296,19 +302,18 @@ proxy,ok,latency_ms,exit_ip,error
 112.198.22.122:80,False,,,timed out
 112.2.21.18:51080,False,,,timed out
 112.203.201.93:8082,False,,,timed out
-112.215.62.81:8080,False,,,timed out
-112.216.54.226:12121,False,,,unexpected eof
+112.215.62.81:8080,False,,,[Errno 104] Connection reset by peer
+112.216.54.226:12121,False,,,[Errno 111] Connection refused
 113.11.183.201:4145,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
 113.161.134.128:1080,False,,,socks4 connect failed: 005b
-113.161.134.128:1081,False,,,[Errno 111] Connection refused
 113.161.145.229:4153,False,,,timed out
 113.166.93.239:5678,False,,,socks4 connect failed: 005b
 113.167.83.98:1080,False,,,timed out
 113.167.83.98:1081,False,,,[Errno 111] Connection refused
 113.192.30.240:8080,False,,,timed out
 113.22.221.35:20000,False,,,timed out
-113.53.29.228:13629,False,,,[Errno 104] Connection reset by peer
-114.108.177.104:60984,False,,,socks4 connect failed: 005b
+113.53.29.228:13629,False,,,socks4 connect failed: 005b
+114.108.177.104:60984,False,,,timed out
 114.111.151.41:80,False,,,timed out
 114.130.89.94:1080,False,,,socks4 connect failed: 005b
 114.130.89.94:1081,False,,,[Errno 111] Connection refused
@@ -323,6 +328,7 @@ proxy,ok,latency_ms,exit_ip,error
 115.21.99.135:4145,False,,,[Errno 111] Connection refused
 115.85.88.18:8080,False,,,timed out
 116.104.41.109:5000,False,,,timed out
+116.106.108.121:1080,False,,,socks4 connect failed: 005b
 116.118.147.196:1080,False,,,[Errno 104] Connection reset by peer
 116.118.98.26:5678,False,,,timed out
 116.203.181.56:9050,False,,,timed out
@@ -331,11 +337,11 @@ proxy,ok,latency_ms,exit_ip,error
 116.90.234.106:1080,False,,,timed out
 116.90.234.106:1081,False,,,[Errno 111] Connection refused
 117.141.96.35:4145,False,,,timed out
-117.198.221.34:4153,False,,,timed out
+117.198.221.34:4153,False,,,socks4 connect failed: 005b
 117.202.20.70:1088,False,,,timed out
-117.236.124.166:3128,False,,,[Errno 111] Connection refused
+117.236.124.166:3128,False,,,timed out
 117.4.107.199:51796,False,,,[Errno 111] Connection refused
-117.4.26.246:1080,False,,,timed out
+117.4.26.246:1080,False,,,socks4 connect failed: 005b
 117.4.26.246:1081,False,,,[Errno 111] Connection refused
 117.74.125.14:1133,False,,,[Errno 111] Connection refused
 118.136.82.136:5678,False,,,timed out
@@ -344,18 +350,17 @@ proxy,ok,latency_ms,exit_ip,error
 118.174.209.75:4145,False,,,timed out
 118.174.47.182:4145,False,,,[Errno 111] Connection refused
 118.179.144.113:9090,False,,,timed out
-118.179.144.142:9090,False,,,timed out
+118.179.144.142:9090,False,,,unexpected eof
 118.179.195.140:9090,False,,,timed out
 118.179.202.230:9090,False,,,timed out
 118.179.205.159:9090,False,,,timed out
 118.67.220.225:4145,False,,,timed out
 118.70.131.249:1080,False,,,timed out
-118.70.131.249:1081,False,,,[Errno 111] Connection refused
 118.70.211.121:60606,False,,,timed out
 118.71.99.233:5678,False,,,timed out
 118.97.107.65:5430,False,,,timed out
 119.235.50.78:4153,False,,,timed out
-119.40.98.29:8069,False,,,unexpected eof
+119.40.98.29:8069,False,,,[Errno 104] Connection reset by peer
 119.46.2.245:4145,False,,,timed out
 119.82.251.250:31678,False,,,[Errno 111] Connection refused
 119.93.122.233:4145,False,,,timed out
@@ -364,61 +369,56 @@ proxy,ok,latency_ms,exit_ip,error
 12.218.209.130:13326,False,,,socks4 connect failed: 005b
 120.42.35.91:35010,False,,,timed out
 121.101.131.128:8091,False,,,timed out
-121.139.218.165:43295,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
 121.29.81.125:1080,False,,,timed out
 122.252.179.66:5678,False,,,timed out
 122.53.48.41:8080,False,,,timed out
-123.0.24.154:9090,False,,,unexpected eof
+123.0.24.154:9090,False,,,timed out
 123.16.15.41:1452,False,,,timed out
 123.200.28.149:1080,False,,,socks4 connect failed: 005b
-123.200.28.222:1080,False,,,timed out
-123.200.28.222:1081,False,,,[Errno 111] Connection refused
-123.231.230.58:31196,False,,,timed out
-123.25.116.228:1080,False,,,socks4 connect failed: 005b
+123.200.28.222:1080,False,,,socks4 connect failed: 005b
+123.231.230.58:31196,False,,,socks4 connect failed: 005b
+123.25.116.228:1080,False,,,timed out
 123.253.124.28:5678,False,,,socks4 connect failed: 005b
 123.31.12.184:45255,False,,,timed out
-123.58.199.232:8168,False,,,socks4 connect failed: 4854
+123.58.199.232:8168,False,,,timed out
 124.217.46.130:8082,False,,,timed out
 124.248.164.36:1080,False,,,timed out
-124.248.164.36:1081,False,,,[Errno 111] Connection refused
-124.248.177.43:1080,False,,,unexpected eof
+124.248.177.43:1080,False,,,timed out
 124.41.225.101:1080,False,,,timed out
 124.41.240.177:52480,False,,,timed out
 124.41.240.203:37704,False,,,timed out
 124.90.45.58:10800,False,,,timed out
-125.209.110.83:1981,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
 125.228.94.199:4145,False,,,timed out
-125.25.57.57:4153,False,,,socks4 connect failed: 005b
+125.26.4.197:4145,False,,,socks4 connect failed: 005b
 127.0.0.7:80,False,,,[Errno 111] Connection refused
 128.199.131.156:29717,False,,,timed out
-128.199.37.92:1080,False,,,timed out
-128.199.37.92:1081,False,,,timed out
+128.199.37.92:1080,False,,,socks4 connect failed: 005b
 129.126.65.78:4153,False,,,timed out
-129.205.244.158:1080,False,,,socks4 connect failed: 005b
+129.205.244.158:1080,False,,,timed out
+129.80.80.197:9050,False,,,timed out
 13.125.44.24:80,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 130.17.13.182:8080,False,,,timed out
-130.193.123.34:5678,False,,,timed out
+130.193.123.34:5678,False,,,socks4 connect failed: 005b
 130.61.213.44:1080,False,,,timed out
 131.108.112.222:4153,False,,,timed out
 131.161.68.38:35944,False,,,socks4 connect failed: 005b
-131.161.68.41:35944,False,,,socks4 connect failed: 005b
+131.161.68.41:35944,False,,,timed out
 131.196.180.1:4153,False,,,timed out
 131.221.233.11:4153,False,,,timed out
 132.145.207.194:8080,False,,,timed out
 132.148.244.30:45157,False,,,[Errno 111] Connection refused
 132.243.168.30:9150,False,,,timed out
 135.181.79.187:40001,False,,,socks4 connect failed: 005b
-136.233.136.41:43314,False,,,socks4 connect failed: 005b
-137.131.12.103:1080,False,,,timed out
+136.233.136.41:43314,False,,,timed out
+137.131.12.103:1080,False,,,[Errno 104] Connection reset by peer
 137.74.173.77:33611,False,,,timed out
-138.124.85.83:1081,False,,,timed out
+138.124.125.198:1081,False,,,[Errno 111] Connection refused
 138.128.247.206:9050,False,,,timed out
-138.16.178.230:10808,False,,,timed out
-138.186.133.161:4153,False,,,[Errno 104] Connection reset by peer
+138.16.178.230:10808,False,,,_ssl.c:993: The handshake operation timed out
+138.186.133.161:4153,False,,,timed out
 138.186.76.57:999,False,,,timed out
-138.199.221.100:9050,False,,,timed out
+138.199.221.100:9050,False,,,[Errno 111] Connection refused
 138.199.222.72:9050,False,,,timed out
-138.2.12.69:21080,False,,,_ssl.c:993: The handshake operation timed out
 138.2.216.186:1080,False,,,timed out
 138.252.98.108:8080,False,,,timed out
 138.68.235.51:80,False,,,timed out
@@ -426,6 +426,8 @@ proxy,ok,latency_ms,exit_ip,error
 138.94.28.234:40658,False,,,timed out
 139.162.166.167:43941,False,,,[Errno 111] Connection refused
 139.180.144.76:7890,False,,,timed out
+139.196.95.28:7890,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+139.255.36.82:2080,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
 139.255.97.157:14888,False,,,timed out
 139.59.14.115:33292,False,,,[Errno 111] Connection refused
 139.59.234.208:50929,False,,,[Errno 111] Connection refused
@@ -437,8 +439,9 @@ proxy,ok,latency_ms,exit_ip,error
 14.207.161.107:4153,False,,,timed out
 14.232.166.150:5678,False,,,timed out
 14.241.182.44:5678,False,,,timed out
+140.238.14.161:8082,False,,,timed out
 140.238.32.108:3128,False,,,timed out
-141.147.10.92:555,False,,,unexpected eof
+141.147.10.92:555,False,,,timed out
 141.147.109.224:1080,False,,,timed out
 141.94.254.138:26353,False,,,timed out
 141.98.153.86:80,False,,,timed out
@@ -455,27 +458,24 @@ proxy,ok,latency_ms,exit_ip,error
 142.54.239.1:4145,False,,,_ssl.c:993: The handshake operation timed out
 142.93.21.46:61616,False,,,timed out
 143.105.103.226:1080,False,,,timed out
-143.105.103.226:1081,False,,,[Errno 111] Connection refused
 143.105.153.7:1080,False,,,timed out
-143.105.153.7:1081,False,,,[Errno 111] Connection refused
 143.110.186.10:6647,False,,,timed out
 143.198.135.176:80,False,,,timed out
 143.20.185.219:9150,False,,,timed out
-143.208.130.155:5678,False,,,socks4 connect failed: 005b
-143.246.138.218:1081,False,,,[Errno 111] Connection refused
+143.208.130.155:5678,False,,,[Errno 104] Connection reset by peer
 143.246.197.187:1081,False,,,timed out
 143.246.197.187:1082,False,,,"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
-143.255.109.76:1080,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
+143.255.109.76:1080,False,,,[Errno 104] Connection reset by peer
 143.255.109.76:1081,False,,,[Errno 111] Connection refused
 143.42.66.91:80,False,,,unexpected eof
 144.126.137.165:1080,False,,,timed out
 144.126.197.184:1088,False,,,timed out
 144.172.104.68:1080,False,,,timed out
 144.172.94.135:1080,False,,,timed out
-144.202.107.194:9150,False,,,timed out
 144.31.116.142:3128,False,,,[Errno 111] Connection refused
 144.31.118.56:3128,False,,,[Errno 111] Connection refused
-144.31.255.9:1080,False,,,timed out
+144.31.255.9:1080,False,,,[Errno 111] Connection refused
+144.31.255.9:1081,False,,,[Errno 111] Connection refused
 144.76.165.249:9050,False,,,timed out
 144.91.113.229:57018,False,,,[Errno 111] Connection refused
 144.91.82.219:9050,False,,,timed out
@@ -495,26 +495,27 @@ proxy,ok,latency_ms,exit_ip,error
 146.103.56.213:5761,False,,,timed out
 146.103.56.229:5777,False,,,timed out
 146.103.56.231:5779,False,,,timed out
-146.19.143.200:1080,False,,,[Errno 104] Connection reset by peer
-146.190.60.147:8007,False,,,socks4 connect failed: 4854
+146.19.143.200:1080,False,,,socks4 connect failed: 005b
+146.19.143.200:1081,False,,,[Errno 111] Connection refused
+146.19.49.195:1080,False,,,timed out
+146.190.60.147:8007,False,,,timed out
 146.56.178.93:1711,False,,,timed out
 147.189.169.226:9050,False,,,timed out
+147.45.158.88:1081,False,,,timed out
 147.45.234.180:1080,False,,,socks4 connect failed: 005b
 147.45.60.110:1082,False,,,timed out
-147.45.66.116:1082,False,,,"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
+147.45.66.116:1082,False,,,timed out
 147.45.72.31:45700,False,,,timed out
 147.93.176.66:3128,False,,,timed out
 148.72.177.90:8228,False,,,timed out
-149.129.255.179:8081,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
+149.129.255.179:8081,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
 149.248.18.106:1081,False,,,timed out
 149.57.17.199:5667,False,,,timed out
 149.57.17.31:5499,False,,,timed out
 15.161.131.175:18291,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 15.235.21.254:8080,False,,,timed out
 15.237.108.20:54588,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-150.129.170.65:5678,False,,,timed out
-150.136.58.221:1080,False,,,unexpected eof
-150.241.105.252:1081,False,,,[Errno 111] Connection refused
+150.136.58.221:1080,False,,,timed out
 150.241.71.36:1080,False,,,timed out
 151.158.121.73:8080,False,,,timed out
 151.185.58.17:80,False,,,timed out
@@ -526,12 +527,12 @@ proxy,ok,latency_ms,exit_ip,error
 152.53.183.107:8081,False,,,[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1010)
 152.69.211.50:40001,False,,,socks4 connect failed: 005b
 152.70.107.226:1080,False,,,[Errno 111] Connection refused
-152.70.237.238:3128,False,,,timed out
-152.70.237.238:3129,False,,,[Errno 111] Connection refused
+152.70.237.238:3128,False,,,_ssl.c:993: The handshake operation timed out
 153.51.241.50:999,False,,,timed out
 153.75.244.88:3128,False,,,timed out
 153.80.242.105:8080,False,,,timed out
 154.113.172.58:5678,False,,,timed out
+154.113.201.241:5678,False,,,socks4 connect failed: 005b
 154.236.168.162:1981,False,,,timed out
 154.29.232.229:6889,False,,,timed out
 154.59.56.74:999,False,,,timed out
@@ -540,13 +541,13 @@ proxy,ok,latency_ms,exit_ip,error
 154.6.20.228:8195,False,,,timed out
 154.62.226.187:9051,False,,,timed out
 154.65.39.8:80,False,,,timed out
-154.66.108.52:3629,False,,,socks4 connect failed: 005b
-154.68.64.3:80,False,,,unexpected eof
-154.68.64.4:80,False,,,timed out
+154.66.108.52:3629,False,,,timed out
+154.68.64.3:80,False,,,timed out
+154.68.64.4:80,False,,,unexpected eof
 154.68.64.5:80,False,,,unexpected eof
-154.68.64.6:80,False,,,unexpected eof
+154.68.64.6:80,False,,,timed out
 154.79.242.178:10801,False,,,[Errno 111] Connection refused
-154.79.246.102:1080,False,,,timed out
+154.79.246.102:1080,False,,,socks4 connect failed: 005b
 155.0.181.254:41174,False,,,timed out
 155.254.38.12:5688,False,,,timed out
 155.254.38.144:5820,False,,,timed out
@@ -559,17 +560,18 @@ proxy,ok,latency_ms,exit_ip,error
 157.15.1.190:8080,False,,,timed out
 157.15.139.51:8080,False,,,timed out
 157.15.67.181:80,False,,,timed out
+157.173.115.35:1081,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
 157.20.35.40:9090,False,,,timed out
 157.230.191.76:56996,False,,,[Errno 111] Connection refused
 157.230.219.85:8118,False,,,socks4 connect failed: 4854
 157.66.26.151:1080,False,,,timed out
 157.90.10.50:80,False,,,unexpected eof
-157.90.113.23:9052,False,,,socks4 connect failed: 005b
+157.90.113.23:9052,False,,,timed out
 158.101.8.92:1080,False,,,timed out
 158.179.58.126:3128,False,,,timed out
 158.220.99.85:4545,False,,,"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
 158.94.216.206:9119,False,,,timed out
-159.192.121.240:4145,False,,,timed out
+159.148.146.65:5678,False,,,timed out
 159.192.139.42:5678,False,,,timed out
 159.192.97.129:5678,False,,,timed out
 159.195.194.242:8080,False,,,timed out
@@ -583,26 +585,25 @@ proxy,ok,latency_ms,exit_ip,error
 159.65.245.255:80,False,,,timed out
 159.69.153.169:5566,False,,,timed out
 159.69.31.188:40424,False,,,timed out
-160.119.159.98:1080,False,,,socks4 connect failed: 005b
+160.119.159.98:1080,False,,,timed out
 160.119.159.98:1081,False,,,[Errno 111] Connection refused
 160.187.1.225:9050,False,,,timed out
-160.20.165.242:8080,False,,,[Errno 104] Connection reset by peer
-160.20.37.126:80,False,,,timed out
+160.20.165.242:8080,False,,,socks4 connect failed: 005b
+160.20.36.126:80,False,,,timed out
 160.22.22.85:5678,False,,,timed out
 160.22.64.16:8097,False,,,timed out
 160.25.83.52:1086,False,,,socks4 connect failed: 005b
-160.250.226.94:1081,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
-160.30.104.170:1080,False,,,socks4 connect failed: 005b
+160.250.226.94:1081,False,,,[Errno 104] Connection reset by peer
 160.30.104.170:1256,False,,,timed out
-160.30.113.24:1080,False,,,[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1010)
+160.30.113.24:1080,False,,,timed out
 160.30.113.24:1081,False,,,[Errno 111] Connection refused
 161.49.100.131:1080,False,,,timed out
 161.97.104.161:9050,False,,,timed out
-161.97.107.63:9050,False,,,timed out
 161.97.119.1:8888,False,,,timed out
 161.97.94.168:6001,False,,,timed out
 162.214.159.94:3128,False,,,[Errno 111] Connection refused
 162.214.74.29:3128,False,,,[Errno 111] Connection refused
+162.216.185.241:1084,False,,,timed out
 162.216.204.146:1080,False,,,timed out
 162.220.246.186:6470,False,,,timed out
 162.220.246.243:6527,False,,,timed out
@@ -621,7 +622,7 @@ proxy,ok,latency_ms,exit_ip,error
 163.172.132.238:16379,False,,,timed out
 163.172.171.22:16379,False,,,timed out
 163.172.53.142:80,False,,,timed out
-163.47.156.230:1080,False,,,socks4 connect failed: 005b
+163.47.156.230:1080,False,,,timed out
 163.5.53.34:8082,False,,,timed out
 163.53.204.178:9813,False,,,timed out
 164.163.73.5:999,False,,,timed out
@@ -631,9 +632,9 @@ proxy,ok,latency_ms,exit_ip,error
 165.154.20.187:10808,False,,,_ssl.c:993: The handshake operation timed out
 165.154.20.187:10818,False,,,timed out
 165.16.192.81:1080,False,,,timed out
-165.165.178.142:4153,False,,,timed out
+165.165.178.142:4153,False,,,socks4 connect failed: 005b
 165.227.220.70:40001,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)
-166.1.61.57:1080,False,,,timed out
+166.1.61.57:1080,False,,,_ssl.c:993: The handshake operation timed out
 166.62.35.102:45775,False,,,[Errno 111] Connection refused
 166.88.235.20:5648,False,,,timed out
 166.88.34.130:5841,False,,,timed out
@@ -655,13 +656,14 @@ proxy,ok,latency_ms,exit_ip,error
 170.244.0.179:4145,False,,,timed out
 170.246.198.24:5678,False,,,timed out
 170.247.43.142:32812,False,,,timed out
-170.80.221.192:4153,False,,,[Errno 104] Connection reset by peer
-170.81.140.79:61437,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
+170.80.221.192:4153,False,,,timed out
+170.81.140.79:61437,False,,,[Errno 104] Connection reset by peer
+171.22.182.164:1080,False,,,socks4 connect failed: 005b
 171.242.14.54:1081,False,,,[Errno 111] Connection refused
 171.244.199.151:1337,False,,,"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
 171.244.68.28:5678,False,,,timed out
-171.247.84.223:1080,False,,,timed out
-171.247.84.223:1081,False,,,[Errno 111] Connection refused
+171.247.84.223:1080,False,,,socks4 connect failed: 005b
+171.250.220.198:1081,False,,,timed out
 171.4.85.65:5678,False,,,timed out
 171.5.179.150:8080,False,,,timed out
 172.105.11.250:33624,False,,,[Errno 111] Connection refused
@@ -674,7 +676,7 @@ proxy,ok,latency_ms,exit_ip,error
 173.249.2.58:5964,False,,,[Errno 111] Connection refused
 173.249.24.121:1080,False,,,[Errno 111] Connection refused
 173.255.248.203:9050,False,,,timed out
-174.138.119.88:80,False,,,socks4 connect failed: 4854
+174.138.119.88:80,False,,,[Errno 104] Connection reset by peer
 174.138.162.34:8254,False,,,timed out
 174.138.162.35:8888,False,,,timed out
 174.138.162.36:32926,False,,,timed out
@@ -690,27 +692,26 @@ proxy,ok,latency_ms,exit_ip,error
 175.184.236.12:1111,False,,,timed out
 175.29.178.34:10808,False,,,timed out
 176.119.23.27:1080,False,,,timed out
-176.123.169.44:1090,False,,,timed out
 176.192.41.172:4444,False,,,timed out
-176.214.78.230:5678,False,,,timed out
-176.236.14.2:4153,False,,,timed out
+176.214.78.230:5678,False,,,[Errno 104] Connection reset by peer
 176.61.151.123:80,False,,,timed out
 176.74.193.6:36918,False,,,timed out
 176.74.199.115:19524,False,,,timed out
-176.88.166.190:5678,False,,,timed out
+176.88.166.190:5678,False,,,socks4 connect failed: 005b
 176.9.238.167:52533,False,,,timed out
 176.99.134.183:8090,False,,,timed out
 176.99.2.43:1080,False,,,timed out
 177.104.87.23:5678,False,,,timed out
-177.125.212.244:4145,False,,,socks4 connect failed: 005b
+177.125.212.244:4145,False,,,timed out
 177.136.124.36:3629,False,,,[Errno 111] Connection refused
-177.136.124.45:56113,False,,,socks4 connect failed: 005b
+177.136.124.45:56113,False,,,timed out
 177.137.207.166:1080,False,,,timed out
+177.184.67.141:4145,False,,,timed out
 177.193.203.146:8080,False,,,timed out
 177.234.192.44:32213,False,,,timed out
 177.234.192.45:32213,False,,,timed out
 177.234.192.47:32213,False,,,timed out
-177.253.136.162:5678,False,,,timed out
+177.253.136.162:5678,False,,,[Errno 104] Connection reset by peer
 177.26.112.65:5678,False,,,timed out
 177.38.245.106:55713,False,,,timed out
 177.43.72.250:5678,False,,,timed out
@@ -737,33 +738,35 @@ proxy,ok,latency_ms,exit_ip,error
 178.35.177.242:3629,False,,,[Errno 111] Connection refused
 178.95.181.82:33333,False,,,[Errno 111] Connection refused
 179.1.110.77:5678,False,,,timed out
-179.189.242.5:5432,False,,,socks4 connect failed: 005b
-179.189.243.245:5432,False,,,socks4 connect failed: 005b
-179.189.246.129:5432,False,,,socks4 connect failed: 005b
-179.189.248.125:5432,False,,,socks4 connect failed: 005b
+179.189.242.5:5432,False,,,timed out
+179.189.243.245:5432,False,,,[Errno 104] Connection reset by peer
+179.189.246.129:5432,False,,,timed out
+179.189.248.125:5432,False,,,[Errno 104] Connection reset by peer
 179.189.248.129:5432,False,,,[Errno 104] Connection reset by peer
-179.189.249.130:5432,False,,,timed out
-179.189.249.137:5432,False,,,timed out
-179.189.253.193:5432,False,,,timed out
+179.189.249.130:5432,False,,,socks4 connect failed: 005b
+179.189.249.137:5432,False,,,[Errno 104] Connection reset by peer
+179.189.249.61:5432,False,,,[Errno 104] Connection reset by peer
+179.189.253.193:5432,False,,,socks4 connect failed: 005b
 179.27.86.36:4153,False,,,socks4 connect failed: 005b
 179.40.75.1:61362,False,,,[Errno 111] Connection refused
 179.61.245.177:6956,False,,,timed out
 179.96.251.161:5678,False,,,[Errno 111] Connection refused
 18.144.28.212:3128,False,,,timed out
 18.170.45.5:34702,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-180.158.166.144:4145,False,,,timed out
+180.158.166.144:4145,False,,,socks4 connect failed: 005b
 180.180.171.113:4145,False,,,timed out
-180.183.149.236:5678,False,,,socks4 connect failed: 005b
-180.183.198.87:1080,False,,,socks4 connect failed: 005b
+180.183.149.236:5678,False,,,timed out
+180.183.198.87:1080,False,,,[Errno 104] Connection reset by peer
+180.183.198.87:1081,False,,,[Errno 111] Connection refused
 180.191.36.250:8081,False,,,timed out
+180.211.93.105:3108,False,,,socks4 connect failed: 005b
 180.211.93.110:8080,False,,,timed out
-180.92.212.178:5678,False,,,timed out
+180.92.212.178:5678,False,,,socks4 connect failed: 005b
 181.113.135.254:50083,False,,,timed out
 181.115.207.114:1080,False,,,timed out
 181.115.207.115:1080,False,,,timed out
-181.115.207.115:1081,False,,,[Errno 111] Connection refused
 181.115.74.172:5678,False,,,socks4 connect failed: 005b
-181.115.75.102:5678,False,,,timed out
+181.115.75.102:5678,False,,,[Errno 104] Connection reset by peer
 181.119.109.13:999,False,,,timed out
 181.129.182.138:5678,False,,,timed out
 181.129.62.2:47377,False,,,timed out
@@ -771,12 +774,13 @@ proxy,ok,latency_ms,exit_ip,error
 181.13.198.90:4153,False,,,timed out
 181.143.207.10:33333,False,,,timed out
 181.143.21.146:4153,False,,,timed out
-181.143.59.140:4153,False,,,timed out
+181.143.37.11:32767,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
+181.143.59.140:4153,False,,,socks4 connect failed: 005b
 181.143.81.51:5678,False,,,timed out
 181.188.203.112:999,False,,,timed out
 181.189.132.74:5678,False,,,timed out
-181.204.39.202:53740,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
-181.204.4.74:5678,False,,,timed out
+181.204.39.202:53740,False,,,timed out
+181.204.4.74:5678,False,,,socks4 connect failed: 005b
 181.209.106.186:1080,False,,,timed out
 181.209.106.187:1080,False,,,timed out
 181.209.106.188:1080,False,,,timed out
@@ -788,19 +792,21 @@ proxy,ok,latency_ms,exit_ip,error
 181.48.243.194:4153,False,,,timed out
 181.48.70.30:4153,False,,,timed out
 181.57.138.70:4153,False,,,timed out
-181.57.178.146:1080,False,,,socks4 connect failed: 005b
+181.57.178.146:1080,False,,,timed out
 181.57.178.146:1081,False,,,[Errno 111] Connection refused
-182.16.171.65:51459,False,,,socks4 connect failed: 005b
+182.16.171.65:51459,False,,,timed out
 182.16.240.49:30617,False,,,timed out
 182.160.116.125:1088,False,,,[Errno 111] Connection refused
 182.160.124.153:12331,False,,,timed out
+182.253.144.20:4153,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
 182.52.63.95:4153,False,,,timed out
 182.52.67.122:50801,False,,,timed out
 182.53.96.56:4145,False,,,timed out
-183.110.216.128:8090,False,,,unexpected eof
+183.110.216.128:8090,False,,,timed out
 183.110.216.159:8090,False,,,timed out
+183.128.122.15:1081,False,,,[Errno 111] Connection refused
 183.182.102.135:5678,False,,,timed out
-183.80.130.10:4145,False,,,timed out
+183.80.130.10:4145,False,,,socks4 connect failed: 005b
 183.88.212.247:1080,False,,,timed out
 183.88.240.53:4145,False,,,timed out
 183.89.139.38:4153,False,,,timed out
@@ -808,7 +814,6 @@ proxy,ok,latency_ms,exit_ip,error
 184.170.245.148:4145,False,,,_ssl.c:993: The handshake operation timed out
 184.170.248.5:4145,False,,,_ssl.c:993: The handshake operation timed out
 184.170.249.65:4145,False,,,_ssl.c:993: The handshake operation timed out
-184.170.251.30:11288,False,,,_ssl.c:993: The handshake operation timed out
 184.174.46.137:5766,False,,,timed out
 184.178.172.11:4145,False,,,_ssl.c:993: The handshake operation timed out
 184.178.172.13:15311,False,,,_ssl.c:993: The handshake operation timed out
@@ -830,29 +835,30 @@ proxy,ok,latency_ms,exit_ip,error
 184.182.240.12:4145,False,,,_ssl.c:993: The handshake operation timed out
 184.182.240.211:4145,False,,,_ssl.c:993: The handshake operation timed out
 184.75.221.82:3118,False,,,timed out
-185.108.76.197:9050,False,,,timed out
+185.108.76.197:9050,False,,,[Errno 104] Connection reset by peer
 185.128.242.4:45629,False,,,timed out
-185.130.219.10:4153,False,,,[Errno 104] Connection reset by peer
-185.132.1.221:4145,False,,,[Errno 104] Connection reset by peer
+185.130.219.10:4153,False,,,timed out
+185.132.1.221:4145,False,,,socks4 connect failed: 005b
 185.135.81.149:9060,False,,,timed out
 185.139.56.133:4145,False,,,timed out
 185.14.47.52:16088,False,,,timed out
 185.142.169.24:4153,False,,,timed out
-185.147.69.48:1081,False,,,[Errno 111] Connection refused
 185.151.86.86:3699,False,,,timed out
 185.157.111.3:5678,False,,,timed out
 185.161.186.133:54321,False,,,timed out
 185.166.27.208:2020,False,,,timed out
 185.171.202.170:9150,False,,,timed out
-185.190.154.121:4145,False,,,socks4 connect failed: 005b
+185.190.154.121:4145,False,,,timed out
 185.190.90.2:4145,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
 185.195.71.218:18080,False,,,unexpected eof
-185.196.178.238:60606,False,,,socks4 connect failed: 005b
-185.196.61.251:1080,False,,,unexpected eof
+185.196.178.238:60606,False,,,timed out
+185.196.61.251:1080,False,,,[Errno 111] Connection refused
 185.197.74.126:2080,False,,,timed out
-185.204.170.179:1102,False,,,timed out
+185.204.170.179:1102,False,,,_ssl.c:993: The handshake operation timed out
+185.204.170.179:1115,False,,,timed out
+185.204.170.179:1134,False,,,timed out
 185.213.91.24:9100,False,,,timed out
-185.225.40.122:1080,False,,,timed out
+185.225.40.122:1080,False,,,unexpected eof
 185.226.113.180:38030,False,,,timed out
 185.226.204.145:5698,False,,,timed out
 185.226.204.180:5733,False,,,timed out
@@ -865,18 +871,18 @@ proxy,ok,latency_ms,exit_ip,error
 185.226.207.86:5635,False,,,timed out
 185.228.160.145:1080,False,,,timed out
 185.228.89.74:1081,False,,,[Errno 111] Connection refused
-185.244.158.4:3129,False,,,socks4 connect failed: 005b
+185.244.158.4:3129,False,,,timed out
 185.244.208.193:37430,False,,,[Errno 111] Connection refused
-185.30.43.65:60606,False,,,socks4 connect failed: 005b
-185.32.4.102:4153,False,,,[Errno 104] Connection reset by peer
-185.32.4.65:4153,False,,,timed out
+185.30.43.65:60606,False,,,timed out
+185.32.4.102:4153,False,,,unexpected eof
+185.32.4.65:4153,False,,,[Errno 104] Connection reset by peer
 185.34.17.72:60606,False,,,timed out
 185.40.80.143:4153,False,,,timed out
 185.43.189.182:3629,False,,,timed out
 185.43.249.148:39316,False,,,[Errno 111] Connection refused
 185.51.92.108:51327,False,,,timed out
 185.51.92.84:51327,False,,,timed out
-185.58.115.185:40000,False,,,socks4 connect failed: 005b
+185.58.115.185:40000,False,,,timed out
 185.58.115.185:8080,False,,,timed out
 185.62.48.126:5678,False,,,timed out
 185.70.186.39:9050,False,,,timed out
@@ -886,11 +892,13 @@ proxy,ok,latency_ms,exit_ip,error
 185.88.177.40:80,False,,,socks4 connect failed: 4854
 185.89.156.130:5678,False,,,timed out
 185.97.114.179:3629,False,,,timed out
+185.98.208.98:28000,False,,,[Errno 104] Connection reset by peer
 186.1.182.194:4153,False,,,socks4 connect failed: 005b
 186.103.133.91:5678,False,,,timed out
+186.138.177.33:4145,False,,,[Errno 104] Connection reset by peer
 186.148.196.60:999,False,,,timed out
-186.190.228.83:4153,False,,,socks4 connect failed: 005b
-186.194.127.41:4153,False,,,[Errno 104] Connection reset by peer
+186.190.228.83:4153,False,,,timed out
+186.194.127.41:4153,False,,,timed out
 186.194.234.18:4153,False,,,[Errno 104] Connection reset by peer
 186.201.31.189:4145,False,,,timed out
 186.211.2.54:4145,False,,,timed out
@@ -898,13 +906,12 @@ proxy,ok,latency_ms,exit_ip,error
 186.219.215.147:4153,False,,,timed out
 186.219.96.12:52017,False,,,timed out
 186.224.225.82:42648,False,,,timed out
-186.246.14.108:9151,False,,,"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
-186.246.14.205:9050,False,,,timed out
-186.246.31.197:9050,False,,,timed out
-186.251.253.53:31337,False,,,timed out
-186.26.95.249:61445,False,,,timed out
+186.246.14.108:9151,False,,,timed out
+186.246.31.197:9050,False,,,socks4 connect failed: 005b
+186.251.253.53:31337,False,,,socks4 connect failed: 005b
+186.26.95.249:61445,False,,,unexpected eof
 186.33.45.220:999,False,,,timed out
-186.33.61.57:999,False,,,timed out
+186.33.61.57:999,False,,,[Errno 111] Connection refused
 186.96.124.242:4153,False,,,[Errno 111] Connection refused
 186.96.19.156:8080,False,,,timed out
 187.141.129.86:4153,False,,,timed out
@@ -914,22 +921,21 @@ proxy,ok,latency_ms,exit_ip,error
 187.32.20.249:5678,False,,,timed out
 187.49.207.65:4153,False,,,timed out
 187.60.67.218:5678,False,,,timed out
-187.85.152.43:5432,False,,,socks4 connect failed: 005b
 187.86.153.254:30660,False,,,timed out
+188.132.249.102:1081,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
 188.133.160.22:4145,False,,,timed out
 188.134.1.49:3629,False,,,[Errno 111] Connection refused
 188.134.9.40:1080,False,,,timed out
 188.143.129.133:1080,False,,,timed out
-188.143.169.22:33333,False,,,unexpected eof
+188.143.169.22:33333,False,,,timed out
 188.163.170.130:35578,False,,,timed out
 188.164.199.199:36938,False,,,timed out
 188.169.84.30:5678,False,,,timed out
 188.17.116.119:1080,False,,,timed out
 188.17.93.62:1080,False,,,timed out
 188.191.164.55:4890,False,,,timed out
-188.191.18.66:1080,False,,,[Errno 104] Connection reset by peer
+188.191.18.66:1080,False,,,unexpected eof
 188.215.31.189:10808,False,,,_ssl.c:993: The handshake operation timed out
-188.244.117.60:9250,False,,,timed out
 188.247.39.14:43032,False,,,timed out
 188.40.158.211:1088,False,,,[Errno 111] Connection refused
 188.68.57.86:9050,False,,,timed out
@@ -937,21 +943,22 @@ proxy,ok,latency_ms,exit_ip,error
 188.72.16.74:1081,False,,,[Errno 111] Connection refused
 188.95.20.139:5678,False,,,timed out
 189.203.181.34:1080,False,,,socks4 connect failed: 005b
-189.39.118.210:5678,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
+189.39.118.210:5678,False,,,timed out
 190.0.15.18:5678,False,,,timed out
 190.104.213.175:1080,False,,,timed out
 190.104.26.227:33638,False,,,socks4 connect failed: 005b
 190.109.72.17:33633,False,,,timed out
-190.109.72.224:33633,False,,,timed out
+190.109.72.224:33633,False,,,socks4 connect failed: 005b
+190.111.243.150:1085,False,,,timed out
 190.113.249.14:50000,False,,,timed out
 190.12.95.170:37209,False,,,socks4 connect failed: 005b
 190.13.147.241:5678,False,,,socks4 connect failed: 005b
 190.13.147.93:5678,False,,,[Errno 111] Connection refused
 190.140.31.195:9900,False,,,timed out
-190.144.224.182:44550,False,,,unexpected eof
+190.144.224.182:44550,False,,,timed out
 190.145.37.2:65409,False,,,timed out
 190.15.210.143:33333,False,,,timed out
-190.182.137.250:1085,False,,,timed out
+190.182.137.250:1085,False,,,[Errno 104] Connection reset by peer
 190.182.88.214:30956,False,,,[Errno 111] Connection refused
 190.184.144.222:5678,False,,,timed out
 190.216.56.1:4153,False,,,timed out
@@ -961,16 +968,17 @@ proxy,ok,latency_ms,exit_ip,error
 190.228.33.45:1085,False,,,timed out
 190.249.169.153:3629,False,,,timed out
 190.43.92.249:5678,False,,,timed out
-190.54.100.74:5678,False,,,timed out
 190.54.12.74:5678,False,,,timed out
 190.58.248.86:80,False,,,timed out
 190.61.61.210:999,False,,,timed out
-190.89.104.48:5432,False,,,socks4 connect failed: 005b
-190.89.104.88:5432,False,,,socks4 connect failed: 005b
-190.89.4.182:1080,False,,,[Errno 104] Connection reset by peer
+190.89.104.48:5432,False,,,timed out
+190.89.104.76:5432,False,,,timed out
+190.89.104.88:5432,False,,,[Errno 104] Connection reset by peer
+190.89.4.182:1080,False,,,timed out
+190.89.4.182:1081,False,,,[Errno 111] Connection refused
 190.97.241.106:999,False,,,timed out
 191.101.174.85:6133,False,,,timed out
-191.223.220.23:1080,False,,,timed out
+191.223.220.23:1080,False,,,unexpected eof
 191.243.54.245:41599,False,,,[Errno 111] Connection refused
 191.7.189.184:5678,False,,,[Errno 111] Connection refused
 191.7.208.101:31576,False,,,timed out
@@ -989,7 +997,7 @@ proxy,ok,latency_ms,exit_ip,error
 192.111.139.163:19404,False,,,_ssl.c:993: The handshake operation timed out
 192.111.139.165:4145,False,,,_ssl.c:993: The handshake operation timed out
 192.158.15.201:50877,False,,,timed out
-192.163.200.82:17071,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
+192.163.200.82:17071,False,,,timed out
 192.163.200.93:17071,False,,,timed out
 192.177.103.14:6507,False,,,timed out
 192.177.87.149:5995,False,,,timed out
@@ -1012,11 +1020,11 @@ proxy,ok,latency_ms,exit_ip,error
 192.73.243.65:3128,False,,,timed out
 192.99.201.39:18336,False,,,timed out
 192.99.244.173:15590,False,,,timed out
-193.105.62.11:58973,False,,,socks4 connect failed: 005b
-193.106.57.96:5678,False,,,[Errno 104] Connection reset by peer
-193.158.12.141:4153,False,,,socks4 connect failed: 005b
+193.105.62.11:58973,False,,,[Errno 104] Connection reset by peer
+193.106.57.96:5678,False,,,socks4 connect failed: 005b
+193.158.12.141:4153,False,,,[Errno 104] Connection reset by peer
 193.200.151.158:8192,False,,,timed out
-193.221.203.14:1080,False,,,socks4 connect failed: 005b
+193.221.203.14:1080,False,,,timed out
 193.23.200.117:1085,False,,,timed out
 193.43.149.54:1080,False,,,timed out
 193.56.28.130:3129,False,,,timed out
@@ -1027,19 +1035,21 @@ proxy,ok,latency_ms,exit_ip,error
 194.163.175.167:40000,False,,,timed out
 194.163.182.234:53941,False,,,[Errno 111] Connection refused
 194.164.22.24:8080,False,,,timed out
-194.190.98.110:60606,False,,,timed out
+194.190.98.110:60606,False,,,socks4 connect failed: 005b
 194.233.88.202:12187,False,,,timed out
 194.28.91.10:5678,False,,,timed out
 194.31.108.109:2080,False,,,_ssl.c:993: The handshake operation timed out
-194.53.54.201:8090,False,,,timed out
+194.53.54.201:8090,False,,,socks4 connect failed: 005b
+194.87.111.236:1081,False,,,[Errno 111] Connection refused
 194.87.69.136:8989,False,,,[Errno 111] Connection refused
 194.87.79.243:2333,False,,,timed out
 195.114.209.50:80,False,,,timed out
 195.114.7.6:1080,False,,,timed out
 195.130.115.208:33333,False,,,timed out
+195.133.26.196:1081,False,,,[Errno 111] Connection refused
 195.138.65.34:5678,False,,,timed out
 195.138.73.54:31145,False,,,timed out
-195.140.226.32:5678,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
+195.140.226.32:5678,False,,,timed out
 195.158.8.123:3128,False,,,timed out
 195.160.223.99:9050,False,,,timed out
 195.19.51.20:1080,False,,,[Errno 111] Connection refused
@@ -1047,29 +1057,27 @@ proxy,ok,latency_ms,exit_ip,error
 195.190.121.154:1080,False,,,timed out
 195.211.124.50:1080,False,,,timed out
 195.219.98.27:5678,False,,,timed out
-195.225.116.14:4145,False,,,timed out
-195.225.116.15:4145,False,,,timed out
 195.228.65.164:5678,False,,,timed out
 195.26.224.135:80,False,,,socks4 connect failed: 4854
 195.78.100.162:3629,False,,,timed out
-195.78.113.38:4153,False,,,timed out
+195.78.113.38:4153,False,,,socks4 connect failed: 005b
 195.98.82.63:1080,False,,,timed out
 196.0.111.194:48009,False,,,socks4 connect failed: 005b
-196.0.113.10:31651,False,,,socks4 connect failed: 005b
+196.0.113.10:31651,False,,,timed out
 196.1.182.158:1080,False,,,timed out
 196.1.93.16:80,False,,,timed out
 196.1.97.198:80,False,,,timed out
 196.15.250.17:4153,False,,,timed out
 196.223.129.21:80,False,,,timed out
-196.29.231.1:4145,False,,,[Errno 104] Connection reset by peer
+196.29.231.1:4145,False,,,timed out
 197.156.243.134:33333,False,,,timed out
 197.164.101.13:1981,False,,,timed out
 197.211.24.206:5678,False,,,timed out
-197.221.234.149:80,False,,,unexpected eof
+197.221.234.149:80,False,,,timed out
 197.221.234.253:80,False,,,timed out
-197.221.237.248:80,False,,,unexpected eof
+197.221.237.248:80,False,,,timed out
 197.221.240.176:80,False,,,timed out
-197.221.240.178:80,False,,,timed out
+197.221.240.178:80,False,,,unexpected eof
 197.221.240.246:80,False,,,timed out
 197.221.249.196:80,False,,,unexpected eof
 197.232.43.224:1080,False,,,timed out
@@ -1088,8 +1096,7 @@ proxy,ok,latency_ms,exit_ip,error
 198.105.122.186:6759,False,,,timed out
 198.105.122.210:6783,False,,,timed out
 198.105.122.53:6626,False,,,timed out
-198.12.37.25:1080,False,,,unexpected eof
-198.12.37.25:1081,False,,,[Errno 111] Connection refused
+198.12.37.25:1080,False,,,[Errno 104] Connection reset by peer
 198.144.190.164:6011,False,,,timed out
 198.23.239.227:6633,False,,,timed out
 198.37.98.43:5573,False,,,timed out
@@ -1106,36 +1113,38 @@ proxy,ok,latency_ms,exit_ip,error
 199.116.114.11:4145,False,,,_ssl.c:993: The handshake operation timed out
 199.119.74.239:33333,False,,,timed out
 199.180.9.50:6070,False,,,timed out
-199.229.254.129:4145,False,,,[Errno 111] Connection refused
-199.247.18.115:9050,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)
+199.229.254.129:4145,False,,,_ssl.c:993: The handshake operation timed out
+199.247.18.115:9050,False,,,timed out
 199.58.184.97:4145,False,,,[Errno 111] Connection refused
 199.58.185.9:4145,False,,,[Errno 111] Connection refused
 2.26.89.85:3128,False,,,timed out
-2.27.63.250:8888,False,,,[Errno 111] Connection refused
+2.27.63.250:8888,False,,,unexpected eof
 20.238.167.129:1080,False,,,timed out
-20.31.107.83:1081,False,,,timed out
-20.4.93.197:1080,False,,,timed out
+20.238.167.129:1081,False,,,timed out
+20.31.107.83:1080,False,,,timed out
+20.50.39.194:1080,False,,,unexpected eof
 20.83.154.79:7070,False,,,[Errno 111] Connection refused
 200.110.218.11:999,False,,,timed out
 200.115.157.211:4145,False,,,timed out
 200.118.122.6:4153,False,,,timed out
 200.122.92.211:5678,False,,,timed out
-200.16.211.68:4153,False,,,timed out
+200.16.211.68:4153,False,,,socks4 connect failed: 005b
+200.188.246.122:60606,False,,,timed out
 200.32.105.86:4153,False,,,timed out
 200.41.60.33:4153,False,,,timed out
 200.43.43.121:4145,False,,,[Errno 104] Connection reset by peer
+200.43.43.124:4145,False,,,[Errno 104] Connection reset by peer
 200.43.43.126:4145,False,,,[Errno 104] Connection reset by peer
 200.52.153.194:5678,False,,,timed out
-200.70.56.84:1081,False,,,[Errno 111] Connection refused
 200.75.137.210:4145,False,,,timed out
 200.8.235.10:4145,False,,,[Errno 104] Connection reset by peer
 200.85.52.254:5678,False,,,timed out
 201.158.15.134:35010,False,,,timed out
 201.174.73.70:11337,False,,,[Errno 111] Connection refused
-201.184.239.75:5678,False,,,timed out
+201.184.239.75:5678,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
 201.217.51.9:4145,False,,,timed out
 201.234.24.1:4153,False,,,timed out
-201.234.24.89:4153,False,,,socks4 connect failed: 005b
+201.234.24.89:4153,False,,,timed out
 201.48.235.33:4153,False,,,timed out
 201.93.159.234:4145,False,,,timed out
 202.131.235.138:4153,False,,,timed out
@@ -1145,37 +1154,34 @@ proxy,ok,latency_ms,exit_ip,error
 202.138.242.6:38373,False,,,timed out
 202.141.242.3:55544,False,,,timed out
 202.142.159.204:31026,False,,,timed out
-202.148.22.106:5678,False,,,socks4 connect failed: 005b
+202.148.22.106:5678,False,,,timed out
 202.151.163.10:1080,False,,,timed out
 202.152.15.2:4145,False,,,timed out
 202.162.219.12:1080,False,,,[Errno 104] Connection reset by peer
-202.162.219.12:1081,False,,,[Errno 111] Connection refused
 202.166.196.105:48293,False,,,timed out
 202.166.219.80:4153,False,,,[Errno 104] Connection reset by peer
+202.175.221.171:4153,False,,,timed out
 202.179.76.105:51951,False,,,timed out
-202.179.83.169:51951,False,,,socks4 connect failed: 005b
 202.181.24.102:10808,False,,,timed out
 202.4.125.221:1088,False,,,[Errno 111] Connection refused
-202.40.177.94:5678,False,,,timed out
 202.40.179.18:4145,False,,,timed out
 202.40.181.220:31247,False,,,timed out
 202.40.186.66:1088,False,,,[Errno 111] Connection refused
 202.40.190.78:1080,False,,,timed out
 202.55.175.237:1080,False,,,timed out
 202.58.64.29:8080,False,,,timed out
-202.62.52.120:1080,False,,,unexpected eof
-202.70.80.153:5678,False,,,[Errno 104] Connection reset by peer
+202.62.52.120:1080,False,,,timed out
+202.70.80.153:5678,False,,,socks4 connect failed: 005b
 202.78.167.58:9050,False,,,timed out
 202.79.26.242:1080,False,,,timed out
 202.91.41.102:1080,False,,,timed out
 203.112.134.74:5678,False,,,[Errno 104] Connection reset by peer
-203.150.113.234:14153,False,,,timed out
-203.156.190.5:5678,False,,,timed out
+203.150.113.234:14153,False,,,socks4 connect failed: 005b
+203.156.190.5:5678,False,,,socks4 connect failed: 005b
 203.160.58.198:4145,False,,,[Errno 104] Connection reset by peer
-203.170.146.146:4153,False,,,socks4 connect failed: 005b
+203.170.146.146:4153,False,,,timed out
 203.172.120.179:1080,False,,,socks4 connect failed: 005b
-203.172.120.179:1081,False,,,[Errno 111] Connection refused
-203.174.26.137:4153,False,,,timed out
+203.174.26.137:4153,False,,,socks4 connect failed: 005b
 203.175.103.9:3125,False,,,timed out
 203.188.245.98:52837,False,,,timed out
 203.189.135.105:1080,False,,,timed out
@@ -1183,7 +1189,7 @@ proxy,ok,latency_ms,exit_ip,error
 203.189.141.139:33333,False,,,[Errno 111] Connection refused
 203.189.152.79:1080,False,,,timed out
 203.189.154.151:1080,False,,,[Errno 111] Connection refused
-203.189.159.241:1080,False,,,socks4 connect failed: 005b
+203.189.159.241:1080,False,,,timed out
 203.194.21.241:4153,False,,,timed out
 203.202.253.186:58309,False,,,timed out
 203.205.29.108:5678,False,,,timed out
@@ -1191,25 +1197,24 @@ proxy,ok,latency_ms,exit_ip,error
 203.205.49.2:10163,False,,,timed out
 203.210.235.91:5678,False,,,timed out
 203.76.123.6:1080,False,,,unexpected eof
-205.177.85.130:39593,False,,,socks4 connect failed: 005b
 205.185.125.140:5556,False,,,[Errno 111] Connection refused
 205.185.126.15:5556,False,,,timed out
-205.209.66.105:1080,False,,,[Errno 104] Connection reset by peer
 205.209.66.105:1081,False,,,[Errno 111] Connection refused
 205.240.77.164:4145,False,,,timed out
 206.206.69.173:6437,False,,,timed out
 206.220.175.2:4145,False,,,_ssl.c:993: The handshake operation timed out
 206.245.131.160:80,False,,,unexpected eof
 206.42.59.67:33333,False,,,timed out
-207.244.69.164:50005,False,,,"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
+207.244.69.164:50005,False,,,timed out
 207.246.234.115:4669,False,,,timed out
 208.102.51.6:58208,False,,,_ssl.c:993: The handshake operation timed out
 208.113.161.0:23089,False,,,timed out
 208.96.138.86:29183,False,,,timed out
 209.141.44.241:1080,False,,,[Errno 111] Connection refused
-209.141.62.12:5555,False,,,timed out
+209.141.62.12:5555,False,,,socks4 connect failed: 4854
 209.159.153.21:46234,False,,,timed out
 209.182.234.151:40000,False,,,timed out
+209.38.214.48:1081,False,,,[Errno 111] Connection refused
 209.50.161.96:3129,False,,,timed out
 209.50.162.57:3129,False,,,timed out
 209.50.164.118:3129,False,,,timed out
@@ -1228,18 +1233,17 @@ proxy,ok,latency_ms,exit_ip,error
 210.245.51.76:4145,False,,,timed out
 211.209.210.50:1080,False,,,timed out
 211.21.125.32:4153,False,,,timed out
-212.103.118.77:5678,False,,,unexpected eof
+212.103.118.77:5678,False,,,[Errno 104] Connection reset by peer
 212.115.232.79:10800,False,,,timed out
-212.126.5.246:42344,False,,,timed out
 212.126.5.249:42344,False,,,timed out
 212.156.217.147:4153,False,,,timed out
 212.237.125.216:6969,False,,,timed out
 212.31.100.138:4153,False,,,[Errno 104] Connection reset by peer
 212.34.116.58:4145,False,,,timed out
 212.34.230.102:4153,False,,,timed out
-212.39.114.139:5678,False,,,socks4 connect failed: 005b
+212.39.114.139:5678,False,,,timed out
 212.46.215.90:1080,False,,,timed out
-212.50.19.150:4153,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
+212.50.19.150:4153,False,,,timed out
 212.83.143.151:31442,False,,,timed out
 213.111.146.36:18080,False,,,socks4 connect failed: 005b
 213.14.31.123:35314,False,,,timed out
@@ -1247,25 +1251,27 @@ proxy,ok,latency_ms,exit_ip,error
 213.150.221.198:4153,False,,,timed out
 213.156.124.3:33333,False,,,[Errno 111] Connection refused
 213.16.81.182:35559,False,,,timed out
-213.165.185.211:4153,False,,,socks4 connect failed: 005b
+213.165.185.211:4153,False,,,timed out
+213.165.32.177:1080,False,,,"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
 213.165.32.177:1081,False,,,[Errno 111] Connection refused
 213.165.38.49:1080,False,,,timed out
+213.165.43.73:46650,False,,,timed out
 213.169.215.97:5237,False,,,timed out
 213.171.26.67:8008,False,,,timed out
 213.172.89.227:4153,False,,,timed out
 213.19.205.18:54321,False,,,timed out
 213.190.26.158:1080,False,,,[Errno 111] Connection refused
-213.21.53.119:4153,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
-213.210.67.186:3629,False,,,socks4 connect failed: 005b
+213.21.53.119:4153,False,,,[Errno 104] Connection reset by peer
+213.210.67.186:3629,False,,,timed out
 213.222.34.200:4145,False,,,[Errno 111] Connection refused
 213.226.11.149:59086,False,,,timed out
-213.248.39.166:4153,False,,,[Errno 104] Connection reset by peer
+213.248.39.166:4153,False,,,timed out
 213.249.123.18:1080,False,,,timed out
 213.250.198.66:4145,False,,,timed out
-213.27.29.153:51000,False,,,[Errno 104] Connection reset by peer
+213.27.29.153:51000,False,,,timed out
 213.32.252.134:5678,False,,,[Errno 111] Connection refused
 213.6.38.50:59422,False,,,[Errno 111] Connection refused
-213.7.196.26:4153,False,,,socks4 connect failed: 005b
+213.7.196.26:4153,False,,,timed out
 216.105.130.131:4145,False,,,_ssl.c:993: The handshake operation timed out
 216.154.201.132:54321,False,,,socks4 connect failed: 005b
 216.173.76.38:6665,False,,,timed out
@@ -1289,12 +1295,11 @@ proxy,ok,latency_ms,exit_ip,error
 217.12.209.4:1080,False,,,timed out
 217.149.98.98:4153,False,,,timed out
 217.151.230.186:9055,False,,,timed out
-217.169.223.18:1081,False,,,[Errno 111] Connection refused
 217.182.6.206:26379,False,,,timed out
 217.216.67.197:3128,False,,,timed out
 217.23.6.121:15324,False,,,timed out
 217.29.18.206:4145,False,,,timed out
-217.60.245.29:4080,False,,,timed out
+217.60.245.29:4080,False,,,[Errno 104] Connection reset by peer
 217.66.207.3:33333,False,,,timed out
 217.69.121.124:5789,False,,,timed out
 217.69.121.55:5720,False,,,timed out
@@ -1303,8 +1308,8 @@ proxy,ok,latency_ms,exit_ip,error
 218.26.101.226:53813,False,,,timed out
 218.3.253.238:10800,False,,,timed out
 218.75.69.50:56430,False,,,[Errno 111] Connection refused
-218.90.167.205:1080,False,,,socks4 connect failed: 005b
-219.65.73.80:80,False,,,unexpected eof
+218.90.167.205:1080,False,,,timed out
+219.65.73.80:80,False,,,timed out
 219.65.73.81:80,False,,,unexpected eof
 219.93.101.60:80,False,,,timed out
 219.93.101.62:80,False,,,timed out
@@ -1318,9 +1323,11 @@ proxy,ok,latency_ms,exit_ip,error
 223.165.243.161:47205,False,,,timed out
 223.205.33.86:8080,False,,,timed out
 223.207.98.219:8080,False,,,timed out
-223.25.109.163:8199,False,,,unexpected eof
+223.25.109.163:8199,False,,,timed out
 223.25.110.37:8199,False,,,timed out
 223.254.141.102:6603,False,,,[Errno 111] Connection refused
+223.254.141.102:6632,False,,,timed out
+223.254.141.102:6635,False,,,timed out
 23.185.192.66:8181,False,,,timed out
 23.236.170.10:9043,False,,,socks4 connect failed: 4854
 23.236.170.116:9149,False,,,timed out
@@ -1333,8 +1340,8 @@ proxy,ok,latency_ms,exit_ip,error
 23.95.218.238:3128,False,,,timed out
 24.249.199.12:4145,False,,,_ssl.c:993: The handshake operation timed out
 24.249.199.4:4145,False,,,_ssl.c:993: The handshake operation timed out
-24.37.245.42:51056,False,,,timed out
-24.55.20.6:3030,False,,,timed out
+24.37.245.42:51056,False,,,socks4 connect failed: 005b
+24.55.20.6:3030,False,,,[Errno 111] Connection refused
 24.75.156.114:3366,False,,,timed out
 27.124.12.186:1080,False,,,"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
 27.124.12.186:1081,False,,,[Errno 111] Connection refused
@@ -1343,18 +1350,18 @@ proxy,ok,latency_ms,exit_ip,error
 27.147.239.162:35010,False,,,timed out
 27.154.57.94:10800,False,,,timed out
 3.10.170.234:3128,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-31.129.147.102:1080,False,,,timed out
+31.129.147.102:1080,False,,,unexpected eof
 31.146.73.192:4153,False,,,timed out
 31.148.13.96:1080,False,,,timed out
-31.148.13.96:1081,False,,,[Errno 111] Connection refused
 31.163.202.186:9050,False,,,timed out
+31.170.17.141:4153,False,,,timed out
 31.170.19.142:4153,False,,,timed out
 31.172.133.253:4153,False,,,timed out
 31.179.162.78:4153,False,,,timed out
 31.220.4.240:18967,False,,,timed out
-31.220.40.59:5080,False,,,socks4 connect failed: 005b
+31.220.40.59:5080,False,,,[Errno 104] Connection reset by peer
 31.24.251.15:1080,False,,,timed out
-31.42.6.125:5678,False,,,timed out
+31.42.6.125:5678,False,,,socks4 connect failed: 005b
 31.43.33.56:4153,False,,,socks4 connect failed: 005b
 31.56.137.33:6109,False,,,timed out
 31.56.137.78:6154,False,,,timed out
@@ -1384,21 +1391,20 @@ proxy,ok,latency_ms,exit_ip,error
 36.155.23.163:10808,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 36.155.23.163:10818,False,,,timed out
 36.37.244.41:5678,False,,,timed out
-36.64.27.123:5678,False,,,timed out
+36.64.27.123:5678,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
 36.64.5.162:5678,False,,,timed out
 36.89.229.97:50540,False,,,timed out
 36.89.251.210:5678,False,,,timed out
 36.91.45.11:51299,False,,,timed out
 36.92.87.73:5678,False,,,timed out
-36.94.119.218:4145,False,,,timed out
+36.94.119.218:4145,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
 36.94.185.93:35010,False,,,timed out
 36.95.189.165:5678,False,,,timed out
-37.148.9.84:2080,False,,,timed out
+37.148.9.84:2080,False,,,[Errno 111] Connection refused
 37.187.74.125:80,False,,,timed out
-37.193.125.68:1090,False,,,socks4 connect failed: 005b
+37.193.125.68:1090,False,,,timed out
 37.26.136.224:4153,False,,,timed out
-37.26.86.206:4145,False,,,timed out
-37.27.112.71:9050,False,,,timed out
+37.26.86.206:4145,False,,,[Errno 104] Connection reset by peer
 37.59.125.131:8888,False,,,socks4 connect failed: 4854
 37.59.50.81:5055,False,,,timed out
 38.154.193.68:5341,False,,,timed out
@@ -1407,66 +1413,69 @@ proxy,ok,latency_ms,exit_ip,error
 38.180.95.216:8080,False,,,timed out
 38.19.36.86:999,False,,,timed out
 38.191.210.120:999,False,,,timed out
-38.226.49.122:1080,False,,,[Errno 104] Connection reset by peer
+38.226.49.122:1080,False,,,timed out
 38.226.49.123:1080,False,,,[Errno 104] Connection reset by peer
 38.226.49.34:1080,False,,,[Errno 104] Connection reset by peer
 38.49.210.79:40000,False,,,[Errno 104] Connection reset by peer
 38.50.130.93:5678,False,,,timed out
-38.51.243.174:5678,False,,,timed out
+38.51.243.174:5678,False,,,socks4 connect failed: 005b
 38.52.222.218:999,False,,,timed out
 38.54.63.7:1080,False,,,timed out
 38.7.195.51:999,False,,,timed out
 38.7.195.53:999,False,,,timed out
 38.76.196.46:9050,False,,,timed out
-39.109.113.97:4090,False,,,socks4 connect failed: 4854
+39.109.113.97:4090,False,,,timed out
 39.175.80.225:1080,False,,,unexpected eof
+39.175.80.225:1081,False,,,[Errno 111] Connection refused
 4.231.72.210:1081,False,,,timed out
 4.245.104.69:1080,False,,,timed out
 4.245.104.69:1081,False,,,timed out
 41.184.92.220:80,False,,,unexpected eof
-41.184.92.221:80,False,,,timed out
+41.184.92.221:80,False,,,unexpected eof
 41.190.152.130:4673,False,,,timed out
-41.190.92.50:60606,False,,,socks4 connect failed: 005b
+41.190.92.50:60606,False,,,timed out
+41.216.186.68:80,False,,,timed out
 41.216.191.186:8080,False,,,timed out
-41.220.16.211:80,False,,,unexpected eof
-41.220.16.213:80,False,,,unexpected eof
+41.220.16.211:80,False,,,timed out
+41.220.16.213:80,False,,,timed out
 41.220.16.218:80,False,,,unexpected eof
-41.220.16.219:80,False,,,timed out
+41.220.16.219:80,False,,,unexpected eof
 41.223.108.13:1080,False,,,[Errno 111] Connection refused
 41.33.219.140:1976,False,,,timed out
 41.73.253.234:4145,False,,,[Errno 111] Connection refused
-41.75.84.86:4153,False,,,[Errno 104] Connection reset by peer
+41.75.84.86:4153,False,,,timed out
 41.79.10.218:4673,False,,,[Errno 111] Connection refused
 42.116.10.198:443,False,,,timed out
 43.106.60.21:1080,False,,,unexpected eof
-43.128.63.68:7890,False,,,timed out
+43.128.63.68:7890,False,,,[Errno 111] Connection refused
 43.153.84.220:9050,False,,,timed out
 43.153.86.246:7890,False,,,[Errno 111] Connection refused
-43.156.153.104:8080,False,,,[Errno 104] Connection reset by peer
+43.156.153.104:8080,False,,,socks4 connect failed: 4854
 43.156.84.41:10808,False,,,timed out
 43.159.198.87:7890,False,,,timed out
 43.160.219.223:1080,False,,,[Errno 111] Connection refused
-43.160.245.155:8080,False,,,timed out
 43.160.255.142:7890,False,,,[Errno 104] Connection reset by peer
-43.163.219.10:20000,False,,,socks4 connect failed: 005b
+43.163.219.10:20000,False,,,timed out
 43.166.201.204:3128,False,,,timed out
 43.208.241.161:3128,False,,,timed out
 43.229.79.241:8080,False,,,timed out
 43.230.193.154:1080,False,,,timed out
-43.251.225.168:8080,False,,,[Errno 111] Connection refused
+43.251.225.168:8080,False,,,unexpected eof
 43.252.237.169:1080,False,,,timed out
 43.252.238.252:69,False,,,timed out
+43.99.16.68:9097,False,,,timed out
 45.10.163.12:80,False,,,timed out
 45.115.1.14:5678,False,,,[Errno 111] Connection refused
 45.116.230.79:4673,False,,,timed out
 45.130.201.172:1080,False,,,timed out
 45.133.251.223:1080,False,,,timed out
+45.133.251.223:1081,False,,,timed out
 45.135.139.145:6448,False,,,timed out
 45.135.139.198:6501,False,,,timed out
 45.136.244.245:44531,False,,,timed out
-45.141.119.231:1080,False,,,"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
-45.141.119.231:1081,False,,,[Errno 111] Connection refused
-45.143.130.157:1080,False,,,timed out
+45.141.119.231:1080,False,,,[Errno 111] Connection refused
+45.143.130.157:1080,False,,,"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
+45.143.130.157:1081,False,,,[Errno 111] Connection refused
 45.146.163.31:80,False,,,socks4 connect failed: 4854
 45.159.189.203:1080,False,,,timed out
 45.168.244.16:1080,False,,,timed out
@@ -1475,21 +1484,22 @@ proxy,ok,latency_ms,exit_ip,error
 45.187.71.208:5678,False,,,timed out
 45.187.76.2:3629,False,,,[Errno 111] Connection refused
 45.190.141.241:1080,False,,,timed out
-45.194.41.103:8080,False,,,socks4 connect failed: 4854
-45.194.41.141:8080,False,,,socks4 connect failed: 4854
-45.194.47.134:8080,False,,,socks4 connect failed: 4854
-45.194.90.16:8080,False,,,socks4 connect failed: 4854
+45.194.41.103:8080,False,,,[Errno 104] Connection reset by peer
+45.194.41.141:8080,False,,,unexpected eof
+45.194.47.134:8080,False,,,[Errno 104] Connection reset by peer
+45.194.90.16:8080,False,,,[Errno 104] Connection reset by peer
 45.194.90.194:8080,False,,,[Errno 104] Connection reset by peer
 45.194.90.225:8080,False,,,[Errno 104] Connection reset by peer
 45.194.90.58:8080,False,,,[Errno 104] Connection reset by peer
-45.194.90.75:8080,False,,,socks4 connect failed: 4854
-45.194.91.166:8080,False,,,socks4 connect failed: 4854
+45.194.90.75:8080,False,,,[Errno 104] Connection reset by peer
+45.194.91.166:8080,False,,,[Errno 104] Connection reset by peer
+45.198.11.193:80,False,,,timed out
 45.198.20.223:8080,False,,,timed out
 45.229.17.130:999,False,,,timed out
 45.234.100.102:1080,False,,,timed out
-45.238.57.1:3629,False,,,[Errno 104] Connection reset by peer
+45.238.57.1:3629,False,,,unexpected eof
 45.249.59.83:6059,False,,,timed out
-45.249.79.190:3629,False,,,socks4 connect failed: 005b
+45.249.79.190:3629,False,,,timed out
 45.26.30.144:8888,False,,,timed out
 45.3.32.15:3129,False,,,timed out
 45.3.34.113:3129,False,,,timed out
@@ -1506,6 +1516,7 @@ proxy,ok,latency_ms,exit_ip,error
 45.32.169.213:61790,False,,,timed out
 45.32.195.109:9050,False,,,timed out
 45.33.21.96:4748,False,,,[Errno 111] Connection refused
+45.38.210.105:9050,False,,,timed out
 45.4.192.225:8080,False,,,timed out
 45.40.136.39:45741,False,,,[Errno 111] Connection refused
 45.41.171.249:6285,False,,,timed out
@@ -1522,39 +1533,38 @@ proxy,ok,latency_ms,exit_ip,error
 45.43.81.110:5757,False,,,timed out
 45.6.94.159:4153,False,,,timed out
 45.61.122.66:6358,False,,,timed out
-45.61.133.104:7777,False,,,timed out
+45.61.133.104:7777,False,,,[Errno 104] Connection reset by peer
 45.65.113.18:27676,False,,,[Errno 111] Connection refused
 45.70.188.10:4153,False,,,socks4 connect failed: 005b
 45.73.0.118:5678,False,,,socks4 connect failed: 005b
 45.74.31.22:9342,False,,,timed out
-45.74.31.23:9443,False,,,[Errno 111] Connection refused
-45.74.31.25:9889,False,,,timed out
+45.74.31.23:9443,False,,,timed out
+45.74.31.25:9889,False,,,[Errno 111] Connection refused
 45.74.31.30:9943,False,,,timed out
-45.74.31.40:9458,False,,,timed out
-45.74.31.41:11911,False,,,[Errno 111] Connection refused
-45.74.31.41:4064,False,,,timed out
+45.74.31.40:9458,False,,,[Errno 111] Connection refused
+45.74.31.41:11911,False,,,timed out
+45.74.31.41:4064,False,,,[Errno 111] Connection refused
 45.74.31.42:5728,False,,,timed out
 45.74.31.47:15341,False,,,[Errno 111] Connection refused
 45.74.31.47:5678,False,,,timed out
 45.74.31.50:11280,False,,,[Errno 111] Connection refused
-45.74.31.50:21935,False,,,timed out
+45.74.31.50:21935,False,,,[Errno 111] Connection refused
 45.79.203.254:48388,False,,,timed out
 45.80.151.33:3128,False,,,timed out
-45.84.13.153:1080,False,,,[Errno 111] Connection refused
-45.85.93.15:4567,False,,,timed out
-45.86.229.39:11000,False,,,timed out
+45.84.13.153:1080,False,,,unexpected eof
+45.86.229.39:11000,False,,,_ssl.c:993: The handshake operation timed out
 45.91.248.107:80,False,,,unexpected eof
 45.91.93.166:26649,False,,,[Errno 111] Connection refused
 45.95.2.232:2080,False,,,timed out
 45.95.38.57:9050,False,,,timed out
-46.10.198.10:4153,False,,,socks4 connect failed: 005b
+46.10.198.10:4153,False,,,timed out
 46.109.146.244:4145,False,,,timed out
-46.146.242.142:1080,False,,,timed out
-46.151.113.10:5678,False,,,[Errno 104] Connection reset by peer
-46.151.118.108:5678,False,,,socks4 connect failed: 005b
+46.146.242.142:1080,False,,,unexpected eof
+46.151.113.10:5678,False,,,socks4 connect failed: 005b
 46.160.90.81:5678,False,,,timed out
 46.171.28.162:59311,False,,,timed out
 46.188.2.42:5678,False,,,timed out
+46.224.14.155:9050,False,,,socks4 connect failed: 005b
 46.224.153.114:9050,False,,,timed out
 46.227.36.152:1080,False,,,timed out
 46.23.141.142:5678,False,,,[Errno 111] Connection refused
@@ -1562,42 +1572,42 @@ proxy,ok,latency_ms,exit_ip,error
 46.37.193.234:33333,False,,,timed out
 46.47.197.210:3128,False,,,timed out
 46.50.144.9:8080,False,,,timed out
-46.55.3.113:4145,False,,,socks4 connect failed: 005b
+46.55.3.113:4145,False,,,timed out
 46.62.246.93:9050,False,,,timed out
-46.8.104.176:1080,False,,,socks4 connect failed: 005b
+46.8.104.176:1080,False,,,[Errno 104] Connection reset by peer
 46.8.31.104:1081,False,,,[Errno 111] Connection refused
 46.8.60.2:1080,False,,,timed out
-46.8.60.34:1080,False,,,[Errno 104] Connection reset by peer
-46.98.192.116:5678,False,,,unexpected eof
-46.98.193.59:5678,False,,,socks4 connect failed: 005b
+46.98.192.116:5678,False,,,timed out
+46.98.193.59:5678,False,,,timed out
 46.99.210.63:3629,False,,,timed out
-47.176.213.210:39593,False,,,socks4 connect failed: 005b
+47.176.213.210:39593,False,,,timed out
 47.237.138.184:3128,False,,,timed out
 47.237.2.245:87,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-47.238.128.246:202,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-47.238.128.246:8443,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
+47.238.128.246:202,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
+47.238.128.246:8443,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
 47.238.130.212:8080,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 47.238.60.156:18081,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
-47.238.60.156:8443,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-47.242.155.74:12522,False,,,timed out
+47.238.60.156:8443,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+47.242.155.74:12522,False,,,[Errno 104] Connection reset by peer
 47.242.244.120:1011,False,,,[Errno 104] Connection reset by peer
-47.243.222.214:1081,False,,,timed out
 47.250.11.111:161,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 47.250.155.254:8443,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-47.250.159.65:1080,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
+47.250.159.65:1080,False,,,timed out
+47.250.51.110:10017,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 47.250.51.110:31281,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-47.251.127.154:1080,False,,,timed out
-47.251.127.154:1081,False,,,timed out
+47.250.51.110:8443,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
+47.250.51.110:9091,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
+47.251.127.154:1080,False,,,_ssl.c:993: The handshake operation timed out
 47.251.74.38:1081,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
 47.251.74.38:80,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
-47.251.87.199:2000,False,,,timed out
+47.251.87.199:2000,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 47.251.87.74:8081,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 47.252.18.37:80,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 47.252.18.37:8083,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 47.254.36.25:11080,False,,,timed out
-47.74.46.81:102,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
-47.76.144.139:8443,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-47.81.56.193:8888,False,,,[Errno 104] Connection reset by peer
+47.74.46.81:102,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
+47.76.144.139:8443,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
+47.81.56.193:8888,False,,,timed out
 47.82.102.188:1011,False,,,[Errno 104] Connection reset by peer
 47.82.64.119:1011,False,,,[Errno 104] Connection reset by peer
 47.82.68.78:1011,False,,,[Errno 104] Connection reset by peer
@@ -1607,24 +1617,24 @@ proxy,ok,latency_ms,exit_ip,error
 47.84.65.214:3128,False,,,timed out
 47.84.84.1:3128,False,,,timed out
 47.85.161.37:3128,False,,,socks4 connect failed: 4854
-47.85.9.228:10810,False,,,timed out
+47.85.37.60:1081,False,,,timed out
 47.88.16.13:13579,False,,,timed out
-47.90.167.27:1000,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-47.90.167.27:8081,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
+47.90.167.27:1000,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
+47.90.167.27:8081,False,,,timed out
 47.91.104.88:3128,False,,,socks4 connect failed: 4854
 47.91.110.148:3129,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-47.91.115.179:8443,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-47.91.120.190:9098,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-47.91.29.151:6379,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-47.91.89.3:11,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-47.91.89.3:3128,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-47.91.89.3:35,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-47.91.89.3:80,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-47.91.89.3:8040,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-47.91.89.3:8080,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-47.91.89.3:9050,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-49.0.156.20:32000,False,,,timed out
-49.13.22.249:10809,False,,,[Errno 104] Connection reset by peer
+47.91.115.179:8443,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
+47.91.120.190:9098,False,,,timed out
+47.91.29.151:6379,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
+47.91.89.3:11,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
+47.91.89.3:3128,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
+47.91.89.3:35,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
+47.91.89.3:80,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
+47.91.89.3:8040,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
+47.91.89.3:8080,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
+47.91.89.3:9050,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
+49.0.156.20:32000,False,,,socks4 connect failed: 005b
+49.13.22.249:10809,False,,,[Errno 111] Connection refused
 49.13.87.123:1283,False,,,unexpected eof
 49.149.124.200:8081,False,,,timed out
 49.156.38.126:5678,False,,,[Errno 111] Connection refused
@@ -1634,24 +1644,25 @@ proxy,ok,latency_ms,exit_ip,error
 5.133.193.54:45803,False,,,timed out
 5.133.214.122:22799,False,,,timed out
 5.133.96.148:4153,False,,,timed out
-5.161.115.244:1080,False,,,"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
+5.157.64.213:1080,False,,,timed out
+5.161.115.244:1080,False,,,[Errno 111] Connection refused
 5.161.50.82:8118,False,,,timed out
-5.167.171.79:1080,False,,,unexpected eof
+5.167.171.79:1080,False,,,timed out
 5.175.192.43:1080,False,,,[Errno 104] Connection reset by peer
 5.181.158.54:1080,False,,,unexpected eof
 5.181.178.46:8080,False,,,timed out
 5.182.26.129:4145,False,,,timed out
 5.188.64.79:5678,False,,,timed out
 5.189.129.186:48229,False,,,[Errno 111] Connection refused
-5.189.160.163:9100,False,,,timed out
+5.189.160.163:9100,False,,,"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
 5.19.101.163:33333,False,,,timed out
 5.200.72.58:3128,False,,,timed out
-5.202.120.123:3128,False,,,timed out
-5.23.104.251:1080,False,,,[Errno 104] Connection reset by peer
-5.255.113.177:1080,False,,,timed out
+5.202.120.123:3128,False,,,[Errno 111] Connection refused
+5.23.104.251:1080,False,,,socks4 connect failed: 005b
+5.255.113.177:1080,False,,,unexpected eof
 5.42.127.131:80,False,,,timed out
 5.42.87.164:56789,False,,,timed out
-5.45.119.70:1080,False,,,[Errno 111] Connection refused
+5.45.119.70:1080,False,,,[Errno 104] Connection reset by peer
 5.45.126.128:8080,False,,,socks4 connect failed: 4854
 5.58.47.25:3629,False,,,timed out
 5.58.66.55:14888,False,,,timed out
@@ -1662,13 +1673,13 @@ proxy,ok,latency_ms,exit_ip,error
 50.236.148.246:31699,False,,,timed out
 50.236.148.254:31699,False,,,timed out
 50.238.47.86:32100,False,,,socks4 connect failed: 005b
-50.250.205.21:32100,False,,,timed out
+50.250.205.21:32100,False,,,socks4 connect failed: 005b
 50.250.75.153:39593,False,,,timed out
 50.255.17.229:32100,False,,,timed out
 51.15.209.188:16379,False,,,[Errno 111] Connection refused
 51.15.211.42:16379,False,,,[Errno 111] Connection refused
 51.15.252.246:16379,False,,,[Errno 111] Connection refused
-51.15.253.45:8080,False,,,socks4 connect failed: 005b
+51.15.253.45:8080,False,,,timed out
 51.158.105.157:16379,False,,,[Errno 111] Connection refused
 51.158.108.134:16379,False,,,timed out
 51.158.79.141:16379,False,,,timed out
@@ -1686,10 +1697,10 @@ proxy,ok,latency_ms,exit_ip,error
 52.34.243.150:8080,False,,,socks4 connect failed: 4854
 54.238.38.227:8080,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 54.37.115.191:37748,False,,,[Errno 111] Connection refused
-57.128.231.218:1000,False,,,timed out
+57.128.231.218:1000,False,,,"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
 57.128.231.218:1001,False,,,"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
 57.128.231.218:1004,False,,,"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
-57.128.249.250:9052,False,,,timed out
+57.128.249.250:9052,False,,,"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
 57.129.128.223:3128,False,,,timed out
 58.18.39.58:10800,False,,,socks4 connect failed: 005b
 58.18.39.58:10810,False,,,[Errno 111] Connection refused
@@ -1698,30 +1709,28 @@ proxy,ok,latency_ms,exit_ip,error
 59.152.97.233:1080,False,,,unexpected eof
 59.45.13.219:3629,False,,,timed out
 60.190.195.146:10800,False,,,[Errno 111] Connection refused
-60.217.64.237:35292,False,,,socks4 connect failed: 005b
+60.217.64.237:35292,False,,,timed out
 61.148.199.206:4145,False,,,timed out
 61.155.235.58:10800,False,,,timed out
 61.184.189.124:10800,False,,,unexpected eof
 61.7.147.227:4145,False,,,timed out
 61.9.34.222:58765,False,,,timed out
-62.113.112.246:10808,False,,,timed out
+62.103.186.66:4153,False,,,[Errno 104] Connection reset by peer
 62.122.201.246:50129,False,,,[Errno 111] Connection refused
 62.152.37.189:1080,False,,,timed out
 62.171.132.27:39536,False,,,[Errno 111] Connection refused
-62.201.212.198:4673,False,,,timed out
+62.201.212.198:4673,False,,,socks4 connect failed: 005b
 62.74.223.178:33333,False,,,timed out
 62.89.31.216:3629,False,,,timed out
 63.183.183.61:1080,False,,,timed out
-63.183.183.61:1081,False,,,timed out
-64.111.92.171:10101,False,,,timed out
-64.188.64.135:1081,False,,,[Errno 104] Connection reset by peer
+64.111.92.171:10101,False,,,_ssl.c:993: The handshake operation timed out
 64.20.43.89:1080,False,,,timed out
 64.204.90.17:999,False,,,timed out
 64.227.108.25:31908,False,,,[Errno 111] Connection refused
 64.64.152.248:39593,False,,,timed out
 65.108.103.19:80,False,,,timed out
 65.108.203.35:18080,False,,,timed out
-65.109.217.164:3128,False,,,timed out
+65.109.217.164:3128,False,,,[Errno 104] Connection reset by peer
 65.111.0.188:3129,False,,,timed out
 65.111.0.197:3129,False,,,timed out
 65.111.1.220:3129,False,,,timed out
@@ -1741,8 +1750,8 @@ proxy,ok,latency_ms,exit_ip,error
 65.111.8.88:3129,False,,,timed out
 65.111.8.93:3129,False,,,timed out
 65.169.38.73:26592,False,,,timed out
-65.20.105.241:10001,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
-65.21.252.66:10809,False,,,[Errno 104] Connection reset by peer
+65.20.105.241:10001,False,,,timed out
+65.21.252.66:10809,False,,,[Errno 111] Connection refused
 66.151.34.192:1080,False,,,unexpected eof
 66.151.34.89:80,False,,,socks4 connect failed: 4854
 66.210.33.34:8080,False,,,timed out
@@ -1751,9 +1760,8 @@ proxy,ok,latency_ms,exit_ip,error
 66.29.128.244:23597,False,,,[Errno 111] Connection refused
 66.42.224.229:41679,False,,,_ssl.c:993: The handshake operation timed out
 66.42.62.185:1080,False,,,timed out
-66.55.77.95:80,False,,,[Errno 111] Connection refused
+66.55.77.95:80,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
 66.94.104.255:3128,False,,,timed out
-66.97.37.159:1081,False,,,timed out
 67.201.33.10:25283,False,,,_ssl.c:993: The handshake operation timed out
 67.201.35.145:4145,False,,,_ssl.c:993: The handshake operation timed out
 67.201.39.14:4145,False,,,_ssl.c:993: The handshake operation timed out
@@ -1763,6 +1771,7 @@ proxy,ok,latency_ms,exit_ip,error
 67.203.23.88:8081,False,,,socks4 connect failed: 4854
 67.205.161.254:8118,False,,,timed out
 67.205.161.254:9050,False,,,timed out
+67.206.213.202:55555,False,,,[Errno 104] Connection reset by peer
 67.207.92.87:1088,False,,,unexpected eof
 67.225.243.221:63809,False,,,timed out
 67.227.14.246:6838,False,,,timed out
@@ -1771,7 +1780,7 @@ proxy,ok,latency_ms,exit_ip,error
 68.183.116.10:1080,False,,,timed out
 68.183.55.211:37775,False,,,timed out
 68.183.60.51:3129,False,,,timed out
-68.233.127.229:1080,False,,,timed out
+68.233.127.229:1080,False,,,unexpected eof
 68.71.242.118:4145,False,,,_ssl.c:993: The handshake operation timed out
 68.71.247.130:4145,False,,,_ssl.c:993: The handshake operation timed out
 68.71.249.153:48606,False,,,_ssl.c:993: The handshake operation timed out
@@ -1786,6 +1795,9 @@ proxy,ok,latency_ms,exit_ip,error
 70.166.167.38:57728,False,,,_ssl.c:993: The handshake operation timed out
 70.166.167.55:57745,False,,,_ssl.c:993: The handshake operation timed out
 70.35.199.99:56633,False,,,[Errno 111] Connection refused
+70.60.132.130:5678,False,,,timed out
+72.194.42.131:4145,False,,,_ssl.c:993: The handshake operation timed out
+72.195.101.99:4145,False,,,_ssl.c:993: The handshake operation timed out
 72.195.114.169:4145,False,,,_ssl.c:993: The handshake operation timed out
 72.195.114.184:4145,False,,,_ssl.c:993: The handshake operation timed out
 72.195.34.35:27360,False,,,_ssl.c:993: The handshake operation timed out
@@ -1798,7 +1810,6 @@ proxy,ok,latency_ms,exit_ip,error
 72.206.181.105:64935,False,,,timed out
 72.206.181.123:4145,False,,,timed out
 72.206.181.97:64943,False,,,timed out
-72.207.113.97:4145,False,,,_ssl.c:993: The handshake operation timed out
 72.207.33.64:4145,False,,,_ssl.c:993: The handshake operation timed out
 72.210.208.101:4145,False,,,timed out
 72.210.221.197:4145,False,,,timed out
@@ -1815,8 +1826,7 @@ proxy,ok,latency_ms,exit_ip,error
 72.37.216.68:4145,False,,,[Errno 111] Connection refused
 72.37.217.3:4145,False,,,[Errno 111] Connection refused
 72.49.49.11:31034,False,,,_ssl.c:993: The handshake operation timed out
-72.56.106.48:1081,False,,,[Errno 111] Connection refused
-72.56.106.48:443,False,,,socks4 connect failed: 005b
+72.56.106.48:443,False,,,timed out
 72.56.73.23:80,False,,,timed out
 72.56.94.27:1081,False,,,timed out
 72.61.242.88:8118,False,,,timed out
@@ -1837,90 +1847,95 @@ proxy,ok,latency_ms,exit_ip,error
 77.34.77.97:4145,False,,,timed out
 77.37.209.86:1081,False,,,timed out
 77.50.132.155:1080,False,,,timed out
-77.50.235.130:1080,False,,,timed out
+77.50.235.130:1080,False,,,unexpected eof
 77.51.181.20:1080,False,,,timed out
 77.65.50.118:34159,False,,,socks4 connect failed: 005b
 77.73.68.222:65000,False,,,timed out
 77.77.26.152:4153,False,,,timed out
-77.85.171.92:4153,False,,,timed out
+77.85.171.92:4153,False,,,socks4 connect failed: 005b
 77.95.201.16:9150,False,,,timed out
 78.110.155.229:1080,False,,,timed out
-78.111.112.118:4145,False,,,[Errno 104] Connection reset by peer
 78.133.163.190:4145,False,,,timed out
 78.142.61.77:3128,False,,,timed out
 78.153.130.53:9050,False,,,timed out
 78.157.46.76:8090,False,,,timed out
 78.29.88.223:1080,False,,,[Errno 104] Connection reset by peer
+78.38.67.210:3636,False,,,socks4 connect failed: 005b
 78.38.67.95:4153,False,,,timed out
 79.110.118.15:1080,False,,,timed out
 79.110.192.44:8081,False,,,socks4 connect failed: 3c68
-79.137.196.250:1080,False,,,unexpected eof
-79.137.196.250:1081,False,,,[Errno 111] Connection refused
+79.137.196.250:1080,False,,,[Errno 104] Connection reset by peer
 79.54.119.155:8081,False,,,timed out
 79.76.52.220:1080,False,,,timed out
+79.76.52.220:1081,False,,,timed out
+79.76.59.115:1081,False,,,timed out
 8.130.54.67:8000,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-8.209.96.245:1099,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+8.209.96.245:1099,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 8.209.96.245:31433,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 8.209.96.245:4145,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-8.209.96.245:5060,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
-8.209.96.245:8080,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+8.209.96.245:5060,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
+8.209.96.245:8080,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 8.209.96.245:8443,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 8.211.195.139:4145,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-8.211.42.167:104,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-8.211.42.167:1080,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-8.211.42.167:25565,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-8.211.42.167:8081,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-8.211.42.167:81,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
+8.211.42.167:104,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
+8.211.42.167:1080,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
+8.211.42.167:25565,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
+8.211.42.167:8081,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
+8.211.42.167:81,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
 8.211.49.86:1080,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
 8.211.49.86:3128,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
 8.211.49.86:8080,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
 8.211.49.86:8443,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
 8.211.49.86:9098,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
-8.211.51.115:1081,False,,,[Errno 104] Connection reset by peer
+8.211.51.115:1081,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
 8.211.51.115:3128,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
-8.211.51.115:3129,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+8.211.51.115:3129,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 8.211.51.115:4145,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
-8.211.51.115:80,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+8.211.51.115:80,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 8.211.51.115:8008,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 8.211.51.115:84,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 8.211.51.115:9080,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-8.211.51.115:9098,False,,,[Errno 104] Connection reset by peer
+8.211.51.115:9098,False,,,timed out
 8.212.151.166:20000,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 8.212.165.164:1000,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-8.213.134.213:9200,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+8.213.134.213:9200,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 8.213.156.191:30000,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-8.213.195.191:8081,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
+8.213.195.191:8081,False,,,timed out
 8.213.197.208:8085,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 8.213.215.187:30000,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-8.213.222.157:45,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+8.213.222.157:45,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
+8.213.222.157:5060,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
+8.213.222.157:8118,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
 8.215.112.240:7777,False,,,timed out
-8.215.12.103:8003,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+8.215.12.103:8003,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 8.215.15.163:50,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
 8.215.25.3:2080,False,,,timed out
 8.219.94.23:7890,False,,,_ssl.c:993: The handshake operation timed out
-8.219.97.248:80,False,,,[Errno 104] Connection reset by peer
+8.219.97.248:80,False,,,socks4 connect failed: 4854
 8.220.141.8:999,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-8.220.204.215:9200,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-8.220.205.172:9098,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
+8.220.204.215:9200,False,,,[Errno 104] Connection reset by peer
+8.220.205.172:9098,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
 8.220.216.57:3128,False,,,timed out
 8.221.138.111:100,False,,,[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)
-8.221.139.222:8085,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
-8.221.139.222:9098,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
-8.221.141.88:5631,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
-80.191.40.130:5678,False,,,timed out
+8.221.139.222:8085,False,,,timed out
+8.221.139.222:9098,False,,,timed out
+8.221.141.88:5631,False,,,[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)
+80.191.40.131:5678,False,,,timed out
 80.191.40.41:5678,False,,,timed out
 80.211.131.230:9050,False,,,timed out
+80.249.81.179:9050,False,,,timed out
 80.63.107.90:4153,False,,,timed out
 80.65.21.57:1080,False,,,timed out
 80.72.180.122:1080,False,,,timed out
 80.74.54.148:3128,False,,,timed out
-80.78.74.8:65530,False,,,[Errno 104] Connection reset by peer
+80.78.74.8:65530,False,,,unexpected eof
 80.80.164.164:10801,False,,,timed out
-80.92.227.185:5678,False,,,socks4 connect failed: 005b
+80.92.227.185:5678,False,,,timed out
 81.12.157.98:5678,False,,,socks4 connect failed: 005b
 81.12.169.254:4153,False,,,[Errno 104] Connection reset by peer
 81.16.1.71:5678,False,,,[Errno 111] Connection refused
-81.18.90.43:4153,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
+81.162.249.129:4153,False,,,[Errno 104] Connection reset by peer
+81.18.90.43:4153,False,,,timed out
 81.29.249.82:5071,False,,,[Errno 104] Connection reset by peer
 81.30.27.147:33333,False,,,[Errno 111] Connection refused
 81.31.146.81:3128,False,,,timed out
@@ -1931,35 +1946,38 @@ proxy,ok,latency_ms,exit_ip,error
 82.206.131.58:10801,False,,,timed out
 82.64.186.155:8080,False,,,timed out
 83.166.247.254:10808,False,,,timed out
+83.166.247.254:10818,False,,,[Errno 111] Connection refused
 83.219.145.108:3128,False,,,timed out
 83.219.149.45:1080,False,,,timed out
 83.220.46.106:4145,False,,,timed out
 83.222.18.131:1080,False,,,timed out
 83.234.76.155:4145,False,,,timed out
-83.56.15.57:5678,False,,,socks4 connect failed: 005b
+83.56.15.57:5678,False,,,[Errno 104] Connection reset by peer
 84.200.205.35:1080,False,,,timed out
+84.201.144.65:10003,False,,,timed out
 84.201.144.65:10008,False,,,timed out
 84.201.144.65:10009,False,,,timed out
 84.236.185.247:61710,False,,,timed out
 84.38.187.157:1080,False,,,[Errno 104] Connection reset by peer
-84.42.19.54:1080,False,,,unexpected eof
+84.42.19.54:1080,False,,,timed out
 84.52.123.163:4145,False,,,timed out
 85.114.45.210:4153,False,,,[Errno 104] Connection reset by peer
 85.117.248.36:1080,False,,,timed out
 85.117.32.166:4153,False,,,socks4 connect failed: 005b
+85.122.120.119:30016,False,,,timed out
+85.133.250.27:80,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
 85.143.254.38:1080,False,,,timed out
 85.17.145.160:9150,False,,,timed out
 85.172.66.254:1099,False,,,timed out
-85.175.219.236:1080,False,,,timed out
-85.190.106.223:1080,False,,,[Errno 111] Connection refused
-85.190.106.223:1081,False,,,timed out
+85.175.219.236:1080,False,,,[Errno 111] Connection refused
+85.190.106.223:1080,False,,,timed out
 85.194.250.22:1080,False,,,timed out
 85.198.102.172:1080,False,,,timed out
 85.209.156.148:1080,False,,,bad HTTP status: 'HTTP/1.1 403 Forbidden'
 85.209.156.148:1081,False,,,[Errno 111] Connection refused
 85.217.192.39:4145,False,,,[Errno 111] Connection refused
-85.228.42.180:4153,False,,,[Errno 104] Connection reset by peer
-85.234.116.5:1080,False,,,[Errno 104] Connection reset by peer
+85.228.42.180:4153,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
+85.234.116.5:1080,False,,,timed out
 85.237.62.189:3629,False,,,timed out
 85.62.5.158:5678,False,,,timed out
 85.92.164.179:4145,False,,,timed out
@@ -1969,59 +1987,52 @@ proxy,ok,latency_ms,exit_ip,error
 86.38.154.193:5836,False,,,timed out
 86.38.236.209:6493,False,,,timed out
 87.107.68.231:1081,False,,,timed out
-87.239.251.202:1081,False,,,bad HTTP status: 'HTTP/1.1 403 Forbidden'
+87.239.251.202:1081,False,,,timed out
 88.119.49.4:4153,False,,,[Errno 111] Connection refused
 88.204.216.142:33156,False,,,timed out
-88.213.214.254:4145,False,,,timed out
-88.218.206.170:5432,False,,,timed out
-88.220.133.87:4153,False,,,socks4 connect failed: 005b
-88.245.138.87:1080,False,,,[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)
-88.247.31.164:4153,False,,,timed out
+88.213.214.254:4145,False,,,[Errno 104] Connection reset by peer
+88.218.206.170:5432,False,,,"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
+88.247.31.164:4153,False,,,socks4 connect failed: 005b
 88.255.102.114:1082,False,,,timed out
-88.80.186.173:19180,False,,,timed out
-89.111.170.4:1080,False,,,timed out
-89.132.170.211:4145,False,,,timed out
+88.80.186.173:19180,False,,,socks4 connect failed: 4854
+89.111.170.4:1080,False,,,unexpected eof
 89.151.134.157:3629,False,,,timed out
 89.168.67.102:1080,False,,,timed out
 89.168.67.102:1081,False,,,timed out
 89.168.67.102:3128,False,,,timed out
 89.169.37.254:1080,False,,,timed out
-89.189.132.154:1080,False,,,timed out
+89.189.132.154:1080,False,,,[Errno 104] Connection reset by peer
 89.19.215.51:7687,False,,,timed out
 89.191.229.141:1080,False,,,timed out
-89.213.118.234:9050,False,,,timed out
 89.218.8.152:1080,False,,,timed out
 89.223.121.59:3128,False,,,timed out
 89.238.206.2:33333,False,,,timed out
-89.250.148.154:4145,False,,,[Errno 104] Connection reset by peer
+89.250.148.154:4145,False,,,timed out
 89.250.148.158:1080,False,,,socks4 connect failed: 005b
-89.250.148.158:1081,False,,,timed out
 89.28.48.254:5678,False,,,[Errno 111] Connection refused
 89.32.230.43:4145,False,,,timed out
 89.39.114.31:4153,False,,,timed out
 89.41.106.8:4145,False,,,timed out
 89.43.135.181:1080,False,,,timed out
-89.43.135.181:1081,False,,,[Errno 111] Connection refused
-90.178.216.215:4153,False,,,socks4 connect failed: 005b
+90.178.216.215:4153,False,,,[Errno 104] Connection reset by peer
 91.103.120.48:80,False,,,[Errno 104] Connection reset by peer
 91.103.29.150:3629,False,,,timed out
-91.107.122.209:1081,False,,,[Errno 111] Connection refused
 91.107.188.12:9080,False,,,timed out
-91.107.188.12:9087,False,,,timed out
+91.107.188.12:9087,False,,,[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)
 91.107.188.12:9091,False,,,timed out
 91.107.188.12:9096,False,,,timed out
-91.107.243.254:9081,False,,,"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
-91.107.243.254:9104,False,,,timed out
-91.147.235.162:4153,False,,,[Errno 104] Connection reset by peer
-91.150.189.122:60647,False,,,socks4 connect failed: 005b
-91.151.195.138:1080,False,,,unexpected eof
+91.107.243.254:9081,False,,,timed out
+91.107.243.254:9097,False,,,timed out
+91.107.243.254:9128,False,,,timed out
+91.147.235.162:4153,False,,,timed out
+91.150.189.122:60647,False,,,timed out
+91.151.195.138:1080,False,,,timed out
 91.195.86.221:1080,False,,,[Errno 111] Connection refused
 91.200.114.58:55749,False,,,[Errno 111] Connection refused
-91.202.5.45:1080,False,,,timed out
 91.203.114.71:42905,False,,,[Errno 111] Connection refused
 91.205.41.109:52606,False,,,timed out
 91.210.171.169:9050,False,,,timed out
-91.211.100.35:44744,False,,,[Errno 104] Connection reset by peer
+91.211.100.35:44744,False,,,socks4 connect failed: 005b
 91.213.119.246:46024,False,,,timed out
 91.223.52.141:5678,False,,,timed out
 91.226.172.214:1080,False,,,timed out
@@ -2032,43 +2043,46 @@ proxy,ok,latency_ms,exit_ip,error
 91.26.188.170:8080,False,,,timed out
 92.119.74.49:5678,False,,,timed out
 92.241.87.14:5678,False,,,timed out
-92.42.8.20:4145,False,,,unexpected eof
-92.42.8.5:4145,False,,,socks4 connect failed: 005b
+92.247.31.130:1080,False,,,[Errno 104] Connection reset by peer
+92.42.8.20:4145,False,,,timed out
+92.42.8.5:4145,False,,,timed out
 92.45.19.35:5678,False,,,timed out
-92.60.91.130:1080,False,,,timed out
-92.86.92.126:42740,False,,,timed out
-93.118.135.176:1080,False,,,socks4 connect failed: 005b
-93.123.30.53:1080,False,,,timed out
+92.60.91.130:1080,False,,,unexpected eof
+92.86.92.126:42740,False,,,socks4 connect failed: 005b
+93.123.30.53:1081,False,,,[Errno 111] Connection refused
 93.167.245.6:4145,False,,,timed out
 93.175.194.155:3629,False,,,timed out
 93.177.103.24:50471,False,,,timed out
-93.93.61.153:1080,False,,,socks4 connect failed: 005b
+93.184.7.26:1080,False,,,[Errno 104] Connection reset by peer
+93.93.61.153:1080,False,,,timed out
 93.93.61.153:1081,False,,,[Errno 111] Connection refused
-94.228.240.23:1080,False,,,timed out
+94.198.211.217:5678,False,,,[Errno 104] Connection reset by peer
+94.198.213.252:5678,False,,,[Errno 104] Connection reset by peer
+94.228.240.23:1080,False,,,unexpected eof
 94.230.130.239:1090,False,,,timed out
 94.232.11.178:58028,False,,,timed out
 94.247.241.70:51006,False,,,timed out
 94.253.95.241:3629,False,,,socks4 connect failed: 005b
 95.128.142.76:1080,False,,,timed out
 95.140.118.34:1080,False,,,[Errno 104] Connection reset by peer
-95.140.118.34:1081,False,,,[Errno 111] Connection refused
 95.163.20.1:4153,False,,,timed out
 95.165.163.188:36496,False,,,timed out
-95.178.108.189:5678,False,,,timed out
+95.178.108.189:5678,False,,,[Errno 104] Connection reset by peer
+95.182.78.2:5678,False,,,timed out
 95.188.82.147:3629,False,,,timed out
 95.211.174.135:3128,False,,,timed out
 95.211.190.26:9100,False,,,timed out
 95.220.69.159:1080,False,,,unexpected eof
-95.220.82.101:1080,False,,,unexpected eof
+95.220.82.101:1080,False,,,timed out
 95.31.42.199:3629,False,,,timed out
 95.70.220.173:4153,False,,,timed out
 95.80.253.77:33333,False,,,timed out
-96.36.50.99:39593,False,,,socks4 connect failed: 005b
+96.36.50.99:39593,False,,,timed out
 96.60.107.30:9050,False,,,timed out
 96.60.107.42:9050,False,,,timed out
 96.70.52.227:48324,False,,,timed out
-96.9.77.71:51080,False,,,timed out
 97.74.87.226:80,False,,,socks4 connect failed: 4854
+98.103.88.158:46104,False,,,socks4 connect failed: 005b
 98.162.25.16:4145,False,,,timed out
 98.162.25.23:4145,False,,,timed out
 98.162.25.29:31679,False,,,timed out
@@ -2083,7 +2097,8 @@ proxy,ok,latency_ms,exit_ip,error
 98.178.72.21:10919,False,,,_ssl.c:993: The handshake operation timed out
 98.181.137.80:4145,False,,,_ssl.c:993: The handshake operation timed out
 98.181.137.83:4145,False,,,_ssl.c:993: The handshake operation timed out
-98.188.47.132:4145,False,,,_ssl.c:993: The handshake operation timed out
+98.182.147.97:4145,False,,,_ssl.c:993: The handshake operation timed out
+98.188.47.132:4145,False,,,[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
 98.188.47.150:4145,False,,,_ssl.c:993: The handshake operation timed out
 98.190.239.3:4145,False,,,_ssl.c:993: The handshake operation timed out
 98.191.0.47:4145,False,,,_ssl.c:993: The handshake operation timed out
