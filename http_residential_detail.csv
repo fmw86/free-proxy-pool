@@ -1,595 +1,588 @@
 proxy,country,region,city,isp,org,asn,mobile,hosting,known_proxy,exit_ip
-172.210.12.8:3128,United States,Virginia,Boydton,Microsoft Corporation,Microsoft Azure Cloud (eastus),AS8075 Microsoft Corporation,False,True,True,172.210.12.8
+47.254.36.25:11080,United States,California,Minkler,Alibaba Cloud LLC,Alibaba Cloud - US,"AS45102 Alibaba (US) Technology Co., Ltd.",False,True,True,47.254.36.25
+138.68.60.8:3128,United States,California,Santa Clara,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,138.68.60.8
+107.167.18.122:443,United States,California,Los Angeles,Sharktech,Sharktech,AS46844 Sharktech,False,True,True,107.167.18.99
+47.254.122.220:5443,United States,California,Minkler,Alibaba Cloud LLC,Alibaba Cloud - US,"AS45102 Alibaba (US) Technology Co., Ltd.",False,True,True,47.254.122.220
+107.150.41.226:18080,United States,Missouri,Kansas City,"Nocix, LLC",Gventure,"AS33387 Nocix, LLC",False,True,True,107.150.41.226
+146.190.60.147:8006,United States,California,Santa Clara,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,146.190.60.147
+184.75.221.82:3118,Canada,Ontario,Toronto,Amanah Tech Inc.,Amanah Tech Inc,AS32489 Amanah Tech Inc.,False,True,True,184.75.221.82
+54.145.190.187:3128,United States,Virginia,Ashburn,Amazon Technologies Inc.,AWS EC2 (us-east-1),"AS14618 Amazon.com, Inc.",False,True,False,54.145.190.187
+34.43.46.91:80,United States,California,Mountain View,Google LLC,Google LLC,AS396982 Google LLC,False,True,True,35.235.153.76
+165.154.162.73:8888,United States,California,Los Angeles,UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,Ucloud Information Technology,AS135377 UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,False,True,True,165.154.162.73
+147.93.176.66:3128,United States,New York,Orangeburg,Contabo Inc.,Contabo GmbH,AS40021 Contabo Inc.,False,True,True,147.93.176.66
 209.97.150.167:3128,United States,New Jersey,Clifton,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,209.97.150.167
 198.199.86.11:3128,United States,New Jersey,North Bergen,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,198.199.86.11
-18.221.147.109:3128,United States,Ohio,Columbus,"Amazon.com, Inc.",AWS EC2 (us-east-2),"AS16509 Amazon.com, Inc.",False,True,False,18.221.147.109
-184.75.221.82:3118,Canada,Ontario,Toronto,Amanah Tech Inc.,Amanah Tech Inc,AS32489 Amanah Tech Inc.,False,True,True,184.75.221.82
-34.43.46.91:80,United States,California,Mountain View,Google LLC,Google LLC,AS396982 Google LLC,False,True,True,34.143.51.195
+18.221.147.109:3128,United States,Ohio,Columbus,"Amazon.com, Inc.",AWS EC2 (us-east-2),"AS16509 Amazon.com, Inc.",False,True,False,18.191.5.30
 34.43.46.91:443,United States,California,Mountain View,Google LLC,Google LLC,AS396982 Google LLC,False,True,True,34.143.51.195
 159.203.61.169:3128,Canada,Ontario,Toronto,"DigitalOcean, LLC",Digital Ocean,"AS14061 DigitalOcean, LLC",False,True,True,159.203.61.169
-107.150.41.226:18080,United States,Missouri,Kansas City,"Nocix, LLC",Gventure,"AS33387 Nocix, LLC",False,True,True,107.150.41.226
-43.159.139.115:32080,United States,California,Santa Clara,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.159.139.115
-138.68.60.8:3128,United States,California,Santa Clara,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,138.68.60.8
-104.233.202.124:22609,United States,California,San Jose,PEG TECH INC,PEG TECH INC,AS54600 PEG TECH INC,False,False,True,104.233.202.124
-38.210.179.30:999,Mexico,Hidalgo,Zimapán,Jair Lozano / Intercom Internet,Jair Lozano / Intercom Internet,AS272405 Jair Lozano,False,False,True,38.210.179.199
-45.175.39.64:8080,Venezuela,Distrito Federal,Caracas,TCA SERVICES C.A.,TCA SERVICES C.A,AS267843 TCA SERVICES C.A.,False,False,True,45.175.39.64
-134.209.29.120:3128,United Kingdom,England,Slough,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,134.209.29.120
-91.134.141.4:3128,France,Hauts-de-France,Roubaix,OVH SAS,OVH,AS16276 OVH SAS,False,True,True,91.134.141.4
-190.97.236.130:999,Venezuela,Zulia,San Carlos del Zulia,Viginet C.A,,AS263703 VIGINET C.A,False,False,False,190.97.252.185
-95.211.174.135:3128,The Netherlands,North Holland,Haarlem,LeaseWeb Netherlands B.V.,LeaseWeb Netherlands B.V.,AS60781 LeaseWeb Netherlands B.V.,False,True,True,95.211.174.135
-200.24.148.21:999,Ecuador,El Oro,El Guabo,Negocios Y Telefonia Nedetel S.A,Apolo Chamba Dayri Nathalia,AS52468 UFINET PANAMA S.A.,False,False,True,179.49.201.252
-18.157.123.132:3128,Germany,Hesse,Frankfurt,"Amazon.com, Inc.",AWS EC2 (eu-central-1),"AS16509 Amazon.com, Inc.",False,True,True,3.68.36.133
-103.237.102.191:11111,Germany,Hesse,Frankfurt am Main,Zenlayer Inc,Franet,AS62610 Zenlayer Inc,False,False,True,103.237.102.191
-187.172.58.137:8080,Mexico,Sinaloa,Mazatlán,Uninet S.A. de C.V.,Uninet S.A. de C.V,AS8151 Uninet S.A. de C.V.,False,False,False,187.172.58.137
-176.111.37.216:39811,Hong Kong,Kowloon City,Tsim Sha Tsui,Cogento Backbone Limited,Cogento Backbone Limited,AS214743 Cogento Backbone Limited,False,False,True,176.111.37.216
-176.111.37.5:39811,Hong Kong,Kowloon City,Tsim Sha Tsui,Cogento Backbone Limited,Cogento Backbone Limited,AS214743 Cogento Backbone Limited,False,False,True,176.111.37.5
+140.238.32.108:3128,Japan,Tokyo,Tokyo,Oracle Corporation,Oracle Cloud Infrastructure (ap-tokyo-1),AS31898 Oracle Corporation,False,True,True,140.238.32.108
 153.51.201.35:999,Venezuela,Barinas,Ciudad Bolivia,Valor Information Technologies,"Valor Information Technologies, S.L","AS274849 GLOBALNET S&P, C.A.",False,False,False,153.51.201.35
-213.111.146.36:18080,The Netherlands,North Holland,Haarlem,SOLLUTIUM EU Sp z.o.o.,Vsys AMS,AS43641 SOLLUTIUM EU Sp z.o.o.,False,False,True,213.111.146.36
-216.173.68.250:3128,Latvia,Rīga,Riga,SIA VEESP,SIA VEESP,AS42532 SIA VEESP,False,True,False,216.173.68.250
-2.59.43.253:22222,Russia,St.-Petersburg,St Petersburg,"JSC ""TIMEWEB""",TimeWeb Ltd,AS9123 JSC TIMEWEB,False,True,True,2.59.43.253
-200.142.97.66:3128,Brazil,Rio de Janeiro,Rio de Janeiro,Mundivox Do Brasil Ltda,Mundivox Do Brasil Ltda,AS17222 MUNDIVOX DO BRASIL LTDA,False,False,False,200.142.97.66
-5.129.254.60:8888,Russia,Moscow,Moscow,"JSC ""TIMEWEB""","JSC ""TIMEWEB""",AS9123 JSC TIMEWEB,False,True,True,5.129.254.210
-5.129.254.70:8888,Russia,Moscow,Moscow,"JSC ""TIMEWEB""","JSC ""TIMEWEB""",AS9123 JSC TIMEWEB,False,True,True,5.129.254.70
-5.129.254.51:8888,Russia,Moscow,Moscow,"JSC ""TIMEWEB""","JSC ""TIMEWEB""",AS9123 JSC TIMEWEB,False,True,True,5.129.254.154
-186.33.45.219:999,Ecuador,Cotopaxi,Latacunga,Ufinet Panama S.A.,UFINET,AS52468 UFINET PANAMA S.A.,False,False,True,186.33.45.220
-5.129.254.49:8888,Russia,Moscow,Moscow,"JSC ""TIMEWEB""","JSC ""TIMEWEB""",AS9123 JSC TIMEWEB,False,True,True,5.129.254.215
-144.124.251.24:10811,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,Servers Tech Fzco,AS216071 SERVERS TECH FZCO,False,True,True,144.124.251.24
-5.129.249.123:1080,Russia,Moscow,Moscow,"JSC ""TIMEWEB""","JSC ""TIMEWEB""",AS9123 JSC TIMEWEB,False,True,False,5.129.249.123
-178.17.48.189:8080,Germany,Hesse,Frankfurt am Main,WAIcore Ltd,WAIcore Ltd,AS213887 WAIcore Ltd,False,False,False,178.17.48.189
-144.124.251.24:10594,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,Servers Tech Fzco,AS216071 SERVERS TECH FZCO,False,True,True,144.124.251.24
-5.129.254.129:8888,Russia,Moscow,Moscow,"JSC ""TIMEWEB""","JSC ""TIMEWEB""",AS9123 JSC TIMEWEB,False,True,True,5.129.254.243
-5.129.254.154:8888,Russia,Moscow,Moscow,"JSC ""TIMEWEB""","JSC ""TIMEWEB""",AS9123 JSC TIMEWEB,False,True,True,5.129.254.129
-5.129.254.5:8888,Russia,Moscow,Moscow,"JSC ""TIMEWEB""","JSC ""TIMEWEB""",AS9123 JSC TIMEWEB,False,True,True,5.129.254.5
-45.132.252.25:49156,Russia,Moscow,Moscow,Ihor Hosting LTD,Gorizont LLC,AS209641 IHOR HOSTING LTD,False,True,False,45.132.252.25
-95.3.69.222:8080,Türkiye,Istanbul,Istanbul,Turk Telekomunikasyon Anonim Sirketi,TurkTelekom,AS9121 Turk Telekomunikasyon Anonim Sirketi,False,False,True,95.3.69.222
-116.204.166.198:8080,Turkey,Istanbul,Istanbul,High Speed For Internet Services L.L.C,High Speed,AS216472 High Speed For Internet Services L.L.C,False,False,False,116.204.166.198
-185.191.239.248:3128,Switzerland,Zurich,Wetzikon,Geronimo Ramirez Computer Network,Fidel Ernesto Geronimo Ramirez trading as Geronimo Ramirez Computer Network,AS264617 GRUPO PANAGLOBAL 15 S.A,False,False,True,185.191.239.248
-185.195.254.72:5432,Turkey,Gaziantep,Yamaçtepe,Veganet Teknolojileri ve Hizmetleri LTD STI,Veganet Teknolojileri ve Hizmetleri LTD STI,AS206119 Veganet Teknolojileri ve Hizmetleri LTD STI,False,True,True,185.195.254.72
-185.200.188.234:10001,Russia,Moscow,Moscow,Ihor Hosting LTD,Gorizont LLC,AS209641 IHOR HOSTING LTD,False,True,True,185.200.188.234
-144.124.251.24:10274,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,Servers Tech Fzco,AS216071 SERVERS TECH FZCO,False,True,True,144.124.251.24
-144.124.251.24:10084,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,Servers Tech Fzco,AS216071 SERVERS TECH FZCO,False,True,True,144.124.251.24
-185.195.71.218:18080,Switzerland,Zug,Hünenberg,Datasource AG,Datasource AG,AS56803 Datasource AG,False,True,True,185.195.71.218
-144.124.251.24:10819,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,Servers Tech Fzco,AS216071 SERVERS TECH FZCO,False,True,True,144.124.251.24
-200.229.76.160:3128,Brazil,São Paulo,Campinas,Saveincloud Hospedagem na Internet Ltda,Saveincloud Hospedagem na Internet Ltda,AS263511 Saveincloud Hospedagem na Internet Ltda,False,True,False,200.229.76.160
-77.73.68.222:65000,Russia,St.-Petersburg,St Petersburg,Veesp datacenter,,AS43317 SIA VEESP,False,True,True,77.91.84.40
-37.32.20.216:8080,Iran,Tehran,Tehran,Noyan Abr Arvan Co. ( Private Joint Stock),Noyan Abr Arvan Co. ( Private Joint Stock),AS202468 AbrArvan CDN and IaaS,False,False,True,37.32.20.216
+190.97.236.128:999,Venezuela,Barinas,Maporal,Viginet C.A,,AS263703 VIGINET C.A,False,False,True,153.51.201.35
+134.209.29.120:3128,United Kingdom,England,Slough,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,134.209.29.120
+144.124.251.24:10261,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,Servers Tech Fzco,AS216071 SERVERS TECH FZCO,False,True,True,144.124.251.24
+95.211.174.135:3128,The Netherlands,North Holland,Haarlem,LeaseWeb Netherlands B.V.,LeaseWeb Netherlands B.V.,AS60781 LeaseWeb Netherlands B.V.,False,True,True,95.211.174.135
+144.124.251.24:10878,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,Servers Tech Fzco,AS216071 SERVERS TECH FZCO,False,True,True,144.124.251.24
+64.188.71.169:3128,Germany,Hesse,Frankfurt am Main,Senko Digital LLC,Senko Digital LLC,AS213520 Senko Digital LLC,False,False,False,64.188.71.169
+103.237.102.191:11111,Germany,Hesse,Frankfurt am Main,Zenlayer Inc,Franet,AS62610 Zenlayer Inc,False,False,True,103.237.102.191
+91.134.141.4:3128,France,Hauts-de-France,Roubaix,OVH SAS,OVH,AS16276 OVH SAS,False,True,True,91.134.141.4
+144.124.251.24:10744,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,Servers Tech Fzco,AS216071 SERVERS TECH FZCO,False,True,True,144.124.251.24
+144.124.251.24:10610,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,Servers Tech Fzco,AS216071 SERVERS TECH FZCO,False,True,True,144.124.251.24
+167.86.104.220:80,France,Grand Est,Lauterbourg,Contabo GmbH,Contabo GmbH,AS51167 Contabo GmbH,False,True,False,167.86.104.220
+144.124.251.24:10164,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,Servers Tech Fzco,AS216071 SERVERS TECH FZCO,False,True,True,144.124.251.24
+144.124.251.24:10601,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,Servers Tech Fzco,AS216071 SERVERS TECH FZCO,False,True,True,144.124.251.24
+45.80.151.33:3128,The Netherlands,Flevoland,Dronten,Hostgw SRL,Hostgw SRL,AS204641 HOSTGW SRL,False,True,True,213.139.9.148
+144.124.251.24:10453,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,Servers Tech Fzco,AS216071 SERVERS TECH FZCO,False,True,True,144.124.251.24
+144.124.251.24:10333,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,Servers Tech Fzco,AS216071 SERVERS TECH FZCO,False,True,True,144.124.251.24
+144.124.251.24:10801,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,Servers Tech Fzco,AS216071 SERVERS TECH FZCO,False,True,True,144.124.251.24
+144.124.251.24:10187,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,Servers Tech Fzco,AS216071 SERVERS TECH FZCO,False,True,True,144.124.251.24
 144.124.251.24:10771,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,Servers Tech Fzco,AS216071 SERVERS TECH FZCO,False,True,True,144.124.251.24
-130.110.103.245:3128,Saudi Arabia,Mecca Region,Jeddah,Oracle Corporation,Oracle Cloud Infrastructure (me-jeddah-1),AS31898 Oracle Corporation,False,True,True,130.110.103.245
-85.133.250.27:80,Iran,Tehran,Tehran,Pars Abr Toseeh Ertebatat LTD,ParsAbr,AS198154 Pars Abr Toseeh Ertebatat LTD,False,False,False,130.185.120.91
-43.201.253.41:3128,South Korea,Incheon,Incheon,"Amazon.com, Inc.",AWS EC2 (ap-northeast-2),"AS16509 Amazon.com, Inc.",False,True,False,43.201.253.41
-144.124.251.24:10007,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,Servers Tech Fzco,AS216071 SERVERS TECH FZCO,False,True,True,144.124.251.24
-68.183.88.189:3129,India,Karnataka,Bengaluru,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,68.183.88.189
+144.124.251.24:10123,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,Servers Tech Fzco,AS216071 SERVERS TECH FZCO,False,True,True,144.124.251.24
+1.231.81.166:3128,South Korea,Seoul,Dobong-gu,SK Broadband Co Ltd,broadNnet,AS9318 SK Broadband Co Ltd,False,False,True,1.231.81.166
+144.124.251.24:10082,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,Servers Tech Fzco,AS216071 SERVERS TECH FZCO,False,True,True,144.124.251.24
+144.124.251.24:10088,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,Servers Tech Fzco,AS216071 SERVERS TECH FZCO,False,True,True,144.124.251.24
+74.176.16.105:3128,Japan,Tokyo,Tokyo,Microsoft Corporation,Microsoft Azure Cloud (japaneast),AS8075 Microsoft Corporation,False,False,False,20.18.194.174
+176.111.37.5:39811,Hong Kong,Kowloon City,Tsim Sha Tsui,Cogento Backbone Limited,Cogento Backbone Limited,AS214743 Cogento Backbone Limited,False,False,True,176.111.37.5
+144.124.251.24:10628,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,Servers Tech Fzco,AS216071 SERVERS TECH FZCO,False,True,True,144.124.251.24
+18.157.123.132:3128,Germany,Hesse,Frankfurt,"Amazon.com, Inc.",AWS EC2 (eu-central-1),"AS16509 Amazon.com, Inc.",False,True,True,3.68.36.133
+135.181.79.187:40001,Finland,Uusimaa,Helsinki,Hetzner Online GmbH,Hetzner,AS24940 Hetzner Online GmbH,False,True,True,104.28.254.16
+174.138.162.38:36185,United States,Arizona,Phoenix,Secured Servers LLC,InternetXS,AS20454 SECURED SERVERS LLC,False,True,True,47.159.108.126
+176.111.37.216:39811,Hong Kong,Kowloon City,Tsim Sha Tsui,Cogento Backbone Limited,Cogento Backbone Limited,AS214743 Cogento Backbone Limited,False,False,True,176.111.37.216
+217.182.195.221:30004,France,Hauts-de-France,Roubaix,OVH SAS,OVH,AS16276 OVH SAS,False,True,True,203.55.81.1
+144.124.251.24:10117,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,Servers Tech Fzco,AS216071 SERVERS TECH FZCO,False,True,True,144.124.251.24
+196.74.228.136:1344,Morocco,Rabat-Salé-Kénitra,Rabat,ADSL Maroc telecom,,AS36903 Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM,False,False,False,160.178.231.187
+43.156.153.104:8081,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.156.153.104
+43.128.76.140:8080,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.128.76.140
+43.156.199.63:8080,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.156.199.63
+79.137.78.133:8011,France,Hauts-de-France,Roubaix,OVH SAS,OVH,AS16276 OVH SAS,False,True,True,149.88.110.38
+5.129.249.123:61925,Russia,Moscow,Moscow,"JSC ""TIMEWEB""","JSC ""TIMEWEB""",AS9123 JSC TIMEWEB,False,True,False,5.129.249.123
+43.156.120.151:80,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.156.120.151
+43.128.112.151:80,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.128.112.151
+128.199.202.122:8080,Singapore,South West,Singapore,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,128.199.202.122
+176.222.53.103:88,The Netherlands,North Holland,Amsterdam,SAS Neo Services,Neo Services,AS57043 HOSTKEY B.V.,False,True,False,176.222.53.103
+43.156.248.220:80,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.156.248.220
+36.155.23.163:10808,China,Jiangsu,Nanjing,China Mobile Communications Corporation,"China Mobile Communications Group Co., Ltd",AS56046 China Mobile communications corporation,True,False,False,156.59.17.27
+43.134.17.145:8081,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.134.17.145
+5.129.249.123:1080,Russia,Moscow,Moscow,"JSC ""TIMEWEB""","JSC ""TIMEWEB""",AS9123 JSC TIMEWEB,False,True,False,5.129.249.123
+129.226.89.151:80,Singapore,North West,Singapore,Tencent Cloud Computing (Beijing) Co,Aceville Pte.ltd,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,True,129.226.89.151
+144.124.251.24:10412,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,Servers Tech Fzco,AS216071 SERVERS TECH FZCO,False,True,True,144.124.251.24
+167.172.84.23:3128,Singapore,South West,Singapore,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,False,167.172.84.23
+203.205.49.2:10222,Vietnam,Hanoi,Mai Dich,CMC Telecom Infrastructure Company,CMC Telecom Infrastructure Company,AS45903 CMC Telecom Infrastructure Company,False,False,True,203.205.49.225
+206.81.27.105:3128,Germany,Hesse,Frankfurt am Main,"DigitalOcean, LLC",Digital Ocean,"AS14061 DigitalOcean, LLC",False,True,True,206.81.27.105
+95.3.69.222:8080,Türkiye,Istanbul,Istanbul,Turk Telekomunikasyon Anonim Sirketi,TurkTelekom,AS9121 Turk Telekomunikasyon Anonim Sirketi,False,False,True,95.3.69.222
+185.195.254.72:5432,Turkey,Gaziantep,Yamaçtepe,Veganet Teknolojileri ve Hizmetleri LTD STI,Veganet Teknolojileri ve Hizmetleri LTD STI,AS206119 Veganet Teknolojileri ve Hizmetleri LTD STI,False,True,True,185.195.254.72
+193.233.91.64:3129,Russia,St.-Petersburg,St Petersburg,Aeza Group LLC,Aeza Group LLC,AS216246 Aeza Group LLC,False,False,True,167.86.104.220
+45.132.252.25:49156,Russia,Moscow,Moscow,Ihor Hosting LTD,Gorizont LLC,AS209641 IHOR HOSTING LTD,False,True,False,45.132.252.25
+116.204.182.120:80,Thailand,Nonthaburi,Nonthaburi,"Bangmod Enterprise Co., Ltd.","Bangmod Enterprise Co., Ltd.","AS58955 Bangmod Enterprise Co., Ltd.",False,False,True,116.204.182.120
+103.18.78.35:8080,Indonesia,West Java,Bogor,PT Usaha Adi Sanggoro,,AS55701 PT. Usaha Adisanggoro,False,False,True,103.18.78.35
+217.182.195.221:30000,France,Hauts-de-France,Roubaix,OVH SAS,OVH,AS16276 OVH SAS,False,True,True,109.70.100.10
+103.68.215.115:8181,Indonesia,West Java,Sepatan,PT Media Grasi Internet,PT Media Grasi Internet,AS150517 PT Media Grasi Internet,False,False,False,103.68.215.115
+34.84.162.206:38080,Japan,Tokyo,Tokyo,Google LLC,Google Cloud (asia-northeast1),AS396982 Google LLC,False,True,True,34.84.162.206
+43.134.16.198:8081,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.134.16.198
+163.181.207.230:9999,Vietnam,Hanoi,Hanoi,"Zhejiang Taobao Network Co., Ltd",Alibaba.com LLC,"AS24429 Zhejiang Taobao Network Co.,Ltd",False,True,True,163.181.207.230
+144.124.251.24:10366,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,Servers Tech Fzco,AS216071 SERVERS TECH FZCO,False,True,True,144.124.251.24
+163.181.207.167:9999,Vietnam,Hanoi,Hanoi,"Zhejiang Taobao Network Co., Ltd",Alibaba.com LLC,"AS24429 Zhejiang Taobao Network Co.,Ltd",False,True,True,163.181.207.167
+47.81.56.193:8888,Thailand,Bangkok,Bangkok,Alibaba.com LLC,"Delta Centric LLC, Zenlayer Inc","AS45102 Alibaba (US) Technology Co., Ltd.",False,True,True,47.81.56.193
+152.42.177.32:8888,Singapore,South West,Singapore,"DigitalOcean, LLC",Digital Ocean,"AS14061 DigitalOcean, LLC",False,True,True,152.42.177.32
+163.181.207.214:9999,Vietnam,Hanoi,Hanoi,"Zhejiang Taobao Network Co., Ltd",Alibaba.com LLC,"AS24429 Zhejiang Taobao Network Co.,Ltd",False,True,True,163.181.207.214
+42.62.177.42:8080,Indonesia,West Nusa Tenggara,Mataram,PT Andira IT Solutions,ANDIRA,AS55690 PT Andira Infomedia,False,False,False,42.62.177.42
+200.229.76.160:3128,Brazil,São Paulo,Campinas,Saveincloud Hospedagem na Internet Ltda,Saveincloud Hospedagem na Internet Ltda,AS263511 Saveincloud Hospedagem na Internet Ltda,False,True,False,200.229.76.160
+124.156.194.52:8081,Singapore,North West,Singapore,Tencent Cloud Computing (Beijing) Co,,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,124.156.194.52
+144.126.137.165:1080,United States,Missouri,St Louis,Contabo Inc.,Contabo Inc,AS40021 Contabo Inc.,False,True,False,144.126.137.165
+43.156.174.122:8080,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.156.174.122
+62.90.73.225:3128,Israel,Tel Aviv,Tel Aviv,013 Netvision Network,Solid Ltd,AS1680 Cellcom Fixed Line Communication L.P,False,False,False,62.90.73.225
+212.154.169.90:3128,Kazakhstan,Almaty,Almaty,JSC Kazakhtelecom,LLC ?electronic Commerce Center,AS50482 JSC Kazakhtelecom,False,False,True,212.154.169.90
+194.31.108.109:2080,Iran,Tehran,Tehran,Avaye Segal Net Co. PJS,Pardazesh Argham Yasna Co,AS209783 Avaye Segal Net Co. PJS,False,False,True,31.171.100.97
+156.67.110.124:10808,India,Maharashtra,Mumbai,Contabo Asia Private Limited,Contabo GmbH,AS141995 Contabo Asia Private Limited,False,True,True,156.67.110.124
+203.201.170.230:64321,Indonesia,Bali,Legian,PT. Core Mediatech,,AS38778 PT. Dutakom Wibawa Putra,False,False,True,203.201.170.230
+31.31.74.185:9898,Czechia,South Bohemian Region,Hluboká nad Vltavou,WEDOS Internet,WEDOS hosting services,"AS197019 WEDOS Internet, a.s.",False,True,True,31.31.74.185
 117.236.124.166:3128,India,Gujarat,Gandhinagar,BSNL Internet,,AS9829 National Internet Backbone,False,False,True,117.236.124.166
 168.144.84.188:3129,India,Karnataka,Bengaluru,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,168.144.84.188
 139.59.1.14:8080,India,Karnataka,Bengaluru,DIGITALOCEAN,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,139.59.1.14
-1.231.81.166:3128,South Korea,Seoul,Dobong-gu,SK Broadband Co Ltd,broadNnet,AS9318 SK Broadband Co Ltd,False,False,True,1.231.81.166
-101.32.65.42:8888,Hong Kong,Kowloon,Hong Kong,Aceville Pte.ltd,,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,True,101.32.76.202
-45.194.41.155:8080,India,Maharashtra,Mumbai,Real Time Data Services Private Limited,Real Time Data Services Private Limited,AS140641 YOTTA NETWORK SERVICES PRIVATE LIMITED,False,False,True,45.194.41.155
-45.194.41.43:8080,India,Maharashtra,Mumbai,Real Time Data Services Private Limited,Real Time Data Services Private Limited,AS140641 YOTTA NETWORK SERVICES PRIVATE LIMITED,False,False,True,45.194.41.43
-178.92.72.229:8080,India,Maharashtra,Mumbai,IPXO,IPXO,AS134926 Micro Hosting Private Limited,False,False,False,178.92.72.229
-178.92.72.165:8080,India,Maharashtra,Mumbai,IPXO,IPXO,AS134926 Micro Hosting Private Limited,False,False,False,178.92.72.165
-178.92.72.134:8080,India,Maharashtra,Mumbai,IPXO,IPXO,AS134926 Micro Hosting Private Limited,False,False,False,178.92.72.134
-45.194.41.70:8080,India,Maharashtra,Mumbai,Real Time Data Services Private Limited,Real Time Data Services Private Limited,AS140641 YOTTA NETWORK SERVICES PRIVATE LIMITED,False,False,True,45.194.41.70
-38.180.95.216:8080,Hong Kong,Kowloon,Hong Kong,M247 Europe SRL,3NT SOLUTIONS LLP,AS9009 M247 Europe SRL,False,True,True,38.180.95.216
-178.92.72.129:8080,India,Maharashtra,Mumbai,IPXO,IPXO,AS134926 Micro Hosting Private Limited,False,False,False,178.92.72.129
-142.93.217.232:3129,India,Karnataka,Bengaluru,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,142.93.217.232
-192.92.193.18:999,Puerto Rico,Trujillo Alto,Trujillo Alto,Boom NET,Boom NET,AS63393 BOOM NET,False,False,True,192.92.193.18
-212.154.169.90:3128,Kazakhstan,Almaty,Almaty,JSC Kazakhtelecom,LLC ?electronic Commerce Center,AS50482 JSC Kazakhtelecom,False,False,True,212.154.169.90
-45.194.41.141:8080,India,Maharashtra,Mumbai,Real Time Data Services Private Limited,Real Time Data Services Private Limited,AS140641 YOTTA NETWORK SERVICES PRIVATE LIMITED,False,False,True,45.194.41.155
-43.156.174.122:8080,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.156.174.122
-45.194.47.134:8080,India,Uttar Pradesh,Noida,CtrlS,Real Time Data Services Private Limited,AS18229 CtrlS,False,False,False,45.194.47.134
-43.156.40.114:8081,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.156.40.114
-43.134.230.44:8081,Singapore,North West,Singapore,Aceville Pte.ltd,,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.134.230.44
-43.134.16.72:8080,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.134.16.72
-81.90.158.110:3128,Iran,Tehran,Varāmīn,Afranet Co,,AS25184 Afranet,False,False,True,213.142.134.51
-124.156.194.52:8081,Singapore,North West,Singapore,Tencent Cloud Computing (Beijing) Co,,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,124.156.194.52
-112.207.169.40:8082,Philippines,Calabarzon,City of Muntinlupa,Philippine Long Distance Telephone Co.,,AS9299 Philippine Long Distance Telephone Company,False,False,False,112.207.169.40
-43.134.49.34:8080,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.134.49.34
-43.134.79.76:8080,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.134.79.76
-43.163.124.191:8080,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.163.124.191
-31.31.74.185:9898,Czechia,South Bohemian Region,Hluboká nad Vltavou,WEDOS Internet,WEDOS hosting services,"AS197019 WEDOS Internet, a.s.",False,True,True,31.31.74.185
-43.134.186.82:8080,Singapore,North West,Singapore,Aceville Pte.ltd,,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.134.186.82
-43.128.112.151:80,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.128.112.151
-129.226.89.151:80,Singapore,North West,Singapore,Tencent Cloud Computing (Beijing) Co,Aceville Pte.ltd,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,True,129.226.89.151
-43.156.227.68:80,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,True,43.156.227.68
-154.201.127.158:8080,India,Uttar Pradesh,Noida,Real Time Data Services Private Limited,Real Time Data Services Private Limited,AS18229 CtrlS,False,False,False,154.201.127.158
-13.212.214.47:8090,Singapore,Central Singapore,Singapore,Amazon Technologies Inc.,AWS EC2 (ap-southeast-1),"AS16509 Amazon.com, Inc.",False,True,True,13.212.214.47
-43.153.195.69:80,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.153.195.69
-154.201.126.21:8080,India,Uttar Pradesh,Noida,CtrlS,Real Time Data Services Private Limited,AS18229 CtrlS,False,False,False,154.201.126.21
-45.194.90.75:8080,India,Uttar Pradesh,Noida,Shanxi Liyun Breeding Co,Real Time Data Services Private Limited,AS18229 CtrlS,False,False,False,45.194.90.75
-43.156.248.220:80,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.156.248.220
-128.199.202.122:8080,Singapore,South West,Singapore,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,128.199.202.122
-43.156.120.151:80,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.156.120.151
-154.201.127.126:8080,India,Uttar Pradesh,Noida,Real Time Data Services Private Limited,Real Time Data Services Private Limited,AS18229 CtrlS,False,False,False,154.201.127.126
-112.201.178.178:8082,Philippines,Calabarzon,Taytay,Philippine Long Distance Telephone Co.,,AS9299 Philippine Long Distance Telephone Company,False,False,False,112.201.178.178
-45.194.90.194:8080,India,Uttar Pradesh,Noida,Shanxi Liyun Breeding Co,Real Time Data Services Private Limited,AS18229 CtrlS,False,False,False,45.194.90.194
-154.201.126.43:8080,India,Uttar Pradesh,Noida,CtrlS,Real Time Data Services Private Limited,AS18229 CtrlS,False,False,False,154.201.126.43
-46.28.74.98:3128,Iran,Tehran,Tehran,Sefroyek Pardaz Engineering PJSC,,AS44285 Sefroyek Pardaz Engineering PJSC,False,False,True,31.171.101.223
-116.204.182.120:80,Thailand,Nonthaburi,Nonthaburi,"Bangmod Enterprise Co., Ltd.","Bangmod Enterprise Co., Ltd.","AS58955 Bangmod Enterprise Co., Ltd.",False,False,True,116.204.182.120
-168.144.68.176:3129,India,Karnataka,Bengaluru,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,168.144.68.176
-210.211.113.36:80,Vietnam,Ho Chi Minh,Ho Chi Minh City,VTDC,Viettel - CHT Company Ltd,AS38731 Vietel - CHT Compamy Ltd,False,False,True,210.211.113.36
-38.51.207.104:8080,Venezuela,Zulia,Maracaibo,Tecnoven Services C.A,Tecnoven Services C.A,AS269730 TECNOVEN SERVICES CA,False,False,False,38.51.207.106
-45.194.90.225:8080,India,Uttar Pradesh,Noida,Shanxi Liyun Breeding Co,Real Time Data Services Private Limited,AS18229 CtrlS,False,False,False,45.194.90.225
-45.194.90.58:8080,India,Uttar Pradesh,Noida,Shanxi Liyun Breeding Co,Real Time Data Services Private Limited,AS18229 CtrlS,False,False,False,45.194.90.58
-112.208.162.30:8082,Philippines,Metro Manila,Makati City,Philippine Long Distance Telephone Co.,,AS9299 Philippine Long Distance Telephone Company,False,False,True,112.208.162.30
-138.252.98.110:8080,Indonesia,Lampung,Jabung,PT Java Internet Solution,Indonesia Network Information Center,AS154344 PT Java Internet Solution,False,False,False,138.252.98.110
-125.24.24.59:8080,Thailand,Surin,Lamduan,TOT Public Company Limited,TOT Public Company Limited,AS23969 TOT Public Company Limited,False,False,False,110.164.197.84
-144.126.137.165:1080,United States,Missouri,St Louis,Contabo Inc.,Contabo Inc,AS40021 Contabo Inc.,False,True,False,144.126.137.165
-217.182.195.221:30006,France,Hauts-de-France,Roubaix,OVH SAS,OVH,AS16276 OVH SAS,False,True,True,23.129.64.153
-47.81.56.193:8888,Thailand,Bangkok,Bangkok,Alibaba.com LLC,"Delta Centric LLC, Zenlayer Inc","AS45102 Alibaba (US) Technology Co., Ltd.",False,True,True,47.81.56.193
-210.211.113.34:80,Vietnam,Ho Chi Minh,Ho Chi Minh City,VTDC,Viettel - CHT Company Ltd,AS38731 Vietel - CHT Compamy Ltd,False,False,True,210.211.113.34
-163.181.207.227:9999,Vietnam,Hanoi,Hanoi,"Zhejiang Taobao Network Co., Ltd",Alibaba.com LLC,"AS24429 Zhejiang Taobao Network Co.,Ltd",False,True,True,163.181.207.227
-5.129.249.123:61925,Russia,Moscow,Moscow,"JSC ""TIMEWEB""","JSC ""TIMEWEB""",AS9123 JSC TIMEWEB,False,True,False,5.129.249.123
-103.179.183.223:8089,Indonesia,East Java,Gambiran Satu,PT Internusa Duta Makmur,CV Sinar Kencana,AS150208 PT Internusa Duta Makmur,False,False,True,103.179.183.223
-187.147.164.22:8080,Mexico,Yucatán,Mérida,Uninet S.A. de C.V.,Uninet S.A. de C.V.,AS8151 Uninet S.A. de C.V.,False,False,False,189.176.47.86
-113.161.93.6:8080,Vietnam,Ho Chi Minh,Ho Chi Minh City,VietNam Post and Telecom Corporation,Vietnam Posts and Telecommunications Group,AS45899 VNPT Corp,False,False,False,113.161.93.6
-43.128.76.140:8081,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.128.76.140
-186.5.94.206:999,Ecuador,Guayas,Guayaquil,Telconet S.A,MINTEL,AS27947 Telconet S.A,False,False,True,186.5.94.206
-43.156.199.63:8081,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.156.199.63
-190.97.236.128:999,Venezuela,Barinas,Maporal,Viginet C.A,,AS263703 VIGINET C.A,False,False,True,153.51.201.35
-152.42.177.32:8888,Singapore,South West,Singapore,"DigitalOcean, LLC",Digital Ocean,"AS14061 DigitalOcean, LLC",False,True,True,152.42.177.32
-154.201.126.12:8080,India,Uttar Pradesh,Noida,CtrlS,Real Time Data Services Private Limited,AS18229 CtrlS,False,False,False,154.201.126.12
-154.59.56.74:999,Venezuela,Mérida,Tovar Municipality,Cogent Communications,"TODONET TELECOMUNICACIONES, C.A",AS264778 TotalCom Venezuela C.A.,False,False,True,154.59.56.77
-203.177.217.222:8082,Philippines,Bicol Region,Aroroy,Globe Telecom,Globe Telecom,AS4775 Globe Telecoms,False,False,True,203.177.217.222
-65.109.217.164:3128,Finland,Uusimaa,Helsinki,Hetzner Online GmbH,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,False,65.109.217.164
-148.244.144.194:8097,Mexico,Guanajuato,Silao de la Victoria,"Alestra, S. de R.L. de C.V.","Alestra, S. de R.L. de C.V","AS11172 Alestra, S. de R.L. de C.V.",False,False,True,148.244.144.198
-43.156.153.104:8080,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.156.153.104
-204.168.225.55:8888,Finland,Uusimaa,Helsinki,Hetzner Online GmbH,HETZNER-DC,AS24940 Hetzner Online GmbH,False,True,True,104.28.222.16
-49.145.123.204:8080,Philippines,Central Visayas,Cebu City,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,False,49.148.102.158
-37.59.125.131:8888,France,Hauts-de-France,Roubaix,OVH SAS,OVH SAS,AS16276 OVH SAS,False,True,True,82.66.253.58
-112.207.174.245:8080,Philippines,Calabarzon,City of Muntinlupa,Philippine Long Distance Telephone Co.,,AS9299 Philippine Long Distance Telephone Company,False,False,False,112.207.174.245
-128.199.254.13:9090,Singapore,South West,Singapore,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,128.199.254.13
-185.97.200.14:1080,Russia,St.-Petersburg,St Petersburg,P.A.K.T LLC,,AS39087 P.A.K.T LLC,False,False,True,45.9.72.25
-154.59.56.76:999,Venezuela,Mérida,Santa Cruz de Mora,Cogent Communications,"TODONET TELECOMUNICACIONES, C.A",AS264778 TotalCom Venezuela C.A.,False,False,True,154.59.56.77
-185.133.213.86:8074,Myanmar,Yangon,Yangon,Global Technology Co,,"AS133524 Global Technology Co., Ltd.",False,False,True,185.133.213.86
-111.119.162.248:10962,Pakistan,Sindh,Tando Adam,Connect Communication,WANGSU,AS132165 Connect Communications,False,False,True,193.29.139.198
-43.160.255.142:7890,Singapore,North West,Singapore,Aceville Pte.ltd,,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,True,43.160.255.142
-124.121.5.189:8080,Thailand,Nakhon Ratchasima,Nakhon Ratchasima,True Internet Corporation CO. Ltd.,Truebb,AS17552 True Online,False,False,False,124.121.5.189
-197.224.185.3:3128,Mauritius,Plaines Wilhems District,Rose Hill,telecomplus,,AS23889 Mauritius Telecom Ltd,False,False,True,197.224.185.3
-174.138.165.213:34268,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,152.37.233.77
-143.255.85.225:999,Venezuela,Barinas,Santa Bárbara,Viginet C.A,Viginet C.A,AS263703 VIGINET C.A,False,False,True,143.255.85.9
-193.178.203.141:8080,Iran,Isfahan,Isfahan,AsmanFaraz ISDP,Asmanfaraz Sepahan Company (P.J.S),AS44375 Asmanfaraz Sepahan Company (P.J.S),False,False,True,31.171.101.16
-138.121.15.230:999,Colombia,Departamento de Bolívar,Cartagena,Liberty Networks De Colombia,Truevice SAN Carlos,AS262191 LIBERTY NETWORKS DE COLOMBIA S.A.S,False,False,True,138.121.15.230
-203.205.49.2:10185,Vietnam,Hanoi,Mai Dich,CMC Telecom Infrastructure Company,CMC Telecom Infrastructure Company,AS45903 CMC Telecom Infrastructure Company,False,False,True,203.205.49.188
-183.91.88.226:8087,Indonesia,Jakarta,Central Jakarta,PT Aplikanusa Lintasarta,,AS4800 PT Aplikanusa Lintasarta,False,True,False,202.158.20.19
-54.20.46.218:3128,Brazil,São Paulo,Sao Paulo,"Amazon.com, Inc.",AWS EC2 (sa-east-1),"AS16509 Amazon.com, Inc.",False,False,False,192.42.116.56
-111.119.162.248:10901,Pakistan,Sindh,Tando Adam,Connect Communication,WANGSU,AS132165 Connect Communications,False,False,True,47.91.104.218
-43.134.16.198:8080,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.134.16.198
-43.156.199.63:8080,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.156.199.63
-167.172.84.23:3128,Singapore,South West,Singapore,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,False,167.172.84.23
-195.158.8.123:3128,Uzbekistan,Tashkent,Tashkent,"""Uzbektelekom"" Joint Stock Company",Uztelecom,AS8193 Uzbektelekom Joint Stock Company,False,False,True,195.158.8.123
-160.25.83.52:1086,Vietnam,Hanoi,Tây Hồ,Httvserver Technology Company Limited,BigData Network Technology Company Limited,AS140815 HTTVSERVER TECHNOLOGY COMPANY LIMITED,False,True,False,185.128.27.106
-124.156.194.52:8080,Singapore,North West,Singapore,Tencent Cloud Computing (Beijing) Co,,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,124.156.194.52
-45.143.130.157:1080,United States,California,San Jose,BITSFLOWCLOUD,,AS6233 xTom,False,True,False,45.143.130.157
-174.138.165.202:31356,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,148.75.129.99
-201.159.20.108:999,Mexico,Baja California,Mexicali,"Konecta de Mexico, S. de R.L. de C.V.","Konecta de Mexico, S. de R.L. de C.V","AS262913 Konecta de Mexico, S. de R.L. de C.V.",False,False,False,201.159.20.108
-181.119.67.73:999,Colombia,Santander Department,Barrancabermeja,IFX Networks Argentina S.R.L,"UFINET COLOMBIA, S. A",AS52468 UFINET PANAMA S.A.,False,False,False,181.119.67.73
-103.147.247.169:8080,Indonesia,Central Java,Kutoarjo,PLBNET,,AS139972 PT. Putra Lebak Banten,False,False,True,103.147.247.169
-103.41.247.34:8080,Indonesia,West Java,Cimahi,Universitas Pasundan Bandung,Universitas Pasundan Bandung,AS133802 Universitas Pasundan Bandung,False,False,True,103.41.247.34
-103.229.85.221:8080,Bangladesh,Rangpur Division,Rangpur City,Ashfakur Rahman Chowdhury,,AS133443 Comilla Online,False,False,True,151.158.121.48
-41.139.164.19:8080,Kenya,Nairobi County,Nairobi,Converged services Eastern,For Converged services,AS37061 Safaricom Limited,False,False,True,41.139.138.189
-103.135.189.65:83,India,Tamil Nadu,Tiruchirappalli,Swibi Airnet Broadband Services Pvt Ltd,Swibi Airnet Broadband Services Pvt Ltd,AS138782 Swibi Airnet Broadband Services Pvt Ltd,False,False,True,103.162.8.2
-13.209.65.136:18080,South Korea,Incheon,Incheon,Amazon Technologies Inc.,AWS EC2 (ap-northeast-2),"AS16509 Amazon.com, Inc.",False,True,True,45.84.107.172
-180.191.121.220:8181,Philippines,Northern Mindanao,Cagayan de Oro,Globe Telecom,,AS4775 Globe Telecoms,False,False,False,180.191.121.220
-107.167.18.122:443,United States,California,Los Angeles,Sharktech,Sharktech,AS46844 Sharktech,False,True,True,107.167.18.99
-88.218.121.235:3128,The Netherlands,North Holland,Amsterdam,Clodo Cloud Service CO. L.L.C,Clodo Cloud Service CO. L.L.C,AS216154 CLODO CLOUD SERVICE CO. L.L.C,False,True,True,88.218.121.235
-103.232.67.58:8080,Indonesia,Jakarta,Jakarta,PT. KINEZ CREATIVE SOLUTIONS,PT. Kinez Creative Solutions,AS137311 PT. KINEZ CREATIVE SOLUTIONS,False,False,True,103.232.67.58
-111.119.162.248:10960,Pakistan,Sindh,Tando Adam,Connect Communication,WANGSU,AS132165 Connect Communications,False,False,True,193.29.139.151
-203.76.117.226:8118,Bangladesh,Dhaka Division,Tangail,Link3 Technologies Limited,Link3 Technologies Ltd,AS23688 Link3 Technologies Ltd.,False,False,False,203.76.117.226
-27.147.153.179:8158,Bangladesh,Dhaka Division,Dhaka,Link3 Technologies Limited,Corporate Subscriber,AS23688 Link3 Technologies Ltd.,False,False,True,27.147.153.179
-124.109.105.44:3128,Bangladesh,Dhaka Division,Bhātāra,Mutual Trust Bank Limited,Mutual Trust Bank Limited,AS55344 Head Office,False,False,False,124.109.105.44
-103.106.112.166:1234,Indonesia,Lampung,Jepara,SMSNET,,AS136880 PT. Sumatra Multimedia Solusi,False,False,True,103.106.112.166
-184.82.139.28:8081,Thailand,Chon Buri,Bang Lamung,AIS-Fibre,,AS133481 AIS Fibre,False,False,False,184.82.139.28
-2.56.109.190:8082,Türkiye,Bursa Province,Bursa,Pembe Gul Isguzar Karagoz,VDS GLOBAL YAZILIM ARGE GELISTIRME LIMITED SIRKETI,AS205463 Pembe Gul Isguzar Karagoz,False,False,True,2.56.109.190
-103.82.246.19:6080,Indonesia,East Java,Wedoro,PT Master Star Network,PT Aswatama Jaya Mandiri,AS142370 PT Master Star Network,False,False,True,103.82.246.19
-193.33.157.18:8080,Syria,Aleppo Governorate,Aleppo,High Speed For Internet Services L.L.C,Enflow B.V,AS216472 High Speed For Internet Services L.L.C,False,False,True,193.33.157.18
-110.232.78.195:8080,Indonesia,North Sumatra,Belawan,PT. Media Antar Nusa,Nusanet,AS23679 PT. Media Antar Nusa,False,False,False,110.232.78.195
-115.187.29.25:89,Indonesia,West Nusa Tenggara,Praya,PT Lintas Jaringan Mandiri,PT Lintas Jaringan Mandiri,AS152034 PT Lintas Jaringan Mandiri,False,False,True,115.187.29.25
-183.80.201.42:8080,Vietnam,Hanoi,Hanoi,FPT Telecom Company,Vietnam Internet Network Information Center,AS18403 FPT Telecom Company,False,False,False,42.113.31.51
-103.31.135.214:8080,Indonesia,West Java,Bekasi,PT Arthatama Adhiprima Persada,,AS131749 PT. Arthatama Adhiprima Persada,False,False,False,103.31.135.214
-157.20.35.40:9090,Indonesia,Jakarta,Jakarta,PT Desible Eradata Komunikasi,PT Desible Eradata Komunikasi,AS152424 PT Desible Eradata Komunikasi,False,False,False,157.20.35.40
-205.164.192.115:999,Mexico,Jalisco,Ayotlán,Cogent Communications,Jose De Jesus Vazquez Ponce,AS270207 MULTICARRIER JE S. DE R.L. DE C.V.,False,False,True,205.164.192.115
-203.205.49.2:10048,Vietnam,Hanoi,Mai Dich,CMC Telecom Infrastructure Company,CMC Telecom Infrastructure Company,AS45903 CMC Telecom Infrastructure Company,False,False,True,203.205.49.51
-111.119.162.248:10927,Pakistan,Sindh,Tando Adam,Connect Communication,WANGSU,AS132165 Connect Communications,False,False,True,47.252.0.200
-112.198.138.29:8082,Philippines,Calabarzon,General Trias,Globe Telecom,,AS132199 Globe Telecom Inc.,True,False,True,112.198.138.29
-43.134.230.44:8080,Singapore,North West,Singapore,Aceville Pte.ltd,,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.134.230.44
-43.156.166.134:8080,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.156.166.134
-111.119.162.248:10916,Pakistan,Sindh,Tando Adam,Connect Communication,WANGSU,AS132165 Connect Communications,False,False,True,47.254.157.156
-191.241.184.5:8080,Brazil,Sergipe,Nossa Senhora da Glória,NetGloria Telecom,Netglória Serviços de Internet Ltda,AS263677 Netglória Serviços de Internet Ltda,False,False,False,191.241.184.5
-51.170.133.249:80,Morocco,Casablanca-Settat,Casablanca,Oracle Corporation,Oracle Cloud Infrastructure (af-casablanca-1),AS31898 Oracle Corporation,False,True,False,51.170.133.249
+5.161.50.82:8118,United States,Virginia,Ashburn,Hetzner Online GmbH,Hetzner Online GmbH,AS213230 Hetzner Online GmbH,False,True,True,185.233.100.23
+65.109.65.239:28080,Finland,Uusimaa,Helsinki,Hetzner Online GmbH,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,True,77.111.246.64
+144.124.251.24:10176,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,Servers Tech Fzco,AS216071 SERVERS TECH FZCO,False,True,True,144.124.251.24
 43.156.40.114:8080,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.156.40.114
-41.216.186.41:8080,Indonesia,Jakarta,South Jakarta,FASTHOSTING,,AS211407 PT Perwira Media Solusi,False,True,True,202.65.234.67
-194.67.67.184:8181,Russia,Moscow,Moscow,Domain names registrar REG.RU,"""Domain names registrar REG.RU"", Ltd","AS197695 Domain names registrar REG.RU, Ltd",False,False,False,194.67.67.184
-43.251.225.168:8080,Hong Kong,Kowloon,Hong Kong,cognetcloud INC,I LAYER LIMITED,AS401696 cognetcloud INC,False,True,False,43.251.225.168
-210.211.113.37:80,Vietnam,Ho Chi Minh,Ho Chi Minh City,VTDC,Viettel - CHT Company Ltd,AS38731 Vietel - CHT Compamy Ltd,False,False,True,210.211.113.37
-174.138.162.35:36246,United States,Arizona,Phoenix,Secured Servers LLC,InternetXS,AS20454 SECURED SERVERS LLC,False,True,True,187.15.81.179
-186.167.113.97:999,Venezuela,Lara,Quíbor,Corporacion Digitel C.A,M&S,AS27717 Corporacion Digitel C.A.,False,False,False,154.3.77.0
-111.119.162.248:10923,Pakistan,Sindh,Tando Adam,Connect Communication,WANGSU,AS132165 Connect Communications,False,False,True,47.253.202.181
-49.151.64.103:5050,Philippines,Cagayan Valley,Mallig,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,True,49.151.64.103
-38.158.83.241:999,Peru,Arequipa,Arequipa,Fiberred SAC,Fiberred SAC,AS272838 FIBERRED SAC,False,False,True,38.158.82.98
-78.189.14.199:3310,Türkiye,Istanbul,Çekmeköy,Turk Telekomunikasyon Anonim Sirketi,Turk Telekomunikasyon A.S,AS9121 Turk Telekomunikasyon Anonim Sirketi,False,False,True,78.189.14.199
-190.97.239.40:999,Venezuela,Mérida,Mérida,Viginet C.A,Viginet C.A,AS263703 VIGINET C.A,False,False,True,190.97.239.42
-191.44.71.238:8080,The Netherlands,North Holland,Amsterdam,High Speed For Internet Services L.L.C,CZARNOMORKA PL Sp. z o.o,AS216472 High Speed For Internet Services L.L.C,False,False,False,191.44.71.238
-185.112.35.184:3128,Iran,Tehran,Tehran,ASIATECH-DC,Asiatech Data Transmission company,AS43754 Asiatech Data Transmission company,False,False,False,31.171.100.58
-85.209.156.148:1080,United States,California,Los Angeles,Oy Crea Nova Hosting Solution Ltd,Beafort Limited,AS51765 Oy Creanova Hosting Solutions Ltd.,False,True,True,85.209.156.148
-152.53.183.107:8081,Germany,Bavaria,Nuremberg,netcup GmbH,netcup GmbH,AS197540 netcup GmbH,False,True,True,152.53.183.107
-186.33.52.250:999,Colombia,Sucre Department,San Benito Abad,Ufinet Panama S.A.,UFINET,AS52468 UFINET PANAMA S.A.,False,False,True,186.33.52.250
-38.158.83.233:999,Peru,Arequipa,Arequipa,Fiberred SAC,Fiberred SAC,AS272838 FIBERRED SAC,False,False,True,38.158.82.98
-87.107.5.19:8585,Iran,Tehran,Tehran,Mobin Arvand Infrastructure Company LTD,MobinhostInfrastructure,AS215708 Mobin Arvand Infrastructure Company LTD,False,True,True,31.171.101.119
-210.211.113.35:80,Vietnam,Ho Chi Minh,Ho Chi Minh City,VTDC,Viettel - CHT Company Ltd,AS38731 Vietel - CHT Compamy Ltd,False,False,True,210.211.113.35
-203.205.49.2:10023,Vietnam,Hanoi,Mai Dich,CMC Telecom Infrastructure Company,CMC Telecom Infrastructure Company,AS45903 CMC Telecom Infrastructure Company,False,False,True,203.205.49.26
-45.198.11.165:8080,Indonesia,Central Java,Colomadu,PT Jaringan Lintas Artha,,AS142386 PT JARINGAN LINTAS ARTHA,False,False,True,45.198.10.130
-14.172.88.146:8080,Vietnam,Hanoi,Hanoi,VNPT-VNNIC,VietNam Post and Telecom Corporation,AS45899 VNPT Corp,False,False,False,14.172.88.146
-190.121.136.185:999,Colombia,Cundinamarca,Cáqueza,Media Commerce Partners S.A,FIBERCOM TV,AS27951 Media Commerce Partners S.A,False,False,True,190.121.145.134
-85.104.3.232:3310,Türkiye,Istanbul,Istanbul,Turk Telekomunikasyon Anonim Sirketi,Turk Telekomunikasyon A.S,AS9121 Turk Telekomunikasyon Anonim Sirketi,False,False,True,85.104.3.232
-201.140.209.33:3128,Brazil,Minas Gerais,Janaúba,Norte Line Telecomunicacoes Ltda.,Norte Line Telecomunicacoes Ltda,AS262895 Norte Line Telecomunicacoes Ltda.,False,False,True,201.140.209.33
-195.226.213.251:8888,Ukraine,Odesa,Fontanka,Private Enterprise KTV AIDA,ISP AIDA,AS197192 Private Enterprise KTV AIDA,False,False,True,195.226.213.254
-194.31.108.109:2080,Iran,Tehran,Tehran,Avaye Segal Net Co. PJS,Pardazesh Argham Yasna Co,AS209783 Avaye Segal Net Co. PJS,False,False,True,31.171.101.206
-112.201.179.242:5050,Philippines,Calabarzon,Taytay,Philippine Long Distance Telephone Co.,,AS9299 Philippine Long Distance Telephone Company,False,False,False,112.201.179.242
-184.82.164.49:8080,Thailand,Kalasin,Huai Mek,AIS-Fibre,,AS133481 AIS Fibre,False,False,False,184.82.164.49
-112.205.37.114:8085,Philippines,Metro Manila,Pasig,Philippine Long Distance Telephone Co.,,AS9299 Philippine Long Distance Telephone Company,False,False,False,112.205.37.114
-23.185.192.66:8181,United States,Indiana,Frankfort,"Swayzee Telephone Company, Inc.","Swayzee Telephone Company, Inc.","AS53989 Swayzee Telephone Company, Inc.",False,False,True,23.185.192.66
-201.7.31.146:8080,Turkey,Kayseri,Himmetdede,High Speed For Internet Services L.L.C,High Speed,AS216472 High Speed For Internet Services L.L.C,False,False,True,201.7.31.146
-58.69.124.137:8080,Philippines,Calabarzon,Antipolo City,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,True,58.69.124.137
-103.18.78.35:8080,Indonesia,West Java,Bogor,PT Usaha Adi Sanggoro,,AS55701 PT. Usaha Adisanggoro,False,False,True,103.18.78.35
-24.55.20.6:3030,United States,Texas,Austin,Charter Communications Inc,Spectrum,AS11427 Charter Communications Inc,False,False,True,24.55.20.6
-96.227.245.221:999,United States,Pennsylvania,Philadelphia,Verizon Business,Verizon Business,AS701 Verizon Business,False,False,True,96.227.245.221
-77.221.136.53:8080,Sweden,Stockholm County,Stockholm,Aeza International LTD,Aeza Group LLC,AS210644 AEZA GROUP LLC,False,True,True,77.221.136.53
-85.133.190.40:8097,Iran,Tehran,Tehran,Sepanta Internet and MPLS Service Provider,,AS39074 Sepanta Communication Development Co. Ltd,False,False,True,31.171.100.155
-154.18.255.121:1111,Indonesia,West Java,Karawang,PT Media Solusi Sukses,,AS142393 PT Media Solusi Sukses,False,False,True,154.18.255.121
-186.97.236.99:8080,Colombia,Antioquia,Medellín,EPM Telecomunicaciones S.A. E.S.P.,Colombia Móvil,AS13489 UNE EPM TELECOMUNICACIONES S.A.,False,False,True,186.97.236.99
-170.238.38.15:8080,Brazil,Paraná,Maringá,Hilink Comunicações,Inova Fibra Telecom Ltda,AS265447 Hilink Comunicações,False,False,True,170.238.38.15
-49.147.109.196:8082,Philippines,Central Visayas,Cebu City,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,False,49.147.109.196
-109.224.242.233:8080,Türkiye,Hatay,Reyhanlı,High Speed For Internet Services L.L.C,High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti,AS216472 High Speed For Internet Services L.L.C,False,False,False,109.224.242.233
-210.211.113.33:80,Vietnam,Ho Chi Minh,Ho Chi Minh City,VTDC,Viettel - CHT Company Ltd,AS38731 Vietel - CHT Compamy Ltd,False,False,True,210.211.113.33
-152.53.183.107:8082,Germany,Bavaria,Nuremberg,netcup GmbH,netcup GmbH,AS197540 netcup GmbH,False,True,True,152.53.183.107
-209.182.234.151:40000,Japan,Tokyo,Tokyo,"HIVELOCITY, Inc.","Strasmore, Inc.","AS29802 HIVELOCITY, Inc.",False,True,True,104.28.222.43
-82.138.122.43:80,Türkiye,Istanbul,Istanbul,VEGANET-CGNT,VEGANET-CGNT,AS206119 Veganet Teknolojileri ve Hizmetleri LTD STI,False,False,True,82.138.122.41
-95.214.123.143:8080,Hungary,Bács-Kiskun,Kecskemét,Deltakon Kft.,Deltanet Internet,AS209001 DELTAKON KFT.,False,False,False,95.214.123.143
-93.123.30.53:3128,Finland,Uusimaa,Helsinki,Baykov Ilya Sergeevich,Baykov Ilya Sergeevich,AS41745 Baykov Ilya Sergeevich,False,False,True,93.123.30.53
-2.26.82.104:8443,The Netherlands,North Holland,Amsterdam,Play2go International Limited,,AS215439 PLAY2GO INTERNATIONAL LIMITED,False,True,True,2.26.82.104
-75.102.134.110:8080,United States,Florida,Boca Raton,"Single Digits, Inc.","Single Digits, Inc.","AS63383 Single Digits, Inc.",False,False,True,45.42.63.106
-111.119.162.248:10915,Pakistan,Sindh,Tando Adam,Connect Communication,WANGSU,AS132165 Connect Communications,False,False,True,47.237.48.66
-174.138.165.211:30570,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,72.210.42.167
-174.138.165.213:36059,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,172.222.196.203
-181.78.17.131:999,Colombia,Valle del Cauca Department,Andalucía,Ufinet Panama S.A.,UFINET,AS52468 UFINET PANAMA S.A.,False,False,True,181.78.17.131
-103.25.220.42:8084,Philippines,Central Luzon,San Jose del Monte,Imjwanklik Internet Communication Services,Imjwanklik Internet Communication Services,AS146954 IMJWANKLIK INTERNET COMMUNICATION SERVICES,False,False,True,103.25.220.106
-43.153.123.79:80,United States,California,Santa Clara,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.153.123.79
-163.128.149.200:3128,Indonesia,North Sumatra,Medan,PT METROMATIKA TEKNOLOGI REKAYASA,Indonesia Network Information Center,AS153753 PT METROMATIKA TEKNOLOGI REKAYASA,False,False,False,163.128.149.200
-31.135.214.17:8026,Uzbekistan,Tashkent,Tashkent,Inform-Service TV Ltd,ISTV First Network,AS57016 Inform-Service TV Ltd.,False,False,True,31.135.214.17
-103.142.114.153:8080,India,Maharashtra,Mumbai,A C N Fiber Private Limited,A C N Fiber Private Limited,AS139524 A C N Fiber Private Limited,False,False,False,103.142.115.2
-43.134.16.198:8081,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.134.16.198
-158.220.99.85:4545,France,Grand Est,Lauterbourg,Contabo GmbH,Contabo GmbH,AS51167 Contabo GmbH,False,True,True,158.220.99.85
-13.239.253.213:28371,Australia,New South Wales,Sydney,Amazon Technologies Inc.,AWS EC2 (ap-southeast-2),"AS16509 Amazon.com, Inc.",False,True,True,192.42.116.54
-195.158.1.187:8026,Uzbekistan,Tashkent,Tashkent,"""Uzbektelekom"" Joint Stock Company",Uztelecom,AS8193 Uzbektelekom Joint Stock Company,False,False,True,195.158.1.187
-45.198.20.173:8080,Indonesia,West Java,Cileungsir,PT IKHLAS CIPTA TEKNOLOGI,,AS140457 PT Ikhlas Cipta Teknologi,False,False,True,45.198.20.173
-111.119.162.248:10903,Pakistan,Sindh,Tando Adam,Connect Communication,WANGSU,AS132165 Connect Communications,False,False,True,47.90.181.13
-95.153.31.228:3128,Estonia,Harjumaa,Tallinn,TELE2/SWIPNET,EstNOC OY,AS1257 Tele2 Sverige AB,False,True,True,95.153.31.228
-174.138.162.38:32303,United States,Arizona,Phoenix,Secured Servers LLC,InternetXS,AS20454 SECURED SERVERS LLC,False,True,True,137.25.151.135
-187.190.114.59:999,Mexico,México,Tepetlaoxtoc de Hidalgo,Total Play Telecomunicaciones SA De CV,"TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V","AS22884 TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V.",False,False,True,187.190.114.59
-174.138.162.34:36066,United States,Arizona,Phoenix,Secured Servers LLC,InternetXS,AS20454 SECURED SERVERS LLC,False,True,True,172.59.145.5
-95.171.21.121:8088,Russia,Moscow,Moscow,Universum bit Ltd,Unversum Bit Ltd.,AS48822 Universum bit Ltd.,False,False,False,95.171.21.121
-95.153.31.226:3128,Estonia,Harjumaa,Tallinn,TELE2/SWIPNET,EstNOC OY,AS1257 Tele2 Sverige AB,False,True,True,95.153.31.226
-192.145.228.209:8082,Indonesia,Lampung,Bandar Lampung,PT Mandala Lintas Nusa,Indonesia Network Information Center,AS140031 PT Mandala Lintas Nusa,False,True,True,192.145.228.209
-102.0.25.184:8080,Kenya,Nairobi County,Nairobi,Airtel KE Mobile & Fixed Internet,,AS36926 Airtel Networks Kenya Limited,False,False,True,102.0.25.184
-103.25.220.34:8083,Philippines,Central Luzon,San Jose del Monte,Imjwanklik Internet Communication Services,Imjwanklik Internet Communication Services,AS146954 IMJWANKLIK INTERNET COMMUNICATION SERVICES,False,False,True,103.25.220.120
-103.203.234.46:8080,Indonesia,Central Java,Banyumas,PT Nesta Indo Media,PT Nesta Indo Media,AS151006 PT Nesta Indo Media,False,False,True,103.203.234.42
-38.50.165.124:999,Dominican Republic,Dajabón,El Pino,"NEXTELECOM, S.R.L","NEXTELECOM, S.R.L","AS273009 NEXTELECOM, S.R.L.",False,False,True,38.50.165.125
-181.119.185.194:999,Ecuador,Napo,Papallacta,Ufinet Panama S.A.,UFINET,AS52468 UFINET PANAMA S.A.,False,False,True,181.119.185.194
-174.138.165.213:34358,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,97.92.54.167
-45.26.30.144:8888,United States,Texas,Friendswood,"AT&T Enterprises, LLC","AT&T Enterprises, LLC","AS7018 AT&T Enterprises, LLC",False,False,True,5.180.208.79
-103.172.71.172:1111,Indonesia,West Java,Karangampel,AZNET,,AS142386 PT JARINGAN LINTAS ARTHA,False,False,False,103.172.71.172
-103.184.181.103:8181,Indonesia,East Java,Magetan,"Lintas Data Prima, PT",CV Bilqis Network,"AS45305 Lintas Data Prima, PT",False,False,False,103.184.181.103
-187.190.58.152:8081,Mexico,Sinaloa,Mazatlán,Total Play Telecomunicaciones SA De CV,"TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V","AS22884 TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V.",False,False,True,187.190.58.152
-103.162.141.146:3129,Indonesia,Riau Islands,Batam,PT Filltech Antar Nusa,Dinas Pendidikan Provinsi Kepulauan Riau,AS141083 PT Filltech Antar Nusa,False,False,True,103.156.57.163
-43.163.7.224:8080,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.163.7.224
-103.10.228.119:8080,Thailand,Samut Sakhon,Samut Sakhon,CATBB,,AS131090 National Telecom Public Company Limited,False,False,True,110.78.133.78
-103.49.228.31:8080,Indonesia,Banten,Curug,NASIONALONLINE,,AS63868 PT Nasional Online,False,False,False,103.49.228.31
-43.128.76.140:8080,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.128.76.140
-180.191.137.251:5050,Philippines,Central Visayas,Cebu City,Globe Telecom,,AS4775 Globe Telecoms,False,False,True,126.52.132.252
-174.138.162.37:38228,United States,Arizona,Phoenix,Secured Servers LLC,InternetXS,AS20454 SECURED SERVERS LLC,False,True,True,172.216.11.13
-160.19.19.100:8080,Indonesia,Central Java,Pasanggrahan,PT Indo Telemedia Solusi,PT. SMART COMPUTER SERVICE,AS149360 PT Indo Telemedia Solusi,False,False,True,160.19.19.100
-181.233.161.50:999,Venezuela,Distrito Federal,Caracas,"TELECOMUNICACIONES FASTNET F.G 50, C.A.","TELECOMUNICACIONES FASTNET F.G 50, C.A","AS272048 TELECOMUNICACIONES FASTNET F.G 50, C.A.",False,False,True,38.137.232.142
-103.191.196.98:8081,Indonesia,West Java,Pamanukan,PT Pangkalan Lintas Data,,AS149934 PT Pangkalan Lintas Data,False,False,True,103.191.196.98
-187.251.224.167:80,Mexico,Guanajuato,San José de Durán,Total Play Telecomunicaciones SA De CV,"TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V","AS22884 TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V.",False,False,True,187.251.224.167
-174.138.165.213:36240,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,98.176.25.209
-156.155.50.93:8080,South Africa,KwaZulu-Natal,Durban,AxxessNetworks,,AS37611 AFRIHOST SP (PTY) LTD,False,True,True,156.155.50.93
-103.248.8.47:8080,Indonesia,West Java,Garut,Flashnet,,AS151538 PT Flashnet Inovasi Teknologi,False,False,True,103.248.8.47
-186.123.26.22:8080,Argentina,Buenos Aires,Ciudad del Libertador General San Martin,Techtel LMDS Comunicaciones Interactivas S.A.,AMX Argentina S.A,AS11664 Techtel LMDS Comunicaciones Interactivas S.A.,False,False,True,186.123.26.22
-103.180.118.109:8090,Indonesia,East Java,Surabaya,PT Persada Data Multimedia,PT Persada Data Multimedia,AS149359 PT Persada Data Multimedia,False,False,True,103.180.118.109
-210.213.99.36:8081,Philippines,Metro Manila,Quezon City,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,True,210.213.99.36
-103.80.214.243:1111,Indonesia,East Java,Sidoarjo,PT Redi Revolusi Digital Solusi,PT Redi Revolusi Digital Solusi,AS153092 PT Redi Revolusi Digital Solusi,False,False,True,103.80.214.79
-185.58.115.185:8080,Sweden,Stockholm,Stockholm,Baykov Ilya Sergeevich,Baykov Ilya Sergeevich,AS41745 Baykov Ilya Sergeevich,False,False,False,206.189.110.93
-190.12.150.244:999,Ecuador,Pichincha,Quito,Servitelconet Cia. Ltda.,Onetelecom Cia.ltda,AS271795 ONETELECOM CIA.LTDA.,False,False,True,190.12.150.244
-103.195.65.178:7777,Indonesia,Central Java,Purbalingga Regency,PT Perwira Media Solusi,PT Perwira Pedjoeang Nusantara,AS211407 PT Perwira Media Solusi,False,False,True,103.154.221.60
-103.147.77.212:8080,Indonesia,East Java,Madiun,TRIDATA,,AS139952 PT Trisari Data Indonusa,False,False,True,103.147.77.212
-160.19.146.82:2022,Indonesia,West Java,Tasikmalaya,PT Taska Sarana Nusantara,PT Taska Sarana Nusantara,AS152775 PT Taska Sarana Nusantara,False,False,True,160.19.146.82
-190.7.138.78:8080,Colombia,Antioquia,Medellín,EPM Telecomunicaciones S.A. E.S.P.,,AS13489 UNE EPM TELECOMUNICACIONES S.A.,False,False,True,190.7.138.78
-198.245.60.202:3128,Canada,Quebec,Montreal,OVH SAS,"OVH Hosting, Inc.",AS16276 OVH SAS,False,True,True,198.245.60.202
-103.216.106.119:8080,Indonesia,Central Java,Tegal,PT Indodata Solusi Persada,PT Indodata Solusi Persada,AS151584 PT Indodata Solusi Persada,False,False,True,103.216.106.119
-52.206.205.43:3128,United States,Virginia,Ashburn,"Amazon.com, Inc.",AWS EC2 (us-east-1),"AS14618 Amazon.com, Inc.",False,True,False,44.197.6.242
-115.85.88.18:8080,Indonesia,Jakarta,Jakarta,Sudirman Central Business District,,AS23953 PT ARTHA TELEKOMINDO,False,False,True,115.85.88.74
-103.134.221.52:1111,Indonesia,West Java,Ciampea,PT GLOBAL MEDIA PRATAMA SOLUSINDO,,AS138810 PT Global Media Pratama Solusindo,False,False,True,103.134.223.7
-190.113.249.14:88,Costa Rica,Alajuela Province,Zarcero,Cooperativa De Electrificacion Rural De Alfaro Ruiz R.L.,Cooperativa De Electrificacion Rural De Alfaro Ruiz R.L,AS262241 COOPERATIVA DE ELECTRIFICACION RURAL DE ALFARO RUIZ R.L.,False,False,True,190.113.249.14
-174.138.165.213:30546,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,73.158.7.141
-163.5.53.34:8082,Turkey,Bursa Province,Bursa,IONIS,,AS15924 Vodafone Net Iletisim Hizmetler AS,False,False,False,163.5.53.34
-103.145.176.162:8080,Indonesia,Banten,South Tangerang,PT. Indonesia Comnets Plus,,AS9341 PT INDONESIA COMNETS PLUS,False,False,True,103.145.176.162
-154.18.255.115:1111,Indonesia,West Java,Karawang,PT Media Solusi Sukses,,AS142393 PT Media Solusi Sukses,False,False,True,154.18.255.115
-45.230.171.1:999,Venezuela,Distrito Federal,Caracas,Soluciones DCN Network C.A,Soluciones DCN Network C.A,AS266742 SOLUCIONES DCN NETWORK C.A,False,False,True,45.230.170.190
-41.220.128.210:8080,Tanzania,Arusha,Arusha,Habari Node Ltd,Habari Core,AS36909 Habari Node Public Limited,False,False,False,41.220.128.210
-45.198.20.224:8080,Indonesia,West Java,Cileungsir,PT IKHLAS CIPTA TEKNOLOGI,,AS140457 PT Ikhlas Cipta Teknologi,False,False,True,45.198.20.224
-38.172.160.16:999,Venezuela,Distrito Federal,Caracas,"RED SERVITEL, CA","RED SERVITEL, CA","AS270026 RED SERVITEL, CA",False,False,True,38.172.181.22
-109.73.192.102:1080,Russia,Moscow,Moscow,"JSC ""TIMEWEB""",TW Cloud,AS9123 JSC TIMEWEB,False,True,True,109.73.192.102
-212.112.121.130:8080,Kyrgyzstan,Bishkek,Bishkek,AKNET Ltd,AkNet network,AS12764 AKNET Ltd.,False,False,True,212.112.121.130
-103.147.247.143:8080,Indonesia,Central Java,Kutoarjo,PLBNET,,AS139972 PT. Putra Lebak Banten,False,False,False,180.244.52.227
-103.173.162.85:8818,Indonesia,West Java,Leuwiliang,Paket Data Andal,,AS141077 RSTNET,False,False,True,103.173.162.85
-38.211.68.70:999,Colombia,Cauca Department,Popayán,Cogent Communications,Colombianet,AS269804 SEPCOM COMUNICACIONES SAS,False,False,False,38.211.68.70
-102.207.191.161:8081,Kenya,Nairobi County,Nairobi,Avitech Solutions LTD,Avitech Solutions LTD,AS329497 Avitech Solutions LTD,False,True,False,102.207.191.161
-110.169.137.169:8080,Thailand,Bangkok,Bangkok,True Internet Corporation CO. Ltd.,TrueWiFi,AS17552 True Online,False,False,False,110.169.137.169
-27.131.14.9:8812,Bangladesh,Dhaka Division,Dhaka,Dhaka Fiber Net Limited,Dhaka Fiber Net Limited,AS55492 Dhaka Fiber Net Limited,False,False,True,27.131.14.9
-179.191.39.221:1028,Brazil,Alagoas,Maravilha,Mhnet Telecom,Mhnet Telecom,AS28146 MHNET TELECOM,False,False,False,179.191.39.221
-178.156.206.253:8118,United States,Virginia,Ashburn,Hetzner Online GmbH,HETZNER-DC,AS213230 Hetzner Online GmbH,False,True,True,80.67.167.81
-103.162.63.106:8082,Indonesia,West Java,Sumedang,PT Ring Media Nusantara,,AS141642 PT Ring Media Nusantara,False,False,True,103.162.63.106
-174.138.165.211:9249,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,98.224.89.141
-112.210.155.150:8082,Philippines,Calabarzon,Dasmariñas,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,True,112.210.155.150
-46.50.144.9:8080,Russia,Novosibirsk Oblast,Novosibirsk,ZSTTK,JSC Zap-Sib TransTeleCom,AS21127 Joint Stock Company TransTeleCom,False,False,True,46.50.144.9
-202.179.188.6:8080,Indonesia,Banten,Kota Cilegon,PT. Telemedia Dinamika Sarana,,"AS38750 Telemedia Dinamika Sarana, PT",False,False,True,202.179.188.6
-193.43.145.231:8080,Syria,Damascus Governorate,Yarmouk,Syrian Telecom,Wafa Telecom J.S.C,AS29256 STE PDN Internal AS,False,False,False,193.43.145.230
-153.51.241.50:999,Mexico,Chiapas,Salto de Agua,Javier Tamayo Garcia,"Tamayo Telecom, S.A. de C.V",AS28435 JAVIER TAMAYO GARCIA,False,False,True,200.188.74.111
-62.90.73.225:3128,Israel,Tel Aviv,Tel Aviv,013 Netvision Network,Solid Ltd,AS1680 Cellcom Fixed Line Communication L.P,False,False,False,62.90.73.225
-45.65.138.48:999,Colombia,Norte de Santander Department,Villa del Rosario,Telecomunicaciones Del Catatumbo S.A.S,Telecomunicaciones Del Catatumbo,AS273001 TELECOMUNICACIONES DEL CATATUMBO S.A.S,False,False,True,45.65.137.218
-49.146.50.98:8082,Philippines,Soccsksargen,Mariano Marcos,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,False,49.146.50.98
-27.147.168.150:8158,Bangladesh,Dhaka Division,Dhaka,Link3 Technologies Limited,Retail Subscriber,AS23688 Link3 Technologies Ltd.,False,False,True,27.147.168.150
-187.190.127.212:8081,Mexico,Jalisco,Puerto Vallarta,Total Play Telecomunicaciones SA De CV,"TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V","AS22884 TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V.",False,False,True,187.190.127.212
-174.138.165.202:32265,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,47.153.175.146
-103.193.144.91:8080,Indonesia,Riau,Batam,PT Lintas Jaringan Nusantara,PT Jaringan Kabel Nusantara,AS58821 PT Lintas Jaringan Nusantara,False,False,True,103.193.144.91
-45.174.176.9:8087,Brazil,Piauí,São Francisco do Piauí,M & G TELECON LTDA,M & G TELECON LTDA,AS268863 M & G TELECON LTDA,False,False,False,45.174.177.10
-91.218.244.153:8989,Russia,Moscow,Moscow,Hostkey B.V.,"LLC ""Server v arendy""",AS50867 HOSTKEY B.V.,False,True,True,91.218.244.153
-103.68.215.115:8181,Indonesia,West Java,Sepatan,PT Media Grasi Internet,PT Media Grasi Internet,AS150517 PT Media Grasi Internet,False,False,False,103.68.215.115
-171.238.158.78:8080,Vietnam,Da Nang,Da Nang,Viettel Corporation,VIETEL,AS7552 Viettel Group,False,False,True,171.238.158.78
-157.20.244.117:8821,Indonesia,Jakarta,Jakarta,PT.Global Media Data Prima,CV Buana Data Media,AS138089 PT.Global Media Data Prima,False,False,True,157.20.244.117
-111.119.162.248:10926,Pakistan,Sindh,Tando Adam,Connect Communication,WANGSU,AS132165 Connect Communications,False,False,True,47.90.176.29
-38.226.242.65:8080,Indonesia,Jakarta,Jakarta,PT Putra Garsel Interkoneksi,,AS152032 PT Putra Garsel Interkoneksi,False,False,True,38.226.242.65
-185.204.170.179:1145,Germany,Hesse,Frankfurt am Main,Arvancloud Global Technologies L.L.C,Arvancloud Global Technologies L.L.C,AS57568 ARVANCLOUD GLOBAL TECHNOLOGIES L.L.C,False,True,True,169.197.142.22
-148.224.14.250:999,Mexico,Michoacán,Uruapan,Jorge Luis Torres Fernandez,Jorge Luis Torres Fernandez,AS270186 Jorge Luis Torres Fernandez,False,False,True,148.224.14.253
-38.210.179.8:999,Mexico,Hidalgo,Zimapán,Jair Lozano / Intercom Internet,Jair Lozano / Intercom Internet,AS272405 Jair Lozano,False,False,True,38.210.179.191
-103.188.169.95:8080,Indonesia,West Java,Cikarang,PT Lintas Jaringan Nusantara,PT Trinity Telekomunikasi Indonesia,AS58821 PT Lintas Jaringan Nusantara,False,False,True,103.188.169.95
-111.119.162.248:10917,Pakistan,Sindh,Tando Adam,Connect Communication,WANGSU,AS132165 Connect Communications,False,False,True,47.250.100.32
-103.156.16.241:8081,Indonesia,West Java,Jatibarang,RSTNET,,AS141077 RSTNET,False,False,True,103.156.16.241
-198.15.30.162:8080,Indonesia,East Java,Pamekasan,PT Trimafa Computindo Networking,Indonesia Network Information Center,AS154503 PT Trimafa Computindo Networking,False,False,True,198.15.30.162
-103.191.169.70:1111,Indonesia,South Sulawesi,Makassar,PT Sugi Bintang Jaya,PT Sugi Bintang Jaya,AS149924 PT Sugi Bintang Jaya,False,False,True,103.191.169.70
-103.184.180.2:1111,Indonesia,East Java,Magetan,"Lintas Data Prima, PT",CV Bilqis Network,"AS45305 Lintas Data Prima, PT",False,False,True,103.184.180.2
-38.7.195.53:999,Chile,Santiago Metropolitan,Santiago,Grupo ZGH SpA,Grupo ZGH SpA,AS263702 GRUPO ZGH SPA,False,False,True,151.241.85.26
-78.157.46.76:8090,Iran,Tehran,Tehran,Dade Samane Fanava Company,Dade Samane Fanava Company,AS62442 Dade Samane Fanava Company (PJS),False,False,True,78.157.46.76
-119.2.43.39:8080,Indonesia,West Java,Sukabumi,PT. Laxo Global Akses,,"AS38524 Laxo Global Akses, PT",False,False,False,119.2.43.39
-182.48.66.154:8080,Bangladesh,Dhaka Division,Dhaka,Corporate Office,,AS63969 Race Online Limited,False,False,True,182.48.66.102
-103.84.231.56:8080,Indonesia,West Java,Bandung,STARNET,,AS55699 PT. Cemerlang Multimedia,False,False,False,103.84.231.56
-210.87.92.212:8080,Indonesia,Central Java,Mranggen,PT Indo Telemedia Solusi,PT. INDONET DATA BERSAMA,AS149360 PT Indo Telemedia Solusi,False,False,True,210.87.92.209
-161.97.119.1:8888,France,Grand Est,Lauterbourg,Contabo GmbH,Contabo GmbH,AS51167 Contabo GmbH,False,True,True,152.53.183.107
-217.182.195.221:30005,France,Hauts-de-France,Roubaix,OVH SAS,OVH,AS16276 OVH SAS,False,True,True,23.129.64.200
-103.148.178.10:80,Bangladesh,Dhaka Division,Dhaka,Bandhon Enterprise,Md Nazmul Alam Khan,AS140216 Bandhon Enterprise,False,False,True,103.148.178.10
-184.82.140.119:8081,Thailand,Chon Buri,Bang Lamung,AIS-Fibre,,AS133481 AIS Fibre,False,False,False,184.82.140.119
-45.179.246.65:999,Colombia,Huila Department,Acevedo,Genionet Telecomunicaciones S.A.S,Genionet Telecomunicaciones,AS267929 GENIONET TELECOMUNICACIONES S.A.S,False,False,True,45.179.246.70
-103.142.114.25:8080,India,Maharashtra,Mumbai,A C N Fiber Private Limited,A C N Fiber Private Limited,AS139524 A C N Fiber Private Limited,False,False,False,103.142.115.98
-194.124.36.18:8080,Türkiye,Hatay,Antakya,High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti.,HighSpeedTelekomunikasyon,AS202561 High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti.,False,False,False,188.132.222.148
-185.204.170.179:1128,Germany,Hesse,Frankfurt am Main,Arvancloud Global Technologies L.L.C,Arvancloud Global Technologies L.L.C,AS57568 ARVANCLOUD GLOBAL TECHNOLOGIES L.L.C,False,True,True,102.37.156.224
-103.169.189.202:9090,Indonesia,East Java,Ponorogo,Sarana Media Cemerlang,,AS142347 PT Sarana Media Cemerlang,False,False,True,110.136.30.232
-103.131.19.30:8011,Indonesia,East Java,Lamongan,PT Global Media Data Prima,,AS138089 PT.Global Media Data Prima,False,False,True,103.131.19.30
-103.247.15.103:9090,Indonesia,Central Java,Mertoyudan,PT SELARAS CITRA TERABIT,Bbpbpth,AS131706 PT SELARAS CITRA TERABIT,False,False,True,103.247.15.103
-177.139.174.81:8080,Brazil,São Paulo,São Paulo,Vivo,TELEF�NICA BRASIL S.A,AS27699 TELEFÔNICA BRASIL S.A,False,False,True,177.139.174.81
-34.176.215.13:3128,Chile,Santiago Metropolitan,Santiago,Google LLC,Google Cloud (southamerica-west1),AS396982 Google LLC,False,True,True,34.176.215.13
-103.147.134.209:8082,Indonesia,East Java,Krucil Timur,PT.MURNI MAKMUR ABADI,,AS139963 PT.MURNI MAKMUR ABADI,False,False,True,103.147.134.209
-149.56.110.145:3128,Canada,Quebec,Montreal,OVH SAS,"OVH Hosting, Inc.",AS16276 OVH SAS,False,True,False,149.56.110.145
-201.7.31.186:8080,Turkey,Kayseri,Himmetdede,High Speed For Internet Services L.L.C,High Speed,AS216472 High Speed For Internet Services L.L.C,False,False,True,201.7.31.186
-190.9.109.118:999,Mexico,Quintana Roo,Juárez,Megabit Telecomunicaciones SA De CV,Megabit Telecomunicaciones SA De CV,AS270200 MEGABIT TELECOMUNICACIONES SA DE CV,False,False,True,190.9.109.66
-45.232.0.2:8080,Argentina,Tucuman,San Miguel de Tucumán,Sistemas Informaticos S.A.S.,Sistemas Informaticos S.A.S.,AS266754 SISTEMAS INFORMATICOS S.A.S. (INTERFLASH),False,False,True,45.232.0.2
-138.186.201.77:8083,Mexico,Coahuila,Piedras Negras,Administradora de Servicios de Internet Sandur S.A. de C.V.,Administradora de Servicios de Internet Sandur S.A. de C.V,AS28539 Administradora de Servicios de Internet Sandur S.A. de C.V.,False,False,False,201.174.248.210
-180.94.91.170:8080,Afghanistan,Kabul,Kabul,Government Communications Network,Cafe AFGHANTELECOM,AS55330 AFGHANTELECOM GOVERNMENT COMMUNICATION NETWORK,False,False,True,180.94.91.170
-90.156.160.235:8080,Uzbekistan,Tashkent,Tashkent,Uzbektelecom JSC,,AS8193 Uzbektelekom Joint Stock Company,False,True,False,90.156.160.235
-125.26.165.245:8080,Thailand,Bangkok,Bangkok,TOT Public Company Limited,TOT Public Company Limited,AS23969 TOT Public Company Limited,False,False,True,125.26.165.245
-111.119.162.248:10956,Pakistan,Sindh,Tando Adam,Connect Communication,WANGSU,AS132165 Connect Communications,False,False,True,47.252.55.35
-174.138.162.37:8254,United States,Arizona,Phoenix,Secured Servers LLC,InternetXS,AS20454 SECURED SERVERS LLC,False,True,True,92.209.218.251
-36.155.23.163:10808,China,Jiangsu,Nanjing,China Mobile Communications Corporation,"China Mobile Communications Group Co., Ltd",AS56046 China Mobile communications corporation,True,False,False,156.59.17.27
-49.151.187.171:8082,Philippines,Central Luzon,Clark Freeport Zone,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,False,49.151.187.171
-27.147.138.166:8158,Bangladesh,Dhaka Division,Dhaka,Link3 Technologies Limited,Corporate Subscriber,AS23688 Link3 Technologies Ltd.,False,False,False,27.147.138.166
-111.119.162.248:10958,Pakistan,Sindh,Tando Adam,Connect Communication,WANGSU,AS132165 Connect Communications,False,False,True,47.243.1.32
-103.153.62.217:8181,Indonesia,West Java,Bekasi,PT Ikhlas Cipta Teknologi,Imedianet,AS140457 PT Ikhlas Cipta Teknologi,False,False,True,103.153.62.217
-197.248.18.97:8080,Kenya,Nairobi County,Nairobi,Safaricom Limited,Safaricom Limited,AS37061 Safaricom Limited,False,False,True,197.248.18.97
-174.138.165.211:39111,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,73.228.85.231
-181.40.18.42:999,Paraguay,Asuncion,Asunción,Telecel S.A.,Telecel S.A,AS23201 Telecel S.A.,False,False,True,190.128.133.194
-185.225.41.228:7890,Syria,Homs Governorate,Homs,sy-samaweb,,AS29256 STE PDN Internal AS,False,False,False,185.225.41.228
-197.248.164.161:8080,Kenya,Nairobi County,Nairobi,Safaricom Limited,Safaricom Limited,AS37061 Safaricom Limited,False,False,False,41.139.157.111
-107.174.79.253:7890,United States,California,Los Angeles,HostPapa,RackNerd LLC,AS36352 HostPapa,False,True,False,172.238.12.53
-95.81.101.252:3128,The Netherlands,North Holland,Amsterdam,Clodo Cloud Service CO. L.L.C,,AS216154 CLODO CLOUD SERVICE CO. L.L.C,False,True,True,95.81.101.252
-95.153.31.229:3128,Estonia,Harjumaa,Tallinn,TELE2/SWIPNET,EstNOC OY,AS1257 Tele2 Sverige AB,False,True,True,95.153.31.229
-182.253.121.105:8080,Indonesia,West Java,Bandung,BIZNET,,AS17451 BIZNET NETWORKS,False,False,False,182.253.121.105
-38.58.117.35:3128,Indonesia,Riau Islands,Batam,PT Lintas Jaringan Nusantara,PT Lintas Jaringan Nusantara,AS58821 PT Lintas Jaringan Nusantara,False,False,True,38.58.117.35
-103.79.16.44:50009,Pakistan,Sindh,Karachi,Logon Broadband Pvt Ltd,Sharp Communications (Pvt.) Ltd,AS131275 Logon Broadband Pvt. Limited,False,False,True,175.107.214.128
-201.230.15.57:999,Peru,Tacna,Piedra Blanca,Telefonica del Peru,PE-TDPERX6-LACNIC,AS6147 INTEGRATEL PERÚ S.A.A.,False,False,True,201.230.15.57
-175.194.197.34:3128,South Korea,Gyeonggi-do,Uijeongbu-si,Korea Telecom,,AS4766 Korea Telecom,False,False,False,175.194.197.34
-174.138.165.213:56157,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,47.157.54.51
-124.105.110.243:8181,Philippines,Central Luzon,Santa Cruz,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,True,124.105.110.243
-168.138.202.218:3128,Japan,Tokyo,Tokyo,Oracle Corporation,Oracle Cloud Infrastructure (ap-tokyo-1),AS31898 Oracle Corporation,False,True,True,168.138.202.218
-103.81.65.74:8585,Indonesia,Lampung,Sukoharjo Satu,QIUNET,,AS136055 PT Queen Network Nusantara,False,False,False,103.81.65.68
-103.248.9.95:8080,Indonesia,West Java,Garut,PT Flashnet Inovasi Teknologi,PT Flashnet Inovasi Teknologi,AS151538 PT Flashnet Inovasi Teknologi,False,False,False,103.248.9.95
-103.156.15.55:8080,Indonesia,West Java,Bogor,PT Lintas Jaringan Nusantara,PT Lintas Jaringan Indonesia,AS58821 PT Lintas Jaringan Nusantara,False,False,True,103.156.15.55
-174.138.165.211:30244,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,151.123.0.175
-38.137.232.153:999,Venezuela,Distrito Federal,Caracas,CORPORACIÓN GALA IT C.A,Cogent Communications,"AS263767 CORPORACIÓN GALA IT, C.A.",False,False,True,38.137.232.78
-103.193.144.118:8082,Indonesia,Riau,Batam,PT Lintas Jaringan Nusantara,PT Jaringan Kabel Nusantara,AS58821 PT Lintas Jaringan Nusantara,False,False,True,103.193.144.118
-163.223.150.97:8080,Indonesia,Central Java,Sragen,PT Microcyber Data Indonesia,Indonesia Network Information Center,AS153774 PT Microcyber Data Indonesia,False,False,True,163.223.150.129
-201.152.26.125:8080,Mexico,San Luis Potosí,San Luis Potosí City,Uninet S.A. de C.V,Gestión de direccionamiento UniNet,AS8151 Uninet S.A. de C.V.,False,False,False,201.152.26.125
-103.82.246.237:3125,Indonesia,West Java,Ciputat,PT Master Star Network,PT Aswatama Jaya Mandiri,AS142370 PT Master Star Network,False,False,False,103.82.246.237
-103.176.94.234:1080,Indonesia,Riau Islands,Sekupang,PT Mitra Internet Indonesia,PT Mitra Internet Indonesia,AS147141 PT Mitra Internet Indonesia,False,False,True,103.176.94.158
-110.139.17.247:8080,Indonesia,Jakarta,Karet Kuningan,PT. TELKOM INDONESIA,,AS7713 PT Telekomunikasi Indonesia,False,False,False,110.139.17.247
-153.216.185.210:8080,Japan,Tokyo,Tokyo,NTT Communications Corporation,Open Computer Network,"AS4713 NTT DOCOMO BUSINESS,Inc.",False,False,False,153.216.185.210
-185.204.170.179:1137,Germany,Hesse,Frankfurt am Main,Arvancloud Global Technologies L.L.C,Arvancloud Global Technologies L.L.C,AS57568 ARVANCLOUD GLOBAL TECHNOLOGIES L.L.C,False,True,True,193.29.139.195
-157.66.50.55:8080,Indonesia,West Java,Cikampek,PT BARAYA TELEKOMUNIKASI INDONESIA,PT BARAYA TELEKOMUNIKASI INDONESIA,AS152438 PT BARAYA TELEKOMUNIKASI INDONESIA,False,False,True,157.66.50.55
-103.217.173.142:8080,Indonesia,Jakarta,Central Jakarta,Akpa-net Soho Dedicated,,AS133354 PT Anugerah Karunia Perkasa Abadi,False,False,True,103.217.173.142
-103.235.181.245:8080,Indonesia,West Java,Sindangsari,PT Top Class Universal,PT Top Class Universal,AS151517 PT Top Class Universal,False,False,True,103.235.181.245
-103.180.122.64:8080,Indonesia,West Java,Bandung,PT Indo Telemedia Solusi,PT Indo Telemedia Solusi,AS149360 PT Indo Telemedia Solusi,False,False,True,103.180.122.64
-103.132.52.189:8080,Indonesia,Central Java,Pekalongan,PT Adeaksa Indo Jayatama,,AS138123 PT. ADEAKSA INDO JAYATAMA,False,False,True,103.132.52.189
-200.111.104.59:3129,Chile,Santiago Metropolitan,Santiago,Entel Chile S.A.,Entel Chile S.A,AS27651 ENTEL CHILE S.A.,False,False,True,200.111.104.59
-103.189.223.38:8080,Indonesia,West Java,Kresek,PT. WIKAPLUS GLOBAL NUSANTARA,PT. WIKAPLUS GLOBAL NUSANTARA,AS149881 PT. WIKAPLUS GLOBAL NUSANTARA,False,False,True,103.189.223.38
-102.0.36.166:3128,Kenya,Nairobi County,Nairobi,Airtel KE Mobile & Fixed Internet,,AS36926 Airtel Networks Kenya Limited,False,False,True,102.0.36.166
-88.204.22.105:8080,Russia,Tomsk Oblast,Tomsk,"JSC ""ER-Telecom Holding""","JSC ""ER-Telecom Holding"" Tomsk Branch",AS56981 JSC ER-Telecom Holding,False,False,False,88.204.22.105
-103.69.106.94:8181,Indonesia,Banten,Serang,PT. Berkat Dunia Digital Cikande,,AS147087 PT Jaringan Internet Banten,False,False,True,103.69.106.94
-181.78.176.147:999,Colombia,Bogota D.C.,Bogotá,Ufinet Panama S.A.,UFINET,AS52468 UFINET PANAMA S.A.,False,False,True,181.78.176.147
-181.78.79.11:999,Colombia,Norte de Santander Department,La Esperanza,Ufinet Panama S.A.,UFINET,AS52468 UFINET PANAMA S.A.,False,False,True,181.78.79.67
-85.117.56.66:8080,Georgia,Tbilisi,Tbilisi,Caucasus Online Ltd.,Caucasus,AS20771 Caucasus Online Ltd.,False,False,True,85.117.56.104
-182.253.40.39:8080,Indonesia,Jakarta,North Jakarta,BIZNET,,AS17451 BIZNET NETWORKS,False,False,True,182.253.40.39
-38.156.235.171:999,Dominican Republic,Santo Domingo Province,Santo Domingo Este,"BITNET DOMINICANA, S.R.L","BITNET DOMINICANA, S.R.L","AS272882 BITNET DOMINICANA, S.R.L.",False,False,True,38.156.235.172
-103.160.69.161:8080,Indonesia,Jakarta,Jakarta,PT Gayatri Lintas Nusantara,PT Gayatri Lintas Nusantara,AS141607 PT Gayatri Lintas Nusantara,False,False,True,103.160.69.161
-49.151.193.51:8082,Philippines,Ilocos,Umingan,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,True,49.151.193.51
-103.173.141.3:8080,Indonesia,East Java,Ngawi,DIAZANETWORKS,,AS58485 WIFIAN ID,False,False,True,103.247.23.201
-171.244.199.151:1337,Vietnam,Hanoi,Hanoi,VIETEL,Viettel Corporation,AS38731 Vietel - CHT Compamy Ltd,False,False,False,171.244.199.151
-186.96.111.214:999,Colombia,Meta Department,San Martín,TV AZTECA SUCURSAL COLOMBIA,TV AZTECA SUCURSAL COLOMBIA,AS262186 TV AZTECA SUCURSAL COLOMBIA,False,False,True,147.75.122.107
-131.196.50.128:8080,Brazil,São Paulo,Guarujá,Portal.com STI eirele,PORTAL.COM SERVICOS DE TELECOMUNICACOES E INFORMAT,AS265894 PORTAL.COM SERVICOS DE TELECOMUNICACOES E INFORMAT,False,False,False,131.196.50.128
-185.115.75.65:8080,Czechia,Moravian-Silesian Region,Ostrava,TeamCity s.r.o.,TeamCity s.r.o,AS212975 TeamCity s.r.o.,False,False,True,185.115.74.1
-45.174.243.20:999,Mexico,Campeche,Candelaria,Sistemas Y Soluciones De Campeche SAS De CV,Sistemas Y Soluciones De Campeche SAS De CV,AS265583 SISTEMAS Y SOLUCIONES DE CAMPECHE SAS DE CV,False,False,True,45.174.243.20
-41.57.63.1:8104,South Africa,Gauteng,Midrand,Screamer Telecommunications,Screamer Telecommunications,AS327688 Screamer Telecommunications,False,False,True,41.57.63.1
-94.183.6.226:9090,Iran,Tehran,Tehran,Aria Shatel PJSC,Shtl NET ZNJ DSL,AS31549 Aria Shatel PJSC,False,False,True,94.183.6.226
-103.166.0.50:1111,Indonesia,Bali,Banjar Sambangan,PT Balian Media Online Nusantara,PT Balian Media Online Nusantara,AS141928 PT Balian Media Online Nusantara,False,False,False,103.166.0.50
-103.165.123.109:8080,Indonesia,West Java,Bogor,PT iForte Global Internet,Solusinet,AS17995 PT iForte Global Internet,False,False,True,103.165.123.109
-42.116.10.198:443,Vietnam,Ho Chi Minh,Ho Chi Minh City,FPT Telecom Company,FPT-STATICIP,AS18403 FPT Telecom Company,False,False,True,42.116.10.198
-190.124.252.129:6666,Brazil,Bahia,Simões Filho,T&M SERVICOS DE TELECOMUNICACOES LTDA - ME,Variax Servicos De Internet Ltda,AS270456 VARIAX SERVICOS DE INTERNET LTDA,False,False,True,190.124.252.0
-190.60.48.138:999,Colombia,Cesar Department,Valledupar,Ufinet Panama S.A.,UFINET,AS52468 UFINET PANAMA S.A.,False,False,True,206.62.161.164
-49.48.92.49:8080,Thailand,Nakhon Ratchasima,Nakhon Ratchasima,Triple T Broadband Public Company Limited,Triple T Broadband Public Company Limited,AS45758 Triple T Broadband Public Company Limited,False,False,True,49.48.92.49
-113.192.48.159:8080,Indonesia,West Java,Kresek,PT.Global Media Data Prima,CV Mars Data,AS138089 PT.Global Media Data Prima,False,False,True,113.192.48.159
-185.204.170.179:1115,Germany,Hesse,Frankfurt am Main,Arvancloud Global Technologies L.L.C,Arvancloud Global Technologies L.L.C,AS57568 ARVANCLOUD GLOBAL TECHNOLOGIES L.L.C,False,True,True,169.197.142.22
-202.47.185.162:8080,Indonesia,Jakarta,South Jakarta,PT Putra Garsel Interkoneksi,PT Putra Garsel Interkoneksi,AS152032 PT Putra Garsel Interkoneksi,False,False,True,202.47.185.162
-103.41.200.4:1111,Indonesia,Jakarta,Jakarta,Garuda Rias Teknologi,,AS63512 PT Garuda Rias Teknologi,False,False,True,103.41.200.4
-175.138.245.213:8081,Malaysia,Selangor,Seri Kembangan,TM TECHNOLOGY SERVICES SDN BHD,Adsl Streamyx,AS4788 TM TECHNOLOGY SERVICES SDN. BHD.,False,False,True,175.138.245.213
-185.204.170.179:1116,Germany,Hesse,Frankfurt am Main,Arvancloud Global Technologies L.L.C,Arvancloud Global Technologies L.L.C,AS57568 ARVANCLOUD GLOBAL TECHNOLOGIES L.L.C,False,True,True,102.37.156.224
-175.111.96.157:3128,Indonesia,East Java,Jatimulyo,PT Wifipedia Sinergi Telematika,PT Wifipedia Sinergi Telematika,AS151995 PT Wifipedia Sinergi Telematika,False,False,True,36.95.21.91
-174.138.162.35:37276,United States,Arizona,Phoenix,Secured Servers LLC,InternetXS,AS20454 SECURED SERVERS LLC,False,True,True,73.168.113.183
-116.204.166.199:8080,Turkey,Istanbul,Istanbul,High Speed For Internet Services L.L.C,High Speed,AS216472 High Speed For Internet Services L.L.C,False,False,False,116.204.166.199
-139.180.144.76:7890,Singapore,South West,Singapore,SGP VULTR,,"AS20473 The Constant Company, LLC",False,True,True,139.180.144.76
-185.240.50.70:8080,Kenya,Nairobi County,Nairobi,Servercore Africa Ltd,Haicom Limited,AS329272 Servercore Africa Ltd,False,True,False,185.240.50.70
-190.26.209.122:999,Colombia,Meta Department,Granada,ETB - Colombia,Colegio Emilio Valenzuela,AS19429 ETB - Colombia,False,False,True,138.97.83.80
-45.236.44.94:8080,Peru,Lima Province,Lima,ON EMPRESAS S.A.C.,Clientes On Empresas,AS27843 ON EMPRESAS S.A.C.,False,False,True,45.236.44.94
-61.29.96.146:8000,Australia,New South Wales,Forest Lodge,AAPT Limited,AAPT Limited,AS2764 AAPT Limited,False,False,True,61.29.96.146
-103.170.100.96:8080,Indonesia,Jakarta,Jakarta,Subnet Data Nusantara,,AS142364 PT Subnet Data Nusantara,False,False,True,103.170.100.96
-103.163.69.130:1111,India,Maharashtra,Mumbai,Allied Corporation,Allied Corporation,AS136373 Allied It Infrastructure And Services Pvt Ltd,False,False,True,103.163.69.130
+43.128.76.140:8081,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.128.76.140
+178.92.72.162:8080,India,Maharashtra,Mumbai,IPXO,IPXO,AS134926 Micro Hosting Private Limited,False,False,False,178.92.72.162
+178.92.72.154:8080,India,Maharashtra,Mumbai,IPXO,IPXO,AS134926 Micro Hosting Private Limited,False,False,False,178.92.72.154
+130.110.103.245:3128,Saudi Arabia,Mecca Region,Jeddah,Oracle Corporation,Oracle Cloud Infrastructure (me-jeddah-1),AS31898 Oracle Corporation,False,True,True,130.110.103.245
+178.92.72.194:8080,India,Maharashtra,Mumbai,IPXO,IPXO,AS134926 Micro Hosting Private Limited,False,False,False,178.92.72.194
+160.187.174.132:3128,Indonesia,North Sumatra,Deli Serdang,PT Netindo Persada Nusantara,Indonesia Network Information Center,AS153135 PT Netindo Persada Nusantara,False,False,True,160.187.174.132
+37.187.109.70:10111,France,Hauts-de-France,Roubaix,OVH SAS,OVH SAS,AS16276 OVH SAS,False,True,True,37.187.109.70
+102.38.30.245:8080,Libya,Tripoli,Tripoli,Giga for Telecommunication and Technology Limited,GZA,AS328539 Giga for Telecommunication and Technology Limited,False,False,True,38.252.36.35
+43.134.186.82:8080,Singapore,North West,Singapore,Aceville Pte.ltd,,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.134.186.82
+185.118.51.163:3128,Azerbaijan,Baku City,Baku,AzFiberNet LLC,Datacenter,AS203971 AzFiberNet LLC,False,False,True,185.118.51.163
+43.153.195.69:80,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.153.195.69
+174.138.165.213:55555,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,172.56.42.45
+43.157.41.157:3128,Germany,Hesse,Frankfurt am Main,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,True,43.157.41.157
+45.43.60.220:8080,Japan,Tokyo,Tokyo,Zenlayer Inc,UCLOUD,AS135377 UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,False,True,True,45.43.60.220
+178.92.72.129:8080,India,Maharashtra,Mumbai,IPXO,IPXO,AS134926 Micro Hosting Private Limited,False,False,False,178.92.72.129
+85.133.169.45:8118,Iran,Tehran,Tehran,Dade Pardaz Kimia Pouyesh PJS.,KimiaCloud,AS200554 Dade Pardaz Kimia Pouyesh PJS.,False,True,True,85.133.169.45
+178.92.72.78:8080,India,Maharashtra,Mumbai,IPXO,IPXO,AS134926 Micro Hosting Private Limited,False,False,False,178.92.72.78
+103.174.161.6:8082,India,Andhra Pradesh,Tādepalle,Speed Link Communications,,AS150008 Pioneer Elabs Ltd.,False,False,True,103.174.161.6
+174.138.165.213:32383,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,148.52.228.217
+119.93.30.233:8080,Philippines,Metro Manila,Makati City,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,True,119.93.30.233
+38.210.179.36:999,Mexico,Hidalgo,Zimapán,Jair Lozano / Intercom Internet,Jair Lozano / Intercom Internet,AS272405 Jair Lozano,False,False,True,38.210.179.230
+195.133.197.14:3128,Russia,Moscow Oblast,Korolyov,JSC Mediasoft ekspert,MT FINANCE LLC,AS48347 JSC Mediasoft ekspert,False,False,True,195.133.197.14
+103.184.67.117:8181,Indonesia,Banten,Cisaat,PT Siber Tech Indonesia,PT Siber Tech Indonesia,AS149670 PT Siber Tech Indonesia,False,False,True,103.184.67.117
+103.153.62.155:8080,Indonesia,West Java,Bekasi,PT Ikhlas Cipta Teknologi,Imedianet,AS140457 PT Ikhlas Cipta Teknologi,False,False,True,103.153.62.170
+174.138.165.211:36217,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,187.13.181.181
+185.195.71.218:18080,Switzerland,Zug,Hünenberg,Datasource AG,Datasource AG,AS56803 Datasource AG,False,True,True,185.195.71.218
+31.57.178.141:8080,Singapore,Central Singapore,Singapore,PT Perwira Media Solusi,,AS211407 PT Perwira Media Solusi,False,False,False,103.125.37.11
 165.154.20.187:10808,Hong Kong,Kowloon,Hong Kong,UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,Ucloud Information Technology (hk) Limited,AS135377 UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,False,True,True,165.154.20.187
-103.56.80.39:3125,Indonesia,West Java,Paseh,PT Jaringan Citra Mandiri,PT Jaringan Citra Mandiri,AS152000 PT Jaringan Citra Mandiri,False,False,True,103.56.80.39
-94.102.224.138:32650,Montenegro,Podgorica,Podgorica,One Crna Gora DOO,Telenor d.o.o. Podgorica,AS47881 One Crna Gora DOO,False,False,True,94.102.224.138
-200.110.218.11:999,Argentina,Buenos Aires,Guernica,CPS,CPS,AS11014 CPS,False,False,True,200.110.218.11
-49.232.24.120:8118,China,Beijing,Beijing,Shenzhen Tencent Computer Systems Company Limited,"Tencent cloud computing (Beijing) Co., Ltd.",AS45090 Shenzhen Tencent Computer Systems Company Limited,False,True,True,43.163.229.96
-175.100.103.170:1256,Cambodia,Phnom Penh,Phnom Penh,"VIETTEL (CAMBODIA) PTE., LTD","Viettel (cambodia) Pte., Ltd.",AS38623 ISP/IXP IN CAMBODIA WITH THE BEST VERVICE IN THERE.,False,False,True,175.100.103.170
-174.138.165.211:38203,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,97.246.8.136
-45.174.243.96:999,Mexico,Campeche,Candelaria,Sistemas Y Soluciones De Campeche SAS De CV,Sistemas Y Soluciones De Campeche SAS De CV,AS265583 SISTEMAS Y SOLUCIONES DE CAMPECHE SAS DE CV,False,False,True,45.174.243.96
-45.175.59.2:61950,Brazil,Ceará,Fortaleza,Infortec - Informatica & Tecnologia Ltda - ME,Infortec - Informatica & Tecnologia Ltda - ME,AS268883 Infortec - Informatica & Tecnologia Ltda - ME,False,False,True,45.175.59.3
-174.138.162.37:34704,United States,Arizona,Phoenix,Secured Servers LLC,InternetXS,AS20454 SECURED SERVERS LLC,False,True,True,47.26.243.141
-41.86.55.240:88,Seychelles,La Rivière Anglaise,Victoria,CWS-DIB,,AS36958 Cable & Wireless (Seychelles) Ltd,False,False,True,41.86.55.240
-185.204.170.179:1104,Germany,Hesse,Frankfurt am Main,Arvancloud Global Technologies L.L.C,Arvancloud Global Technologies L.L.C,AS57568 ARVANCLOUD GLOBAL TECHNOLOGIES L.L.C,False,True,True,102.37.156.224
-163.227.248.119:8818,Indonesia,West Java,Sukabumi,PT Rajasa Sinergi Komunikasi,Indonesia Network Information Center,AS153895 PT Rajasa Sinergi Komunikasi,False,False,False,163.227.248.119
-201.71.137.90:5128,Brazil,Mato Grosso,Cuiabá,Avato Tecnologia S.A,BRASIL TECPAR | AMIGO | AVATO,AS28635 UNSPECIFIED,False,False,True,201.71.137.90
-58.136.251.135:8080,Thailand,Bangkok,Bangkok,AIS-Fibre,,AS133481 AIS Fibre,False,False,False,58.136.251.135
-49.145.53.187:8080,Philippines,Western Visayas,Bacolod City,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,False,49.145.53.187
-223.207.103.175:8080,Thailand,Udon Thani,Udon Thani,Triple T Broadband Public Company Limited,Triple T Broadband Public Company Limited,AS45758 Triple T Broadband Public Company Limited,False,False,False,223.207.103.175
-103.171.255.242:8086,Indonesia,Yogyakarta,Sleman,PT Zona Kolektif Indonesia,PT Zona Kolektif Indonesia,AS142399 PT Zona Kolektif Indonesia,False,False,True,103.171.255.242
-138.59.11.192:999,Venezuela,Carabobo,Naguanagua,Distribuidora Ofic Tech De Venezuela C.A.,Fonet,AS269788 DISTRIBUIDORA OFIC TECH DE VENEZUELA C.A.,False,False,True,138.59.10.10
-78.155.66.84:8080,Syria,Rif-dimashq,Kafr Baţnā,ISP-TARASSUL,,AS29256 STE PDN Internal AS,False,False,True,201.4.64.49
-185.166.24.191:1981,Iraq,Erbil Governorate,Erbil,Online Company Ltd,,"AS207097 Online Company for Technological Information, Supply of Electronic Equipment and Internet Services Through Wifi Ltd.",False,False,True,185.166.25.201
-104.218.199.115:16062,United States,Colorado,Denver,BraveWay LLC,Sprint,AS5650 Verizon Business,False,False,True,104.218.199.115
-69.17.8.19:3129,United States,"Washington, D.C.",Washington,Bunny Communications,"I-2000, Inc",AS62610 Zenlayer Inc,False,False,False,103.200.36.134
-217.75.208.181:8080,Czechia,Ústí nad Labem Region,Chomutov,Grape SC V,"GRAPESC, a.s.",AS210712 ISP Alliance a.s.,False,False,False,217.75.208.178
-43.134.17.145:8081,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.134.17.145
-69.17.8.19:3128,United States,"Washington, D.C.",Washington,Bunny Communications,"I-2000, Inc",AS62610 Zenlayer Inc,False,False,False,146.158.125.48
-45.230.39.225:999,Chile,Santiago Metropolitan,María Pinto,Servicios Zonales De Internet Limitada,Servicios Zonales De Internet Limitada,AS271869 SERVICIOS ZONALES DE INTERNET LIMITADA,False,False,False,45.230.38.142
-210.79.140.130:8181,Indonesia,Bali,Gianyar,PT Era Zia Sakti,PT Era Zia Sakti,AS152050 PT Era Zia Sakti,False,False,True,210.79.140.130
-121.101.131.110:8080,Indonesia,Yogyakarta,Sleman,PT SELARAS CITRA TERABIT,Terabit,AS131706 PT SELARAS CITRA TERABIT,False,False,True,121.101.131.110
-103.141.174.12:8080,Bangladesh,Khulna Division,Kesabpur,ICC Communication Ltd,Seabird Computer,AS58689 ICC Communication,False,False,True,103.15.141.28
-103.171.12.2:8080,India,Tamil Nadu,Coimbatore,Infonet Comm Enterprises,Tamiltran,AS134032 INFONET COMM ENTERPRISES,False,False,True,103.171.12.2
-80.72.176.101:8080,Kyrgyzstan,Bishkek,Bishkek,OJSC Kyrgyztelecom,,AS12997 OJSC Kyrgyztelecom,False,False,False,80.72.176.101
-103.31.235.253:8080,Indonesia,West Java,Caringin,PT Usaha Adi Sanggoro,,AS55701 PT. Usaha Adisanggoro,False,True,True,103.31.235.253
-185.204.170.179:1110,Germany,Hesse,Frankfurt am Main,Arvancloud Global Technologies L.L.C,Arvancloud Global Technologies L.L.C,AS57568 ARVANCLOUD GLOBAL TECHNOLOGIES L.L.C,False,True,True,102.37.156.224
-116.90.234.106:8080,Nepal,Bagmati Province,Kathmandu,Websurfer Nepal Communication System Pvt. Ltd,Websurfer Nepal Communication System Pvt. Ltd,AS24550 Websurfer Nepal Internet Service Provider,False,False,True,116.90.234.106
-36.91.174.26:8080,Indonesia,Jakarta,Jakarta,PT. Telekomunikasi Indonesia,Telekomunikasi Indonesia,AS7713 PT Telekomunikasi Indonesia,False,False,True,36.91.174.26
-165.154.162.73:8888,United States,California,Los Angeles,UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,Ucloud Information Technology,AS135377 UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,False,True,True,165.154.162.73
-85.117.56.104:8080,Georgia,Tbilisi,Tbilisi,Caucasus Online Ltd.,Caucasus,AS20771 Caucasus Online Ltd.,False,False,True,85.117.56.104
-116.204.166.40:8080,Turkey,Istanbul,Istanbul,High Speed For Internet Services L.L.C,High Speed,AS216472 High Speed For Internet Services L.L.C,False,False,True,116.204.166.40
-158.101.175.124:5566,Germany,Hesse,Frankfurt am Main,Oracle Corporation,Oracle Cloud Infrastructure (eu-frankfurt-1),AS31898 Oracle Corporation,False,True,True,107.189.12.157
-138.186.76.57:999,Peru,Lima Province,Lima,EXA NETWORKS S.A.C.,EXA NETWORKS S.A.C,AS270076 EXA NETWORKS S.A.C.,False,False,True,138.186.76.161
-179.1.126.46:999,Colombia,Departamento del Chocó,Quibdó,Internexa S.a. E.S.P,RENTIC,AS18678 INTERNEXA S.A. E.S.P,False,False,True,179.1.126.46
-38.41.0.62:11201,Venezuela,Distrito Federal,Caracas,MDS TELECOM C.A.,,AS269832 MDS TELECOM C.A.,False,False,True,38.41.27.150
-111.119.162.248:10931,Pakistan,Sindh,Tando Adam,Connect Communication,WANGSU,AS132165 Connect Communications,False,False,True,47.236.210.224
-103.147.134.79:8082,Indonesia,East Java,Krucil Timur,PT.MURNI MAKMUR ABADI,,AS139963 PT.MURNI MAKMUR ABADI,False,False,False,103.147.134.79
-202.47.67.192:8080,Indonesia,Banten,Tangerang,JETCOMSNET,,AS139972 PT. Putra Lebak Banten,False,False,True,202.47.67.192
-182.253.143.181:8080,Indonesia,Central Java,Semarang,Biznet Networks,Prepaid,AS17451 BIZNET NETWORKS,False,False,False,182.253.143.181
-103.152.148.7:8080,Indonesia,Jakarta,South Jakarta,PT Satu Nusa Bangsa,,AS152032 PT Putra Garsel Interkoneksi,False,False,False,103.152.148.7
-103.229.86.73:8888,Bangladesh,Rangpur Division,Rangpur City,Ashfakur Rahman Chowdhury,,AS133443 Comilla Online,False,False,True,43.239.72.42
-103.177.92.227:8080,Indonesia,Banten,Tangerang,PT Jalur Satu Aman,,AS147145 PT Jalur Satu Aman,False,False,True,103.177.93.9
+178.92.72.73:8080,India,Maharashtra,Mumbai,IPXO,IPXO,AS134926 Micro Hosting Private Limited,False,False,False,178.92.72.73
+187.251.130.143:8081,Mexico,Jalisco,Zapopan,Total Play Telecomunicaciones SA De CV,Total Play Telecomunicaciones SA De CV,"AS22884 TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V.",False,False,True,187.251.130.143
+43.156.166.134:8080,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.156.166.134
+129.213.27.240:3128,United States,Virginia,Ashburn,Oracle Corporation,Oracle Cloud Infrastructure (us-ashburn-1),AS31898 Oracle Corporation,False,True,True,129.213.27.240
+103.141.174.12:8080,Bangladesh,Khulna Division,Kesabpur,ICC Communication Ltd,Seabird Computer,AS58689 ICC Communication,False,False,True,103.15.141.29
+103.180.123.27:8080,Indonesia,Jakarta,South Jakarta,PT Indo Telemedia Solusi,PT Indo Telemedia Solusi,AS149360 PT Indo Telemedia Solusi,False,False,True,103.180.123.27
+43.163.120.171:8080,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.163.120.171
+174.138.165.213:37262,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,73.72.237.73
+123.156.188.245:10808,China,Zhejiang,Yiwu,CNC Group CHINA169 Zhejiang Province Network,,AS4837 CHINA UNICOM China169 Backbone,False,False,False,66.90.98.106
+160.19.18.35:8080,Indonesia,Central Java,Semarang,PT Indo Telemedia Solusi,PT. SMART COMPUTER SERVICE,AS149360 PT Indo Telemedia Solusi,False,False,True,160.19.18.35
+43.134.230.44:8081,Singapore,North West,Singapore,Aceville Pte.ltd,,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.134.230.44
+78.189.153.164:3310,Türkiye,Istanbul,Istanbul,Turk Telekomunikasyon Anonim Sirketi,Turk Telekomunikasyon A.S,AS9121 Turk Telekomunikasyon Anonim Sirketi,False,False,True,78.189.153.164
+174.138.162.37:30052,United States,Arizona,Phoenix,Secured Servers LLC,InternetXS,AS20454 SECURED SERVERS LLC,False,True,True,172.58.181.231
+43.134.16.198:8080,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.134.16.198
+43.134.17.145:8080,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.134.17.145
+109.224.242.151:8080,Türkiye,Hatay,Reyhanlı,High Speed For Internet Services L.L.C,High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti,AS216472 High Speed For Internet Services L.L.C,False,False,True,109.224.242.151
+4.227.178.164:3128,United States,Virginia,Boydton,Microsoft Corporation,Microsoft Azure Cloud (eastus),AS8075 Microsoft Corporation,False,True,True,4.227.178.164
+43.159.35.15:8080,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Aceville Pte.ltd,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.159.35.15
+37.59.125.131:8888,France,Hauts-de-France,Roubaix,OVH SAS,OVH SAS,AS16276 OVH SAS,False,True,True,82.66.253.58
+186.33.45.220:999,Ecuador,Cotopaxi,Latacunga,Ufinet Panama S.A.,UFINET,AS52468 UFINET PANAMA S.A.,False,False,True,186.33.45.220
 38.7.195.49:999,Chile,Santiago Metropolitan,Santiago,Grupo ZGH SpA,Grupo ZGH SpA,AS263702 GRUPO ZGH SPA,False,False,True,151.241.85.26
-124.83.119.127:8085,Philippines,Central Luzon,Meycauayan,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Co,AS9299 Philippine Long Distance Telephone Company,False,False,True,124.83.119.127
-185.79.138.128:3128,Finland,Uusimaa,Helsinki,Baykov Ilya Sergeevich,OY Creanova Hosting Solutions LTD,AS41745 Baykov Ilya Sergeevich,False,False,False,185.79.138.128
-74.62.179.122:8080,United States,California,Anaheim,Charter Communications Inc,Spectrum,AS20001 Charter Communications Inc,False,False,True,74.62.179.122
-116.204.166.36:8080,Turkey,Istanbul,Istanbul,High Speed For Internet Services L.L.C,High Speed,AS216472 High Speed For Internet Services L.L.C,False,False,True,116.204.166.36
-152.69.211.50:40001,Singapore,Central Singapore,Singapore,Oracle Corporation,Oracle Cloud Infrastructure (ap-singapore-1),AS31898 Oracle Corporation,False,True,True,104.28.222.43
-177.234.217.237:999,Ecuador,Pichincha,Quito,Ufinet Panama S.A.,,AS52468 UFINET PANAMA S.A.,False,False,True,177.234.217.88
-174.138.165.211:34600,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,47.157.118.197
-177.234.217.235:999,Ecuador,Pichincha,Quito,Ufinet Panama S.A.,,AS52468 UFINET PANAMA S.A.,False,False,True,177.234.217.88
-45.123.142.179:8086,Indonesia,Banten,Curug,PT Anten Sarana Teknologi,PT Anten Sarana Teknologi,AS152026 PT Anten Sarana Teknologi,False,False,False,101.255.107.129
-103.189.117.82:1111,Indonesia,Central Java,Banyumas,PT Callysta Total Solusindo,PT Callysta Total Solusindo,AS149878 PT Callysta Total Solusindo,False,False,True,103.189.117.82
-103.251.232.5:8090,Bangladesh,Dhaka Division,Dhaka,Virtual American Companies (BD) Limited,Virtual American Companies (BD) Limited,AS133034 Virtual American Companies (BD) Limited,False,False,True,103.251.233.81
-152.67.221.233:8008,South Korea,Gangwon-do,Chuncheon,Oracle Corporation,Oracle Cloud Infrastructure (ap-chuncheon-1),AS31898 Oracle Corporation,False,True,True,104.28.207.60
-101.255.165.105:8090,Indonesia,West Java,Bekasi,PT Remala Abadi,,AS38511 PT Remala Abadi,False,False,True,101.255.165.105
-31.202.49.61:33761,Ukraine,Kharkiv Oblast,Kharkiv,Maxnet LLC,Maxnet LLC,"AS34700 MAXNET TELECOM, LTD",False,False,True,31.202.49.61
-103.179.218.90:8080,Indonesia,Banten,Kampunglistrik,WIMATE,,AS141596 PT Wistel Teknologi Solusi,False,False,True,103.179.218.90
-103.171.55.34:83,India,Maharashtra,Pune,Gigaline Teleservices Opc Private Limited,Caltek Systems LLP,AS137633 Gigaline Teleservices Opc Private Limited,False,False,True,103.171.55.34
-174.138.162.37:24366,United States,Arizona,Phoenix,Secured Servers LLC,InternetXS,AS20454 SECURED SERVERS LLC,False,True,True,89.187.187.67
-177.128.115.198:999,Chile,Santiago Metropolitan,Melipilla,Binet Networking Data Limitada,Binet Networking Data Limitada,AS269988 BINET NETWORKING DATA LIMITADA,False,False,True,177.128.115.195
-195.19.217.200:3128,Russia,Irkutsk Oblast,Irkutsk,MTS PJSC,MTSNET,AS8359 MTS PJSC,True,False,True,195.19.217.200
-103.66.62.177:8080,Indonesia,Jambi,Kenali Asam,PT Buana Visualnet Sentra,PT Sinar Jambi Baru Intermedia,AS139982 PT Buana Visualnet Sentra,False,False,True,103.66.62.177
-203.14.18.246:8080,Indonesia,Lampung,Metro,PT Izzinet Metro Multimedia,PT Izzinet Metro Multimedia,AS152084 PT Izzinet Metro Multimedia,False,False,False,203.14.18.246
-192.241.137.170:3128,United States,New Jersey,North Bergen,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,192.241.137.170
-157.20.121.37:1080,Indonesia,Jakarta,South Jakarta,PT Core Digital Network,,AS141955 PT Timor Lintas Nusantara,False,False,False,157.20.121.37
-38.58.66.175:999,Mexico,Hidalgo,Huejutla de Reyes,Velocom SA De CV,"VELOCOM, S.A DE C.V",AS265605 VELOCOM SA DE CV,False,False,True,38.58.66.172
-204.199.139.71:999,Chile,O'Higgins Region,Rinconada de Malloa,Ingbell Chile SPA,Cirion Technologies Solutions,AS273237 INGBELL CHILE SPA,False,False,True,204.199.139.70
-31.162.168.150:8080,Russia,Sverdlovsk Oblast,Yekaterinburg,Rostelecom networks,Dynamic distribution IPs for broadband services,AS12389 PJSC Rostelecom,False,False,False,31.162.168.150
-126.209.3.199:5050,Philippines,Autonomous Region in Muslim Mindanao,Marawi City,Infinivan Incorporated,MDP Iligan,AS135607 Infinivan Incorporated,False,False,True,126.209.3.199
-185.204.170.179:1133,Germany,Hesse,Frankfurt am Main,Arvancloud Global Technologies L.L.C,Arvancloud Global Technologies L.L.C,AS57568 ARVANCLOUD GLOBAL TECHNOLOGIES L.L.C,False,True,True,169.197.142.22
-103.66.47.10:8080,Indonesia,West Java,Bogor,PT Iconmedia Lintas Nusantara,PT Iconmedia Lintas Nusantara,AS23694 PT Iconmedia Lintas Nusantara,False,False,True,103.178.86.66
-180.183.178.135:3128,Thailand,Bangkok,Bangkok,Triple T Broadband Public Company Limited,Triple T Broadband Public Company Limited,AS138524 Triple T Broadband Public Company Limited,False,False,False,180.183.178.135
-112.215.62.81:8080,Indonesia,West Nusa Tenggara,Mataram,XL-AXIATA Tbk GSM,,AS17885 PT XL Axiata Tbk,True,False,False,112.215.69.2
-176.88.166.219:8080,Türkiye,Kilis,Kilis,Superonline Iletisim Hizmetleri A.S.,Guneydogu Telekom Internet Bilisim VE Iletisim HIZ TIC LTD,AS34984 Superonline Iletisim Hizmetleri A.S.,False,False,False,176.88.166.219
-101.255.32.41:8080,Indonesia,Jakarta,East Jakarta,PT Remala Abadi,,AS38511 PT Remala Abadi,False,False,True,101.255.118.8
-202.58.75.98:7777,Indonesia,East Java,Blitar,PT DBN,,AS138886 PT Data Buana Nusantara,False,True,False,202.58.75.71
-103.146.38.113:1111,Indonesia,West Java,Karawang,MEDIASOLUSISUKSES,,AS142393 PT Media Solusi Sukses,False,False,True,103.146.38.113
-213.169.33.12:8001,Bulgaria,Sofia-Capital,Sofia,A1 Bulgaria EAD,ESRI BULGARIA Network,AS8717 A1 Bulgaria EAD,False,False,True,213.169.33.7
-177.234.217.236:999,Ecuador,Pichincha,Quito,Ufinet Panama S.A.,,AS52468 UFINET PANAMA S.A.,False,False,True,177.234.217.88
-147.45.187.104:8080,The Netherlands,North Holland,Amsterdam,"Timeweb, LLP","JSC ""TIMEWEB""","AS210976 Timeweb, LLP",False,True,True,147.45.187.104
-116.68.162.174:8080,Indonesia,East Java,Kediri,PT. Sumber Data Indonesia,,AS56246 PT Sumber Data Indonesia,False,False,False,116.68.162.174
-124.121.114.190:80,Thailand,Bangkok,Bangkok,TRUEBB,,AS17552 True Online,False,False,False,124.121.114.190
-113.22.113.75:8080,Vietnam,Ho Chi Minh,Ho Chi Minh City,FPT Telecom Company,FPTDYNAMICIP,AS18403 FPT Telecom Company,False,False,True,113.22.113.75
-103.188.252.65:1234,Indonesia,Central Java,Ungaran,PT Data Lintas Media Indonesia,PT Data Lintas Media Indonesia,AS149737 PT Data Lintas Media Indonesia,False,False,True,103.188.252.67
-174.138.162.38:36185,United States,Arizona,Phoenix,Secured Servers LLC,InternetXS,AS20454 SECURED SERVERS LLC,False,True,True,24.205.67.143
-49.156.44.166:8080,Cambodia,Phnom Penh,Phnom Penh,WiCAM Corporation,WiCAM Corporation Ltd.,AS24492 WiCAM Corporation Ltd.,False,False,True,49.156.44.166
-191.44.91.53:8080,France,Île-de-France,Paris,High Speed For Internet Services L.L.C,IPbnb LLC,AS216472 High Speed For Internet Services L.L.C,False,False,True,191.44.91.53
-38.7.223.128:999,Chile,Santiago Metropolitan,Santiago,Grupo ZGH SpA,Grupo ZGH SpA,AS272891 INVERSIONES TECNOLOGICAS UNO SPA,False,False,True,38.7.223.4
-45.188.76.102:999,Mexico,Tabasco,Comalcalco,ONT NETWORKS SA de CV,,AS265608 ONT NETWORKS SA de CV,False,False,True,45.188.76.52
-82.39.174.98:8080,Indonesia,West Java,Majalengka,PT Citra Celebas Multimedia,Rajawali 2,AS140475 PT Citra Celebas Multimedia,False,False,True,142.111.188.34
-103.174.122.83:3128,Indonesia,West Java,Sumedang,PT Jaya Sejahtra Nugraha,,AS147096 PT Jaya Sejahtra Nugraha,False,False,True,103.174.122.83
-103.171.241.14:8080,Indonesia,West Java,Cileungsir,PT Abs Multimedia Indonesia,Absnet,AS142390 PT Abs Multimedia Indonesia,False,False,True,103.171.241.14
-8.218.104.116:3128,Hong Kong,Kowloon,Hong Kong,Alibaba Cloud (Singapore) Private Limited,Alibaba.com Singapore E-Commerce Private Limited,"AS45102 Alibaba (US) Technology Co., Ltd.",False,True,True,8.218.104.116
-110.38.234.74:1256,Pakistan,Punjab,Lahore,Wateen Telecom (Pvt.) Ltd,Wateen Telecom Limited,AS38264 National WiMAX/IMS environment,False,False,True,110.38.234.74
-87.21.209.230:8081,Italy,Lazio,Rome,Telecom Italia S.p.A. TIN EASY LITE,INTERBUSINESS,AS3269 Telecom Italia S.p.A.,False,False,False,87.21.209.230
-38.41.27.150:11201,Venezuela,Distrito Federal,Caracas,MDS TELECOM C.A.,,AS269832 MDS TELECOM C.A.,False,False,True,38.41.27.150
-122.53.48.41:8080,Philippines,Metro Manila,Makati City,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,True,122.53.48.41
-49.146.164.100:5050,Philippines,Western Visayas,Bacolod City,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,False,49.146.164.100
-103.122.1.26:8080,Indonesia,South Sumatra,Cempaka,PT. Java Digital Nusantara,CV Buana,AS135477 PT. Java Digital Nusantara,False,False,True,103.122.1.26
-190.26.209.126:999,Colombia,Meta Department,Granada,ETB - Colombia,Colegio Emilio Valenzuela,AS19429 ETB - Colombia,False,False,True,190.26.209.126
-138.0.143.119:8080,Brazil,São Paulo,Valparaíso,F.B. BABETO ME,F NET TELECOM,AS264551 F NET TELECOM,False,False,True,138.0.143.119
-203.20.42.56:8082,Philippines,Metro Manila,Valenzuela,RNDS Network,RNDS Network,AS154180 RNDS Network,False,False,True,203.20.42.57
-101.255.104.117:8181,Indonesia,Jakarta,West Jakarta,PT Remala Abadi,,AS38511 PT Remala Abadi,False,False,True,101.255.104.117
-109.105.220.191:80,United States,Colorado,Gunnison,"Fly.io, Inc.","Fly.io, Inc","AS40509 Fly.io, Inc.",False,True,False,167.88.158.72
-160.19.146.99:2022,Indonesia,West Java,Tasikmalaya,PT Taska Sarana Nusantara,PT Taska Sarana Nusantara,AS152775 PT Taska Sarana Nusantara,False,False,True,160.19.146.99
-103.217.224.75:3125,Indonesia,Central Java,Ungaran,PT Nesta Indo Media,,AS151006 PT Nesta Indo Media,False,False,True,103.203.234.243
-119.93.151.254:8081,Philippines,Metro Manila,Makati City,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,True,122.54.214.171
-178.251.111.22:8080,Ukraine,Kyiv City,Kyiv,Dataline LLC,Shorkin RO,AS35297 Dataline LLC,False,False,True,178.251.111.18
-174.138.165.211:37287,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,73.72.237.73
-195.142.250.46:8080,Türkiye,Bursa Province,Bursa,Superonline Iletisim Hizmetleri A.S.,Superonline Iletisim Hizmetleri,AS34984 Superonline Iletisim Hizmetleri A.S.,False,False,True,195.142.250.46
-85.187.224.21:8080,Bulgaria,Kardzhali,Kardzhali,Technolux Ltd,Technolux Ltd.,AS199173 TechnoLux Ltd.,False,False,True,85.187.224.21
-202.150.141.98:3128,Indonesia,Jakarta,East Jakarta,PT Comtronics Systems,,AS23949 PT Comtronics Systems,False,False,True,202.150.141.98
-180.191.49.73:8090,Philippines,Central Luzon,Tarlac City,Globe Telecom,,AS132199 Globe Telecom Inc.,True,False,True,180.191.49.73
+103.18.77.90:8080,Indonesia,West Java,Bogor,PT Usaha Adi Sanggoro,,AS55701 PT. Usaha Adisanggoro,False,False,True,103.18.77.90
+174.138.165.202:32766,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,68.96.218.206
+174.138.165.213:36160,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,76.103.171.159
+197.224.185.3:3128,Mauritius,Plaines Wilhems District,Rose Hill,telecomplus,,AS23889 Mauritius Telecom Ltd,False,False,True,197.224.185.3
 149.54.16.170:8080,Afghanistan,Kabul,Kabul,Government Communications Network,Government Communications Network,AS55330 AFGHANTELECOM GOVERNMENT COMMUNICATION NETWORK,False,False,True,149.54.16.170
+103.193.144.15:8080,Indonesia,Riau,Batam,PT Lintas Jaringan Nusantara,PT Jaringan Kabel Nusantara,AS58821 PT Lintas Jaringan Nusantara,False,False,True,103.193.144.15
+43.163.124.191:8080,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.163.124.191
+138.186.201.77:8083,Mexico,Coahuila,Piedras Negras,Administradora de Servicios de Internet Sandur S.A. de C.V.,Administradora de Servicios de Internet Sandur S.A. de C.V,AS28539 Administradora de Servicios de Internet Sandur S.A. de C.V.,False,False,False,201.174.248.210
+174.138.165.211:33737,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,98.176.25.209
+103.184.180.2:1111,Indonesia,East Java,Magetan,"Lintas Data Prima, PT",CV Bilqis Network,"AS45305 Lintas Data Prima, PT",False,False,True,103.184.180.2
+43.163.7.224:8080,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.163.7.224
+51.17.99.135:1080,Israel,Tel Aviv,Tel Aviv,"Amazon.com, Inc.",AWS EC2 (il-central-1),"AS16509 Amazon.com, Inc.",False,True,False,45.84.107.97
+210.211.113.33:80,Vietnam,Ho Chi Minh,Ho Chi Minh City,VTDC,Viettel - CHT Company Ltd,AS38731 Vietel - CHT Compamy Ltd,False,False,True,210.211.113.33
+85.104.3.232:3310,Türkiye,Istanbul,Istanbul,Turk Telekomunikasyon Anonim Sirketi,Turk Telekomunikasyon A.S,AS9121 Turk Telekomunikasyon Anonim Sirketi,False,False,True,85.104.3.232
+103.186.97.193:8080,Indonesia,Riau,Kurintji,PT Jaringan Datamedia Nusantara,PT Jaringan Datamedia Nusantara,AS149693 PT Jaringan Datamedia Nusantara,False,False,False,103.186.97.193
+103.191.169.126:8080,Indonesia,South Sulawesi,Makassar,PT Sugi Bintang Jaya,PT Sugi Bintang Jaya,AS149924 PT Sugi Bintang Jaya,False,False,True,103.191.169.126
+27.147.138.166:8158,Bangladesh,Dhaka Division,Dhaka,Link3 Technologies Limited,Corporate Subscriber,AS23688 Link3 Technologies Ltd.,False,False,False,27.147.138.166
+27.147.153.179:8158,Bangladesh,Dhaka Division,Dhaka,Link3 Technologies Limited,Corporate Subscriber,AS23688 Link3 Technologies Ltd.,False,False,True,27.147.153.179
+49.149.116.6:8081,Philippines,Northern Mindanao,Malaybalay,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,True,49.146.58.186
+103.130.61.61:8081,Indonesia,West Java,West Bandung Regency,Fastama,,AS138079 PT. Fiqran Solusindo Mediatama,False,False,True,103.130.61.61
+110.76.147.31:8080,Indonesia,East Java,Magetan,PT Pika Media Komunika,,AS140481 PT Tonggak Teknologi Netikom,False,True,True,110.76.147.31
+210.211.113.34:80,Vietnam,Ho Chi Minh,Ho Chi Minh City,VTDC,Viettel - CHT Company Ltd,AS38731 Vietel - CHT Compamy Ltd,False,False,True,210.211.113.34
+174.138.165.211:36036,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,73.158.7.141
+88.80.186.173:19180,United Kingdom,England,London,"Akamai Technologies, Inc.","Linode, LLC",AS63949 Akamai Connected Cloud,False,True,True,185.220.100.244
+95.153.31.229:3128,Estonia,Harjumaa,Tallinn,TELE2/SWIPNET,EstNOC OY,AS1257 Tele2 Sverige AB,False,True,True,95.153.31.229
+103.109.96.180:6321,Bangladesh,Rajshahi Division,Sirajganj,Digi Jadoo Broadband Ltd,Digi Jadoo Broadband Ltd,AS131464 Digi Jadoo Broadband Ltd,False,False,True,103.115.242.47
+190.97.241.106:999,Venezuela,Táchira,Táriba,Viginet C.A,Viginet C.A,AS263703 VIGINET C.A,False,False,True,190.97.241.106
+15.223.187.219:10803,Canada,Quebec,Montreal,Amazon Technologies Inc.,AWS EC2 (ca-central-1),"AS16509 Amazon.com, Inc.",False,True,False,192.42.116.56
+174.138.162.35:36016,United States,Arizona,Phoenix,Secured Servers LLC,InternetXS,AS20454 SECURED SERVERS LLC,False,True,True,98.238.176.65
+95.153.31.226:3128,Estonia,Harjumaa,Tallinn,TELE2/SWIPNET,EstNOC OY,AS1257 Tele2 Sverige AB,False,True,True,95.153.31.226
+124.156.194.52:8080,Singapore,North West,Singapore,Tencent Cloud Computing (Beijing) Co,,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,124.156.194.52
+165.101.102.25:8088,Philippines,Metro Manila,Quezon City,iRateNet Solutions,iRateNet Solutions,AS154002 iRateNet Solutions,False,False,True,165.101.102.55
+152.228.134.176:48080,France,Grand Est,Strasbourg,OVH SAS,OVH,AS16276 OVH SAS,False,True,True,152.228.134.176
+174.138.162.37:33645,United States,Arizona,Phoenix,Secured Servers LLC,InternetXS,AS20454 SECURED SERVERS LLC,False,True,True,47.159.108.126
+178.92.72.94:8080,India,Maharashtra,Mumbai,IPXO,IPXO,AS134926 Micro Hosting Private Limited,False,False,False,178.92.72.94
+174.138.165.211:36030,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,47.157.54.51
+174.138.162.37:32464,United States,Arizona,Phoenix,Secured Servers LLC,InternetXS,AS20454 SECURED SERVERS LLC,False,True,True,98.238.176.65
+43.134.49.34:8080,Singapore,North West,Singapore,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,False,43.134.49.34
+174.138.165.202:36047,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,137.25.143.52
+213.111.146.36:18080,The Netherlands,North Holland,Haarlem,SOLLUTIUM EU Sp z.o.o.,Vsys AMS,AS43641 SOLLUTIUM EU Sp z.o.o.,False,False,True,213.111.146.36
+174.138.165.213:36029,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,96.41.51.13
+126.209.105.227:5050,Philippines,Metro Manila,Manila,Infinivan Incorporated,Infinivan Wholesale,AS135607 Infinivan Incorporated,False,False,True,126.209.105.227
+124.109.105.44:3128,Bangladesh,Dhaka Division,Bhātāra,Mutual Trust Bank Limited,Mutual Trust Bank Limited,AS55344 Head Office,False,False,False,124.109.105.44
+157.15.1.190:8080,Indonesia,East Java,Ngawi,Gopalnet,,AS152769 PT Gopal Network Solusindo,False,False,True,157.15.1.188
+160.19.18.42:8880,Indonesia,Central Java,Semarang,PT Indo Telemedia Solusi,PT. SMART COMPUTER SERVICE,AS149360 PT Indo Telemedia Solusi,False,False,True,160.19.18.42
+45.232.0.2:8080,Argentina,Tucuman,San Miguel de Tucumán,Sistemas Informaticos S.A.S.,Sistemas Informaticos S.A.S.,AS266754 SISTEMAS INFORMATICOS S.A.S. (INTERFLASH),False,False,True,45.232.0.2
+160.19.18.165:8181,Indonesia,Central Java,Comal,PT Indo Telemedia Solusi,PT. SMART COMPUTER SERVICE,AS149360 PT Indo Telemedia Solusi,False,False,False,160.19.19.4
+193.42.112.26:8080,Estonia,Harjumaa,Kuusalu,HexCore cloud s.r.o.,HexCore cloud s.r.o,AS199144 HexCore cloud s.r.o.,False,True,True,193.42.112.26
+103.39.51.184:8088,Indonesia,West Java,Kuningan,PT. Mega Mentari Mandiri,PT Trans Hybrid Communication,AS63501 PT Mega Mentari Mandiri,False,False,True,103.39.51.184
+174.138.165.202:34396,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,98.97.63.53
+180.190.84.221:8082,Philippines,Northern Mindanao,Cagayan de Oro,Globe Telecom,,AS4775 Globe Telecoms,False,False,True,180.190.84.221
+103.18.77.64:1080,Indonesia,West Java,Bogor,PT Usaha Adi Sanggoro,,AS55701 PT. Usaha Adisanggoro,False,False,True,103.18.77.64
+174.138.165.211:39102,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,129.222.131.71
+174.138.165.211:30065,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,98.224.89.141
+165.154.24.75:808,Hong Kong,Kowloon,Hong Kong,UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,Ucloud Information Technology (hk) Limited,AS135377 UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,False,True,True,165.154.24.75
+104.251.93.21:16062,United States,Nevada,Las Vegas,BraveWay LLC,Sprint,AS5650 Verizon Business,False,False,True,104.251.93.21
+162.43.32.206:443,Japan,Tokyo,Chiyoda City,XSERVER Inc.,BETINC,AS131965 XServer Cloud Inc.,False,True,True,162.43.32.206
+31.135.214.17:8026,Uzbekistan,Tashkent,Tashkent,Inform-Service TV Ltd,ISTV First Network,AS57016 Inform-Service TV Ltd.,False,False,True,31.135.214.17
+174.138.165.213:31359,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,172.59.203.137
+174.138.162.37:36180,United States,Arizona,Phoenix,Secured Servers LLC,InternetXS,AS20454 SECURED SERVERS LLC,False,True,True,47.28.109.223
+160.25.83.52:1086,Vietnam,Hanoi,Tây Hồ,Httvserver Technology Company Limited,BigData Network Technology Company Limited,AS140815 HTTVSERVER TECHNOLOGY COMPANY LIMITED,False,True,False,45.9.251.178
+103.147.77.212:8080,Indonesia,East Java,Madiun,TRIDATA,,AS139952 PT Trisari Data Indonusa,False,False,True,103.147.77.212
+157.20.121.37:1080,Indonesia,Jakarta,South Jakarta,PT Core Digital Network,,AS141955 PT Timor Lintas Nusantara,False,False,False,157.20.121.37
+222.127.55.155:8082,Philippines,Central Visayas,Lahug,INNOVE,,AS132199 Globe Telecom Inc.,True,False,True,122.54.200.109
+111.118.149.40:8080,Cambodia,Phnom Penh,Phnom Penh,"VIETTEL (CAMBODIA) PTE., LTD","Viettel (cambodia) Pte., Ltd.",AS38623 ISP/IXP IN CAMBODIA WITH THE BEST VERVICE IN THERE.,False,False,True,111.118.149.40
+203.76.117.226:8118,Bangladesh,Dhaka Division,Tangail,Link3 Technologies Limited,Link3 Technologies Ltd,AS23688 Link3 Technologies Ltd.,False,False,False,203.76.117.226
+178.92.72.54:8080,India,Maharashtra,Mumbai,IPXO,IPXO,AS134926 Micro Hosting Private Limited,False,False,False,178.92.72.54
+186.33.45.219:999,Ecuador,Cotopaxi,Latacunga,Ufinet Panama S.A.,UFINET,AS52468 UFINET PANAMA S.A.,False,False,True,186.33.45.220
+174.138.165.211:31070,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,68.11.166.185
+185.204.170.179:1125,Germany,Hesse,Frankfurt am Main,Arvancloud Global Technologies L.L.C,Arvancloud Global Technologies L.L.C,AS57568 ARVANCLOUD GLOBAL TECHNOLOGIES L.L.C,False,True,True,193.29.139.195
+195.19.217.200:3128,Russia,Irkutsk Oblast,Irkutsk,MTS PJSC,MTSNET,AS8359 MTS PJSC,True,False,True,195.19.217.200
+103.193.144.91:8080,Indonesia,Riau,Batam,PT Lintas Jaringan Nusantara,PT Jaringan Kabel Nusantara,AS58821 PT Lintas Jaringan Nusantara,False,False,True,103.193.144.91
+185.58.115.185:8080,Sweden,Stockholm,Stockholm,Baykov Ilya Sergeevich,Baykov Ilya Sergeevich,AS41745 Baykov Ilya Sergeevich,False,False,False,146.185.143.251
+49.145.123.204:8080,Philippines,Central Visayas,Cebu City,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,False,49.148.102.158
+38.46.214.177:8085,Indonesia,West Java,Cibinong,PT. Usaha Adi Sanggoro,PT. Usaha Adi Sanggoro,AS55701 PT. Usaha Adisanggoro,False,False,True,38.46.214.177
+222.127.68.126:8080,Philippines,Central Visayas,Lahug,INNOVE,,AS132199 Globe Telecom Inc.,True,False,True,222.127.68.126
+179.1.230.58:8080,Colombia,Bogota D.C.,Bogotá,Internexa S.a. E.S.P,Internexa S.a. E.S.P,AS18678 INTERNEXA S.A. E.S.P,False,False,True,179.1.230.58
+43.128.63.68:7890,Hong Kong,Kowloon,Hong Kong,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,True,43.128.63.68
+174.138.165.211:39103,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,73.228.85.231
+192.133.66.91:8081,Philippines,Central Luzon,Capas,1race ICT Inc.,1race ICT Inc,AS154834 1RACE ICT INC.,False,False,True,192.133.66.91
+178.92.72.68:8080,India,Maharashtra,Mumbai,IPXO,IPXO,AS134926 Micro Hosting Private Limited,False,False,False,178.92.72.68
+205.164.192.115:999,Mexico,Jalisco,Ayotlán,Cogent Communications,Jose De Jesus Vazquez Ponce,AS270207 MULTICARRIER JE S. DE R.L. DE C.V.,False,False,True,205.164.192.115
+174.138.165.213:32047,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,174.66.133.181
+82.86.112.48:999,Venezuela,Aragua,Maracay,360net C.A.,"360NET, C.A",AS267809 360NET C.A.,False,False,True,82.86.112.54
+89.175.174.212:8080,Russia,Moscow,Moscow,Mobile TeleSystems PJSC,Svetoservis TeleMeshanika,AS8359 MTS PJSC,True,False,True,89.175.174.210
+103.163.13.14:1111,Indonesia,East Java,Bojonegoro,PT Solusi Media Telekomunikasi,PT Solusi Media Telekomunikasi,AS141889 PT Solusi Media Telekomunikasi,False,False,True,103.163.13.14
+103.229.86.73:8888,Bangladesh,Rangpur Division,Rangpur City,Ashfakur Rahman Chowdhury,,AS133443 Comilla Online,False,False,True,43.239.72.44
+103.185.250.142:1452,Bangladesh,Dhaka Division,Sonargaon,L.J Broadband Network,ASADUZZAMAN,AS149770 L.J Broadband Network,False,False,True,103.185.250.142
+174.138.162.37:37594,United States,Arizona,Phoenix,Secured Servers LLC,InternetXS,AS20454 SECURED SERVERS LLC,False,True,True,73.213.190.31
+205.209.66.81:8080,Syria,Al-Hasakah Governorate,Al-Hasakah,RCell LLC,RCell LLC,AS214707 RCell LLC,False,False,True,205.209.66.81
+103.81.175.141:22311,Bangladesh,Dhaka Division,Dhaka,ADN Telecom Ltd.,InGen Technology Ltd,AS38203 ADN Telecom Ltd.,False,False,True,103.81.175.141
+75.102.134.110:8080,United States,Florida,Boca Raton,"Single Digits, Inc.","Single Digits, Inc.","AS63383 Single Digits, Inc.",False,False,True,45.42.63.106
+186.5.94.206:999,Ecuador,Guayas,Guayaquil,Telconet S.A,MINTEL,AS27947 Telconet S.A,False,False,True,186.5.94.206
+174.138.165.211:36190,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,47.157.54.51
+13.212.214.47:8090,Singapore,Central Singapore,Singapore,Amazon Technologies Inc.,AWS EC2 (ap-southeast-1),"AS16509 Amazon.com, Inc.",False,True,True,13.212.214.47
+130.162.192.208:8080,Australia,Victoria,Melbourne,Oracle Corporation,Oracle Cloud Infrastructure (ap-melbourne-1),AS31898 Oracle Corporation,False,True,True,130.162.192.208
+84.22.48.28:8080,Albania,Tirana,Tirana,Artmotion Sh.P.K.,Artmotion,AS33983 ARTMOTION SH.P.K.,False,False,True,84.22.48.28
+174.138.162.38:34581,United States,Arizona,Phoenix,Secured Servers LLC,InternetXS,AS20454 SECURED SERVERS LLC,False,True,True,68.51.74.19
+182.160.124.153:12331,Bangladesh,Dhaka Division,Dhaka,Aamra Networks Limited,,"AS24323 aamra networks limited,",False,False,True,182.160.124.153
+152.53.183.107:8081,Germany,Bavaria,Nuremberg,netcup GmbH,netcup GmbH,AS197540 netcup GmbH,False,True,True,152.53.183.107
+103.153.135.2:8181,Indonesia,Banten,Tigaraksa,WMINET,,AS140464 PT Widara Media Informasi,False,False,True,103.153.135.2
+186.167.113.97:999,Venezuela,Lara,Quíbor,Corporacion Digitel C.A,M&S,AS27717 Corporacion Digitel C.A.,False,False,False,154.3.77.0
+113.22.24.247:30001,Vietnam,Ho Chi Minh,Ho Chi Minh City,FPT Telecom Company,Vietnam Internet Network Information Center,AS18403 FPT Telecom Company,False,False,False,113.22.24.247
+174.138.165.214:20004,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,64.147.89.175
+185.196.182.22:8080,Albania,Kukës County,Krume,shqiponjaisp.al LLC,,AS206088 shqiponjaisp.al LLC,False,False,True,185.196.182.22
+103.171.255.204:8080,Indonesia,Yogyakarta,Sleman,PT Zona Kolektif Indonesia,PT Zona Kolektif Indonesia,AS142399 PT Zona Kolektif Indonesia,False,False,True,103.171.255.204
+103.166.159.227:8080,Indonesia,West Java,Kresek,PT Timor Lintas Nusantara,,AS141955 PT Timor Lintas Nusantara,False,False,True,103.166.159.227
+116.12.47.94:8080,Indonesia,East Java,Mojosari,ADSNET,,AS38165 PT. AMBHARA DUTA SHANTI,False,False,False,116.12.47.62
+45.198.10.82:8080,Indonesia,Central Java,Jatiroto,PT Jaringan Lintas Artha,,AS142386 PT JARINGAN LINTAS ARTHA,False,False,True,45.198.11.147
+154.62.127.166:999,Venezuela,Carabobo,Valencia,Cogent Communications,Peer NET Service C.A,"AS269771 PRINTER-NET-SERVICE, C.A.",False,False,True,154.62.127.166
+103.82.246.15:6080,Indonesia,East Java,Wedoro,PT Master Star Network,PT Aswatama Jaya Mandiri,AS142370 PT Master Star Network,False,False,True,103.82.246.17
+85.209.156.148:1080,United States,California,Los Angeles,Oy Crea Nova Hosting Solution Ltd,Beafort Limited,AS51765 Oy Creanova Hosting Solutions Ltd.,False,True,True,85.209.156.148
+186.97.236.99:8080,Colombia,Antioquia,Medellín,EPM Telecomunicaciones S.A. E.S.P.,Colombia Móvil,AS13489 UNE EPM TELECOMUNICACIONES S.A.,False,False,True,186.97.236.99
+181.78.79.11:999,Colombia,Norte de Santander Department,La Esperanza,Ufinet Panama S.A.,UFINET,AS52468 UFINET PANAMA S.A.,False,False,True,181.78.79.67
+202.62.57.235:8080,Cambodia,Phnom Penh,Phnom Penh,"COGETEL Co., Ltd",Cogetel Ltd,"AS23673 Cogetel Online, Cambodia, ISP",False,False,True,202.62.57.235
+45.26.30.144:8888,United States,Texas,Friendswood,"AT&T Enterprises, LLC","AT&T Enterprises, LLC","AS7018 AT&T Enterprises, LLC",False,False,True,186.247.181.119
+103.231.236.202:8182,Indonesia,Central Java,Randudongkal,PT Level Indodata Teknologi,PT Level Indodata Teknologi,AS150964 PT Level Indodata Teknologi,False,False,True,103.231.236.202
+187.190.58.152:80,Mexico,Sinaloa,Mazatlán,Total Play Telecomunicaciones SA De CV,"TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V","AS22884 TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V.",False,False,True,187.190.58.152
+160.19.18.127:8181,Indonesia,Central Java,Comal,PT Indo Telemedia Solusi,PT. SMART COMPUTER SERVICE,AS149360 PT Indo Telemedia Solusi,False,False,True,160.19.18.127
+49.147.109.196:8082,Philippines,Central Visayas,Cebu City,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,False,49.147.109.196
+182.253.121.105:8080,Indonesia,West Java,Bandung,BIZNET,,AS17451 BIZNET NETWORKS,False,False,False,182.253.121.105
+92.39.129.50:1256,Russia,Moscow,Moscow,OOO WestCall Ltd,WestCall Ltd,AS8595 OOO WestCall Ltd.,False,False,True,92.39.129.50
+185.204.170.179:1149,Germany,Hesse,Frankfurt am Main,Arvancloud Global Technologies L.L.C,Arvancloud Global Technologies L.L.C,AS57568 ARVANCLOUD GLOBAL TECHNOLOGIES L.L.C,False,True,True,193.29.139.195
+180.191.22.153:8081,Philippines,Central Luzon,Cabanatuan City,Globe Telecom,,AS132199 Globe Telecom Inc.,True,False,True,180.191.127.210
+103.138.123.196:8090,Bangladesh,Dhaka Division,Narayanganj,CAFE,RL CAFE,AS134204 Business Network,False,False,True,103.138.123.196
+94.183.6.226:9090,Iran,Tehran,Tehran,Aria Shatel PJSC,Shtl NET ZNJ DSL,AS31549 Aria Shatel PJSC,False,False,True,94.183.6.226
+103.124.139.197:8181,Indonesia,Banten,Tangerang,Global Media Data Prima,,AS138089 PT.Global Media Data Prima,False,False,False,103.124.139.197
+116.204.166.149:8080,Turkey,Istanbul,Istanbul,High Speed For Internet Services L.L.C,High Speed,AS216472 High Speed For Internet Services L.L.C,False,False,True,116.204.166.149
+103.31.235.253:8080,Indonesia,West Java,Caringin,PT Usaha Adi Sanggoro,,AS55701 PT. Usaha Adisanggoro,False,True,True,103.31.235.253
+103.152.148.7:8080,Indonesia,Jakarta,South Jakarta,PT Satu Nusa Bangsa,,AS152032 PT Putra Garsel Interkoneksi,False,False,False,103.152.148.7
+161.248.171.27:8080,Indonesia,Lampung,Pringsewu,PT JALUR DATA INDONESIA,Indonesia Network Information Center,AS137909 PT JALUR DATA INDONESIA,False,False,False,161.248.171.27
+80.246.16.160:3128,Russia,Primorye,Vladivostok,Server-Center JSC Network,Server-Center JSC,AS34434 JSC Atlas-2,False,False,False,37.29.91.86
+103.135.226.66:8080,Indonesia,Jakarta,Jakarta,SUPERCORRIDOR,,AS138871 PT. Trans Indonesia Superkoridor,False,False,True,103.135.226.66
+41.86.55.240:88,Seychelles,La Rivière Anglaise,Victoria,CWS-DIB,,AS36958 Cable & Wireless (Seychelles) Ltd,False,False,True,41.86.55.240
+185.204.170.179:1110,Germany,Hesse,Frankfurt am Main,Arvancloud Global Technologies L.L.C,Arvancloud Global Technologies L.L.C,AS57568 ARVANCLOUD GLOBAL TECHNOLOGIES L.L.C,False,True,True,102.37.156.224
+115.85.88.18:8080,Indonesia,Jakarta,Jakarta,Sudirman Central Business District,,AS23953 PT ARTHA TELEKOMINDO,False,False,True,115.85.88.74
+103.159.96.117:80,Indonesia,East Java,Kertosono,PT Jinde Grup Indonesia,PT Jinde Grup Indonesia,AS141140 PT Jinde Grup Indonesia,False,False,True,103.159.96.117
+38.51.207.104:8080,Venezuela,Zulia,Maracaibo,Tecnoven Services C.A,Tecnoven Services C.A,AS269730 TECNOVEN SERVICES CA,False,False,False,38.51.207.106
+49.146.155.183:8082,Philippines,Western Visayas,Bacolod City,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,False,49.146.155.183
+157.15.186.71:8080,Indonesia,East Java,Banyuwangi,HAPPYINET,PT. APLIKASI ENTERTAINMENT INDONESIA,AS150208 PT Internusa Duta Makmur,False,False,True,157.15.186.71
+103.157.83.231:8080,Indonesia,Jakarta,Jakarta,PT. Fiber Networks Indonesia,PT Linksindo Makmur,AS58369 PT. Fiber Networks Indonesia,False,False,True,103.157.83.231
+103.227.187.23:8080,Indonesia,East Java,Curahjati,PT Master Star Network,PT Ard Management Group,AS142370 PT Master Star Network,False,False,True,103.227.187.23
+126.209.106.104:8080,Philippines,Metro Manila,Manila,Infinivan Incorporated,Infinivan Wholesale,AS135607 Infinivan Incorporated,False,False,True,126.209.106.104
+45.32.1.83:9000,United States,New Jersey,Piscataway,Choopa,"Vultr Holdings, LLC","AS20473 The Constant Company, LLC",False,True,True,45.32.1.83
+195.62.50.25:8080,Turkey,Istanbul,Istanbul,High Speed For Internet Services L.L.C,hiperonline iletisim hizmetleri san. tic. ltd. sti,AS216472 High Speed For Internet Services L.L.C,False,False,True,195.62.50.25
+217.182.195.221:30009,France,Hauts-de-France,Roubaix,OVH SAS,OVH,AS16276 OVH SAS,False,True,True,80.67.167.81
+103.102.131.30:3128,Vietnam,Hanoi,Hanoi,VGP Joint Stock Company,VGP,AS149139 VGP JOINT STOCK COMPANY,False,False,False,103.102.131.30
+174.138.162.37:33610,United States,Arizona,Phoenix,Secured Servers LLC,InternetXS,AS20454 SECURED SERVERS LLC,False,True,True,47.149.179.193
+125.26.97.176:8080,Thailand,Phra Nakhon Si Ayutthaya,Phra Nakhon Si Ayutthaya,TOT Public Company Limited,TOT Public Company Limited,AS23969 TOT Public Company Limited,False,False,False,125.26.97.176
+160.19.19.18:8080,Indonesia,West Java,Subang,PT Indo Telemedia Solusi,PT. SMART COMPUTER SERVICE,AS149360 PT Indo Telemedia Solusi,False,False,True,160.19.19.18
+156.230.187.234:8081,Indonesia,West Java,Cimahi,My Republic Indonesia,,AS63859 PT. Eka Mas Republik,False,False,True,156.230.187.234
+203.82.36.163:8082,Philippines,Calabarzon,Magsaysay,Ignite Telecommunications Inc,Wificity,AS18187 Ignite Telecommunications Inc,False,False,True,203.82.36.162
+91.236.238.103:8080,Russia,St.-Petersburg,St Petersburg,TERICOM Ltd,Tericom LLC,AS199732 TERICOM LLC,False,False,True,91.236.238.103
+180.191.122.190:8181,Philippines,Metro Manila,Quezon City,Globe Telecom,,AS4775 Globe Telecoms,False,False,False,180.191.122.190
+103.147.135.19:8082,Indonesia,East Java,Cangkreng,PT.MURNI MAKMUR ABADI,,AS139963 PT.MURNI MAKMUR ABADI,False,False,True,103.147.135.19
+103.247.23.215:8080,Indonesia,Central Java,Cilacap,PT wifian Solution,,AS58485 WIFIAN ID,False,False,True,103.247.23.215
+198.245.60.202:3128,Canada,Quebec,Montreal,OVH SAS,"OVH Hosting, Inc.",AS16276 OVH SAS,False,True,True,198.245.60.202
+190.109.126.44:1010,Argentina,Cordoba,Córdoba,Internet Cordoba S.A.S,,AS270099 INTERNET CORDOBA S.A.S,False,False,False,190.109.124.16
+203.143.19.137:5050,Sri Lanka,Western Province,Colombo,Lanka Communication Services (Pvt) Ltd.,Lanka Communication Services (Pvt) Ltd,AS5087 Lanka Communication Services,False,False,True,203.143.19.137
+45.177.20.243:65535,Peru,Huánuco Department,Huánuco,P&P BUSINESS GROUP SAC,,AS267871 P&P BUSINESS GROUP SAC,False,False,False,45.177.20.242
+201.159.20.108:999,Mexico,Baja California,Mexicali,"Konecta de Mexico, S. de R.L. de C.V.","Konecta de Mexico, S. de R.L. de C.V","AS262913 Konecta de Mexico, S. de R.L. de C.V.",False,False,False,201.159.20.108
+157.20.233.193:3125,Indonesia,Central Java,Mlonggo,PT Applewifi Selalu Lancar,PT Applewifi Selalu Lancar,AS152439 PT Applewifi Selalu Lancar,False,False,True,157.20.233.140
+193.43.149.85:8080,Syria,Rif-dimashq,Al Mulayḩah,Syrian Telecom,MTS DSL,AS29256 STE PDN Internal AS,False,False,True,193.43.149.85
+103.154.231.123:8090,Indonesia,East Java,Pagerwojo,DIGITNET,,AS136121 PT Digital Media Telematika,False,False,True,103.154.231.123
+124.121.5.189:8080,Thailand,Nakhon Ratchasima,Nakhon Ratchasima,True Internet Corporation CO. Ltd.,Truebb,AS17552 True Online,False,False,False,124.121.5.189
+103.156.75.213:8091,Indonesia,Bali,Gianyar,PT Trika Global Media,PT Trika Global Media,AS141082 PT Trika Global Media,False,False,True,103.156.75.213
+14.225.240.23:8562,Vietnam,Ho Chi Minh,Ho Chi Minh City,Vietnam Posts and Telecommunications Group,WANGSU,AS135905 VIETNAM POSTS AND TELECOMMUNICATIONS GROUP,False,False,True,14.225.240.23
+186.216.208.98:3128,Brazil,Federal District,Brasília,Clicknet Brasil Informatica E Telecomunicacoes LT,Clicknet Brasil Informatica E Telecomunicacoes LT,AS262989 CLICKNET BRASIL INFORMATICA E TELECOMUNICACOES LT,False,False,True,186.216.208.98
+38.75.82.210:999,Dominican Republic,Santo Domingo Province,Santo Domingo Este,Cogent Communications,Alcome Tech SRL,"AS273217 ACOLME TECH, SRL",False,False,True,38.75.82.210
+168.197.104.45:8080,Brazil,Paraná,Guaratuba,Gtba Telecom Ltda ME,Gtba Telecom Ltda ME,AS265477 GTBA TELECOM LTDA ME,False,False,True,168.197.104.45
+124.109.105.44:80,Bangladesh,Dhaka Division,Bhātāra,Mutual Trust Bank Limited,Mutual Trust Bank Limited,AS55344 Head Office,False,False,False,124.109.105.44
+181.209.114.220:8080,Argentina,Buenos Aires,Benavídez,ARSAT - Empresa Argentina de Soluciones Satelitales S.A,Seinoa SRL,AS52361 ARSAT - Empresa Argentina de Soluciones Satelitales S.A.,False,False,True,181.209.114.220
+186.148.160.8:999,Colombia,Meta Department,Granada,TV AZTECA SUCURSAL COLOMBIA,TV AZTECA SUCURSAL COLOMBIA,AS262186 TV AZTECA SUCURSAL COLOMBIA,False,False,True,186.148.160.8
+103.193.145.163:8080,Indonesia,Riau Islands,Batam,PT Lintas Jaringan Nusantara,PT Jaringan Kabel Nusantara,AS58821 PT Lintas Jaringan Nusantara,False,False,False,103.193.145.163
+157.66.36.103:8080,Indonesia,Banten,Ciruas,PT Trik Media Data,,AS140016 PT Trik Media Data,False,False,True,157.66.36.103
+107.174.79.253:7890,United States,California,Los Angeles,HostPapa,RackNerd LLC,AS36352 HostPapa,False,True,False,172.238.12.53
+170.233.192.225:999,Chile,Santiago Metropolitan,Santiago,MI INTERNET SPA,MI INTERNET SPA,AS52510 MI INTERNET SPA,False,False,True,170.233.192.231
+174.138.165.211:37626,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,75.66.125.29
+160.19.146.220:2022,Indonesia,West Java,Tasikmalaya,PT Taska Sarana Nusantara,PT Taska Sarana Nusantara,AS152775 PT Taska Sarana Nusantara,False,False,True,160.19.146.220
+182.160.106.100:12331,Bangladesh,Dhaka Division,Dhaka,Aamra Networks Limited,,"AS24323 aamra networks limited,",False,False,True,182.160.106.100
+112.215.62.81:8080,Indonesia,West Nusa Tenggara,Mataram,XL-AXIATA Tbk GSM,,AS17885 PT XL Axiata Tbk,True,False,False,112.215.69.2
+103.162.136.23:8080,Pakistan,Punjab,Model Town,Fibercom Technologies (Private) Limited,,AS150750 IN CABLE INTERNET (PRIVATE) LIMITED,False,False,True,103.162.136.23
+110.232.78.195:8080,Indonesia,North Sumatra,Belawan,PT. Media Antar Nusa,Nusanet,AS23679 PT. Media Antar Nusa,False,False,False,110.232.78.195
+195.226.213.251:8888,Ukraine,Odesa,Fontanka,Private Enterprise KTV AIDA,ISP AIDA,AS197192 Private Enterprise KTV AIDA,False,False,True,195.226.213.254
+104.251.93.232:16062,United States,Nevada,Las Vegas,BraveWay LLC,Sprint,AS5650 Verizon Business,False,False,True,104.251.93.232
+194.113.38.196:3128,Finland,Uusimaa,Helsinki,DpkgSoft International Limited,Xorek.Cloud Helsinki,AS215590 DpkgSoft International Limited,False,True,True,194.113.38.196
+88.218.121.235:3128,The Netherlands,North Holland,Amsterdam,Clodo Cloud Service CO. L.L.C,Clodo Cloud Service CO. L.L.C,AS216154 CLODO CLOUD SERVICE CO. L.L.C,False,True,True,88.218.121.235
+207.246.234.115:4669,United States,New Mexico,Clovis,Plateau Telecommunications Incorporated,Symmetric Systems LLC,AS21782 Plateau Telecommunications Incorporated,False,False,True,207.246.234.115
+124.217.13.165:8081,Philippines,Central Visayas,Cebu City,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,True,124.217.14.136
+174.138.165.213:32643,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,69.120.32.179
+165.101.102.239:8080,Philippines,Metro Manila,Quezon City,iRateNet Solutions,iRateNet Solutions,AS154002 iRateNet Solutions,False,False,True,165.101.102.236
+38.172.169.97:999,Venezuela,Distrito Federal,El Valle,"RED SERVITEL, CA","RED SERVITEL, CA","AS270026 RED SERVITEL, CA",False,False,True,38.51.216.120
+201.62.125.142:8080,Brazil,São Paulo,Rio Claro,Claro NXT Telecomunicacoes Ltda,Claro S.A,AS28573 Claro NXT Telecomunicacoes Ltda,False,False,True,201.62.125.142
+103.191.171.70:8181,Indonesia,West Java,Cianjur,PT Sahabat Manjur Grup,PT Sahabat Manjur Grup,AS149933 PT Sahabat Manjur Grup,False,False,False,103.191.171.71
+113.161.93.6:8080,Vietnam,Ho Chi Minh,Ho Chi Minh City,VietNam Post and Telecom Corporation,Vietnam Posts and Telecommunications Group,AS45899 VNPT Corp,False,False,False,113.161.93.6
+152.53.183.107:8082,Germany,Bavaria,Nuremberg,netcup GmbH,netcup GmbH,AS197540 netcup GmbH,False,True,True,152.53.183.107
+181.78.233.10:443,Colombia,Bogota D.C.,Bogotá,Ufinet Panama S.A.,UFINET,AS52468 UFINET PANAMA S.A.,False,False,True,181.78.233.10
+43.98.172.166:3128,Singapore,North West,Singapore,"Alibaba (US) Technology Co., Ltd.",Alibaba.com LLC,"AS45102 Alibaba (US) Technology Co., Ltd.",False,True,True,43.98.172.166
+79.127.30.250:8080,Iran,Tehran,Tehran,Asiatech Data Transmission company,Asiatech Data Transmission Co.,AS43754 Asiatech Data Transmission company,False,False,True,79.127.30.250
+101.255.107.121:1111,Indonesia,Jakarta,West Jakarta,PT Remala Abadi,,AS38511 PT Remala Abadi,False,False,True,101.255.107.121
+160.19.19.31:8080,Indonesia,East Java,Kediri,PT Indo Telemedia Solusi,PT. SMART COMPUTER SERVICE,AS149360 PT Indo Telemedia Solusi,False,False,True,160.19.19.31
+103.183.58.230:8080,Indonesia,West Java,Cianjur,PT Core Digital Network,,AS149409 PT Core Digital Network,False,True,True,103.183.58.230
+86.125.19.21:8080,Romania,Gorj County,Târgu Jiu,RCS & RDS,RCS & RDS Business,AS8708 RCS & RDS,False,False,True,86.125.19.21
+103.103.8.222:8080,India,Tamil Nadu,Chennai,F2h Networks Pvt Ltd,F2h Networks Pvt Ltd,AS136708 F2h Networks Pvt Ltd,False,False,True,103.103.8.222
+45.234.101.120:8081,Brazil,Pernambuco,Recife,Fortlink Internet Corporativa,Fortlink Internet Corporativa,AS61592 FORTLINK INTERNET CORPORATIVA,False,False,False,45.234.101.123
+38.172.181.0:999,Venezuela,Lara,Barquisimeto,"RED SERVITEL, CA","RED SERVITEL, CA","AS270026 RED SERVITEL, CA",False,False,False,38.172.181.22
+103.171.240.134:9595,Indonesia,West Java,Cileungsir,PT Abs Multimedia Indonesia,Absnet,AS142390 PT Abs Multimedia Indonesia,False,False,True,101.255.107.78
+154.59.56.74:999,Venezuela,Mérida,Tovar Municipality,Cogent Communications,"TODONET TELECOMUNICACIONES, C.A",AS264778 TotalCom Venezuela C.A.,False,False,True,154.59.56.77
+154.59.56.76:999,Venezuela,Mérida,Santa Cruz de Mora,Cogent Communications,"TODONET TELECOMUNICACIONES, C.A",AS264778 TotalCom Venezuela C.A.,False,False,True,154.59.56.72
+38.183.146.122:8080,Indonesia,West Java,Bekasi,PT Ikhlas Cipta Teknologi,PT Ikhlas Cipta Teknologi,AS140457 PT Ikhlas Cipta Teknologi,False,False,True,38.183.146.122
+160.19.19.59:8080,Indonesia,West Java,Subang,PT Indo Telemedia Solusi,PT. SMART COMPUTER SERVICE,AS149360 PT Indo Telemedia Solusi,False,False,True,160.19.19.59
+154.59.56.78:999,Venezuela,Mérida,Santa Cruz de Mora,Cogent Communications,"TODONET TELECOMUNICACIONES, C.A",AS264778 TotalCom Venezuela C.A.,False,False,True,154.59.56.73
+160.19.19.9:8080,Indonesia,West Java,Subang,PT Indo Telemedia Solusi,PT. SMART COMPUTER SERVICE,AS149360 PT Indo Telemedia Solusi,False,False,True,160.19.19.9
+93.91.156.65:8080,Czechia,Ústí nad Labem Region,Louny,GRAPESC I.,,AS210712 ISP Alliance a.s.,False,False,True,217.75.208.178
+38.75.82.211:999,Dominican Republic,Santo Domingo Province,Santo Domingo Este,Cogent Communications,Alcome Tech SRL,"AS273217 ACOLME TECH, SRL",False,False,True,38.75.82.210
+125.26.230.225:8080,Thailand,Sukhothai,Sawankhalok,TOT Public Company Limited,TOT Public Company Limited,AS23969 TOT Public Company Limited,False,False,False,125.26.230.225
+27.123.223.163:8080,Indonesia,Jakarta,Jakarta,FIBERNET,,AS58369 PT. Fiber Networks Indonesia,False,False,False,27.123.223.163
+51.170.133.249:80,Morocco,Casablanca-Settat,Casablanca,Oracle Corporation,Oracle Cloud Infrastructure (af-casablanca-1),AS31898 Oracle Corporation,False,True,False,51.170.133.249
+36.50.92.145:8080,Indonesia,West Java,Saripin,PT Ring Media Nusantara,PT Data Multimedia Network,AS141642 PT Ring Media Nusantara,False,False,True,36.50.92.145
+174.138.165.214:30116,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,206.251.94.173
+95.214.123.143:8080,Hungary,Bács-Kiskun,Kecskemét,Deltakon Kft.,Deltanet Internet,AS209001 DELTAKON KFT.,False,False,False,95.214.123.143
+110.164.175.110:8080,Thailand,Bangkok,Lak Si,Triple T Broadband Public Company Limited,,AS45758 Triple T Broadband Public Company Limited,False,False,True,49.48.88.161
+142.111.188.34:8080,Indonesia,Jakarta,Jakarta,PT Citra Celebas Multimedia,PT Citra Celebas Multimedia,AS215208 PT Citra Celebas Multimedia,False,True,True,142.111.188.34
+174.138.165.213:36140,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,73.162.210.41
+103.79.16.44:50009,Pakistan,Sindh,Karachi,Logon Broadband Pvt Ltd,Sharp Communications (Pvt.) Ltd,AS131275 Logon Broadband Pvt. Limited,False,False,True,101.53.255.233
+174.138.165.211:36152,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,47.157.118.197
+212.44.134.166:3128,Russia,Tatarstan Republic,Novlyanka,"PJSC ""Vimpelcom""",SOVINTEL EDN Static,AS3216 PJSC Vimpelcom,False,False,True,212.44.134.166
+186.97.200.210:999,Colombia,Antioquia,Medellín,EPM Telecomunicaciones S.A. E.S.P.,Colombia Móvil,AS13489 UNE EPM TELECOMUNICACIONES S.A.,False,False,True,181.207.19.37
+103.178.176.14:8080,India,Uttar Pradesh,Noida,Megatel Networks Private Limited,Megatel Networks Private Limited,AS149240 Megatel Networks Private Limited,False,False,True,161.248.176.2
+93.183.127.6:3128,The Netherlands,North Holland,Amsterdam,Servers Tech Fzco,,AS216071 SERVERS TECH FZCO,False,True,True,93.183.127.6
+185.100.47.106:443,Iran,Tehran,Tehran,Fara Ertebat Mabna PJS,FaraTelecom,AS200645 Fara Ertebat Mabna PJS,False,False,True,31.171.101.83
+149.210.15.139:18080,Greece,Attica,Athens,Cosmote Mobile Telecommunication S.A.,Cosmote Mobile Telecommunications S.A.,AS29247 Ote SA (Hellenic Telecommunications Organisation),False,False,False,149.210.15.139
+185.97.200.14:1080,Russia,St.-Petersburg,St Petersburg,P.A.K.T LLC,,AS39087 P.A.K.T LLC,False,False,True,45.9.72.25
+201.91.248.67:20183,Brazil,São Paulo,Itapecerica da Serra,Vivo,TELEF�NICA BRASIL S.A,AS10429 TELEFÔNICA BRASIL S.A,False,False,True,201.91.248.67
+180.180.175.11:8080,Thailand,Bangkok,Bangkok,TOT Public Company Limited,TOT Public Company Limited,AS23969 TOT Public Company Limited,False,False,True,180.180.175.11
+174.138.165.211:38636,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,148.52.228.217
+103.146.54.6:8080,Bangladesh,Dhaka Division,Tongi,Md. Sohel,,AS139850 Hi-Tec Enterprise,False,False,True,103.146.54.82
+186.227.246.82:8080,Brazil,Minas Gerais,São José da Barra,Rede Exitus Ltda,Rede Exitus Ltda,AS262779 Rede Exitus Ltda,False,False,True,186.227.246.82
+174.138.162.38:32260,United States,Arizona,Phoenix,Secured Servers LLC,InternetXS,AS20454 SECURED SERVERS LLC,False,True,True,137.25.151.135
+27.147.168.150:8158,Bangladesh,Dhaka Division,Dhaka,Link3 Technologies Limited,Retail Subscriber,AS23688 Link3 Technologies Ltd.,False,False,True,27.147.168.150
+188.164.218.209:8080,Albania,Tirana,Tirana,Vodafone Albania Sh.A.,Vodafone,AS21183 Vodafone Albania Sh.A.,False,False,True,188.164.218.209
+58.69.124.137:8080,Philippines,Calabarzon,Antipolo City,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,True,58.69.124.137
+152.0.45.48:8080,Dominican Republic,Santiago Province,Santiago de los Caballeros,Compañía Dominicana de Teléfonos S. A.,Compañía Dominicana de Teléfonos S. A,AS6400 Compañía Dominicana de Teléfonos S. A.,False,False,False,152.0.45.48
+103.245.110.198:1452,Bangladesh,Dhaka Division,Bhatara,ACE IT Networks Limited,,AS58800 ACE IT Networks Limited,False,False,True,103.245.110.198
+49.150.252.231:5050,Philippines,Ilocos,Rosario,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,False,49.150.252.231
+103.191.196.212:8080,Indonesia,West Java,Jatibarang,PT Pangkalan Lintas Data,,AS149934 PT Pangkalan Lintas Data,False,False,True,103.191.196.212
+202.1.24.52:8080,Indonesia,Central Java,Brebes,PT Global Media Jaringan Nasional,Indonesia Network Information Center,AS154124 PT Global Media Jaringan Nasional,False,False,True,202.1.24.52
+103.144.102.82:8080,Indonesia,West Java,Jatibarang,PANDAWANET,,AS139421 PT Dharma Sarana Solusindo,False,False,True,103.144.102.82
+103.239.253.66:8080,Bangladesh,Dhaka Division,Dhaka,Carnival Internet,,AS63526 Systems Solutions & development Technologies Limited,False,False,True,103.239.253.66
+103.168.44.83:8081,Indonesia,Jakarta,South Jakarta,PT CYB Media Group,CYB,AS142307 PT CYB Media Group,False,False,True,38.46.232.170
+190.12.150.244:999,Ecuador,Pichincha,Quito,Servitelconet Cia. Ltda.,Onetelecom Cia.ltda,AS271795 ONETELECOM CIA.LTDA.,False,False,True,190.12.150.244
+174.138.162.38:30059,United States,Arizona,Phoenix,Secured Servers LLC,InternetXS,AS20454 SECURED SERVERS LLC,False,True,True,98.238.176.65
+195.250.92.58:8080,Armenia,Yerevan,Yerevan,GNC-Alfa CJSC,GNC Customers29,AS49800 GNC-Alfa CJSC,False,False,True,195.250.92.58
+41.216.191.186:8080,Indonesia,Jakarta,South Jakarta,Perwira,,AS211407 PT Perwira Media Solusi,False,False,False,103.86.116.38
+185.200.188.234:10001,Russia,Moscow,Moscow,Ihor Hosting LTD,Gorizont LLC,AS209641 IHOR HOSTING LTD,False,True,True,185.200.188.234
+202.169.250.149:8111,Indonesia,Jakarta,Jakarta,PT. Rabik Bangun Pertiwi,,"AS38143 PT. Rabik Bangun Pertiwi, PMA",False,True,True,202.169.250.146
+116.204.229.227:8070,Bangladesh,Rajshahi Division,Pabna Sadar,ICC Communication Ltd,ICC Communication Ltd.,AS58689 ICC Communication,False,False,True,116.204.229.229
+181.78.17.131:999,Colombia,Valle del Cauca Department,Andalucía,Ufinet Panama S.A.,UFINET,AS52468 UFINET PANAMA S.A.,False,False,True,190.60.34.250
+182.160.124.54:12331,Bangladesh,Dhaka Division,Dhaka,Aamra Networks Limited,,"AS24323 aamra networks limited,",False,False,True,182.160.124.153
+49.151.78.142:8080,Philippines,Cagayan Valley,Roxas,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,True,49.151.78.142
+185.204.170.179:1111,Germany,Hesse,Frankfurt am Main,Arvancloud Global Technologies L.L.C,Arvancloud Global Technologies L.L.C,AS57568 ARVANCLOUD GLOBAL TECHNOLOGIES L.L.C,False,True,True,134.195.196.211
+200.201.134.184:8787,Brazil,São Paulo,São Paulo,Telium Telecomunicações Ltda,Telium Telecomunicações Ltda,AS11432 Telium Telecomunicações Ltda,False,False,True,200.201.134.184
+103.187.113.100:8080,Indonesia,Bali,Tabanan,PT Adi Solusindo Teknologi,PT Adi Solusindo Teknologi,AS149720 PT Adi Solusindo Teknologi,False,False,True,103.187.113.100
+119.92.252.190:8082,Philippines,Metro Manila,Quezon City,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,True,119.92.252.190
+103.39.70.5:8181,Indonesia,West Kalimantan,Sambas,PT Gateway media Zafira,PT Gateway media Zafira,AS150274 PT Gateway media Zafira,False,False,True,103.39.70.252
+185.109.244.69:8080,Iran,Tehran,Tehran,Asiatech Data Transmission company,Asiatech Data Transmission Co.,AS43754 Asiatech Data Transmission company,False,False,True,185.109.244.69
+116.204.166.202:8080,Turkey,Istanbul,Istanbul,High Speed For Internet Services L.L.C,High Speed,AS216472 High Speed For Internet Services L.L.C,False,False,False,116.204.166.202
+23.94.25.198:1084,United States,California,Santa Clara,HostPapa,RackNerd LLC,AS36352 HostPapa,False,True,True,23.94.25.198
+174.138.165.213:35875,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,24.185.215.31
+124.107.39.186:8082,Philippines,Metro Manila,Upper Bicutan,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,True,124.107.25.9
+95.81.101.252:3128,The Netherlands,North Holland,Amsterdam,Clodo Cloud Service CO. L.L.C,,AS216154 CLODO CLOUD SERVICE CO. L.L.C,False,True,True,95.81.101.252
+123.253.136.159:1256,Philippines,Bicol Region,Cadlan,ComClark Network & Technology Corp,Converge ICT Network,AS17639 Converge ICT Solutions Inc.,False,False,True,123.253.136.159
+168.228.140.1:999,Argentina,Santa Cruz,Caleta Olivia,Luciano Gabriel Chersanaz (Ubnet Datacenter),Luciano Gabriel Chersanaz (Ubnet Datacenter),AS264689 Luciano Gabriel Chersanaz (Ubnet Datacenter),False,True,True,168.228.141.73
+103.193.144.205:8080,Indonesia,Riau,Batam,PT Lintas Jaringan Nusantara,PT Jaringan Kabel Nusantara,AS58821 PT Lintas Jaringan Nusantara,False,False,True,103.193.144.99
+80.72.176.101:8080,Kyrgyzstan,Bishkek,Bishkek,OJSC Kyrgyztelecom,,AS12997 OJSC Kyrgyztelecom,False,False,False,80.72.176.101
+38.252.217.32:999,Peru,Lima region,Santa María,Cogent Communications,Telcom Mikrotik Peru S.A.C,AS273976 FICOM TELECOMUNICACIONES S.A.C.,False,False,True,204.157.243.19
+174.138.165.202:58080,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,98.97.118.61
+202.58.64.29:8080,Indonesia,East Java,Krajan,PT Mamura Inter Media,PT Mamura Inter Media,AS141673 PT Mamura Inter Media,False,True,True,202.58.64.29
+182.160.100.142:12331,Bangladesh,Dhaka Division,Dhaka,Aamra Networks Limited,,"AS24323 aamra networks limited,",False,False,True,182.160.100.142
+103.94.251.93:8080,Indonesia,Riau,Pelalawan,PT Centronet Data Indonesia,PT Ciptabangun Bumi Mulya,AS138884 PT Centronet Data Indonesia,False,False,True,103.94.251.93
+78.155.66.87:8080,Syria,Rif-dimashq,Kafr Baţnā,ISP-TARASSUL,,AS29256 STE PDN Internal AS,False,False,True,201.4.64.49
+45.229.17.2:999,Ecuador,Los Ríos,Vinces,Turbonet S.A.,,AS271967 TURBONET S.A.,False,False,True,45.229.17.5
+102.38.29.36:8080,Libya,Tripoli,Tripoli,GZA,Giga Telecommunication and Technology Limited,AS328539 Giga for Telecommunication and Technology Limited,False,False,True,102.38.29.36
+190.60.48.137:999,Colombia,Cesar Department,Valledupar,Ufinet Panama S.A.,UFINET,AS52468 UFINET PANAMA S.A.,False,False,True,206.62.161.164
+188.132.249.102:8080,Turkey,Kilis,Kilis,High Speed For Internet Services L.L.C,Guneydogu Telekom int.bil. ve ilt. hiz. tic. ltd. sti,AS216472 High Speed For Internet Services L.L.C,False,False,False,201.4.69.37
+103.166.27.254:8080,Indonesia,East Java,Lumajang,PT Sanders Bersaudara Media,PT Sanders Bersaudara Media,AS141934 PT Sanders Bersaudara Media,False,False,True,103.4.83.241
+103.174.122.207:3128,Indonesia,West Java,Sumedang,PT Jaya Sejahtra Nugraha,,AS147096 PT Jaya Sejahtra Nugraha,False,False,True,103.174.122.207
+180.191.235.172:8080,Philippines,Soccsksargen,Matalam,Globe Telecom,,AS4775 Globe Telecoms,False,False,True,180.191.235.172
+210.211.113.37:80,Vietnam,Ho Chi Minh,Ho Chi Minh City,VTDC,Viettel - CHT Company Ltd,AS38731 Vietel - CHT Compamy Ltd,False,False,True,210.211.113.37
+174.138.165.211:30244,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,151.123.0.175
+36.88.247.76:8081,Indonesia,West Java,Sukabumi,PT. Telekomunikasi Indonesia,Telekomunikasi Indonesia,AS7713 PT Telekomunikasi Indonesia,False,False,True,36.74.110.90
+103.183.58.198:8181,Indonesia,West Java,Cianjur,PT Core Digital Network,,AS149409 PT Core Digital Network,False,True,True,103.183.58.198
+164.163.73.5:999,Honduras,Copán Department,Santa Rosa de Copán,Grupo Inma S.A,Diser Solution,AS265767 GRUPO INMA S.A,False,False,True,164.163.75.211
+103.81.195.150:3125,Indonesia,West Java,Parung,PT Rtiga Global Media,,AS59150 PT Rtiga Global Media,False,False,True,103.81.195.150
+160.191.180.123:8080,Indonesia,Central Java,Kebumen,PT.Global Media Data Prima,Indonesia Network Information Center,AS138089 PT.Global Media Data Prima,False,False,True,160.191.180.123
+180.191.1.195:8081,Philippines,Central Luzon,Cabanatuan City,Globe Telecom,,AS132199 Globe Telecom Inc.,False,False,True,138.84.65.206
+103.191.169.70:1111,Indonesia,South Sulawesi,Makassar,PT Sugi Bintang Jaya,PT Sugi Bintang Jaya,AS149924 PT Sugi Bintang Jaya,False,False,True,103.191.169.70
+174.138.165.213:36152,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,47.157.118.197
+45.174.242.128:999,Mexico,Campeche,Alfredo V. Bonfil,Sistemas Y Soluciones De Campeche SAS De CV,Sistemas Y Soluciones De Campeche SAS De CV,AS265583 SISTEMAS Y SOLUCIONES DE CAMPECHE SAS DE CV,False,False,True,45.174.242.128
+217.182.195.221:30002,France,Hauts-de-France,Roubaix,OVH SAS,OVH,AS16276 OVH SAS,False,True,True,23.129.64.187
+103.81.65.74:8585,Indonesia,Lampung,Sukoharjo Satu,QIUNET,,AS136055 PT Queen Network Nusantara,False,False,False,103.81.65.68
+36.95.27.225:8080,Indonesia,West Java,Sukabumi,PT. Telekomunikasi Indonesia,Telekomunikasi Indonesia,AS7713 PT Telekomunikasi Indonesia,False,False,True,180.254.64.40
+103.179.252.170:3127,Indonesia,West Java,Bekasi,PT Pusaka Kreasi Mandiri,PT Pusaka Kreasi Mandiri,AS149350 PT Pusaka Kreasi Mandiri,False,False,True,103.179.252.161
+185.204.170.179:1146,Germany,Hesse,Frankfurt am Main,Arvancloud Global Technologies L.L.C,Arvancloud Global Technologies L.L.C,AS57568 ARVANCLOUD GLOBAL TECHNOLOGIES L.L.C,False,True,True,102.37.156.224
+213.35.113.150:6969,Singapore,Central Singapore,Singapore,Oracle Corporation,Oracle Cloud Infrastructure (ap-singapore-1),AS31898 Oracle Corporation,False,True,True,213.35.113.150
+174.138.162.34:38234,United States,Arizona,Phoenix,Secured Servers LLC,InternetXS,AS20454 SECURED SERVERS LLC,False,True,True,109.104.115.77
+66.94.104.255:3128,United States,New York,Orangeburg,Contabo Inc.,Contabo Inc,AS40021 Contabo Inc.,False,True,True,45.84.107.128
+160.19.18.99:8080,Indonesia,West Java,Cigunung,PT Indo Telemedia Solusi,PT. SMART COMPUTER SERVICE,AS149360 PT Indo Telemedia Solusi,False,False,True,160.19.18.99
+38.252.34.16:19000,Libya,Tripoli,Tājūrā’,Cogent Communications,Giga Telecommunication and Technology Limited,AS328539 Giga for Telecommunication and Technology Limited,False,False,True,38.252.34.16
+168.228.176.30:3139,Brazil,Ceará,Tianguá,BRASILINK SERVIÇOS EIRELI,BRASILINK SERVIÇOS EIRELI,AS264926 BRASILINK SERVIÇOS EIRELI,False,False,True,168.228.176.30
+38.156.238.32:999,Dominican Republic,Santo Domingo Province,Santo Domingo Este,"BITNET DOMINICANA, S.R.L","BITNET DOMINICANA, S.R.L","AS272882 BITNET DOMINICANA, S.R.L.",False,False,True,38.156.238.43
+38.252.213.248:999,Peru,Pasco,Oxapampa,Telcom Mikrotik Peru S.A.C,Telcom Mikrotik Peru S.A.C,AS273000 TELCOM MIKROTIK PERU S.A.C.,False,False,True,179.63.7.34
+193.33.157.19:8080,Syria,Aleppo Governorate,Aleppo,High Speed For Internet Services L.L.C,Enflow B.V,AS216472 High Speed For Internet Services L.L.C,False,False,True,193.33.157.19
+103.156.15.55:8080,Indonesia,West Java,Bogor,PT Lintas Jaringan Nusantara,PT Lintas Jaringan Indonesia,AS58821 PT Lintas Jaringan Nusantara,False,False,True,103.156.15.55
+174.138.165.204:34528,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,173.77.116.185
+103.193.145.155:8080,Indonesia,Riau Islands,Batam,PT Lintas Jaringan Nusantara,PT Jaringan Kabel Nusantara,AS58821 PT Lintas Jaringan Nusantara,False,False,True,103.193.145.155
+85.133.162.34:8080,Iran,Isfahan,Isfahan,Shabakieh Isfahan Co PJSC,Shabakieh Isfahan Co PJSC,AS204834 Shabakieh Isfahan Co PJSC,False,False,True,85.133.162.38
+174.138.165.211:38415,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,70.173.222.147
+138.16.178.230:10808,Russia,Moscow,Moscow,Hosting technology LTD,Hosting technology LTD,AS48282 Hosting technology LTD,False,True,False,138.16.178.230
+103.191.218.53:1111,Indonesia,West Java,Kuningan,PT Replay Inti Media,PT Replay Inti Media,AS149930 PT Replay Inti Media,False,False,False,103.191.218.53
+174.138.162.37:36022,United States,Arizona,Phoenix,Secured Servers LLC,InternetXS,AS20454 SECURED SERVERS LLC,False,True,True,104.34.32.87
+174.138.165.203:31090,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,47.159.117.170
+38.51.207.118:999,Venezuela,Zulia,Maracaibo,Tecnoven Services C.A,Tecnoven Services C.A,AS269730 TECNOVEN SERVICES CA,False,False,True,38.51.207.118
+124.121.114.190:80,Thailand,Bangkok,Bangkok,TRUEBB,,AS17552 True Online,False,False,False,124.121.114.190
+185.188.217.166:8080,Kosovo,Pristina,Pristina,PPPoE,,"AS206358 Qendrim Kryeziu trading as N.P.SH ""ISP - Broadcast",False,False,True,185.188.217.166
+103.104.99.7:80,Indonesia,East Java,Sidoarjo,Dinas Komunikasi DAN Informatika Kabupaten Sidoarjo,Dinas Komunikasi DAN Informatika Kabupaten Sidoarjo,AS136889 DINAS KOMUNIKASI DAN INFORMATIKA KABUPATEN SIDOARJO,False,False,False,36.88.142.68
+49.147.3.183:8082,Philippines,Calabarzon,Lucena City,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,False,49.147.3.183
+60.49.236.13:8080,Malaysia,Selangor,Cyberjaya,TM TECHNOLOGY SERVICES SDN BHD,Adsl Streamyx,AS4788 TM TECHNOLOGY SERVICES SDN. BHD.,False,False,True,60.49.236.13
+163.227.87.144:5050,Philippines,Central Visayas,Mabini,Clian Internet and I.T. Services,Clian Internet and I.T. Services,AS153789 Cliantech Internet,False,False,True,163.227.87.145
+111.90.188.156:8080,Cambodia,Phnom Penh,Phnom Penh,MekongNet,,AS38235 ANGKOR DATA COMMUNICATION,False,False,False,111.90.188.156
+91.26.188.170:8080,Germany,Rheinland-Pfalz,Cochem,Deutsche Telekom AG,MOSELSTERN HOTELS GmbH & Co,AS3320 Deutsche Telekom AG,False,False,True,91.26.188.170
+45.225.204.11:999,Chile,O'Higgins Region,Las Cabras,Netdelsur Telecomunicaciones SPA,Netdelsur Telecomunicaciones SPA,AS265858 NETDELSUR TELECOMUNICACIONES SPA,False,False,True,45.225.204.11
+190.97.254.154:8080,Venezuela,Miranda,Ocumare,Viginet C.A,Viginet C.A,AS263703 VIGINET C.A,False,False,True,190.97.254.154
+103.141.174.54:11411,Bangladesh,Khulna Division,Kesabpur,ICC Communication Ltd,Seabird Computer,AS58689 ICC Communication,False,False,True,103.205.135.216
+49.48.81.115:8080,Thailand,Nakhon Ratchasima,Nakhon Ratchasima,Triple T Broadband Public Company Limited,Triple T Broadband Public Company Limited,AS45758 Triple T Broadband Public Company Limited,False,False,True,49.48.81.115
+177.139.174.81:8080,Brazil,São Paulo,São Paulo,Vivo,TELEF�NICA BRASIL S.A,AS27699 TELEFÔNICA BRASIL S.A,False,False,True,177.139.174.81
+138.121.113.179:999,Argentina,Formosa,Formosa,Refsa Telecomunicaciones,Refsa Telecomunicaciones,AS263791 REFSA TELECOMUNICACIONES,False,False,True,138.121.113.179
+103.78.98.74:8888,Indonesia,Jakarta,Jakarta,PT. Mora Telematika Indonesia,,AS131111 PT Mora Telematika Indonesia,False,False,True,103.78.98.74
+117.18.20.102:8081,Indonesia,East Java,Blitar,PT ALUCIO,,AS138886 PT Data Buana Nusantara,False,True,True,103.141.108.58
+103.171.161.96:9090,Indonesia,Jakarta,Central Jakarta,MYREPUBLIC,,AS63859 PT. Eka Mas Republik,False,False,True,103.171.161.96
+102.38.7.110:1972,Libya,Tripoli,Tripoli,Giga for Telecommunication and Technology Limited,GKA,AS328539 Giga for Telecommunication and Technology Limited,False,False,True,102.38.7.107
+190.7.138.78:8080,Colombia,Antioquia,Medellín,EPM Telecomunicaciones S.A. E.S.P.,,AS13489 UNE EPM TELECOMUNICACIONES S.A.,False,False,True,190.7.138.78
+103.104.99.26:80,Indonesia,East Java,Sidoarjo,Dinas Komunikasi DAN Informatika Kabupaten Sidoarjo,Dinas Komunikasi DAN Informatika Kabupaten Sidoarjo,AS136889 DINAS KOMUNIKASI DAN INFORMATIKA KABUPATEN SIDOARJO,False,False,False,36.88.142.68
+190.97.226.59:999,Venezuela,Barinas,Santa Bárbara,Viginet C.A,Viginet C.A,AS263703 VIGINET C.A,False,False,True,190.97.236.113
+89.175.174.210:8080,Russia,Moscow,Moscow,Mobile TeleSystems PJSC,Svetoservis TeleMeshanika,AS8359 MTS PJSC,True,False,True,89.175.174.210
+103.177.104.121:8080,Indonesia,Jakarta,Jakarta,PT. Fiber Networks Indonesia,PT Cloud Four Cee Services,AS58369 PT. Fiber Networks Indonesia,False,False,True,103.177.104.121
+49.156.44.115:8080,Cambodia,Phnom Penh,Phnom Penh,WiCAM Corporation,WiCAM Corporation Ltd.,AS24492 WiCAM Corporation Ltd.,False,False,True,49.156.44.115
+190.153.122.3:999,Venezuela,Distrito Federal,Caracas,"Net Uno, C.A.","Net Uno, C.A","AS11562 Net Uno, C.A.",False,False,True,190.153.122.3
+181.119.84.212:8080,Colombia,Valle del Cauca Department,Cali,IFX Networks Argentina S.R.L,"UFINET COLOMBIA, S. A",AS52468 UFINET PANAMA S.A.,False,False,True,181.119.84.134
+45.169.148.100:999,Chile,Santiago Metropolitan,Santiago,Telecomunicaciones Pixel Ltda.,Telecomunicaciones Pixel Ltda,AS267746 TELECOMUNICACIONES PIXEL LTDA.,False,False,True,45.169.149.78
+177.73.155.247:999,Colombia,Cauca Department,Piendamo,Dobleclick Software E Ingeneria,Valle Telecomunicaciones,AS264646 DOBLECLICK SOFTWARE E INGENERIA,False,False,True,177.73.155.242
+174.138.165.211:33285,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,174.17.46.217
+67.215.226.71:999,Dominican Republic,Provincia Sánchez Ramírez,Cotui,REY CONNECT SRL,Rey Connect. SRL,AS273836 REY CONNECT SRL,False,True,True,67.215.226.66
+59.153.83.186:8080,Indonesia,Jakarta,North Jakarta,ATSINDO,,AS56233 PT Asia Teknologi Solusi,False,False,True,59.153.83.186
+38.183.146.170:8090,Indonesia,West Java,Bekasi,PT Ikhlas Cipta Teknologi,PT Ikhlas Cipta Teknologi,AS140457 PT Ikhlas Cipta Teknologi,False,False,True,38.183.146.170
+164.52.11.194:18080,Taiwan,Taiwan,Taipei,"CDS Global Cloud Co., Ltd",Ucul,"AS63199 CDS Global Cloud Co., Ltd",False,True,True,164.52.11.194
+189.174.53.115:8080,Mexico,Yucatán,Mérida,Uninet S.A. de C.V,Gestión de direccionamiento UniNet,AS8151 Uninet S.A. de C.V.,False,False,False,189.176.47.86
+181.78.10.110:999,Colombia,Norte de Santander Department,Pamplona,Ufinet Panama S.A.,UFINET,AS52468 UFINET PANAMA S.A.,False,False,True,181.78.10.110
+201.7.31.181:8080,Turkey,Kayseri,Himmetdede,High Speed For Internet Services L.L.C,High Speed,AS216472 High Speed For Internet Services L.L.C,False,False,True,201.7.31.181
+109.72.198.3:8080,Iran,Bushehr Province,Bushehr,KOL IP,,AS48944 Khalij Fars Ettela Resan LTD,False,False,False,31.171.101.128
+185.166.27.208:2020,Iraq,Erbil Governorate,Erbil,Online Company Ltd,,"AS207097 Online Company for Technological Information, Supply of Electronic Equipment and Internet Services Through Wifi Ltd.",False,False,True,185.166.27.208
+165.99.194.222:8080,Indonesia,Central Java,Guyangan,PT Network Bumi Saridin,PT Network Bumi Saridin,AS153986 PT Network Bumi Saridin,False,False,True,157.20.253.51
+193.33.157.87:8080,Syria,Aleppo Governorate,Aleppo,High Speed For Internet Services L.L.C,Enflow B.V,AS216472 High Speed For Internet Services L.L.C,False,False,False,79.98.32.112
+45.175.59.2:61950,Brazil,Ceará,Fortaleza,Infortec - Informatica & Tecnologia Ltda - ME,Infortec - Informatica & Tecnologia Ltda - ME,AS268883 Infortec - Informatica & Tecnologia Ltda - ME,False,False,True,45.175.59.3
+103.165.155.161:1111,Indonesia,West Java,Sepatan,PT Jaringan Keluarga Bersama,PT Jaringan Keluarga Bersama,AS141921 PT Jaringan Keluarga Bersama,False,False,True,160.22.134.39
+49.151.64.103:5050,Philippines,Cagayan Valley,Mallig,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,True,49.151.64.103
+38.76.138.130:999,Venezuela,Distrito Federal,Caracas,CORPORACIÓN GALA IT C.A,CORPORACIÓN GALA IT C.A,"AS263767 CORPORACIÓN GALA IT, C.A.",False,False,True,38.76.138.130
+139.135.63.90:8080,Pakistan,Punjab,Lahore,Cyber Internet Services (Private) Limited,Cyber Internet Services (Private) Limited,AS9541 Cyber Internet Services (Pvt) Ltd.,False,False,True,139.135.63.90
+45.188.76.238:999,Mexico,Tabasco,Comalcalco,ONT NETWORKS SA de CV,,AS265608 ONT NETWORKS SA de CV,False,False,True,45.188.76.238
+45.4.2.24:999,Chile,Santiago Metropolitan,Santiago,Tlink SPA,,AS265662 TLINK SPA,False,False,True,45.4.0.12
+103.248.9.95:8080,Indonesia,West Java,Garut,PT Flashnet Inovasi Teknologi,PT Flashnet Inovasi Teknologi,AS151538 PT Flashnet Inovasi Teknologi,False,False,False,103.248.9.95
+103.76.108.63:8080,Indonesia,East Java,Rejoagung,PT Mahawira Nusantara Grup,PT Mahawira Nusantara Grup,AS151576 PT Mahawira Nusantara Grup,False,False,False,103.76.108.63
+103.165.123.109:8080,Indonesia,West Java,Bogor,PT iForte Global Internet,Solusinet,AS17995 PT iForte Global Internet,False,False,True,103.165.123.109
+176.88.166.201:8080,Türkiye,Kilis,Kilis,Superonline Iletisim Hizmetleri A.S.,Guneydogu Telekom Internet Bilisim VE Iletisim HIZ TIC LTD,AS34984 Superonline Iletisim Hizmetleri A.S.,False,False,False,176.88.166.201
+103.247.22.84:8080,Indonesia,Central Java,Purbalingga,PT wifian Solution,,AS58485 WIFIAN ID,False,False,True,103.247.22.84
+103.156.16.235:8818,Indonesia,West Java,Jatibarang,RSTNET,,AS141077 RSTNET,False,False,True,103.156.16.235
+103.137.158.112:82,Bangladesh,Mymensingh Division,Sherpur,Chittagong Data Communication,CDC Primary,AS138385 Chittagong Data Communication,False,False,True,103.137.158.196
+103.124.137.171:8080,Indonesia,Banten,Tangerang,Global Media Data Prima,,AS138089 PT.Global Media Data Prima,False,False,True,103.124.137.171
+103.132.12.18:8080,Indonesia,Jakarta,Jakarta,BIGNET,,AS131736 PT. BIS DATA INDONESIA,False,False,True,103.132.12.18
+49.146.49.176:8082,Philippines,Davao Region,Pag-asa,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,False,49.146.49.176
+38.51.243.189:999,Colombia,Nariño,Túquerres,Intercomm de Narino,Intercomm de Narino,AS272869 INTERCOMM DE NARIÑO SAS,False,False,True,38.51.243.187
+61.245.9.172:5050,Philippines,Metro Manila,Manila,Infinivan Incorporated,Toslink,AS135607 Infinivan Incorporated,False,False,False,165.101.14.123
+181.119.67.133:999,Colombia,Valle del Cauca Department,Florida,IFX Networks Argentina S.R.L,"UFINET COLOMBIA, S. A",AS52468 UFINET PANAMA S.A.,False,False,True,181.119.67.133
+38.156.23.30:999,Dominican Republic,Puerto Plata,Puerto Plata,Visnetwork SRL,Peniel Wilfi S.R.L,AS64134 VISNETWORK SRL,False,False,True,38.156.23.26
+103.189.117.82:1111,Indonesia,Central Java,Banyumas,PT Callysta Total Solusindo,PT Callysta Total Solusindo,AS149878 PT Callysta Total Solusindo,False,False,True,103.189.117.82
+116.204.166.45:8080,Turkey,Istanbul,Istanbul,High Speed For Internet Services L.L.C,High Speed,AS216472 High Speed For Internet Services L.L.C,False,False,True,116.204.166.45
+38.194.253.83:999,Mexico,Guanajuato,Huapango,Cogent Communications,IENTC S de RL de CV,AS28458 IENTC S DE RL DE CV,False,False,False,38.194.253.83
+182.252.89.130:8080,Bangladesh,Dhaka Division,Dhaka,Agni Systems Limited,Agni Systems Limited,AS23923 Agni Systems Limited,False,False,True,182.252.89.130
+123.253.4.50:8080,Indonesia,West Java,Lembang,PT. iForte Global Internet,PT. Paragonatama Jaya,AS17995 PT iForte Global Internet,False,False,True,123.253.4.50
+103.18.78.135:8080,Indonesia,West Java,Bogor,PT Usaha Adi Sanggoro,,AS55701 PT. Usaha Adisanggoro,False,False,False,103.18.78.135
+124.83.118.156:8081,Philippines,Central Luzon,Meycauayan,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Co,AS9299 Philippine Long Distance Telephone Company,False,False,True,180.191.20.96
+220.134.5.4:8080,Taiwan,New Taipei City,New Taipei City,"Chunghwa Telecom Co., Ltd.",Chunghwa Telecom Co. Ltd.,AS3462 Data Communication Business Group,False,False,True,220.134.5.4
+102.0.25.8:8080,Kenya,Nairobi County,Nairobi,Airtel KE Mobile & Fixed Internet,,AS36926 Airtel Networks Kenya Limited,False,False,True,102.0.25.8
+191.44.91.60:8080,France,Île-de-France,Paris,High Speed For Internet Services L.L.C,IPbnb LLC,AS216472 High Speed For Internet Services L.L.C,False,False,True,191.44.91.60
+157.15.67.181:80,Indonesia,East Java,Tulungagung,PT Trimitra Aditama Koneksindo,PT Trimitra Aditama Koneksindo,AS152377 PT Trimitra Aditama Koneksindo,False,False,True,157.15.67.181
+186.96.111.214:999,Colombia,Meta Department,San Martín,TV AZTECA SUCURSAL COLOMBIA,TV AZTECA SUCURSAL COLOMBIA,AS262186 TV AZTECA SUCURSAL COLOMBIA,False,False,True,147.75.122.107
+103.147.246.93:88,Indonesia,Central Java,Demak,PLBNET,,AS139972 PT. Putra Lebak Banten,False,False,False,103.147.246.93
+180.195.99.168:8081,Philippines,Calabarzon,Lucena City,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Co,AS9299 Philippine Long Distance Telephone Company,False,False,True,180.195.99.168
+103.153.69.111:3128,Vietnam,Hanoi,Thanh Xuân,TAM,TAM Media Technology Joint Stock Company,AS131366 Lanit Technology and Communication Joint Stock Company,False,False,True,103.153.69.111
+198.145.118.110:8080,Turkey,Hatay,Antakya,High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti.,High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti,AS202561 High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti.,False,False,True,198.145.118.110
+49.146.238.223:8081,Philippines,Central Visayas,Cebu City,Philippine Long Distance Telephone Co.,Philippine Long Distance Telephone Company,AS9299 Philippine Long Distance Telephone Company,False,False,False,122.2.41.154
+103.110.10.174:3300,Indonesia,West Java,Babakanloa,PT Citra Jelajah Informatika,PT.Cipta Data Media,AS131717 PT Citra Jelajah Informatika,False,False,True,103.110.10.174
+103.171.241.18:1000,Indonesia,West Java,Cileungsir,PT Abs Multimedia Indonesia,Absnet,AS142390 PT Abs Multimedia Indonesia,False,False,True,103.171.241.18
+176.120.183.234:1089,Russia,Tver Oblast,Tver,Home Computer Networks ltd.,MNT-HCN,AS51669 Home Computer Networks ltd.,False,False,True,176.120.183.234
+185.240.50.70:8080,Kenya,Nairobi County,Nairobi,Servercore Africa Ltd,Haicom Limited,AS329272 Servercore Africa Ltd,False,True,False,185.240.50.70
+170.239.205.31:999,Colombia,Antioquia,Frontino,FIBERNET,FiberComm,AS265629 FIBERNET,False,False,True,170.239.205.28
+182.253.109.133:1256,Indonesia,Central Java,Semarang,Biznet Networks,Biznet Gamers,AS17451 BIZNET NETWORKS,False,False,True,182.253.109.133
+190.144.238.66:8080,Colombia,Cauca Department,Buenos Aires,Telmex Colombia S.A.,Telmex Colombia S.A.,AS14080 Telmex Colombia S.A.,False,False,True,190.144.238.66
+65.20.230.118:9090,Iraq,Baghdad,Baghdad,Hulum,Earthlink Telecommunications Equipment Trading & Services DMCC,AS203214 Hulum Almustakbal Company for Communication Engineering and Services Ltd,False,False,True,65.20.230.118
+185.204.170.179:1127,Germany,Hesse,Frankfurt am Main,Arvancloud Global Technologies L.L.C,Arvancloud Global Technologies L.L.C,AS57568 ARVANCLOUD GLOBAL TECHNOLOGIES L.L.C,False,True,True,169.197.142.22
+116.204.166.44:8080,Turkey,Istanbul,Istanbul,High Speed For Internet Services L.L.C,High Speed,AS216472 High Speed For Internet Services L.L.C,False,False,True,198.145.118.125
+186.121.244.178:8080,Bolivia,La Paz Department,La Paz,AXS Bolivia S. A.,AXS Bolivia S. A,AS26210 AXS Bolivia S. A.,False,False,False,186.121.244.178
+103.147.247.143:8080,Indonesia,Central Java,Kutoarjo,PLBNET,,AS139972 PT. Putra Lebak Banten,False,False,False,180.244.52.227
+177.10.202.115:35452,Brazil,Paraíba,Campina Grande,ISPTEC Sistemas de Comunicação Eireli,Mercadinho Provisao Ltda,AS263025 ISPTEC Sistemas de Comunicação Eireli,False,False,True,177.10.202.115
+87.107.5.19:8585,Iran,Tehran,Tehran,Mobin Arvand Infrastructure Company LTD,MobinhostInfrastructure,AS215708 Mobin Arvand Infrastructure Company LTD,False,True,True,31.171.101.165
+177.234.245.71:9696,Ecuador,Pastaza Province,Puyo,Ufinet Panama S.A.,Negocios Y Telefonia Nedetel S.A,AS52468 UFINET PANAMA S.A.,False,False,True,177.234.245.71
+174.138.165.211:30015,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,76.103.171.159
+185.204.170.179:1109,Germany,Hesse,Frankfurt am Main,Arvancloud Global Technologies L.L.C,Arvancloud Global Technologies L.L.C,AS57568 ARVANCLOUD GLOBAL TECHNOLOGIES L.L.C,False,True,True,169.197.142.22
+157.10.89.164:8080,Indonesia,East Java,Madiun,PT Infonusa Teknologi Telekomunikasi Nusantara,,AS152082 PT Infonusa Teknologi Telekomunikasi Nusantara,False,False,True,157.10.89.164
+185.204.170.179:1115,Germany,Hesse,Frankfurt am Main,Arvancloud Global Technologies L.L.C,Arvancloud Global Technologies L.L.C,AS57568 ARVANCLOUD GLOBAL TECHNOLOGIES L.L.C,False,True,True,169.197.142.22
+179.191.39.221:1028,Brazil,Alagoas,Maravilha,Mhnet Telecom,Mhnet Telecom,AS28146 MHNET TELECOM,False,False,False,179.191.39.221
+38.190.100.170:999,Peru,Lima region,San Juan de Lurigancho,Conex TV E.I.R.L,Conex TV E.I.R.L,AS273133 CONEX TV E.I.R.L.,False,False,True,38.190.100.169
+103.195.65.228:8080,Indonesia,Central Java,Purbalingga Regency,PT Perwira Media Solusi,PT Perwira Pedjoeang Nusantara,AS211407 PT Perwira Media Solusi,False,False,False,202.65.231.114
+103.133.61.239:8080,Indonesia,Lampung,Bandar Lampung,TLINK,,AS138134 PT Tunas Link Indonesia,False,False,True,103.133.61.239
+103.176.97.108:3128,Indonesia,West Java,Purwakarta,PT Global Sarana Elektronika,PT Global Sarana Elektronika,AS147131 PT Global Sarana Elektronika,False,False,True,103.176.97.108
+103.74.144.57:83,India,National Capital Territory of Delhi,New Delhi,Airmax Internet Private Limited,Airmax Internet Private Limited,AS58965 ANJANI BROADBAND SOLUTIONS PVT.LTD.,False,False,True,103.74.144.34
+187.19.201.217:8080,Brazil,Rio Grande do Norte,Venha-Ver,Brisanet Servicos De Telecomunicacoes S.A,C & K TELECOMUNICACOES LTDA,AS28126 BRISANET SERVICOS DE TELECOMUNICACOES S.A,False,False,True,201.54.176.64
+180.191.23.171:8081,Philippines,Central Luzon,Cabanatuan City,Globe Telecom,,AS132199 Globe Telecom Inc.,True,False,True,180.191.23.171
+27.131.14.9:8812,Bangladesh,Dhaka Division,Dhaka,Dhaka Fiber Net Limited,Dhaka Fiber Net Limited,AS55492 Dhaka Fiber Net Limited,False,False,True,27.131.14.9
+138.252.98.110:8080,Indonesia,Lampung,Jabung,PT Java Internet Solution,Indonesia Network Information Center,AS154344 PT Java Internet Solution,False,False,False,138.252.98.110
+190.104.134.145:3128,Paraguay,Asuncion,Asunción,Núcleo S.A.,Núcleo S.A,AS27895 Núcleo S.A.,False,False,True,190.128.201.236
+160.30.104.170:1256,Pakistan,Punjab,Khanpur,S. B Link Network,FALAK SAIR DYEING MILL (PRIVATE) LIMITED,AS134489 S. B Link Network,False,False,True,160.30.104.170
+120.28.194.248:8282,Philippines,Northern Mindanao,Quezon,Globe Telecom,,AS132199 Globe Telecom Inc.,True,False,True,120.28.194.248
+174.138.165.211:30570,United States,Arizona,Phoenix,Secured Servers LLC,Secured Servers LLC,AS20454 SECURED SERVERS LLC,False,True,True,24.185.215.31
+102.212.104.129:8082,Nigeria,Lagos,Lekki,Teltwine Networks Limited,Teltwine Networks Limited,AS329236 Teltwine Networks Limited,False,False,False,102.212.104.33
