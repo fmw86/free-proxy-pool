@@ -1,8 +1,8 @@
 url,status,count,seconds,error
-https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt,ok,285,0.051,
-https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt,ok,2788,0.046,
-https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/http.txt,ok,830,0.039,
-https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt,ok,4806,0.075,
-https://raw.githubusercontent.com/VPSLabCloud/VPSLab-Free-Proxy-List/main/http_all.txt,ok,384,0.064,
-https://raw.githubusercontent.com/iplocate/free-proxy-list/main/protocols/http.txt,ok,678,0.029,
-https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all,ok,913,0.151,
+https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt,ok,277,0.084,
+https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt,ok,2819,0.051,
+https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/http.txt,ok,741,0.113,
+https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt,ok,4806,0.112,
+https://raw.githubusercontent.com/VPSLabCloud/VPSLab-Free-Proxy-List/main/http_all.txt,ok,384,0.05,
+https://raw.githubusercontent.com/iplocate/free-proxy-list/main/protocols/http.txt,error,0,0.03,<urlopen error [Errno 104] Connection reset by peer>
+https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all,ok,1010,0.197,
