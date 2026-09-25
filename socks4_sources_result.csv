@@ -1,4 +1,4 @@
 url,status,count,seconds,error
-https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks4.txt,ok,103,0.048,
-https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt,ok,2319,0.032,
-https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=10000&country=all,ok,273,0.162,
+https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks4.txt,ok,57,0.103,
+https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt,ok,2708,0.096,
+https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=10000&country=all,ok,198,0.077,
