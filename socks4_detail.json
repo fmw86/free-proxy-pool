@@ -1,9 +1,16 @@
 [
   {
-    "proxy": "165.154.20.187:10808",
+    "proxy": "139.224.205.16:7890",
     "ok": true,
-    "latency_ms": 3231,
-    "exit_ip": "165.154.20.187",
+    "latency_ms": 2389,
+    "exit_ip": "203.198.112.68",
+    "error": ""
+  },
+  {
+    "proxy": "89.110.53.227:3080",
+    "ok": true,
+    "latency_ms": 8226,
+    "exit_ip": "178.156.160.251",
     "error": ""
   },
   {
@@ -60,7 +67,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "1.179.199.130:33333",
@@ -74,14 +81,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "1.2.248.41:80",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "1.20.101.15:8080",
@@ -109,7 +116,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "1.20.101.24:80",
@@ -168,11 +175,18 @@
     "error": "timed out"
   },
   {
-    "proxy": "1.20.254.32:4153",
+    "proxy": "1.20.235.153:5678",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
     "error": "[Errno 104] Connection reset by peer"
+  },
+  {
+    "proxy": "1.20.254.32:4153",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "1.212.157.114:4145",
@@ -210,6 +224,13 @@
     "error": "timed out"
   },
   {
+    "proxy": "1.4.195.114:4145",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
+  },
+  {
     "proxy": "1.9.167.35:60489",
     "ok": false,
     "latency_ms": "",
@@ -242,7 +263,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "101.109.76.109:4145",
@@ -312,14 +333,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
-  },
-  {
-    "proxy": "102.0.35.254:1081",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "102.141.30.2:33333",
@@ -434,6 +448,13 @@
     "error": "timed out"
   },
   {
+    "proxy": "103.101.218.113:8080",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
     "proxy": "103.102.13.107:8080",
     "ok": false,
     "latency_ms": "",
@@ -529,7 +550,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1010)"
+    "error": "timed out"
   },
   {
     "proxy": "103.117.136.137:1081",
@@ -537,6 +558,13 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "[Errno 111] Connection refused"
+  },
+  {
+    "proxy": "103.118.127.222:4153",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
   },
   {
     "proxy": "103.118.85.144:6321",
@@ -547,6 +575,13 @@
   },
   {
     "proxy": "103.119.101.59:8080",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
+    "proxy": "103.123.249.15:5678",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -564,7 +599,21 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "[Errno 104] Connection reset by peer"
+  },
+  {
+    "proxy": "103.125.243.142:1081",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 111] Connection refused"
+  },
+  {
+    "proxy": "103.126.86.239:821",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
   },
   {
     "proxy": "103.127.204.116:27416",
@@ -672,13 +721,6 @@
     "error": "timed out"
   },
   {
-    "proxy": "103.137.148.253:1081",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
-  },
-  {
     "proxy": "103.137.218.166:83",
     "ok": false,
     "latency_ms": "",
@@ -732,7 +774,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "103.143.105.138:8080",
@@ -767,17 +809,10 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
-  },
-  {
-    "proxy": "103.146.137.145:1081",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
     "error": "[Errno 104] Connection reset by peer"
   },
   {
-    "proxy": "103.146.137.61:1081",
+    "proxy": "103.146.137.145:1081",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -809,7 +844,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
+    "error": "timed out"
   },
   {
     "proxy": "103.146.26.31:5678",
@@ -840,6 +875,13 @@
     "error": "timed out"
   },
   {
+    "proxy": "103.149.75.82:1080",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
+  },
+  {
     "proxy": "103.15.140.177:44759",
     "ok": false,
     "latency_ms": "",
@@ -861,11 +903,18 @@
     "error": "timed out"
   },
   {
-    "proxy": "103.151.226.161:12",
+    "proxy": "103.151.226.11:12",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
     "error": "timed out"
+  },
+  {
+    "proxy": "103.151.226.161:12",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)"
   },
   {
     "proxy": "103.151.47.22:46889",
@@ -889,11 +938,18 @@
     "error": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)"
   },
   {
+    "proxy": "103.154.47.205:1080",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
+  },
+  {
     "proxy": "103.154.53.230:1080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "103.154.76.52:8080",
@@ -907,7 +963,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "103.155.166.226:7850",
@@ -918,6 +974,13 @@
   },
   {
     "proxy": "103.155.185.26:1088",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
+    "proxy": "103.155.42.38:1080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -936,6 +999,20 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "[Errno 111] Connection refused"
+  },
+  {
+    "proxy": "103.156.15.129:12",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
+    "proxy": "103.157.116.179:10810",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "103.157.117.116:8080",
@@ -1001,6 +1078,13 @@
     "error": "timed out"
   },
   {
+    "proxy": "103.160.205.244:8080",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
+  },
+  {
     "proxy": "103.161.131.110:8080",
     "ok": false,
     "latency_ms": "",
@@ -1012,6 +1096,13 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
+  },
+  {
+    "proxy": "103.162.106.42:80",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
     "error": "timed out"
   },
   {
@@ -1019,14 +1110,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "103.165.157.37:3125",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "103.165.212.26:8080",
@@ -1040,7 +1131,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "103.166.32.130:11080",
@@ -1057,18 +1148,25 @@
     "error": "timed out"
   },
   {
-    "proxy": "103.167.156.34:1080",
+    "proxy": "103.167.156.88:1080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
     "error": "[Errno 104] Connection reset by peer"
   },
   {
-    "proxy": "103.167.156.92:1081",
+    "proxy": "103.167.156.92:1080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
+    "error": "timed out"
+  },
+  {
+    "proxy": "103.168.123.91:5678",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
   },
   {
     "proxy": "103.168.44.83:8081",
@@ -1134,6 +1232,13 @@
     "error": "timed out"
   },
   {
+    "proxy": "103.172.71.204:1080",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
+  },
+  {
     "proxy": "103.173.72.3:1111",
     "ok": false,
     "latency_ms": "",
@@ -1173,7 +1278,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "103.178.120.53:1080",
@@ -1187,10 +1292,17 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "103.178.176.14:8080",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
+    "proxy": "103.179.172.167:18888",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -1208,10 +1320,24 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "103.180.118.122:1080",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
+    "proxy": "103.182.22.174:9000",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
+    "proxy": "103.182.22.175:9000",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -1232,11 +1358,18 @@
     "error": "timed out"
   },
   {
-    "proxy": "103.182.22.18:9000",
+    "proxy": "103.182.22.187:9000",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
     "error": "timed out"
+  },
+  {
+    "proxy": "103.182.22.18:9000",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
   },
   {
     "proxy": "103.182.22.197:9000",
@@ -1285,14 +1418,21 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
+    "error": "timed out"
+  },
+  {
+    "proxy": "103.182.22.51:9000",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
   },
   {
     "proxy": "103.182.22.54:9000",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
+    "error": "timed out"
   },
   {
     "proxy": "103.182.22.58:9000",
@@ -1302,11 +1442,11 @@
     "error": "timed out"
   },
   {
-    "proxy": "103.182.22.85:9000",
+    "proxy": "103.182.22.86:9000",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
   },
   {
     "proxy": "103.185.43.242:8080",
@@ -1314,13 +1454,6 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "timed out"
-  },
-  {
-    "proxy": "103.186.1.185:2023",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "103.189.119.87:8080",
@@ -1334,7 +1467,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "103.19.78.125:1080",
@@ -1362,7 +1495,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "103.193.144.101:8080",
@@ -1435,13 +1568,6 @@
     "error": "timed out"
   },
   {
-    "proxy": "103.208.101.17:1080",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "timed out"
-  },
-  {
     "proxy": "103.210.29.201:31433",
     "ok": false,
     "latency_ms": "",
@@ -1463,6 +1589,13 @@
     "error": "timed out"
   },
   {
+    "proxy": "103.216.50.210:1080",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
+  },
+  {
     "proxy": "103.224.48.38:31433",
     "ok": false,
     "latency_ms": "",
@@ -1482,6 +1615,13 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "socks4 connect failed: 005b"
+  },
+  {
+    "proxy": "103.23.100.9:1081",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
   },
   {
     "proxy": "103.23.204.146:4673",
@@ -1530,7 +1670,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "103.245.110.198:1452",
@@ -1544,7 +1684,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
+  },
+  {
+    "proxy": "103.246.3.203:4153",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
   },
   {
     "proxy": "103.249.237.158:8888",
@@ -1586,7 +1733,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "103.254.85.66:8080",
@@ -1604,13 +1751,6 @@
   },
   {
     "proxy": "103.26.130.29:3125",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "timed out"
-  },
-  {
-    "proxy": "103.27.133.77:1080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -1635,7 +1775,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005c"
+    "error": "timed out"
   },
   {
     "proxy": "103.4.76.237:1111",
@@ -1649,7 +1789,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
+  },
+  {
+    "proxy": "103.4.94.124:1081",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 111] Connection refused"
   },
   {
     "proxy": "103.4.95.90:8080",
@@ -1663,7 +1810,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "103.41.88.182:83",
@@ -1712,14 +1859,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "103.48.183.113:4145",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "103.48.68.11:83",
@@ -1782,7 +1929,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "103.60.187.1:52195",
@@ -1803,7 +1950,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)"
+    "error": "timed out"
   },
   {
     "proxy": "103.65.237.92:5678",
@@ -1838,7 +1985,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "103.7.120.141:8080",
@@ -1869,6 +2016,13 @@
     "error": "timed out"
   },
   {
+    "proxy": "103.79.183.158:1080",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
+  },
+  {
     "proxy": "103.80.214.241:8097",
     "ok": false,
     "latency_ms": "",
@@ -1884,6 +2038,13 @@
   },
   {
     "proxy": "103.83.28.216:5678",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
+  },
+  {
+    "proxy": "103.87.81.86:5678",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -1922,14 +2083,21 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
+  },
+  {
+    "proxy": "103.97.225.145:80",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "103.97.94.22:4153",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "103.98.116.10:3128",
@@ -2090,7 +2258,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 4854"
+    "error": "timed out"
   },
   {
     "proxy": "104.225.220.233:80",
@@ -2195,7 +2363,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "105.214.82.133:5678",
@@ -2209,7 +2377,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "105.234.148.210:35010",
@@ -2230,7 +2398,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "106.0.168.138:8080",
@@ -2373,13 +2541,6 @@
     "error": "timed out"
   },
   {
-    "proxy": "109.106.196.250:4145",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
-  },
-  {
     "proxy": "109.110.78.70:5678",
     "ok": false,
     "latency_ms": "",
@@ -2391,7 +2552,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
+    "error": "timed out"
   },
   {
     "proxy": "109.160.97.49:4145",
@@ -2405,7 +2566,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "109.197.55.234:1080",
@@ -2419,7 +2580,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
+    "error": "unexpected eof"
   },
   {
     "proxy": "109.199.119.160:80",
@@ -2475,7 +2636,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "109.248.236.150:60606",
@@ -2503,7 +2664,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "109.75.42.82:3629",
@@ -2524,7 +2685,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "110.172.28.217:3128",
@@ -2538,7 +2699,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "110.235.247.154:1080",
@@ -2566,21 +2727,21 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "110.39.13.162:1080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "110.39.135.194:1080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "110.39.151.50:1080",
@@ -2646,6 +2807,13 @@
     "error": "timed out"
   },
   {
+    "proxy": "110.77.149.227:4153",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
     "proxy": "110.77.149.50:5678",
     "ok": false,
     "latency_ms": "",
@@ -2664,7 +2832,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "110.93.199.114:1080",
@@ -2678,7 +2846,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "110.93.206.62:5678",
@@ -2692,14 +2860,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "110.93.227.229:1080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "110.93.236.171:8080",
@@ -2707,13 +2875,6 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "timed out"
-  },
-  {
-    "proxy": "111.125.154.22:1081",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
   },
   {
     "proxy": "111.199.234.107:9000",
@@ -2797,7 +2958,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "113.161.145.229:4153",
@@ -2805,6 +2966,13 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "[Errno 111] Connection refused"
+  },
+  {
+    "proxy": "113.161.6.170:1080",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "113.166.93.239:5678",
@@ -2860,7 +3028,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "socks4 connect failed: 4854"
   },
   {
     "proxy": "113.249.111.67:1080",
@@ -2874,7 +3042,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "114.108.177.104:60984",
@@ -2951,7 +3119,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "115.127.180.90:5678",
@@ -2979,7 +3147,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 111] Connection refused"
   },
   {
     "proxy": "115.164.146.10:5678",
@@ -2993,7 +3161,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "115.21.99.135:4145",
@@ -3022,6 +3190,13 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "socks4 connect failed: 005b"
+  },
+  {
+    "proxy": "116.100.216.184:1081",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
   },
   {
     "proxy": "116.104.41.109:5000",
@@ -3059,6 +3234,13 @@
     "error": "timed out"
   },
   {
+    "proxy": "116.212.156.72:1081",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 111] Connection refused"
+  },
+  {
     "proxy": "116.233.142.167:1081",
     "ok": false,
     "latency_ms": "",
@@ -3084,7 +3266,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
+    "error": "timed out"
   },
   {
     "proxy": "116.97.240.124:1543",
@@ -3092,6 +3274,13 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "timed out"
+  },
+  {
+    "proxy": "117.102.115.156:4153",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "117.141.96.35:4145",
@@ -3105,7 +3294,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "117.202.20.70:1088",
@@ -3120,6 +3309,13 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "timed out"
+  },
+  {
+    "proxy": "117.4.26.246:1081",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 111] Connection refused"
   },
   {
     "proxy": "117.74.125.14:1133",
@@ -3157,6 +3353,13 @@
     "error": "[Errno 111] Connection refused"
   },
   {
+    "proxy": "118.174.14.65:44336",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
     "proxy": "118.174.209.75:4145",
     "ok": false,
     "latency_ms": "",
@@ -3171,6 +3374,13 @@
     "error": "[Errno 111] Connection refused"
   },
   {
+    "proxy": "118.179.135.69:9090",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 104] Connection reset by peer"
+  },
+  {
     "proxy": "118.179.144.113:9090",
     "ok": false,
     "latency_ms": "",
@@ -3182,7 +3392,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "118.179.205.174:2080",
@@ -3210,14 +3420,21 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "[Errno 104] Connection reset by peer"
+  },
+  {
+    "proxy": "118.70.212.110:60606",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
   },
   {
     "proxy": "118.71.99.233:5678",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "118.97.107.65:5430",
@@ -3259,14 +3476,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "119.235.50.78:4153",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "119.40.98.29:8069",
@@ -3311,11 +3528,25 @@
     "error": "timed out"
   },
   {
+    "proxy": "119.93.123.229:4145",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
     "proxy": "119.93.172.191:8081",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
     "error": "timed out"
+  },
+  {
+    "proxy": "119.93.82.236:1080",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "119.93.82.236:1081",
@@ -3336,7 +3567,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "12.218.209.130:53281",
@@ -3402,6 +3633,13 @@
     "error": "unexpected eof"
   },
   {
+    "proxy": "121.200.60.122:4153",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)"
+  },
+  {
     "proxy": "121.29.81.125:1080",
     "ok": false,
     "latency_ms": "",
@@ -3416,6 +3654,13 @@
     "error": "timed out"
   },
   {
+    "proxy": "122.102.41.226:4153",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
+  },
+  {
     "proxy": "122.246.4.30:17981",
     "ok": false,
     "latency_ms": "",
@@ -3427,14 +3672,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "122.252.183.22:4153",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "122.52.202.231:8080",
@@ -3452,13 +3697,6 @@
   },
   {
     "proxy": "123.108.98.89:5678",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
-  },
-  {
-    "proxy": "123.200.28.149:1081",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -3500,11 +3738,18 @@
     "error": "socks4 connect failed: 005b"
   },
   {
+    "proxy": "123.25.116.228:1081",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 111] Connection refused"
+  },
+  {
     "proxy": "123.253.124.28:5678",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "123.253.136.159:1256",
@@ -3528,6 +3773,13 @@
     "error": "timed out"
   },
   {
+    "proxy": "124.105.40.93:1080",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 104] Connection reset by peer"
+  },
+  {
     "proxy": "124.108.19.6:9292",
     "ok": false,
     "latency_ms": "",
@@ -3539,7 +3791,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "124.248.164.36:1081",
@@ -3553,14 +3805,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "124.248.177.44:1080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "124.41.240.177:52480",
@@ -3602,7 +3854,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "125.24.167.131:1080",
@@ -3637,6 +3889,13 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
+    "error": "timed out"
+  },
+  {
+    "proxy": "125.25.82.207:5678",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
     "error": "socks4 connect failed: 005b"
   },
   {
@@ -3644,7 +3903,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "125.27.241.98:8080",
@@ -3931,7 +4190,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
   },
   {
     "proxy": "138.197.148.194:9050",
@@ -4039,13 +4298,6 @@
     "error": "timed out"
   },
   {
-    "proxy": "139.224.205.16:7890",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "_ssl.c:993: The handshake operation timed out"
-  },
-  {
     "proxy": "139.255.97.157:14888",
     "ok": false,
     "latency_ms": "",
@@ -4120,14 +4372,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "14.241.182.44:5678",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)"
   },
   {
     "proxy": "14.245.166.183:8080",
@@ -4162,7 +4414,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "_ssl.c:993: The handshake operation timed out"
+    "error": "timed out"
   },
   {
     "proxy": "141.11.250.62:40001",
@@ -4183,7 +4435,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "141.94.254.138:26353",
@@ -4305,20 +4557,6 @@
     "error": "timed out"
   },
   {
-    "proxy": "143.105.48.163:1081",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
-  },
-  {
-    "proxy": "143.105.96.149:1081",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
-  },
-  {
     "proxy": "143.110.186.10:6647",
     "ok": false,
     "latency_ms": "",
@@ -4421,35 +4659,42 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)"
+    "error": "timed out"
+  },
+  {
+    "proxy": "145.220.227.132:3129",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
   },
   {
     "proxy": "145.220.227.132:4145",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)"
+    "error": "timed out"
   },
   {
     "proxy": "145.220.227.132:8118",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)"
+    "error": "timed out"
   },
   {
     "proxy": "145.220.227.142:8080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)"
+    "error": "timed out"
   },
   {
     "proxy": "145.220.227.144:3128",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)"
+    "error": "timed out"
   },
   {
     "proxy": "145.220.227.144:8118",
@@ -4463,7 +4708,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)"
+    "error": "timed out"
   },
   {
     "proxy": "145.220.227.164:3129",
@@ -4477,14 +4722,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)"
+    "error": "timed out"
   },
   {
     "proxy": "145.220.227.230:8118",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
+    "error": "timed out"
   },
   {
     "proxy": "145.223.54.156:6121",
@@ -4725,13 +4970,6 @@
     "error": "timed out"
   },
   {
-    "proxy": "149.50.146.121:1081",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "timed out"
-  },
-  {
     "proxy": "149.57.17.118:5586",
     "ok": false,
     "latency_ms": "",
@@ -4827,7 +5065,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "153.0.171.163:8085",
@@ -4855,7 +5093,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "socks4 connect failed: 4854"
   },
   {
     "proxy": "154.201.126.44:8080",
@@ -4869,14 +5107,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "socks4 connect failed: 4854"
   },
   {
     "proxy": "154.201.127.230:8080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 4854"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "154.201.127.46:8080",
@@ -4967,14 +5205,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "155.138.221.32:1082",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "155.212.171.58:3128",
@@ -5009,7 +5247,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "157.15.40.219:8080",
@@ -5038,6 +5276,13 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "timed out"
+  },
+  {
+    "proxy": "157.20.121.131:1080",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "157.230.179.200:3128",
@@ -5079,7 +5324,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
   },
   {
     "proxy": "158.101.175.124:5566",
@@ -5093,14 +5338,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
+    "error": "timed out"
   },
   {
     "proxy": "158.101.23.103:40002",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
+    "error": "timed out"
   },
   {
     "proxy": "158.179.58.126:3128",
@@ -5110,14 +5355,7 @@
     "error": "timed out"
   },
   {
-    "proxy": "159.192.121.240:4145",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
-  },
-  {
-    "proxy": "159.192.139.42:5678",
+    "proxy": "159.148.146.65:5678",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -5128,7 +5366,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 4854"
+    "error": "timed out"
   },
   {
     "proxy": "159.195.194.242:1080",
@@ -5212,14 +5450,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
-  },
-  {
-    "proxy": "160.119.159.98:1081",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "160.16.105.145:8080",
@@ -5257,18 +5488,18 @@
     "error": "timed out"
   },
   {
-    "proxy": "160.20.37.109:80",
+    "proxy": "160.22.137.6:1080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
     "error": "timed out"
   },
   {
-    "proxy": "160.22.137.6:1080",
+    "proxy": "160.22.205.66:1080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "160.22.205.66:8090",
@@ -5282,7 +5513,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "socks4 connect failed: 4854"
   },
   {
     "proxy": "160.30.83.10:84",
@@ -5380,7 +5611,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "162.55.8.72:26379",
@@ -5418,6 +5649,13 @@
     "error": "timed out"
   },
   {
+    "proxy": "163.227.149.135:1080",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
     "proxy": "163.245.222.247:3128",
     "ok": false,
     "latency_ms": "",
@@ -5443,7 +5681,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "164.152.122.199:19100",
@@ -5474,11 +5712,11 @@
     "error": "timed out"
   },
   {
-    "proxy": "165.154.20.187:10818",
+    "proxy": "165.154.20.187:10808",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "_ssl.c:993: The handshake operation timed out"
   },
   {
     "proxy": "165.154.7.156:8888",
@@ -5492,7 +5730,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "165.99.90.2:1080",
@@ -5513,14 +5751,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "[Errno 111] Connection refused"
   },
   {
     "proxy": "167.71.204.247:9050",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "167.71.228.152:29206",
@@ -5586,6 +5824,13 @@
     "error": "[Errno 111] Connection refused"
   },
   {
+    "proxy": "168.138.9.147:1081",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 111] Connection refused"
+  },
+  {
     "proxy": "168.194.224.36:4153",
     "ok": false,
     "latency_ms": "",
@@ -5618,14 +5863,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "170.244.0.179:4145",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "170.244.64.198:31476",
@@ -5649,6 +5894,13 @@
     "error": "timed out"
   },
   {
+    "proxy": "170.80.221.192:4153",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
+  },
+  {
     "proxy": "170.81.131.70:3128",
     "ok": false,
     "latency_ms": "",
@@ -5660,14 +5912,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)"
-  },
-  {
-    "proxy": "171.221.240.100:10800",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "171.221.240.100:10810",
@@ -5684,7 +5929,14 @@
     "error": "timed out"
   },
   {
-    "proxy": "171.236.130.227:37380",
+    "proxy": "171.236.130.227:38346",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
+    "proxy": "171.236.130.227:38423",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -5692,6 +5944,13 @@
   },
   {
     "proxy": "171.236.130.227:38653",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
+    "proxy": "171.236.130.227:41592",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -5712,14 +5971,14 @@
     "error": "timed out"
   },
   {
-    "proxy": "171.236.130.227:43023",
+    "proxy": "171.236.130.227:44627",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
     "error": "timed out"
   },
   {
-    "proxy": "171.236.130.227:44627",
+    "proxy": "171.236.130.227:46276",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -5740,14 +5999,7 @@
     "error": "timed out"
   },
   {
-    "proxy": "171.236.130.227:48396",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "timed out"
-  },
-  {
-    "proxy": "171.236.130.227:50891",
+    "proxy": "171.236.130.227:49664",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -5761,21 +6013,7 @@
     "error": "timed out"
   },
   {
-    "proxy": "171.236.130.227:56782",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "timed out"
-  },
-  {
     "proxy": "171.236.130.227:58470",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "timed out"
-  },
-  {
-    "proxy": "171.236.130.227:60653",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -5787,13 +6025,6 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "timed out"
-  },
-  {
-    "proxy": "171.242.14.54:1081",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
   },
   {
     "proxy": "171.244.68.28:5678",
@@ -5814,7 +6045,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "171.248.212.248:1080",
@@ -6118,6 +6349,13 @@
     "error": "timed out"
   },
   {
+    "proxy": "176.118.232.12:5678",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 104] Connection reset by peer"
+  },
+  {
     "proxy": "176.125.242.58:3128",
     "ok": false,
     "latency_ms": "",
@@ -6143,28 +6381,28 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)"
+  },
+  {
+    "proxy": "176.195.204.221:1081",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 111] Connection refused"
   },
   {
     "proxy": "176.214.78.230:5678",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "unexpected eof"
   },
   {
     "proxy": "176.236.37.132:1080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
-  },
-  {
-    "proxy": "176.236.37.132:1081",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "176.65.132.138:1080",
@@ -6423,17 +6661,10 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "178.215.236.16:1080",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "timed out"
-  },
-  {
-    "proxy": "178.215.236.16:1081",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -6444,7 +6675,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "178.220.148.82:10801",
@@ -6496,13 +6727,6 @@
     "error": "timed out"
   },
   {
-    "proxy": "178.57.106.43:4145",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
-  },
-  {
     "proxy": "178.83.46.167:3128",
     "ok": false,
     "latency_ms": "",
@@ -6552,25 +6776,18 @@
     "error": "timed out"
   },
   {
-    "proxy": "179.189.242.5:5432",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
-  },
-  {
     "proxy": "179.189.248.125:5432",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "179.189.248.129:5432",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "179.254.86.154:8080",
@@ -6643,6 +6860,13 @@
     "error": "[Errno 111] Connection refused"
   },
   {
+    "proxy": "180.158.166.144:4145",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
+  },
+  {
     "proxy": "180.180.156.111:80",
     "ok": false,
     "latency_ms": "",
@@ -6685,6 +6909,13 @@
     "error": "timed out"
   },
   {
+    "proxy": "180.180.216.90:5678",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 104] Connection reset by peer"
+  },
+  {
     "proxy": "180.183.144.66:3128",
     "ok": false,
     "latency_ms": "",
@@ -6706,6 +6937,13 @@
     "error": "timed out"
   },
   {
+    "proxy": "180.211.93.105:3108",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
     "proxy": "181.113.135.254:50083",
     "ok": false,
     "latency_ms": "",
@@ -6717,14 +6955,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
-  },
-  {
-    "proxy": "181.115.207.114:1081",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
+    "error": "timed out"
   },
   {
     "proxy": "181.115.74.172:5678",
@@ -6822,14 +7053,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
-  },
-  {
-    "proxy": "181.143.45.218:1081",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "181.168.156.192:8080",
@@ -6864,14 +7088,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)"
-  },
-  {
-    "proxy": "181.205.207.66:1081",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "181.209.106.186:1080",
@@ -6934,7 +7151,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "181.209.98.106:1081",
@@ -7025,7 +7242,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "182.155.254.159:80",
@@ -7033,6 +7250,13 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "socks4 connect failed: 4854"
+  },
+  {
+    "proxy": "182.16.171.42:51459",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
   },
   {
     "proxy": "182.16.171.65:51459",
@@ -7074,7 +7298,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "182.252.89.130:8080",
@@ -7088,7 +7312,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "182.253.40.39:8080",
@@ -7137,7 +7361,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "182.52.136.41:80",
@@ -7151,7 +7375,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "182.52.136.73:80",
@@ -7203,6 +7427,13 @@
     "error": "timed out"
   },
   {
+    "proxy": "182.53.216.73:4145",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
     "proxy": "182.53.96.56:4145",
     "ok": false,
     "latency_ms": "",
@@ -7221,7 +7452,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
   },
   {
     "proxy": "183.110.216.128:8090",
@@ -7235,7 +7466,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "183.110.216.159:8091",
@@ -7259,11 +7490,18 @@
     "error": "timed out"
   },
   {
+    "proxy": "183.80.130.9:4145",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
+  },
+  {
     "proxy": "183.87.145.150:2080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "183.87.160.62:82",
@@ -7301,6 +7539,20 @@
     "error": "timed out"
   },
   {
+    "proxy": "183.89.217.91:4153",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
+    "proxy": "183.89.250.246:1080",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
     "proxy": "183.90.187.248:9050",
     "ok": false,
     "latency_ms": "",
@@ -7319,7 +7571,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "184.170.245.148:4145",
@@ -7560,6 +7812,20 @@
     "error": "timed out"
   },
   {
+    "proxy": "185.140.102.218:5678",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 104] Connection reset by peer"
+  },
+  {
+    "proxy": "185.147.69.48:1081",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 111] Connection refused"
+  },
+  {
     "proxy": "185.157.111.3:5678",
     "ok": false,
     "latency_ms": "",
@@ -7581,7 +7847,14 @@
     "error": "timed out"
   },
   {
-    "proxy": "185.182.110.74:1080",
+    "proxy": "185.215.53.193:3629",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
+    "proxy": "185.215.53.205:3629",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -7620,7 +7893,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
+    "error": "timed out"
   },
   {
     "proxy": "185.244.158.4:3129",
@@ -7641,13 +7914,6 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
-  },
-  {
-    "proxy": "185.30.43.65:60606",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
     "error": "timed out"
   },
   {
@@ -7655,7 +7921,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "185.34.17.72:60606",
@@ -7763,6 +8029,13 @@
     "error": "timed out"
   },
   {
+    "proxy": "186.1.182.194:4153",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
+  },
+  {
     "proxy": "186.103.133.91:5678",
     "ok": false,
     "latency_ms": "",
@@ -7788,7 +8061,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "186.194.127.41:4153",
@@ -7858,7 +8131,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "187.188.58.173:4153",
@@ -7872,7 +8145,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "187.19.201.217:8080",
@@ -8012,7 +8285,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "188.241.217.138:3128",
@@ -8057,6 +8330,13 @@
     "error": "timed out"
   },
   {
+    "proxy": "188.93.64.242:4153",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
+  },
+  {
     "proxy": "188.95.20.139:5678",
     "ok": false,
     "latency_ms": "",
@@ -8089,7 +8369,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "socks4 connect failed: 005b"
+  },
+  {
+    "proxy": "189.202.204.53:1081",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 111] Connection refused"
   },
   {
     "proxy": "189.203.181.34:1080",
@@ -8097,6 +8384,13 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "socks4 connect failed: 005b"
+  },
+  {
+    "proxy": "189.39.118.210:5678",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)"
   },
   {
     "proxy": "189.51.168.163:1080",
@@ -8148,6 +8442,13 @@
     "error": "timed out"
   },
   {
+    "proxy": "190.108.57.210:1085",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
     "proxy": "190.108.57.212:1085",
     "ok": false,
     "latency_ms": "",
@@ -8173,7 +8474,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "190.111.243.150:1085",
@@ -8201,7 +8502,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "190.13.147.93:5678",
@@ -8215,7 +8516,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "190.145.37.2:65409",
@@ -8295,6 +8596,20 @@
     "error": "timed out"
   },
   {
+    "proxy": "190.228.33.42:1085",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
+    "proxy": "190.228.33.44:1085",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
+  },
+  {
     "proxy": "190.249.169.153:3629",
     "ok": false,
     "latency_ms": "",
@@ -8334,7 +8649,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "190.54.12.74:5678",
@@ -8348,7 +8663,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "190.58.248.86:80",
@@ -8397,7 +8712,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "190.89.104.88:5432",
@@ -8502,7 +8817,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "191.243.54.245:41599",
@@ -8593,7 +8908,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
+    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
   },
   {
     "proxy": "192.111.135.18:18301",
@@ -8607,7 +8922,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
+    "error": "_ssl.c:993: The handshake operation timed out"
   },
   {
     "proxy": "192.111.137.35:4145",
@@ -8621,7 +8936,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
+    "error": "_ssl.c:993: The handshake operation timed out"
   },
   {
     "proxy": "192.111.138.29:4145",
@@ -8642,7 +8957,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
+    "error": "_ssl.c:993: The handshake operation timed out"
   },
   {
     "proxy": "192.111.139.165:4145",
@@ -8670,7 +8985,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
   },
   {
     "proxy": "192.203.0.238:33333",
@@ -8712,7 +9027,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
+    "error": "_ssl.c:993: The handshake operation timed out"
   },
   {
     "proxy": "192.252.208.70:14282",
@@ -8768,7 +9083,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "_ssl.c:993: The handshake operation timed out"
+    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
   },
   {
     "proxy": "192.252.220.92:17328",
@@ -8782,7 +9097,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "192.6.154.179:3128",
@@ -8817,7 +9132,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
+    "error": "timed out"
   },
   {
     "proxy": "193.122.96.242:3128",
@@ -8827,11 +9142,18 @@
     "error": "timed out"
   },
   {
+    "proxy": "193.158.12.141:4153",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 104] Connection reset by peer"
+  },
+  {
     "proxy": "193.181.35.211:8118",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 4854"
+    "error": "timed out"
   },
   {
     "proxy": "193.200.151.158:8192",
@@ -8845,7 +9167,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
   },
   {
     "proxy": "193.25.215.182:22222",
@@ -8859,7 +9181,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "194.1.232.150:33333",
@@ -8880,14 +9202,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "socks4 connect failed: 4854"
   },
   {
     "proxy": "194.182.187.78:3128",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
+    "error": "socks4 connect failed: 4854"
   },
   {
     "proxy": "194.233.88.202:12187",
@@ -8909,13 +9231,6 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "unexpected eof"
-  },
-  {
-    "proxy": "194.67.120.148:10818",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
   },
   {
     "proxy": "194.87.69.136:8989",
@@ -8943,7 +9258,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "195.123.166.125:9050",
@@ -8964,7 +9279,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "195.138.73.54:31145",
@@ -8992,7 +9307,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "[Errno 111] Connection refused"
   },
   {
     "proxy": "195.190.121.154:1080",
@@ -9034,7 +9349,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 4854"
+    "error": "timed out"
   },
   {
     "proxy": "195.46.172.190:4153",
@@ -9048,7 +9363,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "195.9.192.50:1080",
@@ -9069,7 +9384,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "196.1.93.10:80",
@@ -9251,21 +9566,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "198.12.37.25:1080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
-  },
-  {
-    "proxy": "198.12.37.25:1081",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "198.199.86.11:3128",
@@ -9286,7 +9594,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "198.37.106.134:6593",
@@ -9328,7 +9636,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
+    "error": "_ssl.c:993: The handshake operation timed out"
   },
   {
     "proxy": "198.8.94.174:39078",
@@ -9349,21 +9657,21 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "_ssl.c:993: The handshake operation timed out"
+    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
   },
   {
     "proxy": "199.102.105.242:4145",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "_ssl.c:993: The handshake operation timed out"
+    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
   },
   {
     "proxy": "199.102.106.94:4145",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
+    "error": "_ssl.c:993: The handshake operation timed out"
   },
   {
     "proxy": "199.102.107.145:4145",
@@ -9377,14 +9685,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "_ssl.c:993: The handshake operation timed out"
+    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
   },
   {
     "proxy": "199.116.114.11:4145",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "_ssl.c:993: The handshake operation timed out"
+    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
   },
   {
     "proxy": "199.119.74.239:33333",
@@ -9433,7 +9741,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
+    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
   },
   {
     "proxy": "199.58.185.9:4145",
@@ -9461,7 +9769,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "2.63.188.78:1080",
@@ -9482,7 +9790,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "20.223.124.87:3128",
@@ -9503,14 +9811,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "20.33.10.79:80",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "200.108.50.254:4145",
@@ -9559,6 +9867,13 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
+  },
+  {
+    "proxy": "200.16.211.78:4153",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
     "error": "timed out"
   },
   {
@@ -9604,13 +9919,6 @@
     "error": "timed out"
   },
   {
-    "proxy": "200.70.56.204:4153",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
-  },
-  {
     "proxy": "200.70.56.84:1080",
     "ok": false,
     "latency_ms": "",
@@ -9618,11 +9926,18 @@
     "error": "timed out"
   },
   {
+    "proxy": "200.70.56.84:1081",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 111] Connection refused"
+  },
+  {
     "proxy": "200.71.123.77:60606",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "200.75.137.210:4145",
@@ -9643,7 +9958,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "200.85.137.32:4153",
@@ -9678,7 +9993,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "201.174.73.70:11337",
@@ -9686,13 +10001,6 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "[Errno 111] Connection refused"
-  },
-  {
-    "proxy": "201.184.177.10:4153",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "timed out"
   },
   {
     "proxy": "201.184.239.75:5678",
@@ -9720,7 +10028,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "201.4.69.46:8080",
@@ -9776,7 +10084,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "202.131.246.250:5678",
@@ -9839,7 +10147,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "202.142.170.115:1081",
@@ -9853,14 +10161,28 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "socks4 connect failed: 005b"
+  },
+  {
+    "proxy": "202.142.176.130:1081",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 111] Connection refused"
   },
   {
     "proxy": "202.144.134.150:5678",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
+  },
+  {
+    "proxy": "202.146.230.102:1080",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "202.151.163.10:1080",
@@ -9877,25 +10199,39 @@
     "error": "timed out"
   },
   {
+    "proxy": "202.162.197.57:4145",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 111] Connection refused"
+  },
+  {
     "proxy": "202.162.219.12:1080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "[Errno 104] Connection reset by peer"
+  },
+  {
+    "proxy": "202.162.219.12:1081",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 111] Connection refused"
   },
   {
     "proxy": "202.166.219.80:4153",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)"
   },
   {
     "proxy": "202.179.76.105:51951",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "202.179.95.174:58080",
@@ -9906,13 +10242,6 @@
   },
   {
     "proxy": "202.4.101.249:9090",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "timed out"
-  },
-  {
-    "proxy": "202.4.107.33:9090",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -9930,14 +10259,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 111] Connection refused"
   },
   {
     "proxy": "202.40.177.94:5678",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "202.40.179.18:4145",
@@ -9968,14 +10297,28 @@
     "error": "timed out"
   },
   {
+    "proxy": "202.5.50.151:1080",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
+  },
+  {
     "proxy": "202.51.180.177:3629",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "202.55.175.237:1080",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
+    "proxy": "202.57.46.138:4145",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -10028,21 +10371,21 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "202.79.35.143:4153",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "203.112.134.74:5678",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "203.115.123.163:1256",
@@ -10084,7 +10427,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "203.172.120.179:1080",
@@ -10112,7 +10455,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "203.189.135.140:1080",
@@ -10126,7 +10469,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "203.189.141.139:33333",
@@ -10147,7 +10490,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "203.189.154.151:1080",
@@ -10168,7 +10511,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "203.19.38.114:1080",
@@ -10196,7 +10539,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
+  },
+  {
+    "proxy": "203.201.190.33:1081",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 111] Connection refused"
   },
   {
     "proxy": "203.202.253.186:58309",
@@ -10252,7 +10602,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "204.168.225.55:8888",
@@ -10266,7 +10616,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "205.172.56.239:3128",
@@ -10308,7 +10658,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "_ssl.c:993: The handshake operation timed out"
+    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
   },
   {
     "proxy": "206.245.131.160:80",
@@ -10357,7 +10707,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "208.102.51.6:58208",
@@ -10413,7 +10763,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "209.159.153.21:46234",
@@ -10448,7 +10798,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "210.2.171.107:35010",
@@ -10500,13 +10850,6 @@
     "error": "timed out"
   },
   {
-    "proxy": "212.103.118.77:5678",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
-  },
-  {
     "proxy": "212.115.232.79:10800",
     "ok": false,
     "latency_ms": "",
@@ -10518,7 +10861,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "212.156.217.147:4153",
@@ -10553,7 +10896,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "212.33.248.45:1080",
@@ -10575,6 +10918,13 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "timed out"
+  },
+  {
+    "proxy": "212.34.230.102:4153",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "212.42.199.85:5824",
@@ -10602,7 +10952,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "212.77.75.25:1088",
@@ -10654,13 +11004,6 @@
     "error": "timed out"
   },
   {
-    "proxy": "213.142.159.108:11080",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
-  },
-  {
     "proxy": "213.145.137.102:37447",
     "ok": false,
     "latency_ms": "",
@@ -10693,7 +11036,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "213.169.33.7:8001",
@@ -10714,7 +11057,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
   },
   {
     "proxy": "213.178.39.170:8080",
@@ -10742,7 +11085,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "213.210.67.186:3629",
@@ -10805,7 +11148,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "216.105.128.144:4145",
@@ -10819,7 +11162,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "_ssl.c:993: The handshake operation timed out"
+    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
   },
   {
     "proxy": "216.154.201.132:54321",
@@ -10871,11 +11214,11 @@
     "error": "timed out"
   },
   {
-    "proxy": "217.145.199.45:56746",
+    "proxy": "217.14.192.183:1080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "_ssl.c:993: The handshake operation timed out"
   },
   {
     "proxy": "217.149.98.98:4153",
@@ -10896,7 +11239,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "217.162.8.134:80",
@@ -11064,7 +11407,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "220.152.112.150:1088",
@@ -11078,6 +11421,13 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
+    "error": "unexpected eof"
+  },
+  {
+    "proxy": "222.165.215.117:52667",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
     "error": "timed out"
   },
   {
@@ -11085,7 +11435,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "222.188.105.190:10800",
@@ -11093,6 +11443,13 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "timed out"
+  },
+  {
+    "proxy": "222.211.216.201:7890",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "222.212.85.149:5678",
@@ -11110,6 +11467,13 @@
   },
   {
     "proxy": "222.71.205.37:1083",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
+    "proxy": "222.71.205.37:1086",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -11155,7 +11519,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
   },
   {
     "proxy": "23.229.125.165:5434",
@@ -11232,14 +11596,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "_ssl.c:993: The handshake operation timed out"
+    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
   },
   {
     "proxy": "24.249.199.4:4145",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
+    "error": "_ssl.c:993: The handshake operation timed out"
   },
   {
     "proxy": "24.37.245.42:51056",
@@ -11270,6 +11634,13 @@
     "error": "timed out"
   },
   {
+    "proxy": "27.147.161.10:1080",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
+  },
+  {
     "proxy": "27.147.239.162:35010",
     "ok": false,
     "latency_ms": "",
@@ -11288,7 +11659,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "27.54.121.90:8090",
@@ -11316,7 +11687,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "31.130.59.142:1080",
@@ -11331,13 +11702,6 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "timed out"
-  },
-  {
-    "proxy": "31.148.13.96:1081",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
   },
   {
     "proxy": "31.15.169.77:808",
@@ -11400,7 +11764,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "31.43.33.56:4153",
@@ -11414,7 +11778,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 4854"
+    "error": "timed out"
   },
   {
     "proxy": "31.58.144.19:1080",
@@ -11435,7 +11799,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "_ssl.c:993: The handshake operation timed out"
+    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)"
   },
   {
     "proxy": "32.223.6.94:80",
@@ -11522,13 +11886,6 @@
     "error": "[Errno 111] Connection refused"
   },
   {
-    "proxy": "35.240.177.77:40001",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
-  },
-  {
     "proxy": "36.111.205.239:6666",
     "ok": false,
     "latency_ms": "",
@@ -11540,7 +11897,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "36.213.79.159:1081",
@@ -11548,6 +11905,20 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "timed out"
+  },
+  {
+    "proxy": "36.37.189.64:5678",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
+    "proxy": "36.37.203.215:4153",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "36.37.244.41:5678",
@@ -11652,7 +12023,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "36.95.235.18:3629",
@@ -11676,6 +12047,13 @@
     "error": "timed out"
   },
   {
+    "proxy": "36.95.82.69:1081",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 111] Connection refused"
+  },
+  {
     "proxy": "37.110.147.13:80",
     "ok": false,
     "latency_ms": "",
@@ -11687,14 +12065,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "37.122.149.47:1080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "37.131.164.94:59341",
@@ -11705,13 +12083,6 @@
   },
   {
     "proxy": "37.131.165.19:59341",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "timed out"
-  },
-  {
-    "proxy": "37.18.73.60:5566",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -11736,7 +12107,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "37.26.136.224:4153",
@@ -11750,14 +12121,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)"
+    "error": "timed out"
   },
   {
     "proxy": "37.52.13.164:5678",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "37.53.90.82:12542",
@@ -11816,13 +12187,6 @@
     "error": "timed out"
   },
   {
-    "proxy": "38.18.230.153:8888",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
-  },
-  {
     "proxy": "38.180.2.107:3128",
     "ok": false,
     "latency_ms": "",
@@ -11865,18 +12229,11 @@
     "error": "timed out"
   },
   {
-    "proxy": "38.242.158.117:9050",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "timed out"
-  },
-  {
     "proxy": "38.41.225.174:8888",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "38.49.152.195:999",
@@ -11890,7 +12247,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "38.50.130.93:5678",
@@ -11932,7 +12289,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "39.102.208.149:12000",
@@ -12005,18 +12362,18 @@
     "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
   },
   {
+    "proxy": "39.104.59.56:8083",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+  },
+  {
     "proxy": "39.109.113.97:4090",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
     "error": "socks4 connect failed: 4854"
-  },
-  {
-    "proxy": "39.175.80.225:1081",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
   },
   {
     "proxy": "4.144.146.21:80",
@@ -12240,14 +12597,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
-  },
-  {
-    "proxy": "43.108.46.4:9050",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "43.128.63.68:7890",
@@ -12275,7 +12625,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 4854"
+    "error": "timed out"
   },
   {
     "proxy": "43.153.84.220:9050",
@@ -12296,7 +12646,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "43.159.198.87:7890",
@@ -12310,35 +12660,21 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "43.160.229.63:1080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
-  },
-  {
-    "proxy": "43.160.229.63:1081",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "timed out"
-  },
-  {
-    "proxy": "43.160.245.155:8080",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "timed out"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "43.163.219.10:20000",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 111] Connection refused"
   },
   {
     "proxy": "43.165.135.162:60000",
@@ -12373,6 +12709,13 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
+    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
+  },
+  {
+    "proxy": "43.252.236.114:1080",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
     "error": "timed out"
   },
   {
@@ -12380,7 +12723,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "45.11.56.70:2080",
@@ -12401,6 +12744,13 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
+    "error": "[Errno 104] Connection reset by peer"
+  },
+  {
+    "proxy": "45.117.228.97:4145",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
     "error": "timed out"
   },
   {
@@ -12408,7 +12758,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "45.12.238.164:3128",
@@ -12422,7 +12772,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 4854"
+    "error": "timed out"
   },
   {
     "proxy": "45.127.56.194:83",
@@ -12474,13 +12824,6 @@
     "error": "timed out"
   },
   {
-    "proxy": "45.150.33.253:1081",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
-  },
-  {
     "proxy": "45.167.124.253:999",
     "ok": false,
     "latency_ms": "",
@@ -12499,7 +12842,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "45.173.7.10:999",
@@ -12576,7 +12919,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
   },
   {
     "proxy": "45.194.3.119:8080",
@@ -12597,7 +12940,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "unexpected eof"
   },
   {
     "proxy": "45.194.41.141:8080",
@@ -12625,14 +12968,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "socks4 connect failed: 4854"
   },
   {
     "proxy": "45.194.90.225:8080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 4854"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "45.194.91.7:8080",
@@ -12653,7 +12996,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "socks4 connect failed: 4854"
   },
   {
     "proxy": "45.198.10.130:8080",
@@ -12982,14 +13325,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
-  },
-  {
-    "proxy": "45.71.115.17:1081",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "45.71.15.2:1080",
@@ -13010,7 +13346,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
+    "error": "timed out"
   },
   {
     "proxy": "45.74.31.41:10344",
@@ -13031,7 +13367,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 111] Connection refused"
   },
   {
     "proxy": "45.77.245.8:1082",
@@ -13045,7 +13381,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "45.80.151.33:3128",
@@ -13101,7 +13437,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "46.160.90.81:5678",
@@ -13115,14 +13451,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 111] Connection refused"
   },
   {
     "proxy": "46.17.43.219:7890",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
+    "error": "_ssl.c:993: The handshake operation timed out"
   },
   {
     "proxy": "46.173.211.221:12880",
@@ -13137,6 +13473,13 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "socks4 connect failed: 005b"
+  },
+  {
+    "proxy": "46.175.148.45:1081",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
   },
   {
     "proxy": "46.188.2.42:5678",
@@ -13206,7 +13549,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)"
   },
   {
     "proxy": "46.39.105.157:8080",
@@ -13227,7 +13570,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "46.99.210.63:3629",
@@ -13318,7 +13661,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "47.237.107.41:111",
@@ -13384,6 +13727,34 @@
     "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
   },
   {
+    "proxy": "47.238.130.212:14",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+  },
+  {
+    "proxy": "47.238.130.212:2000",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+  },
+  {
+    "proxy": "47.238.130.212:28",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+  },
+  {
+    "proxy": "47.238.130.212:312",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+  },
+  {
     "proxy": "47.238.130.212:3128",
     "ok": false,
     "latency_ms": "",
@@ -13392,6 +13763,13 @@
   },
   {
     "proxy": "47.238.130.212:443",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+  },
+  {
+    "proxy": "47.238.130.212:5000",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -13461,20 +13839,6 @@
     "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
   },
   {
-    "proxy": "47.238.60.156:13",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
-  },
-  {
-    "proxy": "47.238.60.156:18080",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
-  },
-  {
     "proxy": "47.238.60.156:18081",
     "ok": false,
     "latency_ms": "",
@@ -13504,13 +13868,6 @@
   },
   {
     "proxy": "47.238.60.156:81",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
-  },
-  {
-    "proxy": "47.238.60.156:9999",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -13553,6 +13910,13 @@
   },
   {
     "proxy": "47.250.159.65:4145",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+  },
+  {
+    "proxy": "47.250.159.65:8443",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -13615,7 +13979,21 @@
     "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
   },
   {
+    "proxy": "47.251.87.199:808",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+  },
+  {
     "proxy": "47.251.87.199:8088",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+  },
+  {
+    "proxy": "47.251.87.199:8181",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -13717,7 +14095,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "_ssl.c:993: The handshake operation timed out"
+    "error": "timed out"
   },
   {
     "proxy": "47.74.46.81:11310",
@@ -13773,7 +14151,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "47.85.13.198:1081",
@@ -13790,7 +14168,7 @@
     "error": "socks4 connect failed: 4854"
   },
   {
-    "proxy": "47.85.9.228:10810",
+    "proxy": "47.85.37.60:1081",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -13864,14 +14242,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "error": "timed out"
   },
   {
     "proxy": "47.91.109.17:80",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "error": "timed out"
   },
   {
     "proxy": "47.91.110.148:8888",
@@ -14011,17 +14389,31 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
+  },
+  {
+    "proxy": "49.229.36.170:4153",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "49.229.36.210:4153",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "49.229.36.213:4153",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
+    "proxy": "49.229.36.214:4153",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -14133,13 +14525,6 @@
     "error": "socks4 connect failed: 005b"
   },
   {
-    "proxy": "5.254.178.160:10801",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
-  },
-  {
     "proxy": "5.255.99.75:1080",
     "ok": false,
     "latency_ms": "",
@@ -14221,7 +14606,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "50.250.75.153:39593",
@@ -14347,7 +14732,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 111] Connection refused"
   },
   {
     "proxy": "54.37.115.191:37748",
@@ -14364,18 +14749,18 @@
     "error": "timed out"
   },
   {
-    "proxy": "57.128.249.250:9052",
+    "proxy": "58.18.39.58:10800",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
     "error": "timed out"
   },
   {
-    "proxy": "58.18.39.58:10800",
+    "proxy": "58.27.160.253:1080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "58.27.160.253:8080",
@@ -14383,6 +14768,13 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "timed out"
+  },
+  {
+    "proxy": "58.27.200.225:1080",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "58.27.207.253:8080",
@@ -14459,7 +14851,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "61.118.38.234:60808",
@@ -14508,7 +14900,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "61.29.96.146:80",
@@ -14516,6 +14908,13 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "timed out"
+  },
+  {
+    "proxy": "61.7.147.227:4145",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "62.122.201.246:50129",
@@ -14725,7 +15124,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "66.210.33.34:8080",
@@ -14774,7 +15173,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "_ssl.c:993: The handshake operation timed out"
+    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
   },
   {
     "proxy": "67.201.59.70:4145",
@@ -14788,14 +15187,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "67.205.161.254:8118",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 4854"
+    "error": "timed out"
   },
   {
     "proxy": "67.207.92.87:3129",
@@ -14917,6 +15316,13 @@
     "error": "_ssl.c:993: The handshake operation timed out"
   },
   {
+    "proxy": "69.70.74.118:1337",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
     "proxy": "69.87.216.54:7989",
     "ok": false,
     "latency_ms": "",
@@ -14991,7 +15397,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "_ssl.c:993: The handshake operation timed out"
+    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
   },
   {
     "proxy": "72.195.34.41:4145",
@@ -15194,7 +15600,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "72.255.38.180:1080",
@@ -15265,13 +15671,6 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "timed out"
-  },
-  {
-    "proxy": "76.26.114.253:39593",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "76.81.6.107:31008",
@@ -15383,7 +15782,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "77.77.26.152:4153",
@@ -15425,14 +15824,21 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
+  },
+  {
+    "proxy": "78.38.67.210:3636",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "78.38.67.95:4153",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "78.40.198.4:8443",
@@ -15446,7 +15852,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "79.110.200.27:8000",
@@ -15495,7 +15901,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "79.98.32.82:8080",
@@ -15509,7 +15915,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "79.98.32.94:8080",
@@ -15552,6 +15958,13 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+  },
+  {
+    "proxy": "8.137.127.197:9080",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.ipify.org'. (_ssl.c:1010)"
   },
   {
     "proxy": "8.138.125.130:8888",
@@ -15701,46 +16114,39 @@
     "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
   },
   {
-    "proxy": "8.211.194.85:100",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
-  },
-  {
     "proxy": "8.211.194.85:1080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "error": "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)"
   },
   {
     "proxy": "8.211.194.85:4002",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "error": "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)"
   },
   {
     "proxy": "8.211.194.85:45",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "error": "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)"
   },
   {
     "proxy": "8.211.194.85:5060",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "error": "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)"
   },
   {
     "proxy": "8.211.194.85:8443",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "error": "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)"
   },
   {
     "proxy": "8.211.195.139:100",
@@ -15960,27 +16366,6 @@
     "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
   },
   {
-    "proxy": "8.211.51.115:9999",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
-  },
-  {
-    "proxy": "8.212.165.164:106",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
-  },
-  {
-    "proxy": "8.212.165.164:3129",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
-  },
-  {
     "proxy": "8.212.168.170:9080",
     "ok": false,
     "latency_ms": "",
@@ -16076,28 +16461,28 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "error": "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)"
   },
   {
     "proxy": "8.213.134.213:202",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "error": "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)"
   },
   {
     "proxy": "8.213.134.213:41",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "error": "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)"
   },
   {
     "proxy": "8.213.134.213:9200",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "error": "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)"
   },
   {
     "proxy": "8.213.151.128:3128",
@@ -16240,6 +16625,13 @@
     "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
   },
   {
+    "proxy": "8.213.222.157:5060",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+  },
+  {
     "proxy": "8.213.222.157:6379",
     "ok": false,
     "latency_ms": "",
@@ -16317,18 +16709,11 @@
     "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
   },
   {
-    "proxy": "8.216.40.169:7890",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "timed out"
-  },
-  {
     "proxy": "8.219.122.8:9999",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "8.219.245.123:1080",
@@ -16342,7 +16727,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "8.220.136.174:45",
@@ -16426,28 +16811,28 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "error": "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)"
   },
   {
     "proxy": "8.220.205.172:1081",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "error": "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)"
   },
   {
     "proxy": "8.220.205.172:5060",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "error": "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)"
   },
   {
     "proxy": "8.220.205.172:9080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+    "error": "[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1010)"
   },
   {
     "proxy": "8.221.138.111:1080",
@@ -16629,7 +17014,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "81.16.1.71:5678",
@@ -16650,7 +17035,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
   },
   {
     "proxy": "81.162.60.120:8080",
@@ -16671,7 +17056,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)"
+    "error": "timed out"
   },
   {
     "proxy": "81.195.131.20:1080",
@@ -16692,7 +17077,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "81.211.26.237:1080",
@@ -16727,14 +17112,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
-  },
-  {
-    "proxy": "81.91.157.133:5678",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 111] Connection refused"
   },
   {
     "proxy": "82.103.70.227:4145",
@@ -16818,14 +17196,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "82.22.7.240:1080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "82.23.203.169:5477",
@@ -16853,7 +17231,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 111] Connection refused"
   },
   {
     "proxy": "83.218.186.22:5678",
@@ -16902,14 +17280,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "83.56.15.57:5678",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "83.69.80.63:8443",
@@ -16944,7 +17322,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "84.42.102.18:1080",
@@ -16961,18 +17339,25 @@
     "error": "timed out"
   },
   {
+    "proxy": "85.105.194.113:4153",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 104] Connection reset by peer"
+  },
+  {
     "proxy": "85.113.43.181:1080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "85.121.149.232:18080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "85.122.120.119:30016",
@@ -17063,7 +17448,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
   },
   {
     "proxy": "85.30.215.48:60541",
@@ -17192,7 +17577,21 @@
     "error": "timed out"
   },
   {
+    "proxy": "88.247.31.164:4153",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "socks4 connect failed: 005b"
+  },
+  {
     "proxy": "88.255.102.114:1082",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
+    "proxy": "88.87.79.18:3629",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -17210,7 +17609,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "89.167.124.218:8888",
@@ -17218,6 +17617,13 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "socks4 connect failed: 4854"
+  },
+  {
+    "proxy": "89.168.67.102:1081",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
   },
   {
     "proxy": "89.175.174.210:8080",
@@ -17232,13 +17638,6 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "timed out"
-  },
-  {
-    "proxy": "89.186.8.107:1080",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "89.188.124.8:1080",
@@ -17259,7 +17658,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "unexpected eof"
   },
   {
     "proxy": "89.218.8.152:1080",
@@ -17269,7 +17668,7 @@
     "error": "timed out"
   },
   {
-    "proxy": "89.237.33.193:51549",
+    "proxy": "89.237.33.113:51549",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -17294,7 +17693,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "timed out"
+  },
+  {
+    "proxy": "89.238.128.230:1081",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
   },
   {
     "proxy": "89.238.206.2:33333",
@@ -17364,7 +17770,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "89.43.133.102:8080",
@@ -17379,13 +17785,6 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "timed out"
-  },
-  {
-    "proxy": "89.43.135.181:1080",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "9.154.247.138:8080",
@@ -17413,7 +17812,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "91.103.29.150:3629",
@@ -17434,7 +17833,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 111] Connection refused"
+    "error": "timed out"
   },
   {
     "proxy": "91.126.244.112:8080",
@@ -17456,13 +17855,6 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "timed out"
-  },
-  {
-    "proxy": "91.150.189.122:1080",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "91.150.189.122:30389",
@@ -17504,7 +17896,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 4854"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "91.202.5.45:3128",
@@ -17567,7 +17959,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "91.224.77.229:8090",
@@ -17612,13 +18004,6 @@
     "error": "timed out"
   },
   {
-    "proxy": "91.247.92.63:5678",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
-  },
-  {
     "proxy": "91.26.188.170:8080",
     "ok": false,
     "latency_ms": "",
@@ -17631,6 +18016,13 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "socks4 connect failed: 4854"
+  },
+  {
+    "proxy": "91.92.78.207:4145",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
   },
   {
     "proxy": "92.113.7.218:6944",
@@ -17665,7 +18057,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "92.45.19.35:5678",
@@ -17717,11 +18109,18 @@
     "error": "timed out"
   },
   {
+    "proxy": "93.184.7.26:1080",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "[Errno 104] Connection reset by peer"
+  },
+  {
     "proxy": "93.184.7.73:1080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "93.42.151.100:8080",
@@ -17731,11 +18130,11 @@
     "error": "timed out"
   },
   {
-    "proxy": "93.93.61.153:1080",
+    "proxy": "93.93.61.153:1081",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
+    "error": "[Errno 111] Connection refused"
   },
   {
     "proxy": "93.99.104.206:1080",
@@ -17749,7 +18148,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "94.102.122.42:1080",
@@ -17763,7 +18162,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "94.19.13.170:1080",
@@ -17798,14 +18197,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "94.249.150.91:1080",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "unexpected eof"
+    "error": "timed out"
   },
   {
     "proxy": "94.249.153.213:1080",
@@ -17819,7 +18218,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "timed out"
+    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "94.41.65.231:1080",
@@ -17854,7 +18253,7 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)"
+    "error": "[Errno 104] Connection reset by peer"
   },
   {
     "proxy": "95.163.85.73:1080",
@@ -17882,17 +18281,31 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
     "proxy": "95.178.108.189:5678",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
+  },
+  {
+    "proxy": "95.181.151.250:1080",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
   },
   {
     "proxy": "95.181.213.244:3128",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
+  },
+  {
+    "proxy": "95.182.78.11:5678",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -17903,10 +18316,10 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "timed out"
   },
   {
-    "proxy": "95.182.78.9:5678",
+    "proxy": "95.182.78.5:5678",
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
@@ -17918,13 +18331,6 @@
     "latency_ms": "",
     "exit_ip": "",
     "error": "timed out"
-  },
-  {
-    "proxy": "95.188.83.253:1080",
-    "ok": false,
-    "latency_ms": "",
-    "exit_ip": "",
-    "error": "socks4 connect failed: 005b"
   },
   {
     "proxy": "95.216.117.50:9050",
@@ -18029,7 +18435,14 @@
     "ok": false,
     "latency_ms": "",
     "exit_ip": "",
-    "error": "[Errno 104] Connection reset by peer"
+    "error": "socks4 connect failed: 005b"
+  },
+  {
+    "proxy": "96.60.107.42:9050",
+    "ok": false,
+    "latency_ms": "",
+    "exit_ip": "",
+    "error": "timed out"
   },
   {
     "proxy": "96.70.52.227:48324",
