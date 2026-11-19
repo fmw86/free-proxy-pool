@@ -1,226 +1,502 @@
 proxy,country,region,city,isp,org,asn,mobile,hosting,known_proxy,exit_ip
-198.199.86.11:1080,United States,New Jersey,North Bergen,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,198.199.86.11
 209.97.150.167:1080,United States,New Jersey,Clifton,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,209.97.150.167
-47.252.47.39:1080,United States,Virginia,Henrico,Alibaba Cloud LLC,Alibaba Cloud - US,"AS45102 Alibaba (US) Technology Co., Ltd.",False,True,True,47.252.47.39
+198.199.86.11:1080,United States,New Jersey,North Bergen,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,198.199.86.11
 159.203.61.169:1080,Canada,Ontario,Toronto,"DigitalOcean, LLC",Digital Ocean,"AS14061 DigitalOcean, LLC",False,True,True,159.203.61.169
-69.55.49.177:38182,United States,New Jersey,North Bergen,"DigitalOcean, LLC",Digital Ocean,"AS14061 DigitalOcean, LLC",False,True,True,69.55.49.177
-107.174.30.92:1080,United States,New York,Buffalo,DataWagon LLC,HostPapa,AS27176 DataWagon LLC,False,True,True,107.174.30.92
-107.174.30.93:1080,United States,New York,Buffalo,DataWagon LLC,HostPapa,AS27176 DataWagon LLC,False,True,True,107.174.30.93
-45.61.188.134:44499,United States,Florida,Miami,FranTech Solutions,FranTech Solutions,AS53667 FranTech Solutions,False,True,True,45.61.188.134
-134.209.29.120:1080,United Kingdom,England,Slough,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,134.209.29.120
+47.254.122.220:5443,United States,California,Minkler,Alibaba Cloud LLC,Alibaba Cloud - US,"AS45102 Alibaba (US) Technology Co., Ltd.",False,True,True,47.254.122.220
 138.68.60.8:1080,United States,California,Santa Clara,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,138.68.60.8
-31.58.144.19:1080,Germany,Hesse,Frankfurt am Main,dataforest GmbH,Company 683063f4m6QKuQF6,AS215607 dataforest GmbH,False,False,True,31.58.144.19
-145.220.227.67:8080,The Netherlands,Utrecht,Utrecht,SURFnet III d,SURFnet bv,AS1101 IP-EEND BV,False,False,True,145.220.183.29
+45.61.188.134:44499,United States,Florida,Miami,FranTech Solutions,FranTech Solutions,AS53667 FranTech Solutions,False,True,True,45.61.188.134
+69.55.49.177:38182,United States,New Jersey,North Bergen,"DigitalOcean, LLC",Digital Ocean,"AS14061 DigitalOcean, LLC",False,True,True,69.55.49.177
+167.99.3.26:7118,United States,New Jersey,North Bergen,"DigitalOcean, LLC",Digital Ocean,"AS14061 DigitalOcean, LLC",False,True,True,3.145.100.209
+132.148.82.125:45605,United States,Arizona,Tempe,"GoDaddy.com, LLC","GoDaddy.com, LLC","AS398101 GoDaddy.com, LLC",False,True,True,192.169.136.66
+134.209.29.120:1080,United Kingdom,England,Slough,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,134.209.29.120
+5.180.147.89:1080,United States,California,Los Angeles,NLS Kazakhstan LLC,Beafort Limited,AS200590 NLS Kazakhstan LLC,False,False,False,5.180.147.89
 161.35.70.249:1080,Germany,Hesse,Frankfurt am Main,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,161.35.70.249
-37.153.77.204:1080,United Kingdom,Northern Ireland,Newtownabbey,NWE Wireless Networks Ltd.,North West Electronics,AS43599 Broadband N.I. Ltd.,False,False,False,37.153.77.204
-92.5.68.29:1080,Germany,Hesse,Frankfurt am Main,Oracle Corporation,Oracle Cloud Infrastructure (eu-frankfurt-1),AS31898 Oracle Corporation,False,True,False,92.5.68.29
-194.182.163.117:1080,Switzerland,Geneva,Geneva,Akenes SA,Akenes SA,AS61098 Akenes SA,False,True,True,194.182.163.117
+89.169.13.144:1080,The Netherlands,North Holland,Amsterdam,SERV.HOST GROUP LTD,SERV.HOST GROUP LTD,AS207957 SERV.HOST GROUP LTD,False,True,True,89.169.13.144
+176.65.132.138:1080,The Netherlands,North Holland,Amsterdam,TechTies Inc.,TechTies Inc,AS197170 TechTies Inc.,False,True,True,176.65.132.138
+145.220.227.67:8080,The Netherlands,Utrecht,Utrecht,SURFnet III d,SURFnet bv,AS1101 IP-EEND BV,False,False,True,145.220.183.29
+167.99.3.26:7569,United States,New Jersey,North Bergen,"DigitalOcean, LLC",Digital Ocean,"AS14061 DigitalOcean, LLC",False,True,True,132.226.114.211
 5.255.103.55:1080,The Netherlands,Flevoland,Dronten,The Infrastructure Group B.V.,TIG,AS60404 Liteserver,False,True,True,5.255.103.55
-193.165.115.78:1080,Czechia,Prague,Prague,PODA a.s.,PODA,AS30764 PODA a.s.,False,False,True,193.165.115.78
-45.74.31.42:4031,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
-163.5.53.209:1080,Turkey,Bursa Province,Bursa,IONIS,,AS15924 Vodafone Net Iletisim Hizmetler AS,False,False,True,104.28.212.147
-24.121.73.10:1080,United States,Arizona,Kingman,Optimum,Cablevision of Kingman,AS19108 Optimum,False,False,True,24.121.73.10
-46.232.249.209:40001,Germany,Bavaria,Nuremberg,netcup GmbH,netcup GmbH,AS197540 netcup GmbH,False,True,True,104.28.193.116
-45.74.31.47:6760,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
-195.135.255.98:1080,Latvia,Rīga,Riga,SIA VEESP,SIA VEESP,AS42532 SIA VEESP,False,True,True,195.135.255.98
-91.199.137.149:2010,Czechia,South Bohemian Region,Veselí nad Lužnicí,SmartApe OU,ESA,AS62212 SmartApe OU,False,True,False,158.173.77.154
+65.109.196.122:2080,Finland,Uusimaa,Helsinki,Hetzner Online GmbH,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,True,104.28.222.16
 139.162.78.109:1080,Japan,Tokyo,Tokyo,"Akamai Technologies, Inc.",Linode,AS63949 Akamai Connected Cloud,False,True,True,139.162.78.109
-172.105.192.212:9080,Japan,Tokyo,Tokyo,Akamai Technologies,Linode,AS63949 Akamai Connected Cloud,False,True,False,172.105.192.212
-49.13.22.249:10805,Germany,Saxony,Falkenstein,Hetzner Online GmbH,Hetzner,AS24940 Hetzner Online GmbH,False,True,True,93.115.0.24
-83.172.43.66:1080,Russia,Tomsk Oblast,Tomsk,NEOTELECOM,,AS44417 JSC Neotelecom,False,False,True,83.172.43.66
-138.68.183.71:10000,United Kingdom,England,Slough,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,False,138.68.183.71
-204.8.189.118:1080,United States,Missouri,Poplar Bluff,Big River Telephone,Big River Telephone,"AS27419 Big River Telephone Company, LLC",False,False,False,204.8.189.118
-45.74.31.40:4366,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,162.215.175.52
-139.59.1.14:1080,India,Karnataka,Bengaluru,DIGITALOCEAN,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,139.59.1.14
-103.124.172.134:1080,India,Haryana,Jhajjar,Shirsty Internet Services Pvt Ltd,Shirsty  Pvt Ltd,AS139549 Crisp Enterprises,False,False,False,103.124.172.134
-61.110.3.202:5555,South Korea,Gyeonggi-do,Gwacheon-si,MOACK.Co.LTD,Sejong,AS138195 MOACK.Co.LTD,False,False,False,61.110.3.202
-45.61.129.165:9050,United States,Nevada,Las Vegas,RouterHosting LLC,FranTech Solutions,AS14956 RouterHosting LLC,False,True,True,192.42.116.98
-61.110.28.227:5555,South Korea,Gyeonggi-do,Yongin-si,Sejong Networks,MOACK,AS138195 MOACK.Co.LTD,False,False,False,61.110.28.227
-95.216.8.124:1080,Finland,Uusimaa,Helsinki,Hetzner Online GmbH,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,False,46.203.158.113
-102.211.132.75:1080,South Africa,Gauteng,Roodepoort,Splizr Networks (Pty) Ltd,Splizr Networks Pty Ltd,AS329303 Splizr Networks (Pty) Ltd,False,False,False,102.211.132.75
-128.199.37.92:1080,The Netherlands,North Holland,Amsterdam,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,128.199.37.92
-212.3.127.242:10801,Ukraine,Dnipropetrovsk Oblast,Dnipro,"Science Production Company ""Trifle"" Ltd.","Science Production Company ""Trifle"" Ltd","AS6702 Science Production Company ""Trifle"" Ltd.",False,False,True,212.3.127.242
-128.199.202.122:1080,Singapore,South West,Singapore,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,128.199.202.122
-103.248.47.230:1080,Australia,New South Wales,Sydney,Dicker Data Ltd,Dicker Data Ltd,AS133417 Dicker Data Ltd,False,False,True,103.248.47.230
-110.93.218.62:1080,Pakistan,Sindh,Karachi,TRANSWORLD ASSOCIATES (PVT) LIMITED,TW RO,AS38193 Transworld Associates (Pvt.) Ltd.,False,False,True,110.93.218.62
-123.58.219.171:10808,Hong Kong,Kowloon,Hong Kong,UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,Ucloud Information Technology (hk) Limited,AS135377 UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,False,True,True,123.58.219.171
-37.193.95.9:10808,Russia,Novosibirsk Oblast,Novosibirsk,Novotelecom Ltd,Novotelecom ltd.,AS31200 Novotelecom Ltd,False,False,False,50.7.4.26
+157.90.113.23:9052,Germany,Bavaria,Nuremberg,Hetzner Online GmbH,Hetzner,AS24940 Hetzner Online GmbH,False,True,True,51.254.44.49
+185.221.196.47:1080,Finland,Uusimaa,Helsinki,xorek.cloud International LTD,xorek.cloud International LTD,AS210644 AEZA INTERNATIONAL LTD,False,True,True,185.221.196.47
+80.79.241.118:1080,Russia,St.-Petersburg,St Petersburg,Smart Telecom Company,SMART-VMB,AS31376 Smart Telecom Limited,False,False,True,80.79.241.118
+5.75.133.113:10805,Germany,Bavaria,Nuremberg,Hetzner Online GmbH,Hetzner,AS24940 Hetzner Online GmbH,False,True,True,146.70.132.71
+92.5.68.29:1080,Germany,Hesse,Frankfurt am Main,Oracle Corporation,Oracle Cloud Infrastructure (eu-frankfurt-1),AS31898 Oracle Corporation,False,True,False,92.5.68.29
+43.155.128.61:1080,South Korea,Seoul,Seoul,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,True,43.155.128.61
+8.40.19.133:1080,United States,Illinois,Chicago,"Level 3 Communications, Inc.","Level 3, LLC","AS3356 Level 3 Parent, LLC",False,False,True,8.40.19.133
+167.99.3.26:8091,United States,New Jersey,North Bergen,"DigitalOcean, LLC",Digital Ocean,"AS14061 DigitalOcean, LLC",False,True,True,46.161.4.171
+92.60.91.130:1080,Russia,Krasnodar Krai,Tuapse,NewCom Port,JSC NewCom Port,"AS25227 JSC ""ER-Telecom Holding""",False,False,True,92.60.91.130
+74.112.62.118:1080,United States,Florida,Naples,Summit Broadband,Summit Broadband,AS23314 Summit Broadband,False,False,False,74.112.62.118
 89.43.132.29:1080,Syria,Idlib Governorate,Idlib,High Speed For Internet Services L.L.C,,AS216472 High Speed For Internet Services L.L.C,False,False,False,188.132.222.90
-43.155.215.149:20000,South Korea,Seoul,Seoul,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,True,43.155.215.149
-27.112.79.97:1080,Indonesia,West Java,Cicurug,PT Cloud Hosting Indonesia,PT Cloud Hosting Indonesia,AS136052 PT Cloud Hosting Indonesia,False,True,False,27.112.79.97
-45.74.31.47:9493,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
-202.40.190.74:1080,Bangladesh,Rangpur Division,Rangpur City,Ranks ITT,Ranks ITT Ltd.,AS23991 Ranks ITT Ltd.,False,False,True,202.40.190.74
-5.75.133.113:10803,Germany,Bavaria,Nuremberg,Hetzner Online GmbH,Hetzner,AS24940 Hetzner Online GmbH,False,True,True,217.138.221.130
-202.4.101.249:9090,Bangladesh,Dhaka Division,Dhaka,dhakaCom Limited,DhakaCom Limited,AS23956 AmberIT Limited,False,False,True,202.4.101.249
-47.107.48.145:8020,China,Guangdong,Shenzhen,Hangzhou Alibaba Advertising Co,"Aliyun Computing Co., LTD","AS37963 Hangzhou Alibaba Advertising Co.,Ltd.",False,True,True,12.104.3.150
-116.101.73.161:1030,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,116.101.73.52
-194.87.79.243:2333,The Netherlands,North Holland,Amsterdam,GLB Bulut Teknolojisi Limited Sirketi,GLB Bulut Teknolojisi Limited Sirketi,AS48207 GLB Bulut Teknolojisi Limited Sirketi,False,True,True,194.87.79.243
+80.65.211.149:8888,France,Grand Est,Lauterbourg,Contabo GmbH,Contabo GmbH,AS51167 Contabo GmbH,False,True,True,145.79.120.61
 83.221.222.194:1080,Russia,Rostov Oblast,Rostov-on-Don,RTK,PJSC Rostelecom,AS21479 PJSC Rostelecom,False,False,True,83.221.222.194
-45.74.31.41:17935,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,66.33.212.6
-65.21.252.66:10813,Finland,Uusimaa,Helsinki,Hetzner Online GmbH,Hetzner,AS24940 Hetzner Online GmbH,False,True,True,128.90.60.10
-172.81.111.156:10001,Hong Kong,Kowloon,Hong Kong,Prime Security Corp.,Prime Security Corp,AS400618 Prime Security Corp.,False,True,True,172.81.111.156
-101.36.104.46:10808,Japan,Tokyo,Tokyo,UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,Ucloud Information Technology,AS135377 UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,False,True,True,101.36.104.46
-45.74.31.47:4757,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
-2.50.191.129:10800,United Arab Emirates,Abu Dhabi,Abu Dhabi,Emirates Telecommunications Corporation,Etisalat,AS5384 Emirates Internet,False,False,True,2.50.191.129
-195.201.246.53:1087,Germany,Saxony,Falkenstein,Hetzner Online GmbH,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,True,178.93.184.117
-103.18.78.156:1080,Indonesia,West Java,Bogor,PT Usaha Adi Sanggoro,,AS55701 PT. Usaha Adisanggoro,False,False,True,43.252.237.169
-45.74.31.46:4043,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
-103.191.196.71:8199,Indonesia,West Java,Pamanukan,PT Pangkalan Lintas Data,,AS149934 PT Pangkalan Lintas Data,False,False,True,103.191.196.74
-116.101.73.52:1068,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,116.101.73.52
-85.97.190.88:1080,Türkiye,Istanbul,Istanbul,Turk Telekomunikasyon A.S,TurkTelecom,AS9121 Turk Telekomunikasyon Anonim Sirketi,False,False,False,85.97.190.88
-188.226.27.24:1080,Russia,Sverdlovsk Oblast,Yekaterinburg,"LLC ""KomTehCentr""",LLC KOMTEHCENTR FTTB Customers,"AS12668 LLC ""KomTehCentr""",False,False,False,88.210.12.209
-116.101.73.161:1083,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,116.101.73.52
-185.151.86.121:3699,Ukraine,Poltava Oblast,Khorol,Omega Telecom,Omega Telecom LLC,AS199995 Omega Telecom LLC,False,False,True,31.128.249.254
-116.101.73.52:1054,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,116.101.73.161
-177.37.175.169:1080,Brazil,Alagoas,Maceió,Brisanet Servicos De Telecomunicacoes S.A,Brisanet Servicos De Telecomunicacoes S.A,AS28126 BRISANET SERVICOS DE TELECOMUNICACOES S.A,False,False,False,177.37.175.169
-103.76.120.216:1080,Indonesia,West Java,Cicurug,PT. Cloud Hosting Indonesia,,AS136052 PT Cloud Hosting Indonesia,False,True,True,103.76.120.216
-45.74.31.42:4080,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
-84.42.63.113:1080,Russia,Bryansk Oblast,Bryansk,PJSC Rostelecom,PJSC Rostelecom,AS34267 PJSC Rostelecom,False,False,True,84.42.63.113
-83.174.229.42:1080,Russia,Bashkortostan Republic,Ufa,STR-DIALUP,,"AS28812 PJSC ""Bashinformsvyaz""",False,False,True,83.174.229.42
-150.228.196.110:1080,Solomon Islands,Honiara,Honiara,Space Exploration Technologies Corporation,SpaceX Starlink,AS14593 Space Exploration Technologies Corporation,False,False,False,150.228.196.110
-116.101.73.161:1082,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,118.71.44.243
-116.101.73.161:1054,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,116.101.73.161
-172.86.84.97:1072,United States,Utah,Ogden,RouterHosting LLC,FranTech Solutions,AS14956 RouterHosting LLC,False,True,True,99.18.53.4
-83.69.80.63:8443,Russia,Krasnodar Krai,Tuapse,Joint Stock Company TransTeleCom,Ipgalnet,AS20485 Joint Stock Company TransTeleCom,False,False,True,83.69.80.63
-5.75.133.113:10814,Germany,Bavaria,Nuremberg,Hetzner Online GmbH,Hetzner,AS24940 Hetzner Online GmbH,False,True,True,212.102.63.24
-116.101.73.52:1088,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,118.71.44.243
-188.232.115.151:8083,Russia,Omsk Oblast,Omsk,"CJSC ""ER-Telecom Holding"" Omsk branch","JSC ""ER-Telecom Holding"" Omsk Branch","AS41843 JSC ""ER-Telecom Holding""",False,False,True,188.232.115.151
+183.87.145.150:2080,Hong Kong,Central and Western District,Hong Kong,Huawei International Pte. LTD,,AS136907 HUAWEI CLOUDS,False,True,True,104.28.215.68
 91.107.179.68:10809,Germany,Hesse,Frankfurt Am Main,Hetzner Online AG,Hetzner Online AG,AS24940 Hetzner Online GmbH,False,True,True,104.28.207.215
-117.134.203.58:10800,Pakistan,Islamabad,Islamabad,China Mobile communications corporation,China Mobile,AS138423 CMPak Limited,False,False,True,117.134.203.58
-123.0.24.154:9090,Bangladesh,Dhaka Division,Dhaka,Icon Infotech Limited,IIL,AS56054 Icon Infotech Limited,False,False,True,123.0.24.149
-72.223.61.88:1080,United States,Arizona,Phoenix,Cox Communications Inc.,Cox Communications,AS22773 Cox Communications Inc.,False,False,True,72.223.61.88
-45.74.31.42:4107,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
-116.101.73.161:1088,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,118.71.44.243
-46.246.12.31:1080,Sweden,Stockholm County,Stockholm,GleSYS AB,Frootynet,AS42708 Glesys AB,False,True,True,46.246.12.31
-103.182.22.247:9000,Vietnam,Ho Chi Minh City (HCMC),Quận Mười Một,CUONGKHANG,Cuong Khang Informatics Company Limited,AS151858 INTERDIGI JOINT STOCK COMPANY,False,False,True,103.182.22.247
-203.83.43.120:1080,Indonesia,West Java,Cibinong,PT. Eka Mas Republik,GWK,AS63859 PT. Eka Mas Republik,False,True,True,203.83.43.120
-45.74.31.41:4007,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
-103.175.242.124:1088,Bangladesh,Dhaka Division,Dhaka,Discovery Internet | Narsingdi,,AS134562 DISCOVERY INTERNET,False,False,True,103.175.242.126
-154.219.101.12:1080,Hong Kong,Kowloon,Hong Kong,Vapeline Technology(HK)Co,,AS401701 cognetcloud INC,False,True,False,154.219.101.12
-194.177.28.66:10808,Poland,Silesia,Ustroń,(USTRONET ) INVICOM Sp. z o.o,INVICOM Sp. z o.o,AS48790 INVICOM Sp. z o.o.,False,False,True,194.177.28.66
+103.248.228.166:5555,Singapore,Central Singapore,Singapore,Akari Networks Limited,Akari Networks Pte. Ltd,AS38136 Akari Networks,False,False,True,103.248.228.166
+49.13.22.249:10805,Germany,Saxony,Falkenstein,Hetzner Online GmbH,Hetzner,AS24940 Hetzner Online GmbH,False,True,True,185.65.133.100
+128.199.202.122:1080,Singapore,South West,Singapore,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,128.199.202.122
+45.194.33.12:30002,Hong Kong,Kowloon,Hong Kong,Antbox Network Limited,Antbox Network Limited,AS138995 Antbox Networks Limited,False,False,True,45.194.33.12
+103.239.201.50:58765,Philippines,Metro Manila,San Juan,Sky Cable Corporation,TRI PH,AS17970 SKYBroadband SKYCable Corporation,False,False,True,103.239.201.50
+82.116.60.184:1080,Russia,Saratov Oblast,Saratov,RENET COM Ltd.,Saratov Renet Unnumbered,AS30936 RENET COM Ltd.,False,False,True,82.116.60.184
+45.194.33.12:30001,Hong Kong,Kowloon,Hong Kong,Antbox Network Limited,Antbox Network Limited,AS138995 Antbox Networks Limited,False,False,True,45.194.33.12
+91.143.161.163:1080,Russia,Sverdlovsk Oblast,Yekaterinburg,Insys LLC,Insys EKB,AS28890 INSYS ISP,False,False,False,82.202.249.196
+37.18.73.60:5566,Russia,Moscow,Moscow,"""Cloud Technologies"" LLC trading as Cloud.ru",Cloud.ru,"AS208677 ""Cloud Technologies"" LLC trading as Cloud.ru",False,True,True,192.42.116.68
+45.74.31.42:31340,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,102.134.101.35
+45.61.129.165:9050,United States,Nevada,Las Vegas,RouterHosting LLC,FranTech Solutions,AS14956 RouterHosting LLC,False,True,True,192.42.116.145
+103.126.173.159:1080,Indonesia,Lampung,Bandar Lampung,MEGARAP,,AS138112 PT. Megarap Mitra Solusi,False,False,False,103.126.173.159
+109.111.4.184:2080,Russia,Tula Oblast,Tula,MTS PJSC,MTS Tula (LLC TK Altair),AS40993 MTS PJSC,True,False,True,109.111.4.184
+49.13.22.249:10806,Germany,Saxony,Falkenstein,Hetzner Online GmbH,Hetzner,AS24940 Hetzner Online GmbH,False,True,True,89.238.156.117
+47.85.13.198:1080,United States,Virginia,Henrico,Alibaba.com LLC,"Midwest Cable, Delta Centric LLC, Zenlayer Inc","AS45102 Alibaba (US) Technology Co., Ltd.",False,True,True,47.85.13.198
+46.241.57.29:1080,Russia,Altai Krai,Barnaul,ZSTTK,JSC Zap-Sib TransTeleCom,AS21127 Joint Stock Company TransTeleCom,False,False,True,46.241.57.29
+139.59.1.14:1080,India,Karnataka,Bengaluru,DIGITALOCEAN,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,139.59.1.14
+45.74.31.41:5154,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+154.126.213.152:1080,South Africa,Northern Cape,Kimberley,JENNY INTERNET (PTY) LTD,JennySHO2,AS327750 JENNY INTERNET (PTY) LTD,False,False,True,154.126.213.152
 171.83.228.50:1081,China,Hubei,Shizishan,Chinanet,Chinanet HB,AS4134 CHINANET BACKBONE,False,False,False,66.90.98.36
-109.124.73.231:1080,Russia,St.-Petersburg,St Petersburg,North-West Branch of PJSC MegaFon,JSC PeterStar,AS20632 PJSC MegaFon,False,False,True,109.124.73.231
-103.197.241.209:1080,Cambodia,Kandal,Ta Khmau,"COGETEL Co., Ltd",Cogetel Ltd,"AS23673 Cogetel Online, Cambodia, ISP",False,False,True,103.197.241.209
-45.74.31.47:10220,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
-95.216.8.124:1086,Finland,Uusimaa,Helsinki,Hetzner Online GmbH,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,False,103.31.210.159
-45.74.31.41:9256,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,67.205.1.146
-116.101.73.52:1083,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,116.101.73.52
-203.99.54.238:1080,Pakistan,Islamabad,Islamabad,Nayatel (Pvt) Ltd,Micronet,AS23674 Nayatel (Pvt) Ltd,False,False,True,203.99.54.238
-165.154.20.187:10808,Hong Kong,Kowloon,Hong Kong,UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,Ucloud Information Technology (hk) Limited,AS135377 UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,False,True,True,165.154.20.187
-37.194.229.37:1080,Russia,Novosibirsk Oblast,Novosibirsk,Novotelecom Ltd,Novotelecom ltd.,AS31200 Novotelecom Ltd,False,False,False,37.194.229.37
-62.148.143.229:1080,Russia,Kaluga Oblast,Kaluga,JSC CenterTelecom Kaluga branch,JSC CenterTelecom Kaluga branch,AS15468 PJSC Rostelecom,False,False,True,62.148.143.229
-116.101.73.52:1082,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,118.71.44.243
-45.74.31.46:19128,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
-116.101.73.52:1039,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,171.234.162.57
-122.176.19.155:1080,India,Haryana,Gurugram,Bharti Airtel,Bharti Telenet Ltd.,"AS24560 Bharti Airtel Ltd., Telemedia Services",False,False,False,122.176.19.155
-31.41.228.112:2080,Russia,Krasnodar Krai,Alekseyevskoye,PE Pivovar Aleksej Nikolaevich,Pivovar,AS197499 PE Pivovar Aleksej Nikolaevich,False,False,True,31.41.228.112
-45.74.31.42:21737,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
-45.74.31.46:17564,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
-45.74.31.41:4621,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,102.134.101.35
-45.74.31.47:7537,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,150.95.108.134
-123.117.77.195:9050,China,Beijing,Beijing,China Unicom Beijing Province Network,,AS4808 China Unicom Beijing Province Network,False,False,False,149.88.64.44
-45.74.31.41:7918,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,137.59.106.177
-45.74.31.42:4617,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,41.76.209.176
-45.74.31.41:7904,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,147.50.252.213
-103.174.122.197:8199,Indonesia,West Java,Sumedang,PT Jaya Sejahtra Nugraha,,AS147096 PT Jaya Sejahtra Nugraha,False,False,True,103.174.122.206
-5.191.253.56:1080,Azerbaijan,Baku City,Baku,AzInTelecom LLC,AzInTelecom LLC,AS200729 AzInTelecom LLC,False,False,True,5.191.253.56
-45.74.31.47:4759,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
-45.74.31.46:8954,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,164.68.100.166
-45.74.31.46:4010,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
-103.155.185.26:1088,Bangladesh,Dhaka Division,Dhaka,BCL Online Service,A M Kamal Uddin Selim,AS141181 BCL Online Service,False,False,True,103.155.185.70
-45.74.31.41:4006,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
-103.151.74.5:2025,Bangladesh,Chittagong,Chittagong,Md Kamrul Islam,,AS135341 Orange Communication,False,False,True,45.117.62.24
-45.74.31.40:4786,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
-45.74.31.42:25340,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
-116.101.73.161:1032,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,116.101.73.52
-202.44.109.138:1080,Bangladesh,Chittagong,Comilla,GramBangla Systems Ltd,,"AS38011 GramBangla Systems Limites, Internet and Data Communication",False,False,False,202.44.109.138
-203.189.135.140:1080,Cambodia,Phnom Penh,Phnom Penh,COGETEL Co,,"AS23673 Cogetel Online, Cambodia, ISP",False,False,True,203.189.135.140
-195.13.182.211:8080,Latvia,Riga,Riga,SIA Tet,Apollo DDD,AS12578 SIA Tet,False,False,True,195.13.182.211
-116.101.73.52:1055,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,116.101.73.161
-9.154.253.201:1080,Indonesia,Jakarta,Jakarta,PT Mora Telematika Indonesia TBK,,AS63859 PT. Eka Mas Republik,False,False,False,9.154.253.201
-202.62.50.52:1080,Cambodia,Phnom Penh,Phnom Penh,"COGETEL Co., Ltd",COGETEL,"AS23673 Cogetel Online, Cambodia, ISP",False,False,True,202.62.50.52
-103.182.22.85:9000,Vietnam,Ho Chi Minh City (HCMC),Quận Mười Một,CUONGKHANG,Cuong Khang Informatics Company Limited,AS151858 INTERDIGI JOINT STOCK COMPANY,False,False,True,103.182.22.85
-190.225.152.38:1080,Argentina,Cordoba,Villa Carlos Paz,Telecom Argentina S.A.,Apolo -Gold-Telecom-Per,AS7303 Telecom Argentina S.A.,False,False,False,190.225.152.38
-103.13.19.219:10808,Japan,Ibaraki,Tsukuba,Lixium Sarl,Bunny Technology LLC,AS39600 BUNNY TECHNOLOGY LLC,False,False,True,103.13.19.219
-45.74.31.40:4470,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
-95.3.92.2:1080,Türkiye,Istanbul,Arnavutköy,Turk Telekomunikasyon Anonim Sirketi,TurkTelekom,AS9121 Turk Telekomunikasyon Anonim Sirketi,False,False,True,95.3.92.2
-45.74.31.46:16451,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
-45.74.31.42:4380,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
-45.74.31.46:4260,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.74.123.7
-171.25.158.95:1080,Sweden,Kronoberg County,Rottne,Patrik Lagerman,Kronnet,AS35100 Patrik Lagerman,False,False,True,171.25.158.95
-45.74.31.46:5107,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,164.68.100.166
-118.68.15.86:1080,Vietnam,Ho Chi Minh,Ho Chi Minh City,FPT Telecom Company,Vietnam Internet Network Information Center,AS18403 FPT Telecom Company,False,False,False,118.68.15.86
-45.74.31.40:4085,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
-45.74.31.46:4133,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
-45.74.31.40:4070,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
-14.224.194.181:2080,Vietnam,Hanoi,Hanoi,VNPT,Vietnam Posts and Telecommunications Group,AS45899 VNPT Corp,False,False,True,14.224.194.181
-45.74.31.42:28876,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
-109.95.175.64:1080,Poland,Warmia-Masuria,Kurzętnik,TVK ELtronik Brodnica,"Eltronik ""Media"" Sp. z o.o. - Sp.k.",AS43420 Eltronik Sp. z o.o.,False,False,True,109.95.175.64
-45.74.31.42:35753,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
-45.74.31.41:4148,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
-46.36.74.66:1080,Lithuania,Telsiai,Plungė,KLI,,"AS43627 UAB ""Besmegeniai""",False,False,True,46.36.74.66
-45.74.31.41:4017,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
-103.39.49.101:1082,Indonesia,West Java,Arjawinangun,PT. Mega Mentari Mandiri,,AS63501 PT Mega Mentari Mandiri,False,False,True,103.39.49.101
-45.74.31.46:18218,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
-65.21.252.66:10805,Finland,Uusimaa,Helsinki,Hetzner Online GmbH,Hetzner,AS24940 Hetzner Online GmbH,False,True,True,193.37.254.250
-103.182.22.198:9000,Vietnam,Ho Chi Minh City (HCMC),Quận Mười Một,CUONGKHANG,Cuong Khang Informatics Company Limited,AS151858 INTERDIGI JOINT STOCK COMPANY,False,False,True,103.182.22.198
-45.74.31.40:5686,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
-45.74.31.47:22786,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,165.22.136.47
-46.235.83.76:1080,Kazakhstan,Astana,Astana,Jusan Mobile JSC,Qmobile,AS35104 QMOBILE JSC,True,False,True,46.235.83.76
-78.187.157.235:1080,Türkiye,Erzincan,Erzincan,Turk Telekomunikasyon A.S,TurkTelecom,AS9121 Turk Telekomunikasyon Anonim Sirketi,False,False,True,78.187.157.235
-45.74.31.46:7752,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,164.68.100.166
-45.74.31.47:4250,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
-45.74.31.41:4080,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
-101.36.104.239:10808,Japan,Tokyo,Tokyo,UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,Ucloud Information Technology,AS135377 UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,False,True,True,101.36.104.239
+36.93.226.203:1080,Indonesia,Jakarta,West Jakarta,Telekomunikasi Indonesia,HSI Indihome,AS7713 PT Telekomunikasi Indonesia,False,False,False,36.93.226.203
 82.180.146.251:10800,India,Maharashtra,Mumbai,Contabo Asia Private Limited,Packethub S.A,AS141995 Contabo Asia Private Limited,False,True,True,82.180.146.251
-140.238.43.53:54322,Japan,Tokyo,Tokyo,Oracle Corporation,Oracle Cloud Infrastructure (ap-tokyo-1),AS31898 Oracle Corporation,False,True,True,140.238.43.53
-116.101.73.161:1039,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,171.234.162.57
-45.74.31.46:4041,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
-8.222.249.220:1080,Singapore,North West,Singapore,"Alibaba (US) Technology Co., Ltd.",Alibaba.com Singapore E-Commerce Private Limited,"AS45102 Alibaba (US) Technology Co., Ltd.",False,True,True,8.222.249.220
-45.74.31.41:22574,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,165.22.136.47
-103.180.123.111:1080,Indonesia,Jakarta,South Jakarta,PT Indo Telemedia Solusi,PT Indo Telemedia Solusi,AS149360 PT Indo Telemedia Solusi,False,False,True,103.180.123.111
-45.74.31.47:4302,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,50.6.137.53
-113.160.188.21:1080,Vietnam,Hà Nam Province,Phu Ly,VietNam Post and Telecom Corporation,Vietnam Posts and Telecommunications Group,AS45899 VNPT Corp,False,False,True,113.160.188.21
-45.74.31.47:10726,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
-103.52.114.199:1080,Indonesia,West Java,Cicurug,PT. Cloud Hosting Indonesia,,AS136052 PT Cloud Hosting Indonesia,False,True,False,103.52.114.199
-37.18.73.60:5566,Russia,Moscow,Moscow,"""Cloud Technologies"" LLC trading as Cloud.ru",Cloud.ru,"AS208677 ""Cloud Technologies"" LLC trading as Cloud.ru",False,True,True,192.42.116.144
-45.74.31.47:10939,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
-103.189.63.149:53053,Indonesia,Bali,Denpasar,PT Blip Integrator Provider,,AS149746 PT Blip Integrator Provider,False,False,True,103.189.63.149
-103.206.68.241:1080,Cambodia,Phnom Penh,Phnom Penh,"COGETEL Co., Ltd",Cogetel Ltd,"AS23673 Cogetel Online, Cambodia, ISP",False,False,True,103.206.68.241
-116.101.73.52:1032,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,116.101.73.52
-38.10.71.218:1080,Turkey,Antalya,Beymelek,Gibirnet Iletisim Hizmetleri Sanayi VE Ticaret Limited Sirketi,Gibirnet Iletisim Hizmetleri Sanayi VE Ticaret Limited Sirketi,AS208972 GIBIRNET ILETISIM HIZMETLERI SANAYI VE TICARET LIMITED SIRKETI,False,False,False,38.10.71.218
-61.247.178.146:1080,Bangladesh,Dhaka Division,Dhaka,OptiMax Communication Ltd,OptiMax Communication Ltd,AS38031 OptiMax Communication Ltd.,False,False,True,61.247.178.146
-141.148.65.110:1081,United States,Virginia,Ashburn,Oracle Corporation,Oracle Cloud Infrastructure (us-ashburn-1),AS31898 Oracle Corporation,False,True,True,104.28.196.79
-45.74.31.46:11680,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,150.95.108.134
-5.75.133.113:10808,Germany,Bavaria,Nuremberg,Hetzner Online GmbH,Hetzner,AS24940 Hetzner Online GmbH,False,True,True,195.181.163.129
-45.74.31.40:4866,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
-45.74.31.41:4135,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,82.165.90.169
-124.248.191.83:1080,Cambodia,Phnom Penh,Phnom Penh,"COGETEL Co., Ltd",Cogetel Ltd,"AS23673 Cogetel Online, Cambodia, ISP",False,False,True,124.248.191.83
-49.13.22.249:10807,Germany,Saxony,Falkenstein,Hetzner Online GmbH,Hetzner,AS24940 Hetzner Online GmbH,False,True,True,64.113.5.20
-193.218.118.128:1080,Ukraine,Kyiv City,Kyiv,Ukrainian Data Network,,AS207656 Epinatura LLC,False,False,True,82.39.237.186
-45.74.31.46:16257,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,165.22.136.47
-27.54.121.90:1080,Pakistan,Islamabad,Islamabad,ITSP,,AS55453 SKYTELECOM,False,False,True,27.54.121.90
-116.101.73.161:1051,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,117.1.209.236
-45.74.31.40:5066,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,50.6.137.53
-38.10.71.91:1080,Turkey,Şanlıurfa,Karaköprü,Gibirnet Iletisim Hizmetleri Sanayi VE Ticaret Limited Sirketi,Gibirnet Iletisim Hizmetleri Sanayi VE Ticaret Limited Sirketi,AS208972 GIBIRNET ILETISIM HIZMETLERI SANAYI VE TICARET LIMITED SIRKETI,False,False,False,38.10.71.91
+45.74.31.46:6608,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+61.110.28.56:5555,South Korea,Gyeonggi-do,Yongin-si,Sejong Networks,MOACK,AS138195 MOACK.Co.LTD,False,False,False,61.110.28.56
+223.25.109.146:8199,Indonesia,West Sulawesi,Somba,SinergiNet,,AS149718 PT Satunol Digital Teknologi,False,False,True,223.25.109.146
+202.4.101.249:9090,Bangladesh,Dhaka Division,Dhaka,dhakaCom Limited,DhakaCom Limited,AS23956 AmberIT Limited,False,False,True,202.4.101.249
+102.36.127.231:1080,South Africa,Mpumalanga,Nelspruit,Clear Access (Pty) Ltd,Bridgnet,AS327794 Clear Access (Pty) Ltd,False,False,True,102.36.127.7
+115.127.53.114:1080,Bangladesh,Mymensingh Division,Mymensingh,BRACNet Limited,bracNet,AS24342 BRACNet Limited,False,False,True,115.127.53.114
+95.31.115.101:9150,Russia,Samara Oblast,Tolyatti,"PJSC ""Vimpelcom""",CORBINA-BROADBAND,"AS8402 PJSC ""Vimpelcom""",False,False,True,192.42.116.12
+172.81.111.156:10001,Hong Kong,Kowloon,Hong Kong,Prime Security Corp.,Prime Security Corp,AS400618 Prime Security Corp.,False,True,True,172.81.111.156
+103.116.197.6:1080,Kazakhstan,Astana,Astana,CTC ASTANA LTD,Ttpl,AS41007 CTC ASTANA LTD,False,False,False,103.116.197.6
+49.13.22.249:10809,Germany,Saxony,Falkenstein,Hetzner Online GmbH,Hetzner,AS24940 Hetzner Online GmbH,False,True,True,45.83.127.24
+103.151.74.5:2025,Bangladesh,Chittagong,Chittagong,Md Kamrul Islam,,AS135341 Orange Communication,False,False,True,45.117.62.31
+116.101.73.161:1030,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,116.101.73.52
+116.101.73.52:1073,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,116.101.73.52
+171.25.158.95:1080,Sweden,Kronoberg County,Rottne,Patrik Lagerman,Kronnet,AS35100 Patrik Lagerman,False,False,True,171.25.158.95
+203.99.63.97:1080,Pakistan,Islamabad,Islamabad,Nayatel (Pvt) Ltd,Micronet,AS23674 Nayatel (Pvt) Ltd,False,False,True,203.99.54.238
+103.182.22.244:9000,Vietnam,Ho Chi Minh City (HCMC),Quận Mười Một,CUONGKHANG,Cuong Khang Informatics Company Limited,AS151858 INTERDIGI JOINT STOCK COMPANY,False,False,True,103.182.22.244
+46.174.120.163:8090,Ukraine,Lviv,Lviv,LLC EKSINTECH,"TzOV ""Biznes i Technologii""",AS3255 UARNet-Eksintech,False,False,False,46.174.120.163
+45.74.31.42:4137,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.41:6981,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+93.92.204.208:1080,Russia,St.-Petersburg,St Petersburg,Saint-Petersburg Computer Networks Ltd.,Airnet,AS44923 Saint-Petersburg Computer Networks Ltd.,False,False,False,93.92.204.208
+45.74.31.47:5950,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
 66.94.112.133:1088,United States,Washington,Seattle,Contabo Inc.,Contabo Inc,AS40021 Contabo Inc.,False,True,True,66.94.112.133
-45.74.31.47:4014,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
-45.74.31.41:5324,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,102.134.101.35
-45.74.31.42:12816,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,150.95.108.134
-45.74.31.46:17762,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
-45.74.31.46:17341,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
-180.93.102.159:40001,Vietnam,Ho Chi Minh City (HCMC),Quận Bốn,SPT,Saigon Postel Corporation,AS7602 Sai gon Postel Corporation,False,False,True,146.158.112.223
-45.74.31.47:10106,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,150.95.108.134
-45.74.31.40:4024,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
-45.74.31.41:17342,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,66.33.212.6
-45.74.31.40:4728,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
-92.205.186.129:1080,France,Grand Est,Strasbourg,Host Europe GmbH,Host Europe GmbH,AS21499 Host Europe GmbH,False,True,True,92.205.186.129
-77.82.83.181:1080,Russia,Kamchatka,Kozyrevsk,JSC Rostelecom,Rostelecom,AS34974 PJSC Rostelecom. Kamchatka branch,False,False,True,77.82.83.181
-45.74.31.46:4410,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
-45.74.31.47:8167,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
-45.74.31.47:4310,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
-46.62.212.153:1080,Finland,Uusimaa,Helsinki,Hetzner Online GmbH,HETZNER-DC,AS24940 Hetzner Online GmbH,False,True,False,46.62.212.153
+31.211.142.115:8192,Bulgaria,Pleven,Pleven,5KOM,,AS197897 5KOM OOD,False,False,True,31.211.142.115
+5.75.133.113:10811,Germany,Bavaria,Nuremberg,Hetzner Online GmbH,Hetzner,AS24940 Hetzner Online GmbH,False,True,True,146.70.163.206
+170.233.72.43:1080,France,Grand Est,Strasbourg,Dauphin Telecom,Dauphin Telecom,AS33392 Dauphin Telecom,False,False,True,170.233.72.43
+209.50.255.91:1080,United States,Virginia,Manassas,"Leaseweb USA, Inc.","Leaseweb USA, Inc","AS30633 Leaseweb USA, Inc.",False,True,True,209.50.255.91
+116.101.73.52:1055,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,116.101.73.161
+45.74.31.42:14603,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,150.95.108.134
+45.74.31.46:4055,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+27.219.186.8:1081,China,Shandong,Jinan,China Unicom Shandong Province Network,,AS4837 CHINA UNICOM China169 Backbone,False,False,True,107.174.202.19
+145.255.239.78:1080,Russia,St.-Petersburg,St Petersburg,Obit-Telecommunications Ltd.,Megaburger,"AS8492 ""OBIT"" Ltd.",False,False,True,145.255.239.78
+37.193.95.9:10808,Russia,Novosibirsk Oblast,Novosibirsk,Novotelecom Ltd,Novotelecom ltd.,AS31200 Novotelecom Ltd,False,False,False,50.7.4.26
+116.101.73.161:1039,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,171.234.162.57
+103.182.22.187:9000,Vietnam,Ho Chi Minh City (HCMC),Quận Mười Một,CUONGKHANG,Cuong Khang Informatics Company Limited,AS151858 INTERDIGI JOINT STOCK COMPANY,False,False,True,103.182.22.187
+62.220.49.233:1080,Russia,Astrakhan Oblast,Astrakhan,JSC Trunk,Astrakhan ISP Company,AS8359 MTS PJSC,True,False,True,62.220.49.233
+182.184.30.96:1080,Pakistan,Islamabad,Islamabad,Pakistan Telecommuication company limited,,AS17557 Pakistan Telecommunication Company Limited,False,False,True,182.184.30.96
+177.69.198.219:1080,Brazil,Pernambuco,Recife,ALGAR TELECOM S/A,ALGAR TELECOM S/A,AS16735 ALGAR TELECOM S/A,False,False,False,177.69.198.219
+5.75.133.113:10807,Germany,Bavaria,Nuremberg,Hetzner Online GmbH,Hetzner,AS24940 Hetzner Online GmbH,False,True,True,72.9.243.153
+5.191.253.56:1080,Azerbaijan,Baku City,Baku,AzInTelecom LLC,AzInTelecom LLC,AS200729 AzInTelecom LLC,False,False,True,5.191.253.56
+116.101.73.52:1054,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,116.101.73.52
+116.101.73.161:1054,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,116.101.73.52
+129.222.108.201:1080,Madagascar,Analamanga Region,Antananarivo,Space Exploration Technologies Corporation,"SpaceX Services, Inc",AS14593 Space Exploration Technologies Corporation,False,False,True,129.222.108.201
+45.74.31.42:23090,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
+91.199.137.149:2010,Czechia,South Bohemian Region,Veselí nad Lužnicí,SmartApe OU,ESA,AS62212 SmartApe OU,False,True,False,158.173.77.103
+195.13.182.211:8080,Latvia,Riga,Riga,SIA Tet,Apollo DDD,AS12578 SIA Tet,False,False,True,195.13.182.211
+171.240.131.135:1080,Vietnam,Ho Chi Minh,Ho Chi Minh City,Viettel Corporation,VIETEL,AS7552 Viettel Group,False,False,False,171.240.131.135
+116.110.241.234:1080,Vietnam,Da Nang,Da Nang,Viettel Group,VIETTEL,AS24086 Viettel Corporation,False,False,False,116.110.241.234
+5.75.133.113:10808,Germany,Bavaria,Nuremberg,Hetzner Online GmbH,Hetzner,AS24940 Hetzner Online GmbH,False,True,True,45.252.191.33
+8.219.122.8:9999,Singapore,North West,Singapore,"Alibaba (US) Technology Co., Ltd.",Alibaba.com Singapore E-Commerce Private Limited,"AS45102 Alibaba (US) Technology Co., Ltd.",False,True,True,8.219.122.8
+212.237.125.216:6969,Iraq,Duhok Governorate,Duhok,Kurdistan Net 4,,AS206206 Kurdistan Net Company for Computer and Internet Ltd.,False,False,True,212.237.125.216
+45.74.31.46:4445,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+128.199.37.92:1080,The Netherlands,North Holland,Amsterdam,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,128.199.37.92
+45.74.31.40:9542,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+130.61.203.78:443,Germany,Hesse,Frankfurt am Main,Oracle Corporation,Oracle Cloud Infrastructure (eu-frankfurt-1),AS31898 Oracle Corporation,False,True,True,130.61.203.78
+45.74.31.47:11933,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+45.74.31.46:4223,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+103.239.52.100:1080,Cambodia,Phnom Penh,Phnom Penh,"COGETEL Co., Ltd",Azcom,"AS23673 Cogetel Online, Cambodia, ISP",False,False,True,103.239.52.100
+45.74.31.40:4140,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+102.0.14.42:1080,Kenya,Nairobi County,Nairobi,Airtel KE Mobile & Fixed Internet,,AS36926 Airtel Networks Kenya Limited,False,False,True,102.0.14.42
+103.191.196.71:8199,Indonesia,West Java,Pamanukan,PT Pangkalan Lintas Data,,AS149934 PT Pangkalan Lintas Data,False,False,True,103.191.196.74
+45.74.31.41:23743,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
+45.74.31.41:4267,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+91.92.155.207:1080,Switzerland,Zurich,Zurich,Akenes SA,Exoscale,AS61098 Akenes SA,False,True,True,91.92.155.207
+103.155.185.26:1088,Bangladesh,Dhaka Division,Dhaka,BCL Online Service,A M Kamal Uddin Selim,AS141181 BCL Online Service,False,False,True,103.155.185.103
+195.201.246.53:1087,Germany,Saxony,Falkenstein,Hetzner Online GmbH,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,True,178.93.184.117
+116.101.73.161:1055,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,116.101.73.161
+45.74.31.42:4326,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+203.189.152.79:1080,Cambodia,Phnom Penh,Phnom Penh,ONLINE,,"AS23673 Cogetel Online, Cambodia, ISP",False,False,True,203.189.152.79
+98.191.0.47:4145,United States,Virginia,Roanoke,Cox Communications Inc.,Cox Communications Inc,AS22773 Cox Communications Inc.,False,False,True,98.191.0.47
+77.108.100.166:1080,Russia,Moscow,Moscow,JSC Comcor,Comcor,AS8732 JSC Comcor,False,False,True,77.108.100.166
+45.74.31.42:4073,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+80.248.53.90:1080,Russia,Moscow,Moscow,TEVIA,,AS39612 Tevia Ltd.,False,False,True,80.248.53.90
+45.74.31.42:4212,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,104.219.251.64
+45.74.31.46:5067,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+88.84.204.217:1080,Russia,Moscow,Moscow,Flex Ltd.,FlexHome,AS21453 Flex Ltd.,False,False,True,88.84.204.217
+45.192.98.172:1080,Hong Kong,Kowloon,Hong Kong,Vapeline Technology,,AS401701 cognetcloud INC,False,True,True,45.192.98.172
+116.101.73.52:1068,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,116.101.73.52
+45.74.31.47:5163,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+45.74.31.41:5197,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+116.101.73.52:1039,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,171.234.162.57
+180.93.102.159:40007,Vietnam,Ho Chi Minh City (HCMC),Quận Bốn,SPT,Saigon Postel Corporation,AS7602 Sai gon Postel Corporation,False,False,True,82.208.113.167
+45.74.31.40:24057,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
+65.21.252.66:10805,Finland,Uusimaa,Helsinki,Hetzner Online GmbH,Hetzner,AS24940 Hetzner Online GmbH,False,True,True,23.234.109.179
+45.74.31.41:5313,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,102.134.101.35
+45.74.31.41:4221,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.42:13612,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,150.95.108.134
+116.101.73.161:1080,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,118.71.44.243
+45.74.31.46:4189,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.42:6358,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+45.74.31.40:4076,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+103.36.11.18:8199,Indonesia,Banten,Rangkasbitung,PT Awinet Global Mandiri,,AS133360 PT Awinet Global Mandiri,False,False,True,103.36.11.18
+141.148.65.110:1081,United States,Virginia,Ashburn,Oracle Corporation,Oracle Cloud Infrastructure (us-ashburn-1),AS31898 Oracle Corporation,False,True,True,104.28.196.79
+212.3.127.242:10801,Ukraine,Dnipropetrovsk Oblast,Dnipro,"Science Production Company ""Trifle"" Ltd.","Science Production Company ""Trifle"" Ltd","AS6702 Science Production Company ""Trifle"" Ltd.",False,False,True,212.3.127.242
+116.101.73.52:1080,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,118.71.44.243
+45.74.31.42:6357,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+124.248.177.44:1080,Cambodia,Phnom Penh,Phnom Penh,"COGETEL Co., Ltd",Cogetel Ltd,"AS23673 Cogetel Online, Cambodia, ISP",False,False,True,124.248.177.44
+103.119.60.219:1080,Indonesia,Jakarta,North Jakarta,PT. Eka Mas Republik,Myrepublic,AS63859 PT. Eka Mas Republik,False,False,True,103.119.60.219
+67.204.153.223:1080,United States,Oregon,Bend,TDS TELECOM,TDS TELECOM,AS4181 TDS TELECOM,False,False,True,67.204.153.223
+110.39.129.90:1080,Pakistan,Punjab,Faisalabad,Wateen Telecom Limited,Wateen Telecom Limited,AS38264 National WiMAX/IMS environment,False,False,True,110.39.129.90
+45.74.31.41:15911,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,66.33.212.6
+45.74.31.40:4149,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+186.219.210.17:7080,Brazil,Minas Gerais,Guapé,Minas Telecomunicacoes E Informatica Ltda ME,Megaminas Telecomunicacoes Ltda,AS262996 MEGAMINAS TELECOMUNICACOES LTDA,False,False,True,186.219.210.133
+202.62.55.95:1080,Cambodia,Phnom Penh,Phnom Penh,"COGETEL Co., Ltd",Cogetel Ltd,"AS23673 Cogetel Online, Cambodia, ISP",False,False,True,202.62.55.95
+78.110.155.229:1080,Russia,North Ossetia–Alania,Vladikavkaz,Limited Liability Company Irtelcom,ISP Irtelcom Ltd.,AS43530 Limited Liability Company Irtelcom,False,False,True,78.110.155.229
+45.74.31.41:5143,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+45.74.31.47:4071,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.40:4051,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.40:4069,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+45.74.31.40:4097,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+89.168.67.102:1080,Germany,Hesse,Frankfurt am Main,Oracle Corporation,Oracle Cloud Infrastructure (eu-frankfurt-1),AS31898 Oracle Corporation,False,True,True,89.168.67.102
+45.74.31.47:4065,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+116.101.73.161:1032,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,116.101.73.52
+45.74.31.41:4349,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,66.33.212.6
+101.36.104.46:10808,Japan,Tokyo,Tokyo,UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,Ucloud Information Technology,AS135377 UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED,False,True,True,101.36.104.46
+45.74.31.46:4170,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+102.36.127.249:1080,South Africa,Mpumalanga,Nelspruit,Clear Access (Pty) Ltd,Bridgnet,AS327794 Clear Access (Pty) Ltd,False,False,True,102.36.127.7
+103.76.149.140:1080,Indonesia,Jakarta,Jakarta,PT. Java Digital Nusantara,Javadigital,AS135477 PT. Java Digital Nusantara,False,False,True,103.76.149.140
+45.74.31.46:4032,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.47:5535,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+45.74.31.41:4375,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,50.6.137.53
+45.74.31.41:4142,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.40:12429,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+45.74.31.42:4183,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,104.219.251.64
+45.74.31.42:9640,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+188.226.27.24:1080,Russia,Sverdlovsk Oblast,Yekaterinburg,"LLC ""KomTehCentr""",LLC KOMTEHCENTR FTTB Customers,"AS12668 LLC ""KomTehCentr""",False,False,False,88.210.12.209
+45.74.31.47:6028,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,104.219.251.64
+78.80.149.106:1080,Czechia,Prague,Prague,T-Mobile Czech Republic a.s.,T-Mobile Czech Republic,AS13036 T-Mobile Czech Republic a.s.,False,False,False,78.80.149.106
+45.74.31.42:4167,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+116.147.56.246:7890,China,Beijing,Jinrongjie,China Unicom CHINA169 Network,China United Network Communications Corporation Limited,AS4837 CHINA UNICOM China169 Backbone,False,False,False,104.28.220.209
+45.74.31.40:4057,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+45.74.31.41:4345,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,66.33.212.6
+45.74.31.47:4119,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+46.246.12.31:1080,Sweden,Stockholm County,Stockholm,GleSYS AB,Frootynet,AS42708 Glesys AB,False,True,True,46.246.12.31
+116.101.73.52:1062,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,116.101.73.161
+45.74.31.40:4036,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+77.51.182.67:1080,Russia,Moscow,Moscow,CTC-JNPR,,AS25515 PJSC Rostelecom,False,False,True,77.51.182.67
+45.74.31.47:33346,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
+45.74.31.46:5083,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+91.199.137.149:2005,Czechia,South Bohemian Region,Veselí nad Lužnicí,SmartApe OU,ESA,AS62212 SmartApe OU,False,True,False,212.102.39.84
+45.74.31.40:5707,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+103.52.114.199:1080,Indonesia,West Java,Cicurug,PT. Cloud Hosting Indonesia,,AS136052 PT Cloud Hosting Indonesia,False,True,False,103.52.114.199
+45.74.31.40:5949,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,66.33.212.6
+175.107.30.110:1080,Pakistan,Punjab,Lahore,National Telecommunication Corporation,National Telecommunication Corporation,"AS23888 National Telecommunication Corporation HQ,",False,False,True,175.107.30.110
+116.101.73.52:1088,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,171.237.182.122
+95.64.183.46:1080,Russia,Moscow,Moscow,MTS PJSC,Customers P2P 2022 39 WAN,AS8359 MTS PJSC,True,False,True,95.64.183.46
+116.101.73.52:1090,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,117.1.209.236
+94.232.62.170:1080,Russia,Chuvash Republic,Cheboksary,Infanet Ltd.,Infanet Ltd,AS48089 Infanet Ltd.,False,False,True,94.232.62.170
+91.123.24.163:2080,Russia,Moscow Oblast,Krasnoznamensk,Iskratelecom CJSC,Odincovo broadband nets,AS29124 Iskratelecom JSC,False,False,False,91.123.24.163
+183.106.215.208:1080,South Korea,Gyeongsangbuk-do,Gyeongju,Korea Telecom,Kornet,AS4766 Korea Telecom,False,False,True,59.24.42.101
+45.198.20.252:1080,Indonesia,West Java,Bekasi,PT IKHLAS CIPTA TEKNOLOGI,,AS140457 PT Ikhlas Cipta Teknologi,False,False,True,45.198.20.252
+103.96.233.10:1080,Afghanistan,Kabul,Kabul,Easy Connect- ISP,Easyconnectisp,AS133894 Easy Connect- ISP,False,False,True,103.96.233.10
+91.144.9.132:1080,Syria,Damascus Governorate,Damascus,STE Public Data Network Backbone and LIR,,AS29256 STE PDN Internal AS,False,False,False,91.144.9.130
+65.21.252.66:10803,Finland,Uusimaa,Helsinki,Hetzner Online GmbH,Hetzner,AS24940 Hetzner Online GmbH,False,True,True,217.138.221.130
+45.74.31.41:5192,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+79.98.32.107:1080,Turkey,Adana,Adana,High Speed For Internet Services L.L.C,High Speed,AS216472 High Speed For Internet Services L.L.C,False,False,True,79.98.32.107
+72.223.61.88:1080,United States,Arizona,Phoenix,Cox Communications Inc.,Cox Communications,AS22773 Cox Communications Inc.,False,False,True,72.223.61.88
+45.74.31.46:17018,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,164.68.100.166
+102.69.146.59:7080,Nigeria,Lagos,Lagos,IP Express Ltd,,AS328451 IP Express Ltd,False,False,True,102.69.146.59
+45.74.31.42:35714,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+45.74.31.41:4113,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+74.131.237.22:1080,United States,Ohio,Strongsville,Charter Communications,Spectrum,AS10796 Charter Communications Inc,False,False,False,74.131.237.22
+45.74.31.40:4112,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+45.74.31.40:8215,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,150.95.108.134
+45.74.31.47:4176,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,50.6.137.53
+45.74.31.47:4056,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.41:4083,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+116.101.73.161:1088,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,171.237.182.122
+45.74.31.46:4421,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+45.74.31.47:4148,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+45.74.31.46:7598,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+188.19.202.254:1080,Russia,Perm Krai,Perm,OJSC uralsvyazinform,Dynamic distribution IPs for broadband services,AS12389 PJSC Rostelecom,False,False,True,188.19.202.254
+203.189.135.105:1080,Cambodia,Phnom Penh,Phnom Penh,COGETEL Co,,"AS23673 Cogetel Online, Cambodia, ISP",False,False,True,203.189.135.105
+45.74.31.46:4294,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,104.219.251.64
+45.74.31.40:4116,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.46:4632,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,67.205.1.146
+103.118.85.75:1080,Bangladesh,Rajshahi Division,Joypur Hāt,Abuzz IT Limited,ABUZZITLIMITED,AS137961 MD. Mokhlesur Rahman,False,False,True,103.118.85.128
+116.101.73.161:1090,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,117.1.209.236
+37.153.77.204:1080,United Kingdom,Northern Ireland,Newtownabbey,NWE Wireless Networks Ltd.,North West Electronics,AS43599 Broadband N.I. Ltd.,False,False,False,37.153.77.204
+45.74.31.47:4093,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.47:5472,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+45.74.31.41:47569,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+45.74.31.40:5782,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,69.163.176.25
+45.74.31.47:5775,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+45.74.31.41:4028,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+103.182.22.245:9000,Vietnam,Ho Chi Minh City (HCMC),Quận Mười Một,CUONGKHANG,Cuong Khang Informatics Company Limited,AS151858 INTERDIGI JOINT STOCK COMPANY,False,False,True,103.182.22.245
+107.174.30.94:1080,United States,New York,Buffalo,DataWagon LLC,HostPapa,AS27176 DataWagon LLC,False,True,True,107.174.30.94
+45.74.31.47:27046,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
+45.74.31.41:13665,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+45.74.31.42:4545,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+38.49.210.79:40000,Canada,Quebec,Montreal,Rica Web Services,Rica Web Services,AS26832 Rica Web Services,False,True,True,104.28.214.50
+45.74.31.47:4116,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+45.74.31.41:7327,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+45.74.31.40:17758,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,164.68.100.166
+213.79.5.192:1080,Russia,Moscow,Moscow,VelNet,,"AS30854 Velnet Telecom, LLC",False,False,True,213.79.5.192
+45.74.31.47:5093,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+45.74.31.42:4784,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+45.74.31.41:6435,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
+45.74.31.46:7341,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+45.74.31.47:4313,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,102.134.101.35
+193.218.118.128:1080,Ukraine,Kyiv City,Kyiv,Ukrainian Data Network,,AS207656 Epinatura LLC,False,False,True,82.39.237.186
+45.74.31.40:7604,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+45.74.31.40:4084,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.46:16743,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
+103.178.121.234:1080,Pakistan,Punjab,Jhang Sadar,KK Networks (Pvt) Ltd.,Sawera Internet Service (PVT) LTD,AS136969 KK Networks (Pvt) Ltd.,False,False,True,103.178.121.234
+45.74.31.47:4415,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+37.110.1.165:1080,Russia,Moscow,Moscow,NCNET,,AS42610 OJSC National Cable Networks,False,False,True,37.110.1.165
+45.74.31.40:7904,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+78.29.50.65:1080,Russia,Chelyabinsk Oblast,Chelyabinsk,Intersvyaz-2 JSC,Intersvyaz-2 JSC,AS8369 Intersvyaz-2 JSC,False,False,False,78.29.50.65
+23.155.156.3:1080,United States,California,Los Angeles,Chicfinds Inc,Chicfinds Inc,AS402336 CHICFINDS INC,False,False,False,23.155.156.3
+186.219.212.53:7080,Brazil,Minas Gerais,Cássia,Minas Telecomunicacoes E Informatica Ltda ME,Megaminas Telecomunicacoes Ltda,AS262996 MEGAMINAS TELECOMUNICACOES LTDA,False,False,True,186.219.210.133
+45.74.31.41:23570,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
+208.92.216.54:1080,United States,Michigan,Sterling Heights,Route 256,,AS53292 ManagedWay,False,False,True,208.92.216.54
+45.74.31.46:4355,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+45.74.31.46:19128,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
+45.74.31.46:4438,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+45.74.31.41:4288,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,102.134.101.35
+1.53.40.240:1080,Vietnam,Ho Chi Minh,Ho Chi Minh City,FPT Telecom Company,FPTDYNAMICIP,AS18403 FPT Telecom Company,False,False,True,118.69.218.132
+103.119.1.160:5555,Hong Kong,Kowloon,Hong Kong,China Internet Network Information Center,Sakura Network Limited,AS55933 Cloudie Limited,False,True,False,103.119.1.160
+45.74.31.46:4427,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+45.74.31.40:4065,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+45.74.31.47:4861,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+116.101.73.161:1083,Vietnam,Hanoi,Hanoi,Viettel Group,VIETTEL,AS7552 Viettel Group,False,False,False,116.101.73.52
+45.74.31.46:4184,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.47:4113,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+45.74.31.47:4110,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.41:4474,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+45.74.31.42:38991,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,66.33.212.6
+45.74.31.40:10996,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+45.74.31.46:4198,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+185.173.179.184:34567,Russia,Sverdlovsk Oblast,Yekaterinburg,GalaxyStar LLC,,AS206873 GalaxyStar LLC,False,True,True,185.173.179.184
+45.74.31.41:4150,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.41:9756,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,164.68.100.166
+45.74.31.40:8134,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+45.74.31.42:4217,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+202.62.52.20:1080,Cambodia,Phnom Penh,Phnom Penh,"COGETEL Co., Ltd",Cogetel Ltd,"AS23673 Cogetel Online, Cambodia, ISP",False,False,True,202.62.52.20
+113.176.118.150:1080,Vietnam,Hanoi,Hanoi,VNPT,Vietnam Posts and Telecommunications Group,AS45899 VNPT Corp,False,False,True,113.176.118.150
+45.74.31.42:4151,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+180.93.102.159:40002,Vietnam,Ho Chi Minh City (HCMC),Quận Bốn,SPT,Saigon Postel Corporation,AS7602 Sai gon Postel Corporation,False,False,True,77.239.204.52
+45.74.31.42:4035,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.42:4049,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+217.113.119.222:1080,Russia,Samara Oblast,Tolyatti,Infoline networks,Infoline Ltd.,AS8416 InfoLada Ltd,False,False,True,217.113.119.222
+45.74.31.47:4099,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+45.74.31.46:17461,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+31.41.227.175:2080,Russia,Krasnodar Krai,Alekseyevskoye,PE Pivovar Aleksej Nikolaevich,Pivovar,AS197499 PE Pivovar Aleksej Nikolaevich,False,False,True,31.41.227.175
+45.74.31.46:21901,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+45.74.31.42:4022,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.47:6106,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,69.163.176.25
+45.74.31.40:10391,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+45.74.31.47:8029,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,66.33.212.6
+45.74.31.40:20765,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,102.134.101.35
+45.74.31.40:19978,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+103.82.246.255:1080,Indonesia,West Java,Ciputat,PT Master Star Network,PT Aswatama Jaya Mandiri,AS142370 PT Master Star Network,False,False,False,103.82.246.223
+45.74.31.47:4041,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.47:4638,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+194.87.232.240:1080,Russia,Moscow Oblast,Korolyov,JSC Mediasoft ekspert,JSC Mediasoft ekspert,AS48347 JSC Mediasoft ekspert,False,True,True,194.87.232.240
+45.74.31.41:7157,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+83.237.213.34:1080,Russia,Moscow,Moscow,ZAO MTU-Intel's Moscow Region Network,ZAO MTU-Intel,AS8359 MTS PJSC,True,False,True,83.237.213.34
+45.74.31.41:4030,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+103.136.107.70:1080,Bangladesh,Chittagong,Cox's Bazar,Harunur Rashid,Jagobd IT Solutions,AS134599 Digital Dot Net (DDN),False,False,True,103.136.107.70
+45.74.31.41:4146,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.41:4545,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,104.219.251.64
+45.74.31.40:4109,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.41:6824,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,102.130.121.150
+45.74.31.47:4762,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+45.74.31.42:4757,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+45.74.31.46:18023,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
+200.4.107.137:1080,Brazil,Bahia,Feira de Santana,Alciole Telecom,MRL TECNOLOGIA E SERVIÇOS LTDA,AS269719 GN TELECOM,False,False,True,45.167.55.114
+45.74.31.46:4128,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+145.255.12.232:1080,Russia,Bashkortostan Republic,Ufa,"JSC ""Ufanet""",JSC Ufanet,"AS24955 JSC ""Ufanet""",False,False,True,145.255.12.232
+45.74.31.47:4033,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.46:21857,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
+45.74.31.47:5382,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+45.74.31.41:6455,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+45.74.31.40:19085,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,102.134.101.35
+45.74.31.41:7571,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+45.74.31.40:4103,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.46:7315,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,150.95.108.134
+91.122.216.160:10888,Russia,Arkhangelskaya,Arkhangelsk,"JSC ""North-West Telecom""",JSC North-West Telecom,AS12389 PJSC Rostelecom,False,False,True,91.122.216.160
+45.74.31.41:7072,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+37.193.218.66:1080,Russia,Novosibirsk Oblast,Novosibirsk,Novotelecom Ltd,Novotelecom ltd.,AS31200 Novotelecom Ltd,False,False,True,37.193.218.66
+45.74.31.42:4758,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+123.117.77.195:9050,China,Beijing,Beijing,China Unicom Beijing Province Network,,AS4808 China Unicom Beijing Province Network,False,False,False,149.88.64.44
+45.74.31.40:4031,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+46.172.125.101:1080,Russia,Kemerovo Oblast,Myski,RTA Telecom Ltd.,RTA Svyaz Ltd,AS196791 RTA Svyaz Ltd.,False,False,False,46.172.125.101
+45.74.31.41:7596,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+45.74.31.42:4207,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+45.74.31.40:4049,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.47:5094,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+45.74.31.46:4416,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+45.74.31.41:4072,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+91.185.49.22:1080,Russia,Irkutsk Oblast,Irkutsk,Delovaya Set' - Irkutsk,,"AS8345 JSC ""ER-Telecom Holding""",False,False,True,91.185.49.22
+45.74.31.47:4047,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+62.148.143.229:1080,Russia,Kaluga Oblast,Kaluga,JSC CenterTelecom Kaluga branch,JSC CenterTelecom Kaluga branch,AS15468 PJSC Rostelecom,False,False,True,62.148.143.229
+45.74.31.46:21865,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
+87.76.138.46:1080,Turkey,Kilis,Kilis,High Speed For Internet Services L.L.C,High Speed,AS216472 High Speed For Internet Services L.L.C,False,False,True,87.76.138.46
+45.74.31.47:5478,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+45.74.31.40:6020,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+45.74.31.47:5590,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,69.163.176.25
+45.74.31.41:46978,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
 45.74.31.41:46248,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+45.74.31.46:5107,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,164.68.100.166
+83.242.252.202:1080,Russia,Moscow,Moscow,Comstar Volga,,AS41209 COMSTAR VOLGA,True,False,True,83.242.252.202
+45.74.31.47:4067,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.41:7379,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+45.74.31.42:4937,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,67.205.1.146
+45.74.31.41:5692,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,5.135.141.158
+45.74.31.41:7254,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+45.74.31.42:4065,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+103.9.185.33:1080,Bangladesh,Dhaka Division,Dhaka,Bangla Trac Communications Ltd.,Bangla Trac Communications Ltd- ISP and Cloud Services,AS63967 Bangla Trac Communications Ltd (ISP and Cloud Services),False,True,True,103.9.185.109
+45.74.31.41:5343,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,165.22.136.47
+45.74.31.46:4035,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.46:4033,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.46:4518,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,165.22.136.47
+45.74.31.46:5080,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+45.74.31.47:4097,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.41:4181,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.40:5846,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+45.74.31.42:8778,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+45.74.31.47:12130,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+103.182.22.57:9000,Vietnam,Ho Chi Minh City (HCMC),Quận Mười Một,CUONGKHANG,Cuong Khang Informatics Company Limited,AS151858 INTERDIGI JOINT STOCK COMPANY,False,False,True,103.182.22.57
+65.21.252.66:10807,Finland,Uusimaa,Helsinki,Hetzner Online GmbH,Hetzner,AS24940 Hetzner Online GmbH,False,True,True,151.240.58.66
+45.74.31.41:4049,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+45.74.31.40:5802,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+45.74.31.40:4762,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+45.74.31.47:6302,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+45.74.31.47:11297,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+45.74.31.40:4508,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+45.74.31.46:4147,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.46:4146,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.46:15730,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
+45.74.31.46:17816,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
+45.74.31.47:27452,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
+45.74.31.42:4127,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.42:4031,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+117.134.203.58:10800,Pakistan,Islamabad,Islamabad,China Mobile communications corporation,China Mobile,AS138423 CMPak Limited,False,False,True,117.134.203.58
+45.74.31.41:4355,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.41:4009,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+45.74.31.40:4019,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.42:5971,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+45.74.31.41:6991,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+45.74.31.46:32218,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,102.134.101.35
+45.74.31.47:4074,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.46:16019,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
+45.74.31.41:5377,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+45.74.31.40:4043,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+36.92.193.99:1080,Indonesia,West Java,Bekasi,Telekomunikasi Indonesia,Temporary,AS7713 PT Telekomunikasi Indonesia,False,False,False,36.92.193.99
+45.74.31.46:4041,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.41:5458,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+45.74.31.46:22061,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
+45.74.31.46:4343,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+45.74.31.40:4175,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+45.74.31.41:46555,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+113.120.110.50:1081,China,Shandong,Jinan,Chinanet,Chinanet SD,AS4134 CHINANET BACKBONE,False,False,False,74.120.174.195
+45.74.31.41:4006,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.41:4257,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.42:4126,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,167.17.71.189
+45.74.31.42:4113,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.46:4203,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.40:4059,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.47:4111,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.40:4405,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,104.219.251.64
+45.74.31.42:30144,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+45.74.31.47:27751,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
+45.74.31.42:21737,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
+45.74.31.40:18042,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,164.68.100.166
+45.74.31.40:5767,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+45.74.31.42:4009,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.47:4037,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.41:6937,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+45.74.31.46:4410,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+45.74.31.47:4020,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.46:16624,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
+45.74.31.46:5095,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+45.74.31.41:4293,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.47:7537,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,150.95.108.134
+45.74.31.41:7904,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,147.50.252.213
+45.74.31.42:4233,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+45.74.31.46:5051,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+45.74.31.47:4276,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+8.222.249.220:10809,Singapore,North West,Singapore,"Alibaba (US) Technology Co., Ltd.",Alibaba.com Singapore E-Commerce Private Limited,"AS45102 Alibaba (US) Technology Co., Ltd.",False,True,True,8.222.249.220
+45.74.31.42:4611,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+45.74.31.40:4063,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.42:5251,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,150.95.108.134
+143.198.239.45:10025,United States,California,Santa Clara,"DigitalOcean, LLC","DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,True,185.220.101.33
+45.74.31.40:5353,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+45.74.31.42:38732,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,66.33.212.6
+45.74.31.46:4114,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+103.182.22.189:9000,Vietnam,Ho Chi Minh City (HCMC),Quận Mười Một,CUONGKHANG,Cuong Khang Informatics Company Limited,AS151858 INTERDIGI JOINT STOCK COMPANY,False,False,True,103.182.22.189
+45.74.31.46:4112,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.47:5605,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
 43.130.38.45:51029,United States,California,Santa Clara,Shenzhen Tencent Computer Systems Company Limited,Tencent Cloud Computing,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,True,43.130.38.45
-202.78.167.58:9050,Japan,Tokyo,Tokyo,G-Core Labs S.A.,GCL,AS202422 G-Core Labs S.A.,False,True,True,185.129.61.3
-5.255.117.250:1080,The Netherlands,Flevoland,Dronten,The Infrastructure Group B.V.,TIG,AS60404 Liteserver,False,True,True,5.255.117.250
+82.200.30.126:11080,Russia,Novosibirsk Oblast,Novosibirsk,ZSTTK,JSC Zap-SibTranstelecom,AS21127 Joint Stock Company TransTeleCom,False,False,True,82.200.30.126
+45.74.31.46:11881,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,150.95.108.134
+45.74.31.47:5890,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+103.182.22.198:9000,Vietnam,Ho Chi Minh City (HCMC),Quận Mười Một,CUONGKHANG,Cuong Khang Informatics Company Limited,AS151858 INTERDIGI JOINT STOCK COMPANY,False,False,True,103.182.22.198
+45.74.31.40:4470,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+45.74.31.46:12539,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,150.95.108.134
+45.74.31.46:4188,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.47:4022,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.40:5086,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+45.74.31.42:22085,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
+45.74.31.40:4105,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+45.74.31.41:4086,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+45.74.31.46:4751,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+45.74.31.40:4806,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+8.222.249.220:1080,Singapore,North West,Singapore,"Alibaba (US) Technology Co., Ltd.",Alibaba.com Singapore E-Commerce Private Limited,"AS45102 Alibaba (US) Technology Co., Ltd.",False,True,True,8.222.249.220
+161.97.140.69:9060,France,Grand Est,Lauterbourg,Contabo GmbH,Contabo GmbH,AS51167 Contabo GmbH,False,True,True,23.151.8.10
+152.67.221.233:8008,South Korea,Gangwon-do,Chuncheon,Oracle Corporation,Oracle Cloud Infrastructure (ap-chuncheon-1),AS31898 Oracle Corporation,False,True,True,104.28.207.60
+45.74.31.46:4797,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,164.68.100.166
+185.213.91.24:9100,United States,Virginia,Manassas,MAN,,AS32338 Hostiserver Ltd,False,True,True,192.42.116.44
+45.74.31.47:4034,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+45.74.31.40:4155,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.40:4268,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,67.205.1.146
+45.74.31.40:4079,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.40:4037,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.40:4094,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.46:4158,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.41:4042,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.41:5148,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+45.74.31.40:4055,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,150.95.108.134
+45.74.31.46:4201,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.40:4011,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.42:4098,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,62.210.185.4
+45.74.31.42:4032,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.46:5782,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+45.74.31.46:4204,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.46:4210,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.46:17574,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,112.78.134.58
+45.74.31.47:4100,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+45.74.31.47:4077,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.40:4447,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,104.219.251.64
+45.74.31.40:10847,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,172.168.194.20
+45.74.31.40:4197,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,102.134.101.35
+45.74.31.42:4135,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.42:6447,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,103.255.134.61
+45.74.31.42:4010,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.46:5096,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,68.178.165.65
+45.74.31.46:11938,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,150.95.108.134
+45.74.31.46:4047,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.47:4075,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.46:4249,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+110.39.151.50:1080,Pakistan,Punjab,Renala Khurd,Wateen Telecom Limited,Wateen Telecom Limited,AS38264 National WiMAX/IMS environment,False,False,True,110.39.151.50
+45.74.31.40:4064,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.47:4059,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
+45.74.31.41:4254,The Netherlands,Limburg,Eygelshoven,Secure Internet LLC,Internet Security - AU,AS219326 SULAVI LTD,False,True,True,207.180.222.221
